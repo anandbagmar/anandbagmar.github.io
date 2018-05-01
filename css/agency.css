@@ -338,6 +338,7 @@ header .intro-text .intro-heading {
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
+        font-style: italic;
         line-height: 75px;
     }
 }
