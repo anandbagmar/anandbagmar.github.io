@@ -125,7 +125,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(14, 15, 80);
     background-color: #fed136;
 }
 
@@ -285,7 +285,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: rgb(14, 15, 80);
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
