@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
+title: [Essence Of Testing]
+description: [Working together to create Optimized Testing Solutions for your Organization!]
+show_downloads: ["false"]
