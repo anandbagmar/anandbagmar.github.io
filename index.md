@@ -1,4 +1,6 @@
 
+![Essence Of Testing](images/Logo.png)
+
 Working together to create Optimized Testing Solutions for your Organization!
 
 # Introduction
