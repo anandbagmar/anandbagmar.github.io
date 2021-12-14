@@ -7,11 +7,11 @@
 
 | [About Me](#about-me)  | |  
 | :---: | :---: | 
-| [Areas of Specialization](#areas-of-specilization)  | [Quality Strategy](#qualitu-strategy) |  
+| [Areas of Specialization](#areas-of-specilization)  | [Quality Strategy](#quality-strategy) |  
 |  | [Test Automation](#test-automation) |  
-|  | [Trainings & Workshops](#trainings-&-workshops)  |
+|  | [Trainings & Workshops](#trainings-\&-workshops)  |
 | | [Open Source Contributions](#open-source-contributions) | |
-| | [Blog Posts & Articles](#blog-posts-&-articles) | |
+| | [Blog Posts & Articles](#blog-posts-\&-articles) | |
 |  [Contact Me](#contact) | |
 | [References](#references) | |
 
