@@ -51,14 +51,14 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 ## Open Source Contributions
 
-* <a href="https://selenium.dev" target="_blank">Selenium</a>  
-* <a href="https://github.com/znsio/teswiz" target="_blank">teswiz</a>
-* <a href="https://github.com/znsio/getting-started-with-teswiz" target="_blank">getting-started-with-teswiz</a>
-* <a href="https://github.com/AppiumTestDistribution/AppiumTestDistribution" target="_blank">AppiumTestDistribution</a>
-* <a href="https://specmatic.in" target="_blank">Specmatic</a>
-* <a href="https://github.com/anandbagmar/waat" target="_blank">WAAT</a>
-* <a href="https://github.com/anandbagmar/tta" target="_blank">TTA</a>
-* <a href="https://github.com/anandbagmar/taas" target="_blank">TaaS</a>
+* <a href="https://selenium.dev" target="_blank">Selenium</a> - Selenium automates browsers                 
+* <a href="https://github.com/znsio/teswiz" target="_blank">teswiz</a> - Implement automated tests for Android & iOS apps, Web, and Windows desktop apps specified using cucumber-jvm
+* <a href="https://github.com/znsio/getting-started-with-teswiz" target="_blank">getting-started-with-teswiz</a> - Easy way to start using teswiz
+* <a href="https://github.com/AppiumTestDistribution/AppiumTestDistribution" target="_blank">AppiumTestDistribution</a> - Manage appium and devices
+* <a href="https://specmatic.in" target="_blank">Specmatic</a> - Contract Driven Development
+* <a href="https://github.com/anandbagmar/waat" target="_blank">WAAT</a> - Web Analytics Automation Testing Framework
+* <a href="https://github.com/anandbagmar/tta" target="_blank">TTA</a> - Test Trend Analyzer                                                
+* <a href="https://github.com/anandbagmar/taas" target="_blank">TaaS</a> - Integration testing across a variety of products via Test Automation
 
 ## Contact
 
