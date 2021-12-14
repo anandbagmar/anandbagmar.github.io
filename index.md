@@ -8,9 +8,11 @@ I am a contributor on the Selenium project, writes testing related blogs and has
 
 You can follow me on <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand!</a>, or connect with me on LinkedIn at <a href="https://www.linkedin.com/in/anandbagmar/"  target="_blank">Anand Bagmar</a>.
 
+![Anand Bagmar](images/Anand_profile.png)
+
 # Areas of Specialization
 
-##Quality  Strategy
+## Quality  Strategy
 Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.
 
 This is one of the main reasons why Testing becomes a bottle-neck for your organization. To add to the problem, because it is done so late in the SDLC, the cost of fixing issues found at this stage is huge.
@@ -29,6 +31,31 @@ This often includes the following activities:
 * Test Data Management - This is the last pillar of the Test Automation Pyramid. We need to manage the tests, and make sure that the tests are managed in a timely manner.
 * Feedback loop - Analytics
 * Visual Testing
+
+## Test Automation
+Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.
+
+There are many criteria you think about when building a Test Automation Framework. Over the years, I have come to realise these can be grouped as non-negotiable and negotiable criteria.
+
+
+## Training & Workshops
+
+* Visual Testing using Applitools Visual AI
+* Selenium Deep Dive
+* Appium 2.0
+* Analytics Test Automation
+* Test Automation with Appium
+
+## Open Source Contributions
+
+* <a href="https://selenium.dev" target="_blank">Selenium</a>
+* <a href="https://github.com/AppiumTestDistribution/AppiumTestDistribution" target="_blank">AppiumTestDistribution</a>
+* <a href="https://github.com/znsio/teswiz" target="_blank">teswiz</a>
+* <a href="https://github.com/znsio/getting-started-with-teswiz" target="_blank">getting-started-with-teswiz</a>
+* <a href="https://specmatic.in" target="_blank">Specmatic</a>
+* <a href="https://github.com/anandbagmar/waat" target="_blank">WAAT</a>
+* <a href="https://github.com/anandbagmar/tta" target="_blank">TTA</a>
+* <a href="https://github.com/anandbagmar/taas" target="_blank">TaaS</a>
 
 ## Contact
 
