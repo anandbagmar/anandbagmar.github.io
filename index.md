@@ -60,6 +60,30 @@ Based on your context, I will help you create the right Test Automation Strategy
 * <a href="https://github.com/anandbagmar/tta" target="_blank">TTA</a> - Test Trend Analyzer                                                
 * <a href="https://github.com/anandbagmar/taas" target="_blank">TaaS</a> - Integration testing across a variety of products via Test Automation
 
+## Blog Posts & Articles
+
+* <a href="https://essenceoftesting.blogspot.com" target="_blank">Essence Of Testing Blog</a>
+* <a href="https://applitools.com/blog/what-is-the-best-test-automation-framework/" target="_blank">The Best Test Automation Framework Is ...</a> 
+* <a href="https://applitools.com/blog/selenium-4/" target="_blank">What's new in Selenium 4?</a> 
+* <a href="https://applitools.com/blog/guide-testing-automating-data-analytics-events-web-mobile/" target="_blank">A Comprehensive Guide to Testing and Automating Data Analytics Events on Web & Mobile</a> 
+* <a href="https://applitools.com/blog/automating-functional-end-to-end-tests-cross-platform/" target="_blank">Automating Functional / End-2-End Tests Across Multiple Platforms</a> 
+* <a href="https://applitools.com/blog/visual-mobile-test-automation-best-practices/" target="_blank">[Visual] Mobile Test Automation Best Practices</a> 
+* <a href="https://applitools.com/blog/automatic-appium-setup/" target="_blank">Install Appium the Easy Way</a> 
+* <a href="https://applitools.com/blog/visual-ai-hype-or-reality/" target="_blank">Visual Assertions – Hype or Reality?</a> 
+* <a href="https://applitools.com/blog/uncover-flaky-tests/" target="_blank">Stop the Retries in Tests & Reruns of Failing Tests</a> 
+* <a href="https://applitools.com/blog/end-smoke-sanity-regression/" target="_blank">The end of Smoke, Sanity and Regression</a> 
+* <a href="https://applitools.com/blog/cross-browser-testing-ultrafast-grid/" target="_blank">Overcome the challenges of Cross-Browser Testing using Applitools Ultrafast Grid!</a> 
+* <a href="https://blog.testproject.io/2020/12/29/2021-software-testing-trends-promise-of-a-better-future/" target="_blank">2021 Software Testing Trends – Promise of a Better Future</a> 
+* <a href="https://blog.testproject.io/2020/12/23/self-healing-to-the-rescue-of-flaky-test-automation/" target="_blank">Self Healing to the Rescue of Flaky Test Automation</a> 
+* <a href="https://blog.testproject.io/2020/11/24/measuring-code-coverage-from-api-workflow-functional-ui-tests/" target="_blank">Measuring Code Coverage from API Workflow & Functional UI Tests</a> 
+* <a href="https://blog.testproject.io/2020/06/29/design-patterns-in-test-automation/" target="_blank">Design Patterns in Test Automation</a> 
+* <a href="https://www.infoq.com/articles/agile-software-testing/" target="_blank">Perspectives On Agile Software Testing - Book Review</a> 
+* <a href="https://www.infoq.com/articles/test-automation-ai-ml" target="_blank">Test Automation in the World of AI & ML</a> 
+* <a href="https://www.slideshare.net/abagmar/agile-qa-process" target="_blank">Agile QA Process</a> 
+
+### Other publications can be found here:
+* <a href="https://www.slideshare.net/abagmar/" target="_blank">SlideShare.net/abagmar</a>
+ 
 ## Contact
 
 * Email: [Anand.Bagmar@essenceoftesting.com](mailto:anand.bagmar@essenceoftesting.com)
