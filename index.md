@@ -9,9 +9,9 @@
 | :---: | :---: | 
 | [Areas of Specialization](#areas-of-specialization)  | [Quality Strategy](#quality-strategy) |  
 |  | [Test Automation](#test-automation) |  
-|  | [Trainings & Workshops](#trainings-\&-workshops)  |
+|  | [Trainings & Workshops](#trainings-and-workshops)  |
 | | [Open Source Contributions](#open-source-contributions) | |
-| | [Blog Posts & Articles](#blog-posts-\&-articles) | |
+| | [Blog Posts & Articles](#blog-posts-and-articles) | |
 |  [Contact Me](#contact) | |
 | [References](#references) | |
 
@@ -62,7 +62,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 #### Back to [top](#essence-of-testing)
 
-## Trainings \& Workshops
+## Trainings and Workshops
 
 * Visual Testing using Applitools Visual AI
 * Selenium Deep Dive
@@ -85,7 +85,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 #### Back to [top](#essence-of-testing)
 
-## Blog Posts \& Articles
+## Blog Posts and Articles
 
 * <a href="https://essenceoftesting.blogspot.com" target="_blank">Essence Of Testing Blog</a>
 * <a href="https://applitools.com/blog/what-is-the-best-test-automation-framework/" target="_blank">The Best Test Automation Framework Is ...</a> 
