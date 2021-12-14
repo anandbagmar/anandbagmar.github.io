@@ -1,7 +1,7 @@
 
 ![Essence Of Testing](images/Logo.png)
 
-Working together to create Optimized Testing Solutions for your Organization!
+## **_Working together to build a Quality Product, Inside-Out!_**
 
 # Introduction
 I am **Anand Bagmar**. I am a **Software Quality Evangelist** with 20+ years in the software testing field. I am passionate about shipping a quality product, and specializes in Product Quality strategy & execution, and also building automated testing tools, infrastructure and frameworks.
@@ -51,10 +51,10 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 ## Open Source Contributions
 
-* <a href="https://selenium.dev" target="_blank">Selenium</a>
-* <a href="https://github.com/AppiumTestDistribution/AppiumTestDistribution" target="_blank">AppiumTestDistribution</a>
+* <a href="https://selenium.dev" target="_blank">Selenium</a>  
 * <a href="https://github.com/znsio/teswiz" target="_blank">teswiz</a>
 * <a href="https://github.com/znsio/getting-started-with-teswiz" target="_blank">getting-started-with-teswiz</a>
+* <a href="https://github.com/AppiumTestDistribution/AppiumTestDistribution" target="_blank">AppiumTestDistribution</a>
 * <a href="https://specmatic.in" target="_blank">Specmatic</a>
 * <a href="https://github.com/anandbagmar/waat" target="_blank">WAAT</a>
 * <a href="https://github.com/anandbagmar/tta" target="_blank">TTA</a>
@@ -62,7 +62,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 ## Contact
 
-* [anand.bagmar@essenceoftesting.com](mailto:anand.bagmar@essenceoftesting.com)
-* [@BagmarAnand](https://twitter.com/BagmarAnand)
-* [Anand Bagmar@LinkedIn](https://www.linkedin.com/in/anandbagmar/)
+* Email: [Anand.Bagmar@essenceoftesting.com](mailto:anand.bagmar@essenceoftesting.com)
+* Twitter: [@BagmarAnand](https://twitter.com/BagmarAnand)
+* LinkedIn: [Anand Bagmar@LinkedIn](https://www.linkedin.com/in/anandbagmar/)
 
