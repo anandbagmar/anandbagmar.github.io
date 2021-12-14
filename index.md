@@ -1,4 +1,3 @@
-# Welcome to Essence Of Testing
 
 Working together to create Optimized Testing Solutions for your Organization!
 
