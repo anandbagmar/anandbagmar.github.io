@@ -7,7 +7,7 @@
 
 | [About Me](#about-me)  | |  
 | :---: | :---: | 
-| [Areas of Specialization](#areas-of-specialization)  | [Quality Strategy](#quality-strategy) |  
+| **Areas of Specialization**  | [Quality Strategy](#quality-strategy) |  
 |  | [Test Automation](#test-automation) |  
 |  | [Trainings & Workshops](#trainings-and-workshops)  |
 | | [Open Source Contributions](#open-source-contributions) | |
