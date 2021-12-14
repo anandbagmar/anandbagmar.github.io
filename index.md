@@ -8,7 +8,7 @@ I am a contributor on the Selenium project, writes testing related blogs and has
 
 You can follow me on <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand!</a>, or connect with me on LinkedIn at <a href="https://www.linkedin.com/in/anandbagmar/"  target="_blank">Anand Bagmar</a>.
 
-![Anand Bagmar](images/Anand_profile.png)
+![Anand Bagmar](images/Anand_profile.jpg)
 
 # Areas of Specialization
 
