@@ -1,7 +1,7 @@
 
 ![Essence Of Testing](images/Logo.png)
 
-## **_Working together to build a Quality Product, Inside-Out!_**
+## **Working together to build a Quality Product, Inside-Out!**
 
 # Introduction
 I am **Anand Bagmar**. I am a **Software Quality Evangelist** with 20+ years in the software testing field. I am passionate about shipping a quality product, and specializes in Product Quality strategy & execution, and also building automated testing tools, infrastructure and frameworks.
@@ -32,7 +32,7 @@ This often includes the following activities:
 * Test Reporting - This is the last pillar of the Test Automation Pyramid. We need to report the results of the tests, and make sure that the results are reported in a timely manner.
 * Test Data Management - This is the last pillar of the Test Automation Pyramid. We need to manage the tests, and make sure that the tests are managed in a timely manner.
 * Feedback loop - Analytics
-* Visual Testing
+* Visual Testing using Applitools Visual AI
 
 ## Test Automation
 Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.
@@ -66,3 +66,13 @@ Based on your context, I will help you create the right Test Automation Strategy
 * Twitter: [@BagmarAnand](https://twitter.com/BagmarAnand)
 * LinkedIn: [Anand Bagmar@LinkedIn](https://www.linkedin.com/in/anandbagmar/)
 
+## References 
+
+* Applitools
+* Xnsio / Znsio / AgileFaqs
+* Reliance Jio
+* PlayGames 24x7
+* Tieto Evry
+* ChargedUp
+* Myntra
+* Moolya Testing Services
