@@ -31,7 +31,7 @@ You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand"
 
 # Areas of Specialization
 
-## Quality  Strategy
+## Quality Strategy
 Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.
 
 This is one of the main reasons why Testing becomes a bottle-neck for your organization. To add to the problem, because it is done so late in the SDLC, the cost of fixing issues found at this stage is huge.
@@ -62,7 +62,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 #### Back to [top](#essence-of-testing)
 
-## Trainings & Workshops
+## Trainings \& Workshops
 
 * Visual Testing using Applitools Visual AI
 * Selenium Deep Dive
@@ -85,7 +85,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 
 #### Back to [top](#essence-of-testing)
 
-## Blog Posts & Articles
+## Blog Posts \& Articles
 
 * <a href="https://essenceoftesting.blogspot.com" target="_blank">Essence Of Testing Blog</a>
 * <a href="https://applitools.com/blog/what-is-the-best-test-automation-framework/" target="_blank">The Best Test Automation Framework Is ...</a> 
