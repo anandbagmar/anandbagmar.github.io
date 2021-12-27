@@ -26,7 +26,7 @@ You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand"
 
 #### Back to [top](#essence-of-testing)
 
-:arrow_up:
+[:arrow_up:](#essence-of-testing)
 
 # Areas of Specialization
 
