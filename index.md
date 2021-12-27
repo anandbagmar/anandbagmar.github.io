@@ -20,7 +20,7 @@ I am **Anand Bagmar**. I am a **Software Quality Evangelist** with 20+ years in 
 
 I am a contributor on the Selenium project, writes testing related blogs and has built open-source tools related to Software Testing – WAAT (Web Analytics Automation Testing Framework), TaaS (for automating the integration testing in disparate systems) and TTA (Test Trend Analyzer).
 
-You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand</a>, or on LinkedIn at <a href="https://www.linkedin.com/in/anandbagmar/"  target="_blank">Anand Bagmar</a>.
+You can connect with me via Twitter at [@BagmarAnand](https://twitter.com/BagmarAnand){:target="_blank" rel="noopener"} or <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand</a>, or on LinkedIn at <a href="https://www.linkedin.com/in/anandbagmar/"  target="_blank">Anand Bagmar</a>.
 
 ![Anand Bagmar](images/Anand_profile.jpg)
 
