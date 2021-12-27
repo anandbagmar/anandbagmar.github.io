@@ -1,20 +1,19 @@
 
 ![Essence Of Testing](images/Logo.png)
 
-## **Working together to build a Quality Product, Inside-Out!**
+## **_Working together to build a Quality Product, Inside-Out!_**
 
 # Essence Of Testing
 
-| [About Me](#about-me)  | |  
-| :---: | :---: | 
-| **Areas of Specialization**  | [Quality Strategy](#quality-strategy) |  
-|  | [Test Automation](#test-automation) |  
-|  | [Trainings & Workshops](#trainings-and-workshops)  |
-| | [Open Source Contributions](#open-source-contributions) | |
-| | [Blog Posts & Articles](#blog-posts-and-articles) | |
-|  [Contact Me](#contact) | |
-| [References](#references) | |
-
+###  [About Me](#about-me)     
+### [**Areas of Specialization**](#areas-of-specialization)  
+ [Quality Strategy](#quality-strategy)   
+ [Test Automation](#test-automation)   
+ [Trainings & Workshops](#trainings-and-workshops)  
+ [Open Source Contributions](#open-source-contributions)  
+### [Blog Posts & Articles](#blog-posts-and-articles)  
+### [Contact Me](#contact)  
+### [References](#references)  
 
 # About me
 I am **Anand Bagmar**. I am a **Software Quality Evangelist** with 20+ years in the software testing field. I am passionate about shipping a quality product, and specializes in Product Quality strategy & execution, and also building automated testing tools, infrastructure and frameworks.
@@ -26,6 +25,8 @@ You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand"
 ![Anand Bagmar](images/Anand_profile.jpg)
 
 #### Back to [top](#essence-of-testing)
+
+:arrow_up:
 
 # Areas of Specialization
 
