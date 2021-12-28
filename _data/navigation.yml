@@ -1,0 +1,56 @@
+- title: Essence Of Testing
+  url: "/"
+  side: left
+
+- title: Areas of Specialization
+  url: "/areas-of-specialization/"
+  side: left
+  dropdown:
+    - title: Quality Strategy
+      url: "/areas-of-specialization/quality-strategy/"
+    - title: Test Automation
+      url: "/areas-of-specialization/test-automation/"
+    - title: Trainings & Workshops
+      url: "/areas-of-specialization/trainings-and-workshops/"
+
+- title: "Open Source"
+  url: "/oss/"
+  side: left
+  dropdown:
+  - title: "Selenium"
+    url: "/oss/selenium/"
+  - title: "teswiz"
+    url: "/oss/teswiz/"
+  - title: "Appium Test Distribution"
+    url: "/oss/atd"
+  - title: "WAAT"
+    url: "/oss/waat"
+  - title: "Test Trend Analyzer"
+    url: "/oss/tta/"
+
+- title: "Blogs & Videos"
+  url: "/content/"
+  side: left
+  dropdown:
+  - title: "Essence of Testing Blog"
+    url: "https://essenceoftesting.blogspot.com/"
+  - title: "Applitools Blog"
+    url: "https://applitools.com/blog/author/anandbagmar/"
+  - title: "TestProject Blog"
+    url: "https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/"
+  - title: "Slides"
+    url: "https://www.slideshare.net/abagmar/"
+  - title: "Conference videos"
+    url: "https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw"
+
+- title: References
+  url: "/references/"
+  side: right
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right

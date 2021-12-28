@@ -1,6 +1,105 @@
 title: Essence Of Testing
-description: Working together to create Optimized Testing Solutions for your Organization!
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-cayman
-remote_theme: pages-themes/cayman@v0.2.0
+description: "India (GMT +0530)"
+# Main author of the website
+# See > authors.yml
+author: "Anand Bagmar"
+url: 'https://www.essenceoftesting.com'
+baseurl: ''
+
+# This is for the editing function in _/includes/improve_content
+# Leave it empty if your site is not on GitHub/GitHub Pages
+improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
+#
+urlimg: 'https://anandbagmar.github.io/assets/img/'
+
+# Logo size is 600x80 pixels
+logo: "logo.png"
+
+# Plugins
+plugins:
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
+
+# Theme works best with Kramdown (using the table of contents function)
+markdown           : kramdown
+permalink          : /:categories/:title/
+highlight          : rouge
+excerpt_separator  : "<!--more-->"
+include            : ['.htaccess']
+# Exclude these files from your production _site
+exclude:
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - INSTALL.md
+  - vendor
+
+
+# The language setting is used in /includes/header.html for html-settings
+language: 'en'
+
+
+# Used › default.html front-matter and compress.html
+# Options › http://jch.penibelst.de
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
+
+
+#
+#       ____       ____            ____
+#      / __ \___  / __/___ ___  __/ / /_
+#     / / / / _ \/ /_/ __ `/ / / / / __/
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_
+#   /_____/\___/_/  \__,_/\__,_/_/\__/
+#
+# Default Settings
+
+defaults:
+  -
+    scope:
+      path: '' 				# an empty string here means all files in the project
+      type: 'pages'
+    values:
+      show_meta: false 	# Hide metadata for all pages
+      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: Anand Bagmar     # Default author for pages
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      show_meta: true   # Show metadata for all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: Anand Bagmar     # Default author for posts
+
+socialmedia:
+  twitter   : BagmarAnand
+  linkedin  : AnandBagmar
+
+sass:
+  sass_dir : _sass
+  style    : :compressed
+
+asciidoctor-enabled: false
+asciidoctor:
+  description:
+  attributes:
+    source-highlighter: coderay
+    coderay-css: style
+    icons: font

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:4000/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="http://localhost:4000/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Essence Of Testing</title>
+		<description>India (GMT +0530)</description>
+		<link>http://localhost:4000/</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>WAAT</title>
+				<link>http://localhost:4000/oss/waat/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat&quot; target=&quot;_blank&quot;&gt;WAAT&lt;/a&gt; - Web Analytics Automation Testing Framework&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat-ruby&quot; target=&quot;_blank&quot;&gt;WAAT-Ruby&lt;/a&gt; - Web Analytics Automation Testing Framework (Ruby)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/oss/waat/</guid>
+			</item>
+		
+			<item>
+				<title>TTA</title>
+				<link>http://localhost:4000/oss/tta/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/tta&quot; target=&quot;_blank&quot;&gt;TTA&lt;/a&gt; - Test Trend Analyzer&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/oss/tta/</guid>
+			</item>
+		
+			<item>
+				<title>Teswiz</title>
+				<link>http://localhost:4000/oss/teswiz/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot; target=&quot;_blank&quot;&gt;teswiz&lt;/a&gt; - Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps specified using cucumber-jvm&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/getting-started-with-teswiz&quot; target=&quot;_blank&quot;&gt;getting-started-with-teswiz&lt;/a&gt; - Easy way to start using teswiz&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/oss/teswiz/</guid>
+			</item>
+		
+			<item>
+				<title>Selenium</title>
+				<link>http://localhost:4000/oss/selenium/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://selenium.dev&quot; target=&quot;_blank&quot;&gt;Selenium&lt;/a&gt; - Selenium automates browsers&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/oss/selenium/</guid>
+			</item>
+		
+			<item>
+				<title>Appium Test Distribution</title>
+				<link>http://localhost:4000/oss/atd/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AppiumTestDistribution/AppiumTestDistribution&quot; target=&quot;_blank&quot;&gt;AppiumTestDistribution&lt;/a&gt; - Manage appium and devices&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/oss/atd/</guid>
+			</item>
+		
+			<item>
+				<title>Trainings and Workshops</title>
+				<link>http://localhost:4000/areas-of-specialization/trainings-and-workshops/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;p&gt;Contact me for training and workshops on the following topics:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Building a Quality Strategy&lt;/li&gt;
+  &lt;li&gt;Test Automation Framework 101&lt;/li&gt;
+  &lt;li&gt;Visual Testing using Applitools Visual AI&lt;/li&gt;
+  &lt;li&gt;Selenium Deep Dive&lt;/li&gt;
+  &lt;li&gt;Appium 2.0&lt;/li&gt;
+  &lt;li&gt;Analytics Test Automation&lt;/li&gt;
+  &lt;li&gt;Test Automation with Appium&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/trainings-and-workshops/</guid>
+			</item>
+		
+			<item>
+				<title>Test Automation</title>
+				<link>http://localhost:4000/areas-of-specialization/test-automation/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;p&gt;Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.&lt;/p&gt;
+
+&lt;p&gt;There are many criteria you think about when building a Test Automation Framework. Over the years, I have come to realise these can be grouped as non-negotiable and negotiable criteria.&lt;/p&gt;
+
+&lt;p&gt;Based on your context, I will help you identify the Test Automation Pyramid that makes sense for your product, and create the right Test Automation Strategy, and help you build a Test Automation Framework. I will enable your team to understand the thought process, and mentor them to scale this framework to their needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/TestPyramid.png&quot; alt=&quot;Test Pyramid&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition, I will work with you and setup a Test Automation Framework, that you will be able to enhance, scale and maintain as you progress.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/e2e-FrameworkArchitecture.jpg&quot; alt=&quot;Test Automation Framework Architecture&quot; /&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/test-automation/</guid>
+			</item>
+		
+			<item>
+				<title>Quality Strategy</title>
+				<link>http://localhost:4000/areas-of-specialization/quality-strategy/</link>
+				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
+				<description>&lt;p&gt;Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.&lt;/p&gt;
+
+&lt;p&gt;This is one of the main reasons why Testing becomes a bottle-neck for your organization. To add to the problem, because it is done so late in the SDLC, the cost of fixing issues found at this stage is huge.&lt;/p&gt;
+
+&lt;p&gt;We need to stop testing for quality, and instead focus on building a good quality product in the first place.&lt;/p&gt;
+
+&lt;p&gt;I work with stakeholders to create a vision of Quality and build a strategy for building a quality product, inside-out.&lt;/p&gt;
+
+&lt;p&gt;This often includes the following activities:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Assessment to understand the current state of the product quality. The assessment is necessary to uncover the differences in perceived state of quality Vs actual state.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test Strategy - Based on the assessment, create a shared understanding of the vision of Quality, and create a plan how to build a quality product.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test Case Management - While writing test cases in a Test Case Management is valuable, you need to have relevant details associated with the test cases. Also, the test cases need to be structured in a way that will make them an asset for further use, and not just “part of a process”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test Automation - This is a key pillar to build a quality product, and not taking forever to do that. We need fast feedback, and automation is the key. I will help identify the layers of the Test Automation Pyramid, and suggest tools and technologies to help in the same.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test Execution - This is the most important pillar of the Test Automation Pyramid. We need to execute the tests, and make sure that the tests are executed in a timely manner.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test Reporting - This is the last pillar of the Test Automation Pyramid. We need to report the results of the tests, and make sure that the results are reported in a timely manner.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Test Data Management - This is the last pillar of the Test Automation Pyramid. We need to manage the tests, and make sure that the tests are managed in a timely manner.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Feedback loop - Analytics&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Visual Testing using Applitools Visual AI&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/quality-strategy/</guid>
+			</item>
+		
+	</channel>
+</rss>

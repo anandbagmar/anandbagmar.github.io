@@ -1,0 +1,19 @@
+- name: GitHub
+  url: http://github.com/anandbagmar
+  class: icon-github
+  title: Code on GitHub
+
+- name: Twitter
+  url: http://twitter.com/BagmarAnand
+  class: icon-twitter
+  title: "@BagmarAnand on Twitter"
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/anandbagmar/
+  class: icon-linkedin
+  title: "Anand Bagmar on LinkedIn"
+
+- name: YouTube
+  url: https://www.youtube.com/c/AnandBagmar
+  class: icon-youtube
+  title: "Videos on YouTube"
