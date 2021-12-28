@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.essenceoftesting.com/sitemap.xml
+Sitemap: https://anandbagmar.github.io//sitemap.xml

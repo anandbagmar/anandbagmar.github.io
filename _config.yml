@@ -3,7 +3,7 @@ description: "India (GMT +0530)"
 # Main author of the website
 # See > authors.yml
 author: "Anand Bagmar"
-url: 'https://www.essenceoftesting.com'
+url: 'https://anandbagmar.github.io/'
 baseurl: ''
 
 #remote_theme:
@@ -20,7 +20,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 urlimg: 'https://anandbagmar.github.io/assets/img/'
 
 # Logo size is 600x80 pixels
-#logo: "logo.png"
+logo: "logo.png"
 
 # Plugins
 plugins:
