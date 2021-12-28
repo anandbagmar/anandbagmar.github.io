@@ -24,7 +24,7 @@ You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand"
 
 ![Anand Bagmar](images/Anand_profile.jpg)
 
-[Back to :arrow_up:](#essence-of-testing)
+[Back to top](#essence-of-testing)
 
 # Areas of Specialization
 
@@ -48,7 +48,7 @@ This often includes the following activities:
 * Feedback loop - Analytics
 * Visual Testing using Applitools Visual AI
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
 
 ## Test Automation
 Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.
@@ -57,7 +57,7 @@ There are many criteria you think about when building a Test Automation Framewor
 
 Based on your context, I will help you create the right Test Automation Strategy, and help you build a Test Automation Framework. I will enable your team to understand the thought process, and mentor them to scale this framework to their needs.
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
 
 ## Trainings and Workshops
 
@@ -67,7 +67,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 * Analytics Test Automation
 * Test Automation with Appium
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
 
 ## Open Source Contributions
 
@@ -80,7 +80,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 * <a href="https://github.com/anandbagmar/tta" target="_blank">TTA</a> - Test Trend Analyzer                                                
 * <a href="https://github.com/anandbagmar/taas" target="_blank">TaaS</a> - Integration testing across a variety of products via Test Automation
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
 
 ## Blog Posts and Articles
 
@@ -103,12 +103,12 @@ Based on your context, I will help you create the right Test Automation Strategy
 * <a href="https://www.infoq.com/articles/test-automation-ai-ml" target="_blank">Test Automation in the World of AI & ML</a> 
 * <a href="https://www.slideshare.net/abagmar/agile-qa-process" target="_blank">Agile QA Process</a> 
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
 
 ### Other publications can be found here:
 * <a href="https://www.slideshare.net/abagmar/" target="_blank">SlideShare.net/abagmar</a>
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
  
 ## Contact
 
@@ -116,7 +116,7 @@ Based on your context, I will help you create the right Test Automation Strategy
 * Twitter: [@BagmarAnand](https://twitter.com/BagmarAnand)
 * LinkedIn: [Anand Bagmar@LinkedIn](https://www.linkedin.com/in/anandbagmar/)
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
 
 ## References 
 
@@ -129,4 +129,4 @@ Based on your context, I will help you create the right Test Automation Strategy
 * Myntra
 * Moolya Testing Services
 
-#### [Back to :arrow_up:](#essence-of-testing)
+#### [Back to top](#essence-of-testing)
