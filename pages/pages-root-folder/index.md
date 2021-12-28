@@ -22,8 +22,6 @@ permalink: /index.html
 homepage: true
 ---
 
-# About Me
-
 I am **Anand Bagmar**. I am a **Software Quality Evangelist** with 20+ years in the software testing field. I am passionate about shipping a quality product, and specializes in Product Quality strategy & execution, and also building automated testing tools, infrastructure and frameworks.
 
 I am a contributor on the Selenium project, write testing related blogs and have built open-source tools related to Software Testing – WAAT (Web Analytics Automation Testing Framework), TaaS (for automating the integration testing in disparate systems) and TTA (Test Trend Analyzer).
