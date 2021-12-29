@@ -15,6 +15,8 @@ I am a contributor on the Selenium project, write testing related blogs and have
 
 ![Anand Bagmar](/assets/img/Anand_profile.jpg)
 
+# Want to collaborate?
+
 You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand</a>, or on LinkedIn at <a href="https://www.linkedin.com/in/anandbagmar/" target="_blank">Anand Bagmar</a>, or send me a message, I will get back to you.
 
 <form
