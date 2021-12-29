@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://anandbagmar.github.io//assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://anandbagmar.github.io//assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Essence Of Testing</title>
 		<description>India (GMT +0530)</description>
-		<link>http://localhost:4000/</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://anandbagmar.github.io//</link>
+		<atom:link href="https://anandbagmar.github.io//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>WAAT</title>
-				<link>http://localhost:4000/oss/waat/</link>
+				<link>https://anandbagmar.github.io//oss/waat/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat&quot; target=&quot;_blank&quot;&gt;WAAT&lt;/a&gt; - Web Analytics Automated Testing Framework&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat-ruby&quot; target=&quot;_blank&quot;&gt;WAAT-Ruby&lt;/a&gt; - Web Analytics Automated Testing Framework (Ruby)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/oss/waat/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//oss/waat/</guid>
 			</item>
 		
 			<item>
 				<title>TTA</title>
-				<link>http://localhost:4000/oss/tta/</link>
+				<link>https://anandbagmar.github.io//oss/tta/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/tta&quot; target=&quot;_blank&quot;&gt;TTA&lt;/a&gt; - Test Trend Analyzer&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/oss/tta/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//oss/tta/</guid>
 			</item>
 		
 			<item>
 				<title>Teswiz</title>
-				<link>http://localhost:4000/oss/teswiz/</link>
+				<link>https://anandbagmar.github.io//oss/teswiz/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot; target=&quot;_blank&quot;&gt;teswiz&lt;/a&gt; - Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps specified using cucumber-jvm&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/getting-started-with-teswiz&quot; target=&quot;_blank&quot;&gt;getting-started-with-teswiz&lt;/a&gt; - Easy way to start using teswiz&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/oss/teswiz/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//oss/teswiz/</guid>
 			</item>
 		
 			<item>
 				<title>Selenium</title>
-				<link>http://localhost:4000/oss/selenium/</link>
+				<link>https://anandbagmar.github.io//oss/selenium/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://selenium.dev&quot; target=&quot;_blank&quot;&gt;Selenium&lt;/a&gt; - Selenium automates browsers&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/oss/selenium/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//oss/selenium/</guid>
 			</item>
 		
 			<item>
 				<title>Appium Test Distribution</title>
-				<link>http://localhost:4000/oss/atd/</link>
+				<link>https://anandbagmar.github.io//oss/atd/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/AppiumTestDistribution/AppiumTestDistribution&quot; target=&quot;_blank&quot;&gt;AppiumTestDistribution&lt;/a&gt; - Manage appium and devices&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/oss/atd/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//oss/atd/</guid>
 			</item>
 		
 			<item>
 				<title>Trainings and Workshops</title>
-				<link>http://localhost:4000/areas-of-specialization/trainings-and-workshops/</link>
+				<link>https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;p&gt;Contact me for training and workshops on the following topics:&lt;/p&gt;
 &lt;ul&gt;
@@ -80,12 +80,12 @@
   &lt;li&gt;Test Automation with Appium&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/trainings-and-workshops/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/</guid>
 			</item>
 		
 			<item>
 				<title>Test Automation</title>
-				<link>http://localhost:4000/areas-of-specialization/test-automation/</link>
+				<link>https://anandbagmar.github.io//areas-of-specialization/test-automation/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;p&gt;Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.&lt;/p&gt;
 
@@ -99,12 +99,12 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/e2e-FrameworkArchitecture.jpg&quot; alt=&quot;Test Automation Framework Architecture&quot; /&gt;&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/test-automation/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//areas-of-specialization/test-automation/</guid>
 			</item>
 		
 			<item>
 				<title>Quality Strategy</title>
-				<link>http://localhost:4000/areas-of-specialization/quality-strategy/</link>
+				<link>https://anandbagmar.github.io//areas-of-specialization/quality-strategy/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
 				<description>&lt;p&gt;Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.&lt;/p&gt;
 
@@ -151,7 +151,7 @@
   &lt;p&gt;Visual Testing using Applitools Visual AI&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/quality-strategy/</guid>
+				<guid isPermaLink="true">https://anandbagmar.github.io//areas-of-specialization/quality-strategy/</guid>
 			</item>
 		
 	</channel>

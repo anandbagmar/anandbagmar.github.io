@@ -7,6 +7,8 @@ header:
 permalink: /index.html
 ---
 
+<!-- Clarity tracking code for https://essenceoftesting.com/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "9yamorlies");</script>
+
 I am **Anand Bagmar**. I am a **Software Quality Evangelist** with 20+ years in the software testing field. I am passionate about shipping a quality product, and specializes in Product Quality strategy & execution, and also building automated testing tools, infrastructure and frameworks.
 
 I am a contributor on the Selenium project, write testing related blogs and have built open-source tools related to Software Testing – WAAT (Web Analytics Automation Testing Framework), TaaS (for automating the integration testing in disparate systems) and TTA (Test Trend Analyzer).

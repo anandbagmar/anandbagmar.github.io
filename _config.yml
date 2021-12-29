@@ -1,7 +1,6 @@
 title: Essence Of Testing
+slogan: "Working together to build a quality product!"
 description: "India (GMT +0530)"
-# Main author of the website
-# See > authors.yml
 author: "Anand Bagmar"
 url: 'https://anandbagmar.github.io/'
 baseurl: ''
@@ -95,3 +94,31 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+#     _____ __________
+#    / ___// ____/ __ \
+#    \__ \/ __/ / / / /
+#   ___/ / /___/ /_/ /
+#  /____/_____/\____/    Verify Website to Webmaster Tools
+
+google_site_verification        : 'Wry44Qo0i_8rljx3C0jkldholGLLxGEqCwAb2-ZseBE'
+
+#       ______            _
+#      / ____/___ __   __(_)________  ____  _____
+#     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
+#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
+#                                                 More information » https://mathiasbynens.be/notes/touch-icons
+
+favicon-32x32                        : 'logo-small.png'
+touch-icon-192x192                   : 'apple-touch-icon-180x180.png'
+apple-touch-icon-180x180-precomposed : 'apple-touch-icon-180x180.png'
+apple-touch-icon-152x152-precomposed : 'apple-touch-icon-152x152.png'
+apple-touch-icon-144x144-precomposed : 'apple-touch-icon-144x144.png'
+apple-touch-icon-120x120-precomposed : 'apple-touch-icon-120x120.png'
+apple-touch-icon-114x114-precomposed : 'apple-touch-icon-114x114.png'
+apple-touch-icon-76x76-precomposed   : 'apple-touch-icon-76x76.png'
+apple-touch-icon-72x72-precomposed   : 'apple-touch-icon-72x72.png'
+apple-touch-icon-precomposed         : 'apple-touch-icon.png'
+msapplication_tileimage              : 'apple-touch-icon-144x144.png'               # Size 144x144
+msapplication_tilecolor              : '#fabb00'
