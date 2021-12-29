@@ -2,9 +2,10 @@
 layout: page-fullwidth
 title:  "Quality Strategy"
 teaser: "Quality is a team responsibilty"
-meta_teaser: "Quality is a team responsibilty. Plan it effectively, including all roles"
 breadcrumb: true
 show_meta: false
+header:
+    image_fullwidth: "sky.jpg"
 categories:
     - areas-of-specialization
 ---

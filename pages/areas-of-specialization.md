@@ -1,11 +1,8 @@
 ---
 layout: page
 title: "Build Quality In!"
-meta_title: "Build Quality In!"
 subheadline: "Instead of Testing for Quality"
 teaser: "<em>Be Proactive, Not Reactive!</em>"
-header:
-   image_fullwidth: "header_unsplash_9.jpg"
 permalink: "/areas-of-specialization/"
 ---
 

@@ -17,10 +17,10 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://anandbagmar.github.io/assets/img/'
+urlimg: 'https://anandbagmar.github.io/images/'
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "logo-verysmall.png"
 
 # Plugins
 plugins:

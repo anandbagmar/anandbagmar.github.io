@@ -6,7 +6,7 @@
 #
 layout: page-fullwidth
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: lotus.jpg
 #
 # Use the call for action to show a button on the frontpage
 #

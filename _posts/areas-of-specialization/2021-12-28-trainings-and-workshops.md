@@ -2,7 +2,6 @@
 layout: page-fullwidth
 title:  "Trainings and Workshops"
 teaser: "Upskill individuals and teams!"
-meta_teaser: "In areas of Quality and Test Automation"
 breadcrumb: true
 show_meta: false
 categories:

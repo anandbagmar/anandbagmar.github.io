@@ -1,8 +1,6 @@
 ---
 layout              : page
 title               : "Get in touch with me?"
-meta_title          : ""
-subheadline         : ""
 teaser              : "Use the contact form."
 permalink           : "/contact/"
 ---

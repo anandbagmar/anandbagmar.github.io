@@ -3,8 +3,6 @@ layout: page
 title: "Blogs & Videos"
 teaser: "References to all my publications and videos."
 permalink: "/content/"
-header:
-    image_fullwidth: "header_drop.jpg"
 ---
 > <a href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a>
 

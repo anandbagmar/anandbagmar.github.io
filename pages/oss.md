@@ -2,9 +2,6 @@
 layout: page
 show_meta: false
 title: "My Open Source Contributions"
-subheadline: ""
-header:
-   image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/oss/"
 ---
 <ul>

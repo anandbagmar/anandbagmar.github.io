@@ -373,7 +373,7 @@
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="https://anandbagmar.github.io//" title="Essence Of Testing – ">
-				<img src="https://anandbagmar.github.io//assets/img/logo.png" alt="Essence Of Testing – ">
+				<img src="https://anandbagmar.github.io//assets/img/logo-verysmall.png" alt="Essence Of Testing – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
