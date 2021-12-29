@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://anandbagmar.github.io//</id>
 	<title>Essence Of Testing</title>
-	<updated>2021-12-29T11:07:42+05:30</updated>
+	<updated>2021-12-29T11:21:13+05:30</updated>
 
 	<subtitle>India (GMT +0530)</subtitle>
 
@@ -163,7 +163,7 @@
 					
 				</author>
 			
-			<summary>Delete management of Appium and your devices!</summary>
+			<summary>Automated management of Appium and your devices!</summary>
 			<content type="html" xml:base="https://anandbagmar.github.io//oss/atd/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/AppiumTestDistribution/AppiumTestDistribution&quot; target=&quot;_blank&quot;&gt;AppiumTestDistribution&lt;/a&gt; - Manage appium and devices&lt;/li&gt;
 &lt;/ul&gt;
