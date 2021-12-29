@@ -6,7 +6,7 @@ teaser: "<em>Be Proactive, Not Reactive!</em>"
 permalink: "/areas-of-specialization/"
 header:
     title: Areas of Specialization
-    image_fullwidth: "sky.jpg"
+    image_fullwidth: "Slide1.jpeg"
 ---
 
 I have been working for 20+ years in various roles related to testing. Over this time, I have realised that if anyone focuses on testing, then they will never be able to build a good quality product, inside-out. 
