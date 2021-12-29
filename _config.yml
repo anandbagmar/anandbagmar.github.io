@@ -11,12 +11,6 @@ baseurl: ''
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
-# This URL points directly to the images directory making
-# things easier to link to images in posts and templates. It needs a slash at the end.
-#
-# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
-#
 urlimg: 'https://anandbagmar.github.io/images/'
 
 # Logo size is 600x80 pixels
@@ -44,21 +38,18 @@ exclude:
   - INSTALL.md
   - vendor
 
-
 # The language setting is used in /includes/header.html for html-settings
 language: 'en'
 
-
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
-#compress_html:
-#  clippings: all
-#  comments: ["<!-- ", " -->"]
-#  endings: all
-#  profile: false
-#  ignore:
-#    envs: [development]
-
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
 #
 #       ____       ____            ____

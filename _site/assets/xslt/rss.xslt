@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>RSS Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="https://anandbagmar.github.io//assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="https://anandbagmar.github.io//assets/js/modernizr.min.js"></script>
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -37,13 +37,13 @@
 	
 	
 	
-	<link rel="canonical" href="https://anandbagmar.github.io//assets/xslt/rss.xslt">
+	<link rel="canonical" href="http://localhost:4000/assets/xslt/rss.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="RSS Feed (Styled)">
 	<meta property="og:description" content="India (GMT +0530)">
-	<meta property="og:url" content="https://anandbagmar.github.io//assets/xslt/rss.xslt">
+	<meta property="og:url" content="http://localhost:4000/assets/xslt/rss.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Essence Of Testing">
@@ -61,7 +61,7 @@
 	
 	
 
-	<link type="text/plain" rel="author" href="https://anandbagmar.github.io//humans.txt">
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt">
 
 	
 
@@ -106,7 +106,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="https://anandbagmar.github.io/" class="icon-tree"> Essence Of Testing</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Essence Of Testing</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
@@ -157,7 +157,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="https://anandbagmar.github.io//references/">References</a></li>
+              <li><a  href="http://localhost:4000/references/">References</a></li>
 
             
             
@@ -173,7 +173,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="https://anandbagmar.github.io//search/">Search</a></li>
+              <li><a  href="http://localhost:4000/search/">Search</a></li>
 
             
             
@@ -189,7 +189,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="https://anandbagmar.github.io//contact/">Contact</a></li>
+              <li><a  href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -208,7 +208,7 @@
 
             
             
-              <li><a  href="https://anandbagmar.github.io//">Essence Of Testing</a></li>
+              <li><a  href="http://localhost:4000/">Essence Of Testing</a></li>
               <li class="divider"></li>
 
             
@@ -225,24 +225,24 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://anandbagmar.github.io//areas-of-specialization/">Areas of Specialization</a>
+                <a  href="http://localhost:4000/areas-of-specialization/">Areas of Specialization</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//areas-of-specialization/quality-strategy/">Quality Strategy</a></li>
+                      <li><a  href="http://localhost:4000/areas-of-specialization/quality-strategy/">Quality Strategy</a></li>
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//areas-of-specialization/test-automation/">Test Automation</a></li>
+                      <li><a  href="http://localhost:4000/areas-of-specialization/test-automation/">Test Automation</a></li>
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/">Trainings &amp; Workshops</a></li>
+                      <li><a  href="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">Trainings &amp; Workshops</a></li>
                     
                   </ul>
 
@@ -261,34 +261,34 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://anandbagmar.github.io//oss/">Open Source</a>
+                <a  href="http://localhost:4000/oss/">Open Source</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//oss/selenium/">Selenium</a></li>
+                      <li><a  href="http://localhost:4000/oss/selenium/">Selenium</a></li>
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//oss/teswiz/">teswiz</a></li>
+                      <li><a  href="http://localhost:4000/oss/teswiz/">teswiz</a></li>
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//oss/atd">Appium Test Distribution</a></li>
+                      <li><a  href="http://localhost:4000/oss/atd">Appium Test Distribution</a></li>
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//oss/waat">WAAT</a></li>
+                      <li><a  href="http://localhost:4000/oss/waat">WAAT</a></li>
                     
 
                       
 
-                      <li><a  href="https://anandbagmar.github.io//oss/tta/">Test Trend Analyzer</a></li>
+                      <li><a  href="http://localhost:4000/oss/tta/">Test Trend Analyzer</a></li>
                     
                   </ul>
 
@@ -307,7 +307,7 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://anandbagmar.github.io//content/">Blogs &amp; Videos</a>
+                <a  href="http://localhost:4000/content/">Blogs &amp; Videos</a>
 
                   <ul class="dropdown">
                     
@@ -372,8 +372,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://anandbagmar.github.io//" title="Essence Of Testing – ">
-				<img src="https://anandbagmar.github.io//assets/img/logo-verysmall.png" alt="Essence Of Testing – ">
+			<a id="logo" href="http://localhost:4000/" title="Essence Of Testing – ">
+				<img src="http://localhost:4000/assets/img/logo-verysmall.png" alt="Essence Of Testing – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -451,7 +451,7 @@
 
             <p class="shadow-black">
               India (GMT +0530)
-              <a href="https://anandbagmar.github.io//info/"></a>
+              <a href="http://localhost:4000/info/"></a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -503,7 +503,7 @@
 		
 
 
-<script src="https://anandbagmar.github.io//assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 

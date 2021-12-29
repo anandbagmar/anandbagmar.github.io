@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: "Build Quality In!"
 subheadline: "Instead of Testing for Quality"
 teaser: "<em>Be Proactive, Not Reactive!</em>"

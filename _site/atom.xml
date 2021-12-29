@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://anandbagmar.github.io//</id>
+	<id>http://localhost:4000/</id>
 	<title>Essence Of Testing</title>
-	<updated>2021-12-29T11:50:26+05:30</updated>
+	<updated>2021-12-29T12:09:34+05:30</updated>
 
 	<subtitle>India (GMT +0530)</subtitle>
 
@@ -19,16 +19,16 @@
 		</author>
 	
 
-	<link href="https://anandbagmar.github.io//atom.xml" rel="self" type="application/rss+xml" />
-	<link href="https://anandbagmar.github.io//" rel="alternate" type="text/html" />
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="4.2.1">Jekyll</generator>
 
 	
 		<entry>
-			<id>https://anandbagmar.github.io//oss/waat/</id>
+			<id>http://localhost:4000/oss/waat/</id>
 			<title>WAAT</title>
-			<link href="https://anandbagmar.github.io//oss/waat/" rel="alternate" type="text/html" title="WAAT" />
+			<link href="http://localhost:4000/oss/waat/" rel="alternate" type="text/html" title="WAAT" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -42,7 +42,7 @@
 				</author>
 			
 			<summary>Web Analytics Automated Testing Framework to automate your testing of analytics events before you deploy it!</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//oss/waat/">&lt;ul&gt;
+			<content type="html" xml:base="http://localhost:4000/oss/waat/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat&quot; target=&quot;_blank&quot;&gt;WAAT&lt;/a&gt; - Web Analytics Automated Testing Framework&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat-ruby&quot; target=&quot;_blank&quot;&gt;WAAT-Ruby&lt;/a&gt; - Web Analytics Automated Testing Framework (Ruby)&lt;/li&gt;
 &lt;/ul&gt;
@@ -57,9 +57,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//oss/tta/</id>
+			<id>http://localhost:4000/oss/tta/</id>
 			<title>TTA</title>
-			<link href="https://anandbagmar.github.io//oss/tta/" rel="alternate" type="text/html" title="TTA" />
+			<link href="http://localhost:4000/oss/tta/" rel="alternate" type="text/html" title="TTA" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -73,7 +73,7 @@
 				</author>
 			
 			<summary>Trend Analysis across your test suites to understand the trends &amp; patterns of your test executions!</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//oss/tta/">&lt;ul&gt;
+			<content type="html" xml:base="http://localhost:4000/oss/tta/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/tta&quot; target=&quot;_blank&quot;&gt;TTA&lt;/a&gt; - Test Trend Analyzer&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -87,9 +87,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//oss/teswiz/</id>
+			<id>http://localhost:4000/oss/teswiz/</id>
 			<title>Teswiz</title>
-			<link href="https://anandbagmar.github.io//oss/teswiz/" rel="alternate" type="text/html" title="Teswiz" />
+			<link href="http://localhost:4000/oss/teswiz/" rel="alternate" type="text/html" title="Teswiz" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -103,7 +103,7 @@
 				</author>
 			
 			<summary>End-2-End framework for Native &amp; Web Automation using Cucumber-jvm, Appium, Selenium WebDriver, Applitools &amp; ReportPortal</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//oss/teswiz/">&lt;ul&gt;
+			<content type="html" xml:base="http://localhost:4000/oss/teswiz/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot; target=&quot;_blank&quot;&gt;teswiz&lt;/a&gt; - Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps specified using cucumber-jvm&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/getting-started-with-teswiz&quot; target=&quot;_blank&quot;&gt;getting-started-with-teswiz&lt;/a&gt; - Easy way to start using teswiz&lt;/li&gt;
 &lt;/ul&gt;
@@ -118,9 +118,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//oss/selenium/</id>
+			<id>http://localhost:4000/oss/selenium/</id>
 			<title>Selenium</title>
-			<link href="https://anandbagmar.github.io//oss/selenium/" rel="alternate" type="text/html" title="Selenium" />
+			<link href="http://localhost:4000/oss/selenium/" rel="alternate" type="text/html" title="Selenium" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -134,7 +134,7 @@
 				</author>
 			
 			<summary>Selenium automates browsers. That&apos;s it!</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//oss/selenium/">&lt;ul&gt;
+			<content type="html" xml:base="http://localhost:4000/oss/selenium/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://selenium.dev&quot; target=&quot;_blank&quot;&gt;Selenium&lt;/a&gt; - Selenium automates browsers&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -148,9 +148,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//oss/atd/</id>
+			<id>http://localhost:4000/oss/atd/</id>
 			<title>Appium Test Distribution</title>
-			<link href="https://anandbagmar.github.io//oss/atd/" rel="alternate" type="text/html" title="Appium Test Distribution" />
+			<link href="http://localhost:4000/oss/atd/" rel="alternate" type="text/html" title="Appium Test Distribution" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -164,7 +164,7 @@
 				</author>
 			
 			<summary>Automated management of Appium and your devices!</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//oss/atd/">&lt;ul&gt;
+			<content type="html" xml:base="http://localhost:4000/oss/atd/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/AppiumTestDistribution/AppiumTestDistribution&quot; target=&quot;_blank&quot;&gt;AppiumTestDistribution&lt;/a&gt; - Manage appium and devices&lt;/li&gt;
 &lt;/ul&gt;
 </content>
@@ -178,9 +178,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/</id>
+			<id>http://localhost:4000/areas-of-specialization/trainings-and-workshops/</id>
 			<title>Trainings and Workshops</title>
-			<link href="https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/" rel="alternate" type="text/html" title="Trainings and Workshops" />
+			<link href="http://localhost:4000/areas-of-specialization/trainings-and-workshops/" rel="alternate" type="text/html" title="Trainings and Workshops" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -194,7 +194,7 @@
 				</author>
 			
 			<summary>Upskill individuals and teams!</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/">&lt;p&gt;Contact me for training and workshops on the following topics:&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">&lt;p&gt;Contact me for training and workshops on the following topics:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Building a Quality Strategy&lt;/li&gt;
   &lt;li&gt;Test Automation Framework 101&lt;/li&gt;
@@ -215,9 +215,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//areas-of-specialization/test-automation/</id>
+			<id>http://localhost:4000/areas-of-specialization/test-automation/</id>
 			<title>Test Automation</title>
-			<link href="https://anandbagmar.github.io//areas-of-specialization/test-automation/" rel="alternate" type="text/html" title="Test Automation" />
+			<link href="http://localhost:4000/areas-of-specialization/test-automation/" rel="alternate" type="text/html" title="Test Automation" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -231,7 +231,7 @@
 				</author>
 			
 			<summary>Implementing Test Automation is easy! However, implementing Maintainable, Scalable and Efficient Test Automation needs a lot of effort!</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//areas-of-specialization/test-automation/">&lt;p&gt;Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/test-automation/">&lt;p&gt;Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.&lt;/p&gt;
 
 &lt;p&gt;There are many criteria you think about when building a Test Automation Framework. Over the years, I have come to realise these can be grouped as non-negotiable and negotiable criteria.&lt;/p&gt;
 
@@ -253,9 +253,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://anandbagmar.github.io//areas-of-specialization/quality-strategy/</id>
+			<id>http://localhost:4000/areas-of-specialization/quality-strategy/</id>
 			<title>Quality Strategy</title>
-			<link href="https://anandbagmar.github.io//areas-of-specialization/quality-strategy/" rel="alternate" type="text/html" title="Quality Strategy" />
+			<link href="http://localhost:4000/areas-of-specialization/quality-strategy/" rel="alternate" type="text/html" title="Quality Strategy" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -269,7 +269,7 @@
 				</author>
 			
 			<summary>Quality is a team responsibilty</summary>
-			<content type="html" xml:base="https://anandbagmar.github.io//areas-of-specialization/quality-strategy/">&lt;p&gt;Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/quality-strategy/">&lt;p&gt;Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.&lt;/p&gt;
 
 &lt;p&gt;This is one of the main reasons why Testing becomes a bottle-neck for your organization. To add to the problem, because it is done so late in the SDLC, the cost of fixing issues found at this stage is huge.&lt;/p&gt;
 
