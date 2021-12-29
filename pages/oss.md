@@ -3,6 +3,9 @@ layout: page
 show_meta: false
 title: "My Open Source Contributions"
 permalink: "/oss/"
+header:
+    title: Open Source Contributions
+    image_fullwidth: "sky.jpg"
 ---
 <ul>
     {% for post in site.categories.oss %}
@@ -14,4 +17,6 @@ In addition, I have contributed to the following open source projects:
 * <a href="https://github.com/znsio/getting-started-with-teswiz" target="_blank">getting-started-with-teswiz</a> - Easy way to start using teswiz
 * <a href="https://specmatic.in" target="_blank">Specmatic</a> - Contract Driven Development
 * <a href="https://github.com/anandbagmar/taas" target="_blank">TaaS</a> - Integration testing across a variety of products via Test Automation
+
+You can see all my open source contributions <a href="https://github.com/anandbagmar" target="_blank">here</a>
 

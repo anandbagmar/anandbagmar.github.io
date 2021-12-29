@@ -4,6 +4,9 @@ title:  "Trainings and Workshops"
 teaser: "Upskill individuals and teams!"
 breadcrumb: true
 show_meta: false
+header:
+    title: Trainings and Workshops
+    image_fullwidth: "sky.jpg"
 categories:
     - areas-of-specialization
 ---

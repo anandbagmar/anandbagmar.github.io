@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://anandbagmar.github.io//</id>
 	<title>Essence Of Testing</title>
-	<updated>2021-12-29T10:57:03+05:30</updated>
+	<updated>2021-12-29T11:07:42+05:30</updated>
 
 	<subtitle>India (GMT +0530)</subtitle>
 
@@ -41,10 +41,10 @@
 					
 				</author>
 			
-			<summary>Web Analytics Automation Framework to automate your testing of analytics events before you deploy it!</summary>
+			<summary>Web Analytics Automated Testing Framework to automate your testing of analytics events before you deploy it!</summary>
 			<content type="html" xml:base="https://anandbagmar.github.io//oss/waat/">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat&quot; target=&quot;_blank&quot;&gt;WAAT&lt;/a&gt; - Web Analytics Automation Testing Framework&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat-ruby&quot; target=&quot;_blank&quot;&gt;WAAT-Ruby&lt;/a&gt; - Web Analytics Automation Testing Framework (Ruby)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat&quot; target=&quot;_blank&quot;&gt;WAAT&lt;/a&gt; - Web Analytics Automated Testing Framework&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/anandbagmar/waat-ruby&quot; target=&quot;_blank&quot;&gt;WAAT-Ruby&lt;/a&gt; - Web Analytics Automated Testing Framework (Ruby)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
 

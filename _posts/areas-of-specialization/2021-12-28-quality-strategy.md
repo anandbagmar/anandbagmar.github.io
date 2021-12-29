@@ -5,6 +5,7 @@ teaser: "Quality is a team responsibilty"
 breadcrumb: true
 show_meta: false
 header:
+    title: Quality Strategy
     image_fullwidth: "sky.jpg"
 categories:
     - areas-of-specialization

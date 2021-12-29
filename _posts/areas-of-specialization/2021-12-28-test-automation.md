@@ -4,6 +4,9 @@ title:  "Test Automation"
 teaser: "Implementing Test Automation is easy! However, implementing Maintainable, Scalable and Efficient Test Automation needs a lot of effort!"
 breadcrumb: true
 show_meta: false
+header:
+    title: Test Automation
+    image_fullwidth: "sky.jpg"
 categories:
     - areas-of-specialization
 ---

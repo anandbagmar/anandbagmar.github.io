@@ -3,6 +3,9 @@ layout              : page
 title               : "Get in touch with me?"
 teaser              : "Use the contact form."
 permalink           : "/contact/"
+header:
+    title: Let's Collaborate!
+    image_fullwidth: "sky.jpg"
 ---
 
 <form
