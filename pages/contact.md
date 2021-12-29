@@ -5,7 +5,7 @@ teaser              : "Use the contact form."
 permalink           : "/contact/"
 header:
     title: Let's Collaborate!
-    image_fullwidth: "sky.jpg"
+    image_fullwidth: "header-bg.jpeg"
 ---
 
 <form

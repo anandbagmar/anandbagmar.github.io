@@ -6,7 +6,7 @@ teaser              : "<em>In the past few years, I have had an opportunity to s
 permalink           : "/references/"
 header:
     title: References
-    image_fullwidth: "sky.jpg"
+    image_fullwidth: "header-bg.jpeg"
 ---
 
 ### Applitools

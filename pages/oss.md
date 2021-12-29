@@ -5,7 +5,7 @@ title: "My Open Source Contributions"
 permalink: "/oss/"
 header:
     title: Open Source Contributions
-    image_fullwidth: "Slide2.jpeg"
+    image_fullwidth: "header-bg.jpeg"
 ---
 <ul>
     {% for post in site.categories.oss %}

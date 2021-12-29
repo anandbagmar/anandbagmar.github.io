@@ -5,7 +5,7 @@ teaser: "References to all my publications and videos."
 permalink: "/content/"
 header:
     title: Blogs & Videos
-    image_fullwidth: "sky.jpg"
+    image_fullwidth: "header-bg.jpeg"
 ---
 > <a href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a>
 

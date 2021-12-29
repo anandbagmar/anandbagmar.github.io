@@ -6,7 +6,7 @@ breadcrumb: true
 show_meta: false
 header:
     title: Trainings and Workshops
-    image_fullwidth: "Slide5.jpeg"
+    image_fullwidth: "header-bg.jpeg"
 categories:
     - areas-of-specialization
 ---
