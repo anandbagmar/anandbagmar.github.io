@@ -6,7 +6,7 @@ breadcrumb: true
 show_meta: false
 header:
     title: Quality Strategy
-    image_fullwidth: "Slide1.jpeg"
+    image_fullwidth: "Slide3.jpeg"
 categories:
     - areas-of-specialization
 ---

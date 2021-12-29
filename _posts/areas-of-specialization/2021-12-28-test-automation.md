@@ -6,7 +6,7 @@ breadcrumb: true
 show_meta: false
 header:
     title: Test Automation
-    image_fullwidth: "Slide2.jpeg"
+    image_fullwidth: "Slide4.jpeg"
 categories:
     - areas-of-specialization
 ---
