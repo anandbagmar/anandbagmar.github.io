@@ -3,7 +3,7 @@ layout: page-fullwidth
 title: "Essence Of Testing"
 header:
     text: "Essence Of Testing"
-    image_fullwidth: "header-LandingPage.jpeg"
+    image_fullwidth: "header-bg.jpeg"
 permalink: /index.html
 ---
 

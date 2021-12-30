@@ -13,7 +13,7 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 urlimg: 'https://anandbagmar.github.io/images/'
 
 # Logo size is 600x80 pixels
-logo: "logo-verysmall.png"
+#logo: "logo-verysmall.png"
 
 # Plugins
 plugins:
