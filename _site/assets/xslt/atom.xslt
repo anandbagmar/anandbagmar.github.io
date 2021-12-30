@@ -373,8 +373,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://anandbagmar.github.io//" title="Essence Of Testing – Working together to build a quality product!">
-				<img src="https://anandbagmar.github.io//assets/img/" alt="Essence Of Testing – Working together to build a quality product!">
+			<a id="logo" href="https://anandbagmar.github.io//" title="Essence Of Testing – ">
+				<img src="https://anandbagmar.github.io//assets/img/" alt="Essence Of Testing – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
