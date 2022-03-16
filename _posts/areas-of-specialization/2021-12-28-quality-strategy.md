@@ -32,8 +32,8 @@ This often includes the following activities:
 
 > Test Reporting - This is the last pillar of the Test Automation Pyramid. We need to report the results of the tests, and make sure that the results are reported in a timely manner.
 
-> Test Data Management - This is the last pillar of the Test Automation Pyramid. We need to manage the tests, and make sure that the tests are managed in a timely manner.
+> Test Data Management - Creating, Re-using and Managing test data is a critical part of Test Automation to make it scalable and reliable. 
 
-> Feedback loop - Analytics
+> Feedback loop - Understand Analytics and automate the feedback loop.
 
-> Visual Testing using Applitools Visual AI
+> Visual Testing using Applitools Visual AI - Increase test coverage by writing less code
