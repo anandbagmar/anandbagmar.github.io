@@ -5,9 +5,9 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//404.html</loc>
+	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,26 +20,9 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//areas-of-specialization/</loc>
+	<loc>http://localhost:4000/areas-of-specialization/</loc>
 	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//atom.xml</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,114 +37,9 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//contact/</loc>
+	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//content/</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//feed.xml</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//humans.txt</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//oss/</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//references/</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://anandbagmar.github.io//robots.txt</loc>
-	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -175,12 +53,10 @@
 	
 
 	
-
-	
 	<url>
-	<loc>https://anandbagmar.github.io//search/</loc>
+	<loc>http://localhost:4000/contact/</loc>
 	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -193,9 +69,133 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//sitemap.xml</loc>
+	<loc>http://localhost:4000/content/</loc>
 	
-		<lastmod>2021-12-30T15:48:47+05:30</lastmod>
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/feed.xml</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/humans.txt</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/oss/</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/references/</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/robots.txt</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/search/</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/sitemap.xml</loc>
+	
+		<lastmod>2022-09-02T10:42:34+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -217,7 +217,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//oss/waat/</loc>
+	<loc>http://localhost:4000/oss/waat/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -232,7 +232,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//oss/tta/</loc>
+	<loc>http://localhost:4000/oss/tta/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -247,7 +247,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//oss/teswiz/</loc>
+	<loc>http://localhost:4000/oss/teswiz/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -262,7 +262,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//oss/selenium/</loc>
+	<loc>http://localhost:4000/oss/selenium/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -277,7 +277,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//oss/atd/</loc>
+	<loc>http://localhost:4000/oss/atd/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -292,7 +292,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//areas-of-specialization/trainings-and-workshops/</loc>
+	<loc>http://localhost:4000/areas-of-specialization/trainings-and-workshops/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -307,7 +307,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//areas-of-specialization/test-automation/</loc>
+	<loc>http://localhost:4000/areas-of-specialization/test-automation/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	
@@ -322,7 +322,7 @@
 
 	
 	<url>
-	<loc>https://anandbagmar.github.io//areas-of-specialization/quality-strategy/</loc>
+	<loc>http://localhost:4000/areas-of-specialization/quality-strategy/</loc>
 	
 		<lastmod>2021-12-28T00:00:00+05:30</lastmod>
 	

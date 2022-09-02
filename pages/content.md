@@ -16,3 +16,7 @@ header:
 > <a href="https://www.slideshare.net/abagmar/" target="_blank">Slides</a>
 
 > <a href="https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw" target="_blank">Conference Videos</a>
+
+> Some recent and upcoming talks
+
+<script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/71a1af89-3ba2-4f41-a931-e5255ee6b324/0x1x1a13b1x"></script>
