@@ -14,7 +14,7 @@ categories:
 Contact me for training and workshops on the following topics:
 * Building a Quality Strategy
 * Test Automation Framework 101
-* Visual Testing using Applitools Visual AI
+* [Visual Testing using Applitools Visual AI](Getting Started with Visual AI-Workshop.pdf)
 * Selenium Deep Dive
 * Appium 2.0
 * Analytics Test Automation
