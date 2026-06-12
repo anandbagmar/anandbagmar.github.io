@@ -12,6 +12,8 @@
       url: "/areas-of-specialization/quality-strategy/"
     - title: Test Automation
       url: "/areas-of-specialization/test-automation/"
+    - title: Transformation & Advisory
+      url: "/areas-of-specialization/transformation-and-advisory/"
     - title: Trainings & Workshops
       url: "/areas-of-specialization/trainings-and-workshops/"
 
@@ -19,42 +21,23 @@
   url: "/oss/"
   side: left
 
-- title: "Blogs & Articles"
+- title: "Resources"
   url: "/content/"
   side: left
   dropdown:
-  - title: "Essence of Testing Blog"
-    url: "https://essenceoftesting.blogspot.com/"
-  - title: "Applitools Blog"
-    url: "https://applitools.com/blog/author/anandbagmar/"
+  - title: "Blogs & Articles"
+    url: "/content/"
+  - title: "Talks & Videos"
+    url: "/talks-and-videos/"
+  - title: "Case Studies"
+    url: "/case-studies/"
   - title: "Slides"
     url: "https://www.slideshare.net/abagmar/"
-
-- title: "Talks & Videos"
-  url: "/talks-and-videos/"
-  side: left
-  dropdown:
-  - title: "Featured Talks"
-    url: "/talks-and-videos/#featured-talks"
-  - title: "All Talks"
-    url: "/talks-and-videos/#all-talks"
   - title: "YouTube Channel"
     url: "https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw"
 
-- title: "Case Studies"
-  url: "/case-studies/"
-  side: left
-
 - title: "My Profile"
   url: "/profile/"
-  side: right
-
-- title: References
-  url: "/references/"
-  side: right
-
-- title: "Search"
-  url: "/search/"
   side: right
 
 - title: "Contact"

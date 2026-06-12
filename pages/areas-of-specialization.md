@@ -43,7 +43,7 @@ header:
 
   <div class="eot-spec-card">
     <div class="eot-spec-num">03</div>
-    <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/">Transformation &amp; Advisory</a></h3>
+    <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/transformation-and-advisory/">Transformation &amp; Advisory</a></h3>
     <p>Quality assessments, roadmaps, and contextual implementation — equally effective in short advisory engagements and full transformation programmes.</p>
     <ul>
       <li>Current-state assessment</li>
@@ -51,7 +51,7 @@ header:
       <li>Team structure &amp; capability building</li>
       <li>Stakeholder alignment</li>
     </ul>
-    <a href="/contact/" class="eot-spec-link">Get in touch →</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/transformation-and-advisory/" class="eot-spec-link">Explore →</a>
   </div>
 
   <div class="eot-spec-card">

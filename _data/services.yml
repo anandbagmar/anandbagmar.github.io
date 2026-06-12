@@ -1,0 +1,14 @@
+- menu_name: Quick Links
+  name: References
+  title: References
+  url: /references/
+
+- menu_name: Quick Links
+  name: Search
+  title: Search
+  url: /search/
+
+- menu_name: Quick Links
+  name: Contact
+  title: Contact
+  url: /contact/
