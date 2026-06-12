@@ -43,6 +43,14 @@
   - title: "Conference videos"
     url: "https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw"
 
+- title: "Case Studies"
+  url: "/case-studies/"
+  side: left
+
+- title: "My Profile"
+  url: "/profile/"
+  side: right
+
 - title: References
   url: "/references/"
   side: right

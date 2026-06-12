@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 20 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 22 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>http://localhost:4000/404.html</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -22,7 +22,7 @@
 	<url>
 	<loc>http://localhost:4000/areas-of-specialization/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -39,7 +39,7 @@
 	<url>
 	<loc>http://localhost:4000/atom.xml</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,9 +54,24 @@
 
 	
 	<url>
+	<loc>http://localhost:4000/case-studies/</loc>
+	
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
 	<loc>http://localhost:4000/contact/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -71,7 +86,7 @@
 	<url>
 	<loc>http://localhost:4000/content/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -86,7 +101,7 @@
 	<url>
 	<loc>http://localhost:4000/feed.xml</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -101,7 +116,7 @@
 	<url>
 	<loc>http://localhost:4000/humans.txt</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -116,7 +131,7 @@
 	<url>
 	<loc>http://localhost:4000/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -131,7 +146,22 @@
 	<url>
 	<loc>http://localhost:4000/oss/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/profile/</loc>
+	
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -146,7 +176,7 @@
 	<url>
 	<loc>http://localhost:4000/references/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,7 +191,7 @@
 	<url>
 	<loc>http://localhost:4000/robots.txt</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -180,7 +210,7 @@
 	<url>
 	<loc>http://localhost:4000/search/</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -195,7 +225,7 @@
 	<url>
 	<loc>http://localhost:4000/sitemap.xml</loc>
 	
-		<lastmod>2022-09-02T10:43:17+05:30</lastmod>
+		<lastmod>2026-06-12T10:52:12+05:30</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -213,7 +243,37 @@
 	
 
 
-<!-- Posts: 8 links with priority=0.5, changefreq=monthly -->
+<!-- Posts: 10 links with priority=0.5, changefreq=monthly -->
+
+	
+	<url>
+	<loc>http://localhost:4000/case-studies/gaming-sdet-upskilling/</loc>
+	
+		<lastmod>2026-06-02T00:00:00+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>http://localhost:4000/case-studies/reliance-jio-quality-transformation/</loc>
+	
+		<lastmod>2026-06-01T00:00:00+05:30</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.5</priority>
+	
+	</url>
+	
 
 	
 	<url>

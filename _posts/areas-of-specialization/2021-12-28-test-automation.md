@@ -11,14 +11,24 @@ categories:
     - areas-of-specialization
 ---
 
-Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.
+Starting a test automation framework is straightforward. Keeping it scalable, maintainable, and reliable as your product and team grow — that is where most organisations struggle.
 
-There are many criteria you think about when building a Test Automation Framework. Over the years, I have come to realise these can be grouped as non-negotiable and negotiable criteria.
+I leverage AI and industry best practices to design automation solutions that are fast, deterministic, and built to last — across web, mobile (Android & iOS), APIs, desktop, and visual testing.
 
-Based on your context, I will help you identify the Test Automation Pyramid that makes sense for your product, and create the right Test Automation Strategy, and help you build a Test Automation Framework. I will enable your team to understand the thought process, and mentor them to scale this framework to their needs.
+## What I help teams build
+
+**AI-Driven Automation Strategy** — Apply AI practically to make automation smarter, faster, and more resilient. Reduce flakiness, accelerate coverage, and improve feedback cycle times across CI/CD pipelines.
+
+**Future-Ready Automation Frameworks** — Design scalable, maintainable frameworks that grow with your product and team. Based on your context, I identify the right automation pyramid and help you build it right from the start.
+
+**Visual AI Testing** — Expand and accelerate UI test coverage for web and mobile using Visual AI tools — catching visual regressions that traditional assertions miss.
+
+**Test Automation Coverage & ROI** — Measure what your automation truly covers and the business value it delivers. Move beyond vanity metrics to data-informed quality decisions.
+
+**CI/CD Native Integration** — Automation built for real-world pipeline integration — not just local runs. Fast feedback, reliable gates, and actionable reporting at every stage.
 
 ![Test Pyramid](/assets/img/TestPyramid.png)
 
-In addition, I will work with you and setup a Test Automation Framework, that you will be able to enhance, scale and maintain as you progress.
-
 ![Test Automation Framework Architecture](/assets/img/e2e-FrameworkArchitecture.jpg)
+
+> My open-source framework **[teswiz](https://github.com/znsio/teswiz)** is used globally and supports web, mobile, API, and desktop automation out of the box — with CI/CD integration built in.

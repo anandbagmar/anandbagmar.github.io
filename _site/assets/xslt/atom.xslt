@@ -20,13 +20,13 @@
 	<script>
 		WebFont.load({
 			google: {
-				families: [ 'Lato:400,700,400italic:latin', 'Volkhov::latin' ]
+				families: [ 'Inter:400,500,600,700:latin', 'Merriweather:400,700:latin' ]
 			}
 		});
 	</script>
 
 	<noscript>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic%7CVolkhov' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap' rel='stylesheet' type='text/css'>
 	</noscript>
 
 
@@ -146,6 +146,30 @@
 
 
           
+          
+        
+
+              
+
+
+
+          
+          
+        
+
+              
+
+
+
+          
+          
+            
+            
+              <li class="divider"></li>
+              <li><a  href="http://localhost:4000/profile/">My Profile</a></li>
+
+            
+            
           
         
 
@@ -342,6 +366,27 @@
               </li>
               <li class="divider"></li>
             
+          
+        
+
+              
+
+          
+          
+
+            
+            
+              <li><a  href="http://localhost:4000/case-studies/">Case Studies</a></li>
+              <li class="divider"></li>
+
+            
+            
+          
+        
+
+              
+
+          
           
         
 

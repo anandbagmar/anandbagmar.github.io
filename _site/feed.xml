@@ -9,6 +9,194 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Upskilling 50 SDETs with AI-Powered Test Automation</title>
+				<link>http://localhost:4000/case-studies/gaming-sdet-upskilling/</link>
+				<pubDate>Tue, 02 Jun 2026 00:00:00 +0530</pubDate>
+				<description>&lt;div style=&quot;display:flex; gap:0.8rem; flex-wrap:wrap; margin-bottom:2rem;&quot;&gt;
+  &lt;span style=&quot;background:#1c3a5c;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;DOMAIN: Gaming&lt;/span&gt;
+  &lt;span style=&quot;background:#2b7fb0;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;TYPE: Classroom Training&lt;/span&gt;
+  &lt;span style=&quot;background:#c8821a;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;DURATION: 5 Weeks&lt;/span&gt;
+  &lt;span style=&quot;background:#1c3a5c;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;SCALE: 50 SDETs&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation — but lacked the skills, tooling fluency, and confidence to make that transition without structured support.&lt;/p&gt;
+
+&lt;p&gt;The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance — in five weeks, without pausing delivery.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;approach&quot;&gt;Approach&lt;/h2&gt;
+
+&lt;h3 id=&quot;customised-curriculum&quot;&gt;Customised Curriculum&lt;/h3&gt;
+
+&lt;p&gt;The programme was designed around the team’s existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic — every module was contextualised to what the engineers would face on day one back at their desks.&lt;/p&gt;
+
+&lt;h3 id=&quot;ai-assisted-automation-throughout&quot;&gt;AI-Assisted Automation Throughout&lt;/h3&gt;
+
+&lt;p&gt;AI tools were woven into the curriculum from the start — not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.&lt;/p&gt;
+
+&lt;h3 id=&quot;daily-evaluations--final-projects&quot;&gt;Daily Evaluations &amp;amp; Final Projects&lt;/h3&gt;
+
+&lt;p&gt;Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform — demonstrating real, integrated capability, not just classroom knowledge.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-mentoring&quot;&gt;Technical Mentoring&lt;/h3&gt;
+
+&lt;p&gt;Instructors provided continuous technical feedback throughout — reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;outcomes&quot;&gt;Outcomes&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Role transition&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;50 testers moved from manual to automation-ready contributors&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Platform contribution&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;All participants able to write, review, and extend existing test scripts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;AI fluency&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Practical confidence using AI tools for automation tasks&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Leadership identified&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Multiple participants demonstrated standout potential and were flagged for senior automation roles&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Confidence&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Teams returned to delivery with measurably higher automation confidence and velocity&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;The measure of a training programme isn’t what people know at the end — it’s what they can do the week after. This cohort came back and shipped.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contact/&quot; style=&quot;display:inline-block;background:#1c3a5c;color:#fff;padding:0.6rem 1.3rem;border-radius:4px;text-decoration:none;font-weight:600;&quot;&gt;Discuss a training programme →&lt;/a&gt;
+ 
+&lt;a href=&quot;/case-studies/&quot; style=&quot;display:inline-block;background:#2b7fb0;color:#fff;padding:0.6rem 1.3rem;border-radius:4px;text-decoration:none;font-weight:600;&quot;&gt;← All Case Studies&lt;/a&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/case-studies/gaming-sdet-upskilling/</guid>
+			</item>
+		
+			<item>
+				<title>Reliance Jio: Transforming Quality Engineering at Scale</title>
+				<link>http://localhost:4000/case-studies/reliance-jio-quality-transformation/</link>
+				<pubDate>Mon, 01 Jun 2026 00:00:00 +0530</pubDate>
+				<description>&lt;div style=&quot;display:flex; gap:0.8rem; flex-wrap:wrap; margin-bottom:2rem;&quot;&gt;
+  &lt;span style=&quot;background:#1c3a5c;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;DOMAIN: Telecom · Retail · eComm · Media&lt;/span&gt;
+  &lt;span style=&quot;background:#2b7fb0;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;TYPE: Assessment · Strategy · Implementation&lt;/span&gt;
+  &lt;span style=&quot;background:#c8821a;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;DURATION: 4.5 Years&lt;/span&gt;
+  &lt;span style=&quot;background:#1c3a5c;color:#fff;padding:0.35rem 0.9rem;border-radius:4px;font-size:0.85rem;font-weight:600;&quot;&gt;SCALE: 20+ Teams · 75+ SDETs&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Reliance Jio operates at massive scale — spanning telecom, retail, e-commerce, and media products across millions of users. As delivery velocity increased and product complexity grew, quality engineering needed to evolve from reactive testing to a structured, scalable capability embedded across 20+ product teams.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-was-delivered&quot;&gt;What Was Delivered&lt;/h2&gt;
+
+&lt;h3 id=&quot;assessment--strategy&quot;&gt;Assessment &amp;amp; Strategy&lt;/h3&gt;
+
+&lt;p&gt;Reviewed existing practices across teams, identified bottlenecks and redundancies, and created an actionable quality roadmap aligned with business goals. The assessment surfaced the gap between perceived and actual quality — giving leadership a clear, evidence-based starting point.&lt;/p&gt;
+
+&lt;h3 id=&quot;automation-frameworks&quot;&gt;Automation Frameworks&lt;/h3&gt;
+
+&lt;p&gt;Built reusable test automation frameworks covering:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Web&lt;/strong&gt; — cross-browser automation with stable, maintainable architecture&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt; — Android and iOS native app testing (teswiz-based)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop&lt;/strong&gt; — Windows application automation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;APIs&lt;/strong&gt; — contract and integration testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All frameworks were integrated with &lt;strong&gt;Azure DevOps quality gates&lt;/strong&gt; — shifting quality left into the CI/CD pipeline and providing fast, actionable feedback on every build.&lt;/p&gt;
+
+&lt;h3 id=&quot;ai-visual-testing&quot;&gt;AI Visual Testing&lt;/h3&gt;
+
+&lt;p&gt;Implemented AI-driven visual testing across applicable product surfaces — improving the reliability of visual validations at scale and reducing false positives that had been slowing release confidence.&lt;/p&gt;
+
+&lt;h3 id=&quot;qecc-establishment&quot;&gt;QECC Establishment&lt;/h3&gt;
+
+&lt;p&gt;Stood up a &lt;strong&gt;Quality Engineering Competency Centre (QECC)&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standardised tools, frameworks, and processes across teams&lt;/li&gt;
+  &lt;li&gt;Sourced, recruited, and onboarded 75+ SDETs&lt;/li&gt;
+  &lt;li&gt;Built competency maps and integrated engineers into active product teams&lt;/li&gt;
+  &lt;li&gt;Created career pathways and mentoring structures to sustain the capability long-term&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;outcomes&quot;&gt;Outcomes&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Coverage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Automation across web, mobile, desktop, and API layers&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;CI/CD Integration&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Quality gates embedded in Azure DevOps pipelines for 20+ teams&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Team Scale&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;75+ SDETs hired, onboarded, and integrated&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Reliability&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Reduced visual regression false positives via AI-driven testing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Sustainability&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Competency centre with standardised frameworks and clear career structure&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;A long-term engagement that moved quality from a team-level concern to an organisational capability — embedded in processes, tooling, and people.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contact/&quot; style=&quot;display:inline-block;background:#1c3a5c;color:#fff;padding:0.6rem 1.3rem;border-radius:4px;text-decoration:none;font-weight:600;&quot;&gt;Discuss a similar engagement →&lt;/a&gt;
+ 
+&lt;a href=&quot;/case-studies/&quot; style=&quot;display:inline-block;background:#2b7fb0;color:#fff;padding:0.6rem 1.3rem;border-radius:4px;text-decoration:none;font-weight:600;&quot;&gt;← All Case Studies&lt;/a&gt;&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/case-studies/reliance-jio-quality-transformation/</guid>
+			</item>
+		
+			<item>
 				<title>WAAT</title>
 				<link>http://localhost:4000/oss/waat/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
@@ -69,16 +257,79 @@
 				<title>Trainings and Workshops</title>
 				<link>http://localhost:4000/areas-of-specialization/trainings-and-workshops/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
-				<description>&lt;p&gt;Contact me for training and workshops on the following topics:&lt;/p&gt;
+				<description>&lt;p&gt;Practical, hands-on programmes designed to upskill individuals and teams — from manual testers to automation-ready contributors. All programmes can be tailored to your team’s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
+
+&lt;h2 id=&quot;training-programmes&quot;&gt;Training Programmes&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;#&lt;/th&gt;
+      &lt;th&gt;Programme&lt;/th&gt;
+      &lt;th&gt;What you’ll gain&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Quality Strategy in the AI-Accelerated World&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Boosting Automation with AI&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Apply AI practically to make automation smarter, faster, deterministic and resilient.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Future-Ready Automation Frameworks&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Design scalable, maintainable frameworks that grow with your product and teams.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Quality Metrics in the Age of AI&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Track what truly matters — modern metrics for intelligent, data-driven quality decisions.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Test Automation Coverage &amp;amp; ROI&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Measure what your automation truly covers and the business value it delivers.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Automation Framework 101&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Learn the fundamentals of building robust automation for web and mobile applications.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Visual AI for Test Coverage&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Expand and accelerate UI test coverage for web and mobile using Visual AI tools.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Custom programmes:&lt;/strong&gt; Workshops and training programmes can be tailored to your team’s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study-upskilling-50-sdets-with-ai-powered-test-automation&quot;&gt;Case Study: Upskilling 50 SDETs with AI-Powered Test Automation&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Domain:&lt;/strong&gt; Gaming  &lt;/td&gt;
+      &lt;td&gt;  &lt;strong&gt;Type:&lt;/strong&gt; Classroom Training  &lt;/td&gt;
+      &lt;td&gt;  &lt;strong&gt;Duration:&lt;/strong&gt; 5 Weeks  &lt;/td&gt;
+      &lt;td&gt;  &lt;strong&gt;Scale:&lt;/strong&gt; 50 SDETs&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Building a Quality Strategy&lt;/li&gt;
-  &lt;li&gt;Test Automation Framework 101&lt;/li&gt;
-  &lt;li&gt;Visual Testing using Applitools Visual AI&lt;/li&gt;
-  &lt;li&gt;Selenium Deep Dive&lt;/li&gt;
-  &lt;li&gt;Appium 2.0&lt;/li&gt;
-  &lt;li&gt;Analytics Test Automation&lt;/li&gt;
-  &lt;li&gt;Test Automation with Appium&lt;/li&gt;
+  &lt;li&gt;Upskilled 50 SDETs to leverage AI tools and modern automation technologies&lt;/li&gt;
+  &lt;li&gt;Rigorous classroom-based programme with customised curriculum, AI-assisted automation, daily evaluations, and final projects&lt;/li&gt;
+  &lt;li&gt;Outcome: Transitioned testers from manual to automation-ready roles; multiple participants demonstrated leadership potential in automation&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contact/&quot;&gt;Get in touch&lt;/a&gt; to discuss a training programme for your team.&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/trainings-and-workshops/</guid>
 			</item>
@@ -87,17 +338,29 @@
 				<title>Test Automation</title>
 				<link>http://localhost:4000/areas-of-specialization/test-automation/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
-				<description>&lt;p&gt;Building Test Automation Framework is easy - to start with. But as the number of automated tests increase, it becomes increasingly complicated and painful to keep your Test Automation as performant.&lt;/p&gt;
+				<description>&lt;p&gt;Starting a test automation framework is straightforward. Keeping it scalable, maintainable, and reliable as your product and team grow — that is where most organisations struggle.&lt;/p&gt;
 
-&lt;p&gt;There are many criteria you think about when building a Test Automation Framework. Over the years, I have come to realise these can be grouped as non-negotiable and negotiable criteria.&lt;/p&gt;
+&lt;p&gt;I leverage AI and industry best practices to design automation solutions that are fast, deterministic, and built to last — across web, mobile (Android &amp;amp; iOS), APIs, desktop, and visual testing.&lt;/p&gt;
 
-&lt;p&gt;Based on your context, I will help you identify the Test Automation Pyramid that makes sense for your product, and create the right Test Automation Strategy, and help you build a Test Automation Framework. I will enable your team to understand the thought process, and mentor them to scale this framework to their needs.&lt;/p&gt;
+&lt;h2 id=&quot;what-i-help-teams-build&quot;&gt;What I help teams build&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;AI-Driven Automation Strategy&lt;/strong&gt; — Apply AI practically to make automation smarter, faster, and more resilient. Reduce flakiness, accelerate coverage, and improve feedback cycle times across CI/CD pipelines.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Future-Ready Automation Frameworks&lt;/strong&gt; — Design scalable, maintainable frameworks that grow with your product and team. Based on your context, I identify the right automation pyramid and help you build it right from the start.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Visual AI Testing&lt;/strong&gt; — Expand and accelerate UI test coverage for web and mobile using Visual AI tools — catching visual regressions that traditional assertions miss.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Test Automation Coverage &amp;amp; ROI&lt;/strong&gt; — Measure what your automation truly covers and the business value it delivers. Move beyond vanity metrics to data-informed quality decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CI/CD Native Integration&lt;/strong&gt; — Automation built for real-world pipeline integration — not just local runs. Fast feedback, reliable gates, and actionable reporting at every stage.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/TestPyramid.png&quot; alt=&quot;Test Pyramid&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In addition, I will work with you and setup a Test Automation Framework, that you will be able to enhance, scale and maintain as you progress.&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&quot;/assets/img/e2e-FrameworkArchitecture.jpg&quot; alt=&quot;Test Automation Framework Architecture&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My open-source framework &lt;strong&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot;&gt;teswiz&lt;/a&gt;&lt;/strong&gt; is used globally and supports web, mobile, API, and desktop automation out of the box — with CI/CD integration built in.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/test-automation/</guid>
 			</item>
@@ -106,49 +369,28 @@
 				<title>Quality Strategy</title>
 				<link>http://localhost:4000/areas-of-specialization/quality-strategy/</link>
 				<pubDate>Tue, 28 Dec 2021 00:00:00 +0530</pubDate>
-				<description>&lt;p&gt;Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.&lt;/p&gt;
+				<description>&lt;p&gt;Quality is not a testing problem — it is an organisational capability. Focusing only on testing after development creates bottlenecks, inflates the cost of defects, and erodes delivery confidence.&lt;/p&gt;
 
-&lt;p&gt;This is one of the main reasons why Testing becomes a bottle-neck for your organization. To add to the problem, because it is done so late in the SDLC, the cost of fixing issues found at this stage is huge.&lt;/p&gt;
+&lt;p&gt;I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC — from planning through to customer feedback.&lt;/p&gt;
 
-&lt;p&gt;We need to stop testing for quality, and instead focus on building a good quality product in the first place.&lt;/p&gt;
+&lt;h2 id=&quot;what-this-looks-like-in-practice&quot;&gt;What this looks like in practice&lt;/h2&gt;
 
-&lt;p&gt;I work with stakeholders to create a vision of Quality and build a strategy for building a quality product, inside-out.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quality Assessment&lt;/strong&gt; — Uncover the gap between perceived and actual quality. Identify bottlenecks, risks, and quick wins before committing to a roadmap.&lt;/p&gt;
 
-&lt;p&gt;This often includes the following activities:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Assessment to understand the current state of the product quality. The assessment is necessary to uncover the differences in perceived state of quality Vs actual state.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Quality Operating Model&lt;/strong&gt; — Define governance frameworks, ownership structures, and risk-based practices that align quality outcomes with business goals and delivery cadence.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Test Strategy - Based on the assessment, create a shared understanding of the vision of Quality, and create a plan how to build a quality product.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Test Strategy &amp;amp; Roadmap&lt;/strong&gt; — Create a shared understanding of the quality vision and a pragmatic, prioritised plan to achieve it — contextual to your product, team, and technology.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Test Case Management - While writing test cases in a Test Case Management is valuable, you need to have relevant details associated with the test cases. Also, the test cases need to be structured in a way that will make them an asset for further use, and not just “part of a process”.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Test Automation Strategy&lt;/strong&gt; — Identify the right automation pyramid for your product, recommend tools and technologies, and help build automation that is fast, reliable, and maintainable.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Test Automation - This is a key pillar to build a quality product, and not taking forever to do that. We need fast feedback, and automation is the key. I will help identify the layers of the Test Automation Pyramid, and suggest tools and technologies to help in the same.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Test Data Management&lt;/strong&gt; — Design scalable approaches to creating, reusing, and managing test data — a critical enabler for reliable automation at scale.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CI/CD Integration &amp;amp; Feedback Loops&lt;/strong&gt; — Faster, more reliable feedback cycles through quality gates in your pipelines, and data-driven insights through analytics and test trend analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Visual Testing&lt;/strong&gt; — Increase test coverage and reduce flakiness using AI-powered visual validation tools.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Test Execution - This is the most important pillar of the Test Automation Pyramid. We need to execute the tests, and make sure that the tests are executed in a timely manner.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Test Reporting - This is the last pillar of the Test Automation Pyramid. We need to report the results of the tests, and make sure that the results are reported in a timely manner.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Test Data Management - Creating, Re-using and Managing test data is a critical part of Test Automation to make it scalable and reliable.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Feedback loop - Understand Analytics and automate the feedback loop.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Visual Testing using Applitools Visual AI - Increase test coverage by writing less code&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms — delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
 				<guid isPermaLink="true">http://localhost:4000/areas-of-specialization/quality-strategy/</guid>

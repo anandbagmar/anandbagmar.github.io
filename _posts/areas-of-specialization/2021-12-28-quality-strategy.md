@@ -11,29 +11,24 @@ categories:
     - areas-of-specialization
 ---
 
-Testing is a critical part of any organization’s success. However, the approach  is typically to start testing after the development is done with the objective of finding defects in the development.
+Quality is not a testing problem — it is an organisational capability. Focusing only on testing after development creates bottlenecks, inflates the cost of defects, and erodes delivery confidence.
 
-This is one of the main reasons why Testing becomes a bottle-neck for your organization. To add to the problem, because it is done so late in the SDLC, the cost of fixing issues found at this stage is huge.
+I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC — from planning through to customer feedback.
 
-We need to stop testing for quality, and instead focus on building a good quality product in the first place.
+## What this looks like in practice
 
-I work with stakeholders to create a vision of Quality and build a strategy for building a quality product, inside-out.
+**Quality Assessment** — Uncover the gap between perceived and actual quality. Identify bottlenecks, risks, and quick wins before committing to a roadmap.
 
-This often includes the following activities:
-> Assessment to understand the current state of the product quality. The assessment is necessary to uncover the differences in perceived state of quality Vs actual state.
+**Quality Operating Model** — Define governance frameworks, ownership structures, and risk-based practices that align quality outcomes with business goals and delivery cadence.
 
-> Test Strategy - Based on the assessment, create a shared understanding of the vision of Quality, and create a plan how to build a quality product.
+**Test Strategy & Roadmap** — Create a shared understanding of the quality vision and a pragmatic, prioritised plan to achieve it — contextual to your product, team, and technology.
 
-> Test Case Management - While writing test cases in a Test Case Management is valuable, you need to have relevant details associated with the test cases. Also, the test cases need to be structured in a way that will make them an asset for further use, and not just "part of a process".
+**Test Automation Strategy** — Identify the right automation pyramid for your product, recommend tools and technologies, and help build automation that is fast, reliable, and maintainable.
 
-> Test Automation - This is a key pillar to build a quality product, and not taking forever to do that. We need fast feedback, and automation is the key. I will help identify the layers of the Test Automation Pyramid, and suggest tools and technologies to help in the same.
+**Test Data Management** — Design scalable approaches to creating, reusing, and managing test data — a critical enabler for reliable automation at scale.
 
-> Test Execution - This is the most important pillar of the Test Automation Pyramid. We need to execute the tests, and make sure that the tests are executed in a timely manner.
+**CI/CD Integration & Feedback Loops** — Faster, more reliable feedback cycles through quality gates in your pipelines, and data-driven insights through analytics and test trend analysis.
 
-> Test Reporting - This is the last pillar of the Test Automation Pyramid. We need to report the results of the tests, and make sure that the results are reported in a timely manner.
+**Visual Testing** — Increase test coverage and reduce flakiness using AI-powered visual validation tools.
 
-> Test Data Management - Creating, Re-using and Managing test data is a critical part of Test Automation to make it scalable and reliable. 
-
-> Feedback loop - Understand Analytics and automate the feedback loop.
-
-> Visual Testing using Applitools Visual AI - Increase test coverage by writing less code
+> *I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms — delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.*
