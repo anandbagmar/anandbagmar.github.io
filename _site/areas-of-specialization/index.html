@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Build Quality In!</title>
+	<title>Areas of Specialization</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -26,7 +26,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Be Proactive, Not Reactive!">
+	<meta name="description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.">
 	<meta name="google-site-verification" content="Wry44Qo0i_8rljx3C0jkldholGLLxGEqCwAb2-ZseBE">
 	
 	
@@ -36,8 +36,8 @@
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Build Quality In!">
-	<meta property="og:description" content="Be Proactive, Not Reactive!">
+	<meta property="og:title" content="Areas of Specialization">
+	<meta property="og:description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.">
 	<meta property="og:url" content="http://localhost:4000/areas-of-specialization/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -51,8 +51,8 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="BagmarAnand">
 	<meta name="twitter:creator" content="BagmarAnand">
-	<meta name="twitter:title" content="Build Quality In!">
-	<meta name="twitter:description" content="Be Proactive, Not Reactive!">
+	<meta name="twitter:title" content="Areas of Specialization">
+	<meta name="twitter:description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.">
 	
 	
 
@@ -101,8 +101,10 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> </a></h1>
-    </li>
+        <h1><a class="nav-logo" href="http://localhost:4000/" title="">
+          <img src="http://localhost:4000/assets/img/logo-verysmall.png" alt="">
+        </a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
@@ -227,7 +229,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Essence Of Testing</a></li>
+              <li><a  href="http://localhost:4000/"><svg class="nav-home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="14" height="14" style="vertical-align:middle;margin-right:5px;position:relative;top:-1px;"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h4a1 1 0 001-1v-3h2v3a1 1 0 001 1h4a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>Essence Of Testing</a></li>
               <li class="divider"></li>
 
             
@@ -247,6 +249,11 @@
                 <a  href="http://localhost:4000/areas-of-specialization/">Areas of Specialization</a>
 
                   <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/areas-of-specialization/">All Areas of Specialization</a></li>
                     
 
                       
@@ -278,41 +285,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4000/oss/">Open Source</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/selenium/">Selenium</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/teswiz/">teswiz</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/atd">Appium Test Distribution</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/waat">WAAT</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/tta/">Test Trend Analyzer</a></li>
-                    
-                  </ul>
-
-              </li>
+              <li><a  href="http://localhost:4000/oss/">Open Source</a></li>
               <li class="divider"></li>
+
+            
             
           
         
@@ -333,17 +309,17 @@
 
                       
 
+                      <li><a  href="http://localhost:4000/content/">All Blogs &amp; Videos</a></li>
+                    
+
+                      
+
                       <li><a  href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a></li>
                     
 
                       
 
                       <li><a  href="https://applitools.com/blog/author/anandbagmar/" target="_blank">Applitools Blog</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/" target="_blank">TestProject Blog</a></li>
                     
 
                       
@@ -407,6 +383,39 @@
   </nav>
 </div><!-- /#navigation -->
 
+<script>
+// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
+// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
+// bubble-phase jQuery handlers) and navigate directly to the parent href.
+// A 'navigating' flag prevents the touchstart+click double-fire.
+(function () {
+  var navigating = false;
+
+  function mobileBreakpoint() {
+    return window.innerWidth <= 768 || ('ontouchstart' in window);
+  }
+
+  function handleNavTap(e) {
+    if (!mobileBreakpoint()) return;
+    var link = e.target.closest('.has-dropdown > a');
+    if (!link) return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (navigating) return;
+    navigating = true;
+    window.location.href = link.getAttribute('href');
+    setTimeout(function () { navigating = false; }, 1000);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('#navigation');
+    if (!nav) return;
+    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
+    nav.addEventListener('click',      handleNavTap, true);
+  });
+}());
+</script>
+
 	
 
 	
@@ -435,40 +444,174 @@
 	<div class="medium-12 columns">
 		<article>
 			<header>
-				<p class="subheadline">Instead of Testing for Quality</p>
-				<h1>Build Quality In!</h1>
+				<p class="subheadline">Six pillars of measurable impact</p>
+				<h1>Areas of Specialization</h1>
 			</header>
 
 			
 			<p class="teaser">
-				<em>Be Proactive, Not Reactive!</em>
+				With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.
 			</p>
 			
 
-			<p>With <strong>25+ years</strong> in quality engineering, I have come to believe that testing alone never builds a great product — quality must be embedded across the entire SDLC, from planning through to customer feedback.</p>
+			<div class="eot-spec-intro">
+  <p>Quality is not a testing problem — it is an organisational capability. I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility.</p>
+</div>
 
-<p>I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility. My six pillars of measurable impact:</p>
+<div class="eot-spec-grid">
 
-<ol>
-  <li><strong>Quality Leadership &amp; Strategy</strong> — Quality operating models, governance frameworks, and risk-based practices aligned with business outcomes and delivery confidence.</li>
-  <li><strong>Test Automation &amp; AI Quality</strong> — AI-driven scalable automation for web, mobile, API, desktop, and visual testing — improving reliability across CI/CD pipelines.</li>
-  <li><strong>Transformation &amp; Advisory</strong> — Quality assessments, roadmaps, and contextual implementation — equally effective in short engagements and full programmes.</li>
-  <li><strong>Training &amp; Enablement</strong> — Workshops, bootcamps, and enterprise programmes — training hundreds of professionals on modern automation and AI adoption.</li>
-  <li><strong>Framework &amp; Tool Innovation</strong> — Creator of Teswiz, WAAT, and TTA — open-source tools adopted and trusted by the global testing community.</li>
-  <li><strong>Cross-Functional Improvement</strong> — Works across product, engineering, and leadership teams to reduce friction and build scalable, sustainable QA capability.</li>
-</ol>
+  <div class="eot-spec-card">
+    <div class="eot-spec-num">01</div>
+    <h3><a href="http://localhost:4000/areas-of-specialization/quality-strategy/">Quality Leadership &amp; Strategy</a></h3>
+    <p>Quality operating models, governance frameworks, and risk-based practices that align quality with business outcomes and delivery confidence.</p>
+    <ul>
+      <li>Quality assessments &amp; roadmaps</li>
+      <li>Risk-based test strategy</li>
+      <li>CI/CD quality gates</li>
+      <li>Feedback loop automation</li>
+    </ul>
+    <a href="http://localhost:4000/areas-of-specialization/quality-strategy/" class="eot-spec-link">Explore →</a>
+  </div>
 
-<p>Detailed pages for each area:</p>
+  <div class="eot-spec-card">
+    <div class="eot-spec-num">02</div>
+    <h3><a href="http://localhost:4000/areas-of-specialization/test-automation/">Test Automation &amp; AI Quality</a></h3>
+    <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing — improving reliability across CI/CD pipelines.</p>
+    <ul>
+      <li>Future-ready automation frameworks</li>
+      <li>AI-assisted test generation</li>
+      <li>Visual AI testing</li>
+      <li>Test coverage &amp; ROI measurement</li>
+    </ul>
+    <a href="http://localhost:4000/areas-of-specialization/test-automation/" class="eot-spec-link">Explore →</a>
+  </div>
 
-<ul>
-    
-    <li><a href="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">Trainings and Workshops</a></li>
-    
-    <li><a href="http://localhost:4000/areas-of-specialization/test-automation/">Test Automation</a></li>
-    
-    <li><a href="http://localhost:4000/areas-of-specialization/quality-strategy/">Quality Strategy</a></li>
-    
-</ul>
+  <div class="eot-spec-card">
+    <div class="eot-spec-num">03</div>
+    <h3><a href="http://localhost:4000/areas-of-specialization/">Transformation &amp; Advisory</a></h3>
+    <p>Quality assessments, roadmaps, and contextual implementation — equally effective in short advisory engagements and full transformation programmes.</p>
+    <ul>
+      <li>Current-state assessment</li>
+      <li>Quality operating model design</li>
+      <li>Team structure &amp; capability building</li>
+      <li>Stakeholder alignment</li>
+    </ul>
+    <a href="/contact/" class="eot-spec-link">Get in touch →</a>
+  </div>
+
+  <div class="eot-spec-card">
+    <div class="eot-spec-num">04</div>
+    <h3><a href="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">Training &amp; Enablement</a></h3>
+    <p>Workshops, bootcamps, and enterprise programmes — training hundreds of professionals on modern automation and AI adoption.</p>
+    <ul>
+      <li>7 structured training programmes</li>
+      <li>Custom team workshops</li>
+      <li>AI-powered automation upskilling</li>
+      <li>Quality metrics &amp; strategy for managers</li>
+    </ul>
+    <a href="http://localhost:4000/areas-of-specialization/trainings-and-workshops/" class="eot-spec-link">Explore →</a>
+  </div>
+
+  <div class="eot-spec-card">
+    <div class="eot-spec-num">05</div>
+    <h3><a href="http://localhost:4000/oss/">Framework &amp; Tool Innovation</a></h3>
+    <p>Creator of Teswiz, WAAT, and TTA — open-source tools adopted and trusted by the global testing community.</p>
+    <ul>
+      <li>Teswiz — end-to-end automation framework</li>
+      <li>WAAT — web analytics automation testing</li>
+      <li>TTA — test trend analyzer</li>
+      <li>Selenium &amp; Appium contributor</li>
+    </ul>
+    <a href="http://localhost:4000/oss/" class="eot-spec-link">View tools →</a>
+  </div>
+
+  <div class="eot-spec-card">
+    <div class="eot-spec-num">06</div>
+    <h3><a href="http://localhost:4000/case-studies/">Cross-Functional Improvement</a></h3>
+    <p>Works across product, engineering, and leadership teams to reduce friction and build scalable, sustainable QA and SDET capability.</p>
+    <ul>
+      <li>SDET capability building</li>
+      <li>Process &amp; tooling standardisation</li>
+      <li>Defect leakage reduction</li>
+      <li>Release confidence improvement</li>
+    </ul>
+    <a href="http://localhost:4000/case-studies/" class="eot-spec-link">See case studies →</a>
+  </div>
+
+</div>
+
+<div class="eot-spec-cta">
+  <p>Not sure which area fits your challenge? <a href="/contact/">Get in touch</a> — I'll help you figure it out.</p>
+</div>
+
+<style>
+.eot-spec-intro { max-width: 700px; margin: 0 0 2rem; }
+.eot-spec-intro p { font-size: 1.05rem; color: #4a5e72; }
+
+.eot-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 860px) { .eot-spec-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .eot-spec-grid { grid-template-columns: 1fr; } }
+
+.eot-spec-card {
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-top: 3px solid #2b7fb0;
+  border-radius: 6px;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.eot-spec-card:hover { box-shadow: 0 6px 18px rgba(28,58,92,0.1); transform: translateY(-2px); }
+
+.eot-spec-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fff;
+  background: #1c3a5c;
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 0.6rem;
+}
+
+.eot-spec-card h3 { font-size: 0.975rem; font-weight: 700; margin: 0 0 0.5rem; }
+.eot-spec-card h3 a { color: #2b7fb0 !important; border: none !important; }
+.eot-spec-card p { font-size: 0.85rem; color: #4a5e72; margin: 0 0 0.75rem; line-height: 1.55; }
+.eot-spec-card ul { margin: 0 0 1rem 1rem; padding: 0; }
+.eot-spec-card ul li { font-size: 0.82rem; color: #4a5e72; margin-bottom: 0.2rem; }
+.eot-spec-link { font-size: 0.82rem; font-weight: 700; color: #c8821a !important; border: none !important; margin-top: auto; }
+.eot-spec-link:hover { color: #9e6312 !important; }
+
+.eot-spec-cta {
+  background: #e8f3fa;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
+}
+.eot-spec-cta p { margin: 0; color: #1c3a5c; }
+
+@media (prefers-color-scheme: dark) {
+  .eot-spec-intro p { color: #7aabcc !important; }
+  .eot-spec-card {
+    background: #1e3550 !important;
+    border-color: #243d58 !important;
+    border-top-color: #5ab0dc !important;
+  }
+  .eot-spec-num { background: #243d58 !important; color: #cfe0f0 !important; }
+  .eot-spec-card h3 a { color: #5ab0dc !important; }
+  .eot-spec-card p, .eot-spec-card li { color: #7aabcc !important; }
+  .eot-spec-link { color: #c8821a !important; }
+  .eot-spec-cta { background: rgba(90, 176, 220, 0.1) !important; }
+  .eot-spec-cta p { color: #b5d0e8 !important; }
+}
+</style>
+
 
 		</article>
 	</div><!-- /.medium-12.columns -->

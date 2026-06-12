@@ -107,8 +107,10 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> </a></h1>
-    </li>
+        <h1><a class="nav-logo" href="http://localhost:4000/" title="">
+          <img src="http://localhost:4000/assets/img/logo-verysmall.png" alt="">
+        </a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
@@ -233,7 +235,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Essence Of Testing</a></li>
+              <li><a  href="http://localhost:4000/"><svg class="nav-home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="14" height="14" style="vertical-align:middle;margin-right:5px;position:relative;top:-1px;"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h4a1 1 0 001-1v-3h2v3a1 1 0 001 1h4a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>Essence Of Testing</a></li>
               <li class="divider"></li>
 
             
@@ -253,6 +255,11 @@
                 <a  href="http://localhost:4000/areas-of-specialization/">Areas of Specialization</a>
 
                   <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/areas-of-specialization/">All Areas of Specialization</a></li>
                     
 
                       
@@ -284,41 +291,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4000/oss/">Open Source</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/selenium/">Selenium</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/teswiz/">teswiz</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/atd">Appium Test Distribution</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/waat">WAAT</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/tta/">Test Trend Analyzer</a></li>
-                    
-                  </ul>
-
-              </li>
+              <li><a  href="http://localhost:4000/oss/">Open Source</a></li>
               <li class="divider"></li>
+
+            
             
           
         
@@ -339,17 +315,17 @@
 
                       
 
+                      <li><a  href="http://localhost:4000/content/">All Blogs &amp; Videos</a></li>
+                    
+
+                      
+
                       <li><a  href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a></li>
                     
 
                       
 
                       <li><a  href="https://applitools.com/blog/author/anandbagmar/" target="_blank">Applitools Blog</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/" target="_blank">TestProject Blog</a></li>
                     
 
                       
@@ -413,13 +389,46 @@
   </nav>
 </div><!-- /#navigation -->
 
+<script>
+// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
+// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
+// bubble-phase jQuery handlers) and navigate directly to the parent href.
+// A 'navigating' flag prevents the touchstart+click double-fire.
+(function () {
+  var navigating = false;
+
+  function mobileBreakpoint() {
+    return window.innerWidth <= 768 || ('ontouchstart' in window);
+  }
+
+  function handleNavTap(e) {
+    if (!mobileBreakpoint()) return;
+    var link = e.target.closest('.has-dropdown > a');
+    if (!link) return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (navigating) return;
+    navigating = true;
+    window.location.href = link.getAttribute('href');
+    setTimeout(function () { navigating = false; }, 1000);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('#navigation');
+    if (!nav) return;
+    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
+    nav.addEventListener('click',      handleNavTap, true);
+  });
+}());
+</script>
+
 		
 
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
 			<a id="logo" href="http://localhost:4000/" title=" – ">
-				<img src="http://localhost:4000/assets/img/" alt=" – ">
+				<img src="http://localhost:4000/assets/img/logo-verysmall.png" alt=" – ">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->

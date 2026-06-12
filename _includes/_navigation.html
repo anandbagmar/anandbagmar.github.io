@@ -8,8 +8,10 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="{{ site.url }}{{ site.baseurl }}" class="icon-tree"> {{ site.title }}</a></h1>
-    </li>
+        <h1><a class="nav-logo" href="{{ site.url }}{{ site.baseurl }}/" title="{{ site.title }}">
+          <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
+        </a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
@@ -102,7 +104,7 @@
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
             {% if link.dropdown == nil %}
-              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
+              <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{% if link.url == '/' %}<svg class="nav-home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="14" height="14" style="vertical-align:middle;margin-right:5px;position:relative;top:-1px;"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h4a1 1 0 001-1v-3h2v3a1 1 0 001 1h4a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>{% endif %}{{ link.title | escape }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
@@ -134,3 +136,36 @@
     </section>
   </nav>
 </div><!-- /#navigation -->
+
+<script>
+// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
+// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
+// bubble-phase jQuery handlers) and navigate directly to the parent href.
+// A 'navigating' flag prevents the touchstart+click double-fire.
+(function () {
+  var navigating = false;
+
+  function mobileBreakpoint() {
+    return window.innerWidth <= 768 || ('ontouchstart' in window);
+  }
+
+  function handleNavTap(e) {
+    if (!mobileBreakpoint()) return;
+    var link = e.target.closest('.has-dropdown > a');
+    if (!link) return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (navigating) return;
+    navigating = true;
+    window.location.href = link.getAttribute('href');
+    setTimeout(function () { navigating = false; }, 1000);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('#navigation');
+    if (!nav) return;
+    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
+    nav.addEventListener('click',      handleNavTap, true);
+  });
+}());
+</script>

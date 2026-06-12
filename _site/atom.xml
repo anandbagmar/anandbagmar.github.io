@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title></title>
-	<updated>2026-06-12T10:52:12+05:30</updated>
+	<updated>2026-06-12T12:47:18+05:30</updated>
 
 	<subtitle>India (GMT +0530)</subtitle>
 
@@ -329,10 +329,27 @@
 				</author>
 			
 			<summary>End-2-End framework for Native &amp; Web Automation using Cucumber-jvm, Appium, Selenium WebDriver, Applitools &amp; ReportPortal</summary>
-			<content type="html" xml:base="http://localhost:4000/oss/teswiz/">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot; target=&quot;_blank&quot;&gt;teswiz&lt;/a&gt; - Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps specified using cucumber-jvm&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/znsio/getting-started-with-teswiz&quot; target=&quot;_blank&quot;&gt;getting-started-with-teswiz&lt;/a&gt; - Easy way to start using teswiz&lt;/li&gt;
-&lt;/ul&gt;
+			<content type="html" xml:base="http://localhost:4000/oss/teswiz/">&lt;p&gt;
+  &lt;strong&gt;teswiz&lt;/strong&gt; — Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps using Cucumber-JVM.
+  &amp;nbsp;
+  &lt;a href=&quot;https://www.teswiz.com&quot; target=&quot;_blank&quot; title=&quot;teswiz website&quot; style=&quot;text-decoration:none;&quot;&gt;🌐&lt;/a&gt;
+  &amp;nbsp;
+  &lt;a href=&quot;https://github.com/znsio/teswiz&quot; target=&quot;_blank&quot; title=&quot;teswiz on GitHub&quot; style=&quot;text-decoration:none;&quot;&gt;
+    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;currentColor&quot; style=&quot;vertical-align:middle;position:relative;top:-1px;&quot;&gt;
+      &lt;path d=&quot;M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12&quot; /&gt;
+    &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;getting-started-with-teswiz&lt;/strong&gt; — Easy way to start using teswiz.
+  &amp;nbsp;
+  &lt;a href=&quot;https://github.com/znsio/getting-started-with-teswiz&quot; target=&quot;_blank&quot; title=&quot;getting-started-with-teswiz on GitHub&quot; style=&quot;text-decoration:none;&quot;&gt;
+    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;currentColor&quot; style=&quot;vertical-align:middle;position:relative;top:-1px;&quot;&gt;
+      &lt;path d=&quot;M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12&quot; /&gt;
+    &lt;/svg&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
 </content>
 
 			
@@ -420,79 +437,249 @@
 				</author>
 			
 			<summary>Upskill individuals and teams!</summary>
-			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">&lt;p&gt;Practical, hands-on programmes designed to upskill individuals and teams — from manual testers to automation-ready contributors. All programmes can be tailored to your team’s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">&lt;div class=&quot;eot-tw-section&quot;&gt;
 
-&lt;h2 id=&quot;training-programmes&quot;&gt;Training Programmes&lt;/h2&gt;
+  &lt;p class=&quot;eot-tw-lead&quot;&gt;Practical, hands-on programmes designed to upskill individuals and teams — from manual testers to automation-ready contributors. All programmes can be tailored to your team&apos;s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;#&lt;/th&gt;
-      &lt;th&gt;Programme&lt;/th&gt;
-      &lt;th&gt;What you’ll gain&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Quality Strategy in the AI-Accelerated World&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Boosting Automation with AI&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Apply AI practically to make automation smarter, faster, deterministic and resilient.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Future-Ready Automation Frameworks&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Design scalable, maintainable frameworks that grow with your product and teams.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Quality Metrics in the Age of AI&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Track what truly matters — modern metrics for intelligent, data-driven quality decisions.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Test Automation Coverage &amp;amp; ROI&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Measure what your automation truly covers and the business value it delivers.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;6&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Automation Framework 101&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Learn the fundamentals of building robust automation for web and mobile applications.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;&lt;strong&gt;Visual AI for Test Coverage&lt;/strong&gt;&lt;/td&gt;
-      &lt;td&gt;Expand and accelerate UI test coverage for web and mobile using Visual AI tools.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+  &lt;span class=&quot;eot-eyebrow&quot;&gt;PROGRAMMES&lt;/span&gt;
+  &lt;h2 class=&quot;eot-tw-h2&quot;&gt;Training Programmes&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Custom programmes:&lt;/strong&gt; Workshops and training programmes can be tailored to your team’s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
+  &lt;div class=&quot;eot-tw-grid&quot;&gt;
 
-&lt;h2 id=&quot;case-study-upskilling-50-sdets-with-ai-powered-test-automation&quot;&gt;Case Study: Upskilling 50 SDETs with AI-Powered Test Automation&lt;/h2&gt;
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;01&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Quality Strategy in the AI-Accelerated World&lt;/h3&gt;
+        &lt;p&gt;Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;strong&gt;Domain:&lt;/strong&gt; Gaming  &lt;/td&gt;
-      &lt;td&gt;  &lt;strong&gt;Type:&lt;/strong&gt; Classroom Training  &lt;/td&gt;
-      &lt;td&gt;  &lt;strong&gt;Duration:&lt;/strong&gt; 5 Weeks  &lt;/td&gt;
-      &lt;td&gt;  &lt;strong&gt;Scale:&lt;/strong&gt; 50 SDETs&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;02&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Boosting Automation with AI&lt;/h3&gt;
+        &lt;p&gt;Apply AI practically to make automation smarter, faster, deterministic and resilient.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Upskilled 50 SDETs to leverage AI tools and modern automation technologies&lt;/li&gt;
-  &lt;li&gt;Rigorous classroom-based programme with customised curriculum, AI-assisted automation, daily evaluations, and final projects&lt;/li&gt;
-  &lt;li&gt;Outcome: Transitioned testers from manual to automation-ready roles; multiple participants demonstrated leadership potential in automation&lt;/li&gt;
-&lt;/ul&gt;
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;03&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Future-Ready Automation Frameworks&lt;/h3&gt;
+        &lt;p&gt;Design scalable, maintainable frameworks that grow with your product and teams.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&quot;/contact/&quot;&gt;Get in touch&lt;/a&gt; to discuss a training programme for your team.&lt;/p&gt;
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;04&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Quality Metrics in the Age of AI&lt;/h3&gt;
+        &lt;p&gt;Track what truly matters — modern metrics for intelligent, data-driven quality decisions.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;05&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Test Automation Coverage &amp;amp; ROI&lt;/h3&gt;
+        &lt;p&gt;Measure what your automation truly covers and the business value it delivers.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;06&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Automation Framework 101&lt;/h3&gt;
+        &lt;p&gt;Learn the fundamentals of building robust automation for web and mobile applications.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-tw-card&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;07&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Visual AI for Test Coverage&lt;/h3&gt;
+        &lt;p&gt;Expand and accelerate UI test coverage for web and mobile using Visual AI tools.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-tw-card eot-tw-card--cta&quot;&gt;
+      &lt;div class=&quot;eot-tw-num&quot;&gt;+&lt;/div&gt;
+      &lt;div class=&quot;eot-tw-body&quot;&gt;
+        &lt;h3&gt;Custom Programme&lt;/h3&gt;
+        &lt;p&gt;Workshops and training programmes tailored to your team&apos;s specific requirements, challenges, or technology stack.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;eot-tw-casestudy&quot;&gt;
+    &lt;span class=&quot;eot-eyebrow&quot;&gt;CASE STUDY&lt;/span&gt;
+    &lt;h2 class=&quot;eot-tw-h2&quot;&gt;Upskilling 50 SDETs with AI-Powered Test Automation&lt;/h2&gt;
+    &lt;div class=&quot;eot-tw-meta-row&quot;&gt;
+      &lt;span class=&quot;eot-tw-meta-pill&quot;&gt;🎮 Gaming&lt;/span&gt;
+      &lt;span class=&quot;eot-tw-meta-pill&quot;&gt;🏫 Classroom Training&lt;/span&gt;
+      &lt;span class=&quot;eot-tw-meta-pill&quot;&gt;⏱ 5 Weeks&lt;/span&gt;
+      &lt;span class=&quot;eot-tw-meta-pill&quot;&gt;👥 50 SDETs&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;ul class=&quot;eot-tw-outcomes&quot;&gt;
+      &lt;li&gt;Upskilled 50 SDETs to leverage AI tools and modern automation technologies&lt;/li&gt;
+      &lt;li&gt;Rigorous classroom-based programme with customised curriculum, AI-assisted automation, daily evaluations, and final projects&lt;/li&gt;
+      &lt;li&gt;Transitioned testers from manual to automation-ready roles; multiple participants demonstrated leadership potential in automation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;eot-tw-cta&quot;&gt;
+    &lt;p&gt;Interested in a training programme for your team?&lt;/p&gt;
+    &lt;a href=&quot;/contact/&quot; class=&quot;eot-btn eot-btn--primary&quot;&gt;Get in touch →&lt;/a&gt;
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;style&gt;
+.eot-tw-section { max-width: 900px; margin: 0 auto; }
+
+.eot-tw-lead {
+  font-size: 1rem;
+  color: #4a5e72;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.eot-eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c8821a;
+  margin-bottom: 0.3rem;
+}
+
+.eot-tw-h2 {
+  font-size: 1.4rem;
+  color: #1c3a5c;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dde4ed;
+}
+
+.eot-tw-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 640px) { .eot-tw-grid { grid-template-columns: 1fr; } }
+
+.eot-tw-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-left: 4px solid #2b7fb0;
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.eot-tw-card:hover {
+  box-shadow: 0 4px 14px rgba(28,58,92,0.1);
+  transform: translateY(-2px);
+}
+.eot-tw-card--cta { border-left-color: #c8821a; }
+
+.eot-tw-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #c8821a;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 2rem;
+  padding-top: 2px;
+}
+
+.eot-tw-body h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1c3a5c;
+  margin: 0 0 0.35rem;
+  line-height: 1.35;
+}
+.eot-tw-body p {
+  font-size: 0.83rem;
+  color: #4a5e72;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.eot-tw-casestudy {
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-radius: 8px;
+  padding: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.eot-tw-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 1.1rem;
+}
+.eot-tw-meta-pill {
+  background: #ffffff;
+  border: 1px solid #dde4ed;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1c3a5c;
+}
+
+.eot-tw-outcomes {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.eot-tw-outcomes li {
+  font-size: 0.875rem;
+  color: #4a5e72;
+  line-height: 1.65;
+  margin-bottom: 0.4rem;
+}
+
+.eot-tw-cta {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f0f5fa;
+  border-radius: 8px;
+  border: 1px solid #dde4ed;
+}
+.eot-tw-cta p {
+  font-size: 1rem;
+  color: #1c3a5c;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .eot-tw-lead { color: #7aabcc !important; }
+  .eot-tw-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
+  .eot-tw-card {
+    background: #1e3550 !important;
+    border-color: #243d58 !important;
+    border-left-color: #5ab0dc !important;
+  }
+  .eot-tw-card--cta { border-left-color: #c8821a !important; }
+  .eot-tw-body h3 { color: #b5d0e8 !important; }
+  .eot-tw-body p { color: #7aabcc !important; }
+  .eot-tw-casestudy { background: #182c40 !important; border-color: #243d58 !important; }
+  .eot-tw-meta-pill { background: #1e3550 !important; border-color: #243d58 !important; color: #b5d0e8 !important; }
+  .eot-tw-outcomes li { color: #7aabcc !important; }
+  .eot-tw-cta { background: #182c40 !important; border-color: #243d58 !important; }
+  .eot-tw-cta p { color: #b5d0e8 !important; }
+}
+&lt;/style&gt;
+
 </content>
 
 			

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Essence Of Testing</title>
+	<title>Anand Bagmar – Senior Quality Engineering Leadership</title>
 
     <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css">
 
@@ -36,7 +36,7 @@
 
 
 	<!-- Facebook Open Graph -->
-	<meta property="og:title" content="Essence Of Testing">
+	<meta property="og:title" content="Anand Bagmar – Senior Quality Engineering Leadership">
 	<meta property="og:description" content="India (GMT +0530)">
 	<meta property="og:url" content="http://localhost:4000/index.html">
 	<meta property="og:locale" content="en_EN">
@@ -51,7 +51,7 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="BagmarAnand">
 	<meta name="twitter:creator" content="BagmarAnand">
-	<meta name="twitter:title" content="Essence Of Testing">
+	<meta name="twitter:title" content="Anand Bagmar – Senior Quality Engineering Leadership">
 	<meta name="twitter:description" content="India (GMT +0530)">
 	
 	
@@ -94,15 +94,17 @@
 
 
 </head>
-<body id="top-of-page" class="page-fullwidth">
+<body id="top-of-page" class="homepage">
 	
 	
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> </a></h1>
-    </li>
+        <h1><a class="nav-logo" href="http://localhost:4000/" title="">
+          <img src="http://localhost:4000/assets/img/logo-verysmall.png" alt="">
+        </a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
@@ -227,7 +229,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Essence Of Testing</a></li>
+              <li><a  href="http://localhost:4000/"><svg class="nav-home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="14" height="14" style="vertical-align:middle;margin-right:5px;position:relative;top:-1px;"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h4a1 1 0 001-1v-3h2v3a1 1 0 001 1h4a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>Essence Of Testing</a></li>
               <li class="divider"></li>
 
             
@@ -247,6 +249,11 @@
                 <a  href="http://localhost:4000/areas-of-specialization/">Areas of Specialization</a>
 
                   <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/areas-of-specialization/">All Areas of Specialization</a></li>
                     
 
                       
@@ -278,41 +285,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4000/oss/">Open Source</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/selenium/">Selenium</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/teswiz/">teswiz</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/atd">Appium Test Distribution</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/waat">WAAT</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/tta/">Test Trend Analyzer</a></li>
-                    
-                  </ul>
-
-              </li>
+              <li><a  href="http://localhost:4000/oss/">Open Source</a></li>
               <li class="divider"></li>
+
+            
             
           
         
@@ -333,17 +309,17 @@
 
                       
 
+                      <li><a  href="http://localhost:4000/content/">All Blogs &amp; Videos</a></li>
+                    
+
+                      
+
                       <li><a  href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a></li>
                     
 
                       
 
                       <li><a  href="https://applitools.com/blog/author/anandbagmar/" target="_blank">Applitools Blog</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/" target="_blank">TestProject Blog</a></li>
                     
 
                       
@@ -407,121 +383,342 @@
   </nav>
 </div><!-- /#navigation -->
 
-	
+<script>
+// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
+// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
+// bubble-phase jQuery handlers) and navigate directly to the parent href.
+// A 'navigating' flag prevents the touchstart+click double-fire.
+(function () {
+  var navigating = false;
+
+  function mobileBreakpoint() {
+    return window.innerWidth <= 768 || ('ontouchstart' in window);
+  }
+
+  function handleNavTap(e) {
+    if (!mobileBreakpoint()) return;
+    var link = e.target.closest('.has-dropdown > a');
+    if (!link) return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (navigating) return;
+    navigating = true;
+    window.location.href = link.getAttribute('href');
+    setTimeout(function () { navigating = false; }, 1000);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('#navigation');
+    if (!nav) return;
+    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
+    nav.addEventListener('click',      handleNavTap, true);
+  });
+}());
+</script>
 
 	
 
-<div id="masthead">
-	<div class="row">
-		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000/" title=" – ">
-				<img src="http://localhost:4000/assets/img/" alt=" – ">
-			</a>
-		</div><!-- /.small-12.columns -->
-	</div><!-- /.row -->
-</div><!-- /#masthead -->
-
-
-
-
-
-
-
-
-
-
 	
 
 
-<div class="row t30">
-	<div class="medium-12 columns">
-		<article>
-			<header>
-				
-				<h1>Essence Of Testing</h1>
-			</header>
 
-			
 
-			<!-- Clarity tracking code for https://essenceoftesting.com/ -->
-<script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "9yamorlies");</script>
+	<!-- Clarity tracking code for https://essenceoftesting.com/ -->
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","9yamorlies");</script>
 
-<p>I am <strong>Anand Bagmar</strong> — a <strong>Software Quality Executive, Keynote Speaker, and Test Automation Expert</strong> with <strong>25+ years</strong> of experience leading quality strategy and transformation across complex technology environments.</p>
+<!-- ═══════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════ -->
+<section class="eot-hero">
+  <div class="eot-hero-inner">
+    <div class="eot-hero-text">
+      <span class="eot-eyebrow">ESSENCE OF TESTING</span>
+      <h1 class="eot-hero-name">Anand Bagmar</h1>
+      <p class="eot-hero-role">Senior Quality Engineering Leadership</p>
+      <p class="eot-hero-descriptors">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Software Quality Evangelist &nbsp;·&nbsp; 25+ Years</p>
+      <div class="eot-open-badge">Open to: FTE &nbsp;·&nbsp; Fractional &nbsp;·&nbsp; Consulting &amp; Advisory</div>
+      <div class="eot-hero-ctas">
+        <a href="/contact/" class="eot-btn eot-btn--primary">Get in Touch</a>
+        <a href="/profile/" class="eot-btn eot-btn--outline">View Profile</a>
+        <a href="/case-studies/" class="eot-btn eot-btn--outline">Case Studies</a>
+      </div>
+    </div>
+    <div class="eot-hero-photo">
+      <img src="/assets/img/Anand_profile.jpg" alt="Anand Bagmar – Senior Quality Engineering Leader" />
+    </div>
+  </div>
+  <div class="eot-hero-quote">
+    <p>"Strategic where it matters, practical where it counts — helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both."</p>
+  </div>
+</section>
 
-<p>I am open to senior quality engineering leadership roles — FTE or fractional/interim — as well as consulting and advisory engagements — bringing strategic perspective, technical depth, and hands-on leadership to improve product confidence, release performance, and engineering effectiveness.</p>
+<!-- ═══════════════════════════════════════════════════
+     STATS
+════════════════════════════════════════════════════ -->
+<section class="eot-stats">
+  <div class="eot-stats-inner">
+    <div class="eot-stat">
+      <span class="eot-stat-number">25+</span>
+      <span class="eot-stat-label">Years' Experience</span>
+    </div>
+    <div class="eot-stat">
+      <span class="eot-stat-number">15+</span>
+      <span class="eot-stat-label">Global Clients</span>
+    </div>
+    <div class="eot-stat">
+      <span class="eot-stat-number">100s</span>
+      <span class="eot-stat-label">Professionals Trained</span>
+    </div>
+    <div class="eot-stat">
+      <span class="eot-stat-number">3</span>
+      <span class="eot-stat-label">Open-Source Tools</span>
+    </div>
+  </div>
+</section>
 
-<p>My work spans quality assessments, roadmap definition, automation strategy, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services. A Selenium and Appium contributor and creator of <strong>Teswiz</strong>, <strong>WAAT</strong>, and <strong>TTA</strong> — open-source tools used globally — I am also a regular conference speaker and writer on software quality and AI-driven test automation.</p>
+<!-- ═══════════════════════════════════════════════════
+     ABOUT / SUMMARY
+════════════════════════════════════════════════════ -->
+<section class="eot-section">
+  <div class="eot-section-inner">
+    <div class="eot-about">
+      <div class="eot-about-text">
+        <span class="eot-eyebrow">PROFESSIONAL SUMMARY</span>
+        <h2 class="eot-section-title">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Automation Expert</h2>
+        <p>Anand Bagmar is a software quality executive, keynote speaker, and test automation expert with over 25 years of experience leading quality strategy and transformation across complex technology environments. He is open to senior quality engineering leadership roles — FTE or fractional/interim — as well as consulting and advisory engagements.</p>
+        <p>His work spans quality assessments, roadmap definition, automation strategy, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services. A Selenium and Appium contributor and creator of open-source tools used globally — and a regular conference speaker on software quality and AI-driven test automation.</p>
+        <div class="eot-domains">
+          <strong>Domains:</strong> Telecom &nbsp;·&nbsp; E-Commerce &nbsp;·&nbsp; Gaming &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; Banking &amp; Financial Services &nbsp;·&nbsp; Enterprise Platforms
+        </div>
+      </div>
+      <div class="eot-about-stats-col">
+        <div class="eot-about-stat"><span class="eot-about-stat-num">25+</span><span class="eot-about-stat-lbl">Years of QA Excellence</span></div>
+        <div class="eot-about-stat"><span class="eot-about-stat-num">15+</span><span class="eot-about-stat-lbl">Global Organisations</span></div>
+        <div class="eot-about-stat"><span class="eot-about-stat-num">100s</span><span class="eot-about-stat-lbl">Professionals Trained</span></div>
+        <div class="eot-about-stat"><span class="eot-about-stat-num">3</span><span class="eot-about-stat-lbl">Open-Source Tools</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<blockquote>
-  <p><em>Strategic where it matters, practical where it counts — helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both.</em></p>
-</blockquote>
+<!-- ═══════════════════════════════════════════════════
+     CORE EXPERTISE
+════════════════════════════════════════════════════ -->
+<section class="eot-section eot-section--tint">
+  <div class="eot-section-inner">
+    <div class="eot-section-header">
+      <span class="eot-eyebrow">CORE EXPERTISE</span>
+      <h2 class="eot-section-title">Six pillars of measurable impact</h2>
+    </div>
+    <div class="eot-expertise-grid">
 
-<p><img src="/assets/img/Anand_profile.jpg" alt="Anand Bagmar" /></p>
+      <div class="eot-expertise-card">
+        <div class="eot-expertise-num">01</div>
+        <h3>Quality Leadership &amp; Strategy</h3>
+        <p>Quality operating models, governance frameworks, and risk-based practices that align quality with business outcomes and delivery confidence.</p>
+        <a href="/areas-of-specialization/quality-strategy/">Learn more →</a>
+      </div>
 
-<h2 id="core-expertise">Core Expertise</h2>
+      <div class="eot-expertise-card">
+        <div class="eot-expertise-num">02</div>
+        <h3>Test Automation &amp; AI Quality</h3>
+        <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing — improving reliability across CI/CD pipelines.</p>
+        <a href="/areas-of-specialization/test-automation/">Learn more →</a>
+      </div>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Quality Leadership &amp; Strategy</strong></td>
-      <td>Defines and matures quality operating models, governance frameworks, and risk-based practices aligned with business outcomes.</td>
-    </tr>
-    <tr>
-      <td><strong>Test Automation &amp; AI-Driven Quality</strong></td>
-      <td>Leverages AI to design scalable automation for web, mobile, APIs, desktop, and visual testing across CI/CD pipelines.</td>
-    </tr>
-    <tr>
-      <td><strong>Transformation &amp; Advisory</strong></td>
-      <td>Helps organisations assess current practices, build quality roadmaps, and implement contextual, business-aligned solutions.</td>
-    </tr>
-    <tr>
-      <td><strong>Training, Enablement &amp; Thought Leadership</strong></td>
-      <td>Trained and mentored hundreds of professionals through workshops, bootcamps, and enterprise programmes.</td>
-    </tr>
-    <tr>
-      <td><strong>Framework &amp; Tool Innovation</strong></td>
-      <td>Creator of Teswiz, WAAT, and TTA — trusted by the global testing community.</td>
-    </tr>
-    <tr>
-      <td><strong>Cross-Functional Delivery Improvement</strong></td>
-      <td>Works across product, engineering, and leadership teams to reduce friction and build scalable QA capability.</td>
-    </tr>
-  </tbody>
-</table>
+      <div class="eot-expertise-card">
+        <div class="eot-expertise-num">03</div>
+        <h3>Transformation &amp; Advisory</h3>
+        <p>Quality assessments, roadmaps, and contextual implementation — equally effective in short advisory engagements and full transformation programmes.</p>
+        <a href="/areas-of-specialization/">Learn more →</a>
+      </div>
 
-<h2 id="clients--organisations-include">Clients &amp; Organisations Include</h2>
+      <div class="eot-expertise-card">
+        <div class="eot-expertise-num">04</div>
+        <h3>Training &amp; Enablement</h3>
+        <p>Workshops, bootcamps, and enterprise programmes — training hundreds of professionals on modern automation and AI adoption.</p>
+        <a href="/areas-of-specialization/trainings-and-workshops/">Learn more →</a>
+      </div>
 
-<p>AmberPoint · AmDocs · Applitools · Borland · ChargedUp.green · Microsoft · Myntra · SnapDeal · Specmatic · Srijan · ThoughtWorks · Tieto · Vuclip · WebMD · Xnsio (Games24x7, Jio)</p>
+      <div class="eot-expertise-card">
+        <div class="eot-expertise-num">05</div>
+        <h3>Framework &amp; Tool Innovation</h3>
+        <p>Creator of Teswiz, WAAT, and TTA — open-source tools adopted and trusted by the global testing community.</p>
+        <a href="/oss/">Learn more →</a>
+      </div>
 
-<h2 id="want-to-collaborate">Want to collaborate?</h2>
+      <div class="eot-expertise-card">
+        <div class="eot-expertise-num">06</div>
+        <h3>Cross-Functional Improvement</h3>
+        <p>Works across product, engineering, and leadership teams to reduce friction and build scalable, sustainable QA and SDET capability.</p>
+        <a href="/areas-of-specialization/">Learn more →</a>
+      </div>
 
-<p>You can connect with me via Twitter at <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand</a>, on LinkedIn at <a href="https://www.linkedin.com/in/anandbagmar/" target="_blank">Anand Bagmar</a>, or <a href="/contact/">send me a message</a>.</p>
+    </div>
+  </div>
+</section>
 
-<p>You can also <a href="/profile/">view and share my profile</a> — available as a LinkedIn summary or a detailed Essence of Testing profile.</p>
+<!-- ═══════════════════════════════════════════════════
+     OFFERINGS
+════════════════════════════════════════════════════ -->
+<section class="eot-section">
+  <div class="eot-section-inner">
+    <div class="eot-section-header">
+      <span class="eot-eyebrow">OFFERINGS</span>
+      <h2 class="eot-section-title">How Essence of Testing creates value</h2>
+    </div>
+    <div class="eot-offerings-grid">
+      <div class="eot-offering-card">
+        <div class="eot-offering-num">01</div>
+        <h3>Strategic Consulting</h3>
+        <p>Practical, fit-for-purpose solutions leveraging AI and industry best practices — tailored to your product, team, and business goals.</p>
+      </div>
+      <div class="eot-offering-card">
+        <div class="eot-offering-num">02</div>
+        <h3>AI-Powered Solutions</h3>
+        <p>Adopt innovative AI tools to streamline testing, accelerate automation, reduce flakiness, and improve overall reliability.</p>
+      </div>
+      <div class="eot-offering-card">
+        <div class="eot-offering-num">03</div>
+        <h3>Team Upskilling</h3>
+        <p>Transform manual testers to automation-ready contributors. Deliver better ROI from your automation investment through structured programmes.</p>
+      </div>
+      <div class="eot-offering-card">
+        <div class="eot-offering-num">04</div>
+        <h3>QA Community Engagement</h3>
+        <p>Stay ahead with the latest practices, tools, and thought leadership — connecting with the global quality engineering community.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-<form action="https://formspree.io/f/xpzbwqby" method="POST">
-  <label>
-    Your email:
-    <input type="email" name="_replyto" />
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<!-- ═══════════════════════════════════════════════════
+     CLIENTS
+════════════════════════════════════════════════════ -->
+<section class="eot-section eot-section--tint">
+  <div class="eot-section-inner">
+    <div class="eot-section-header">
+      <span class="eot-eyebrow">CLIENTS &amp; ORGANISATIONS</span>
+      <h2 class="eot-section-title">Trusted by global leaders across industries</h2>
+    </div>
+    <div class="eot-clients-grid">
+      <span class="eot-client">AmberPoint</span>
+      <span class="eot-client">AmDocs</span>
+      <span class="eot-client">Applitools</span>
+      <span class="eot-client">Borland</span>
+      <span class="eot-client">ChargedUp.green</span>
+      <span class="eot-client">Microsoft</span>
+      <span class="eot-client">Myntra</span>
+      <span class="eot-client">SnapDeal</span>
+      <span class="eot-client">Specmatic</span>
+      <span class="eot-client">Srijan</span>
+      <span class="eot-client">ThoughtWorks</span>
+      <span class="eot-client">Tieto</span>
+      <span class="eot-client">Vuclip</span>
+      <span class="eot-client">WebMD</span>
+      <span class="eot-client">Xnsio</span>
+    </div>
+    <p class="eot-domains-footer">
+      Telecom &nbsp;·&nbsp; E-Commerce &nbsp;·&nbsp; Gaming &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; Banking &amp; Financial Services &nbsp;·&nbsp; Enterprise Platforms
+    </p>
+  </div>
+</section>
 
-		</article>
-	</div><!-- /.medium-12.columns -->
-</div><!-- /.row -->
+<!-- ═══════════════════════════════════════════════════
+     CASE STUDIES PREVIEW
+════════════════════════════════════════════════════ -->
+<section class="eot-section">
+  <div class="eot-section-inner">
+    <div class="eot-section-header">
+      <span class="eot-eyebrow">CASE STUDIES</span>
+      <h2 class="eot-section-title">Real engagements. Measurable outcomes.</h2>
+    </div>
+    <div class="eot-cases-preview">
 
+      <div class="eot-case-card">
+        <div class="eot-case-tags">
+          <span class="eot-tag eot-tag--navy">Telecom · eComm · Media</span>
+          <span class="eot-tag eot-tag--amber">4.5 Years · 75+ SDETs</span>
+        </div>
+        <h3>Reliance Jio: Transforming Quality Engineering at Scale</h3>
+        <p>Assessment, strategy, and full implementation across 20+ product teams — automation frameworks, AI visual testing, and a Quality Engineering Competency Centre.</p>
+        <a href="/case-studies/reliance-jio-quality-transformation/" class="eot-btn eot-btn--sm">Read case study →</a>
+      </div>
+
+      <div class="eot-case-card">
+        <div class="eot-case-tags">
+          <span class="eot-tag eot-tag--navy">Gaming</span>
+          <span class="eot-tag eot-tag--amber">5 Weeks · 50 SDETs</span>
+        </div>
+        <h3>Upskilling 50 SDETs with AI-Powered Test Automation</h3>
+        <p>Intensive classroom programme that transitioned manual testers to automation-ready contributors — with AI-assisted automation, daily evaluations, and final projects.</p>
+        <a href="/case-studies/gaming-sdet-upskilling/" class="eot-btn eot-btn--sm">Read case study →</a>
+      </div>
+
+    </div>
+    <div class="eot-section-footer">
+      <a href="/case-studies/" class="eot-btn eot-btn--secondary">View all case studies</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     THOUGHT LEADERSHIP
+════════════════════════════════════════════════════ -->
+<section class="eot-section eot-section--tint">
+  <div class="eot-section-inner">
+    <div class="eot-section-header">
+      <span class="eot-eyebrow">GLOBAL IMPACT &amp; THOUGHT LEADERSHIP</span>
+      <h2 class="eot-section-title">Influencing quality engineering worldwide</h2>
+    </div>
+    <div class="eot-tl-grid">
+      <div class="eot-tl-item">
+        <div class="eot-tl-icon">🎤</div>
+        <div>
+          <strong>Keynote Speaker</strong>
+          <p>Regular speaker at major global testing conferences on quality, AI automation, and the future of QA.</p>
+        </div>
+      </div>
+      <div class="eot-tl-item">
+        <div class="eot-tl-icon">✍️</div>
+        <div>
+          <strong>Published Author</strong>
+          <p>Thought leadership through published articles and community contributions on testing strategy and AI.</p>
+        </div>
+      </div>
+      <div class="eot-tl-item">
+        <div class="eot-tl-icon">⚙️</div>
+        <div>
+          <strong>Open-Source Creator</strong>
+          <p>Selenium and Appium contributor. Creator of Teswiz, WAAT, and TTA — tools trusted by the global QA community.</p>
+        </div>
+      </div>
+    </div>
+    <div class="eot-tl-links">
+      <a href="/content/" class="eot-btn eot-btn--outline-dark">Blogs &amp; Videos</a>
+      <a href="/oss/" class="eot-btn eot-btn--outline-dark">Open-Source Tools</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
+     CTA
+════════════════════════════════════════════════════ -->
+<section class="eot-cta">
+  <div class="eot-cta-inner">
+    <h2>Ready to build quality into your engineering culture?</h2>
+    <p>Whether you need a strategic advisor, a hands-on leader, or a training partner — let's talk.</p>
+    <div class="eot-cta-actions">
+      <a href="/contact/" class="eot-btn eot-btn--primary">Get in Touch</a>
+      <a href="/profile/" class="eot-btn eot-btn--outline">Download Profile</a>
+    </div>
+    <p class="eot-cta-connect">
+      <a href="https://www.linkedin.com/in/anandbagmar/" target="_blank">LinkedIn</a> &nbsp;·&nbsp;
+      <a href="https://twitter.com/BagmarAnand" target="_blank">Twitter</a> &nbsp;·&nbsp;
+      <a href="https://github.com/anandbagmar" target="_blank">GitHub</a>
+    </p>
+  </div>
+</section>
 
 
 
@@ -598,11 +795,6 @@
 <script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
-
-<script>
-    $("#masthead").backstretch("https://anandbagmar.github.io/images/header-bg.jpeg", {fade: 700});
-    $("#masthead-with-text").backstretch("https://anandbagmar.github.io/images/header-bg.jpeg", {fade: 700});
-</script>
 
 
 

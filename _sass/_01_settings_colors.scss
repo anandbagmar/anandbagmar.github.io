@@ -85,14 +85,14 @@ $topbar-link-color-active-hover: #ffffff;
 $topbar-dropdown-label-color: $ci-2;
 $topbar-dropdown-link-bg-hover: $ci-2;
 
-$topbar-link-bg-active: $ci-2; // Active Navigation Link
-$topbar-link-bg-hover: $ci-2;
-$topbar-link-bg-active-hover: $ci-1;
+$topbar-link-bg-active: $ci-1; // Active Navigation Link — navy (white text on navy)
+$topbar-link-bg-hover: $ci-1;
+$topbar-link-bg-active-hover: darken($ci-1, 8%);
 
 
-$topbar-dropdown-bg: $ci-1; // Background Mobile Navigation
-$topbar-dropdown-link-color: #ffffff;
-$topbar-dropdown-link-bg: $ci-2;
+$topbar-dropdown-bg: #ffffff; // Mobile dropdown — white matches light-mode nav bar
+$topbar-dropdown-link-color: $ci-1;
+$topbar-dropdown-link-bg: darken(#ffffff, 6%);
 
 $topbar-menu-link-color-toggled: $ci-2;
 $topbar-menu-icon-color-toggled: $ci-2;

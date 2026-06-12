@@ -101,8 +101,10 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> </a></h1>
-    </li>
+        <h1><a class="nav-logo" href="http://localhost:4000/" title="">
+          <img src="http://localhost:4000/assets/img/logo-verysmall.png" alt="">
+        </a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
@@ -227,7 +229,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Essence Of Testing</a></li>
+              <li><a  href="http://localhost:4000/"><svg class="nav-home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="14" height="14" style="vertical-align:middle;margin-right:5px;position:relative;top:-1px;"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h4a1 1 0 001-1v-3h2v3a1 1 0 001 1h4a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>Essence Of Testing</a></li>
               <li class="divider"></li>
 
             
@@ -247,6 +249,11 @@
                 <a  href="http://localhost:4000/areas-of-specialization/">Areas of Specialization</a>
 
                   <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/areas-of-specialization/">All Areas of Specialization</a></li>
                     
 
                       
@@ -278,41 +285,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4000/oss/">Open Source</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/selenium/">Selenium</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/teswiz/">teswiz</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/atd">Appium Test Distribution</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/waat">WAAT</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/tta/">Test Trend Analyzer</a></li>
-                    
-                  </ul>
-
-              </li>
+              <li><a  href="http://localhost:4000/oss/">Open Source</a></li>
               <li class="divider"></li>
+
+            
             
           
         
@@ -333,17 +309,17 @@
 
                       
 
+                      <li><a  href="http://localhost:4000/content/">All Blogs &amp; Videos</a></li>
+                    
+
+                      
+
                       <li><a  href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a></li>
                     
 
                       
 
                       <li><a  href="https://applitools.com/blog/author/anandbagmar/" target="_blank">Applitools Blog</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/" target="_blank">TestProject Blog</a></li>
                     
 
                       
@@ -407,6 +383,39 @@
   </nav>
 </div><!-- /#navigation -->
 
+<script>
+// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
+// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
+// bubble-phase jQuery handlers) and navigate directly to the parent href.
+// A 'navigating' flag prevents the touchstart+click double-fire.
+(function () {
+  var navigating = false;
+
+  function mobileBreakpoint() {
+    return window.innerWidth <= 768 || ('ontouchstart' in window);
+  }
+
+  function handleNavTap(e) {
+    if (!mobileBreakpoint()) return;
+    var link = e.target.closest('.has-dropdown > a');
+    if (!link) return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (navigating) return;
+    navigating = true;
+    window.location.href = link.getAttribute('href');
+    setTimeout(function () { navigating = false; }, 1000);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('#navigation');
+    if (!nav) return;
+    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
+    nav.addEventListener('click',      handleNavTap, true);
+  });
+}());
+</script>
+
 	
 
 	
@@ -462,79 +471,249 @@
 			</p>
 			
 
-			<p>Practical, hands-on programmes designed to upskill individuals and teams — from manual testers to automation-ready contributors. All programmes can be tailored to your team’s specific requirements, existing challenges, or technology stack.</p>
+			<div class="eot-tw-section">
 
-<h2 id="training-programmes">Training Programmes</h2>
+  <p class="eot-tw-lead">Practical, hands-on programmes designed to upskill individuals and teams — from manual testers to automation-ready contributors. All programmes can be tailored to your team's specific requirements, existing challenges, or technology stack.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Programme</th>
-      <th>What you’ll gain</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td><strong>Quality Strategy in the AI-Accelerated World</strong></td>
-      <td>Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td><strong>Boosting Automation with AI</strong></td>
-      <td>Apply AI practically to make automation smarter, faster, deterministic and resilient.</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td><strong>Future-Ready Automation Frameworks</strong></td>
-      <td>Design scalable, maintainable frameworks that grow with your product and teams.</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td><strong>Quality Metrics in the Age of AI</strong></td>
-      <td>Track what truly matters — modern metrics for intelligent, data-driven quality decisions.</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td><strong>Test Automation Coverage &amp; ROI</strong></td>
-      <td>Measure what your automation truly covers and the business value it delivers.</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td><strong>Automation Framework 101</strong></td>
-      <td>Learn the fundamentals of building robust automation for web and mobile applications.</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td><strong>Visual AI for Test Coverage</strong></td>
-      <td>Expand and accelerate UI test coverage for web and mobile using Visual AI tools.</td>
-    </tr>
-  </tbody>
-</table>
+  <span class="eot-eyebrow">PROGRAMMES</span>
+  <h2 class="eot-tw-h2">Training Programmes</h2>
 
-<p><strong>Custom programmes:</strong> Workshops and training programmes can be tailored to your team’s specific requirements, existing challenges, or technology stack.</p>
+  <div class="eot-tw-grid">
 
-<h2 id="case-study-upskilling-50-sdets-with-ai-powered-test-automation">Case Study: Upskilling 50 SDETs with AI-Powered Test Automation</h2>
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">01</div>
+      <div class="eot-tw-body">
+        <h3>Quality Strategy in the AI-Accelerated World</h3>
+        <p>Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.</p>
+      </div>
+    </div>
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Domain:</strong> Gaming  </td>
-      <td>  <strong>Type:</strong> Classroom Training  </td>
-      <td>  <strong>Duration:</strong> 5 Weeks  </td>
-      <td>  <strong>Scale:</strong> 50 SDETs</td>
-    </tr>
-  </tbody>
-</table>
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">02</div>
+      <div class="eot-tw-body">
+        <h3>Boosting Automation with AI</h3>
+        <p>Apply AI practically to make automation smarter, faster, deterministic and resilient.</p>
+      </div>
+    </div>
 
-<ul>
-  <li>Upskilled 50 SDETs to leverage AI tools and modern automation technologies</li>
-  <li>Rigorous classroom-based programme with customised curriculum, AI-assisted automation, daily evaluations, and final projects</li>
-  <li>Outcome: Transitioned testers from manual to automation-ready roles; multiple participants demonstrated leadership potential in automation</li>
-</ul>
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">03</div>
+      <div class="eot-tw-body">
+        <h3>Future-Ready Automation Frameworks</h3>
+        <p>Design scalable, maintainable frameworks that grow with your product and teams.</p>
+      </div>
+    </div>
 
-<p><a href="/contact/">Get in touch</a> to discuss a training programme for your team.</p>
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">04</div>
+      <div class="eot-tw-body">
+        <h3>Quality Metrics in the Age of AI</h3>
+        <p>Track what truly matters — modern metrics for intelligent, data-driven quality decisions.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">05</div>
+      <div class="eot-tw-body">
+        <h3>Test Automation Coverage &amp; ROI</h3>
+        <p>Measure what your automation truly covers and the business value it delivers.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">06</div>
+      <div class="eot-tw-body">
+        <h3>Automation Framework 101</h3>
+        <p>Learn the fundamentals of building robust automation for web and mobile applications.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">07</div>
+      <div class="eot-tw-body">
+        <h3>Visual AI for Test Coverage</h3>
+        <p>Expand and accelerate UI test coverage for web and mobile using Visual AI tools.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card eot-tw-card--cta">
+      <div class="eot-tw-num">+</div>
+      <div class="eot-tw-body">
+        <h3>Custom Programme</h3>
+        <p>Workshops and training programmes tailored to your team's specific requirements, challenges, or technology stack.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="eot-tw-casestudy">
+    <span class="eot-eyebrow">CASE STUDY</span>
+    <h2 class="eot-tw-h2">Upskilling 50 SDETs with AI-Powered Test Automation</h2>
+    <div class="eot-tw-meta-row">
+      <span class="eot-tw-meta-pill">🎮 Gaming</span>
+      <span class="eot-tw-meta-pill">🏫 Classroom Training</span>
+      <span class="eot-tw-meta-pill">⏱ 5 Weeks</span>
+      <span class="eot-tw-meta-pill">👥 50 SDETs</span>
+    </div>
+    <ul class="eot-tw-outcomes">
+      <li>Upskilled 50 SDETs to leverage AI tools and modern automation technologies</li>
+      <li>Rigorous classroom-based programme with customised curriculum, AI-assisted automation, daily evaluations, and final projects</li>
+      <li>Transitioned testers from manual to automation-ready roles; multiple participants demonstrated leadership potential in automation</li>
+    </ul>
+  </div>
+
+  <div class="eot-tw-cta">
+    <p>Interested in a training programme for your team?</p>
+    <a href="/contact/" class="eot-btn eot-btn--primary">Get in touch →</a>
+  </div>
+
+</div>
+
+<style>
+.eot-tw-section { max-width: 900px; margin: 0 auto; }
+
+.eot-tw-lead {
+  font-size: 1rem;
+  color: #4a5e72;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.eot-eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c8821a;
+  margin-bottom: 0.3rem;
+}
+
+.eot-tw-h2 {
+  font-size: 1.4rem;
+  color: #1c3a5c;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dde4ed;
+}
+
+.eot-tw-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 640px) { .eot-tw-grid { grid-template-columns: 1fr; } }
+
+.eot-tw-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-left: 4px solid #2b7fb0;
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.eot-tw-card:hover {
+  box-shadow: 0 4px 14px rgba(28,58,92,0.1);
+  transform: translateY(-2px);
+}
+.eot-tw-card--cta { border-left-color: #c8821a; }
+
+.eot-tw-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #c8821a;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 2rem;
+  padding-top: 2px;
+}
+
+.eot-tw-body h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1c3a5c;
+  margin: 0 0 0.35rem;
+  line-height: 1.35;
+}
+.eot-tw-body p {
+  font-size: 0.83rem;
+  color: #4a5e72;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.eot-tw-casestudy {
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-radius: 8px;
+  padding: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.eot-tw-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 1.1rem;
+}
+.eot-tw-meta-pill {
+  background: #ffffff;
+  border: 1px solid #dde4ed;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1c3a5c;
+}
+
+.eot-tw-outcomes {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+.eot-tw-outcomes li {
+  font-size: 0.875rem;
+  color: #4a5e72;
+  line-height: 1.65;
+  margin-bottom: 0.4rem;
+}
+
+.eot-tw-cta {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f0f5fa;
+  border-radius: 8px;
+  border: 1px solid #dde4ed;
+}
+.eot-tw-cta p {
+  font-size: 1rem;
+  color: #1c3a5c;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .eot-tw-lead { color: #7aabcc !important; }
+  .eot-tw-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
+  .eot-tw-card {
+    background: #1e3550 !important;
+    border-color: #243d58 !important;
+    border-left-color: #5ab0dc !important;
+  }
+  .eot-tw-card--cta { border-left-color: #c8821a !important; }
+  .eot-tw-body h3 { color: #b5d0e8 !important; }
+  .eot-tw-body p { color: #7aabcc !important; }
+  .eot-tw-casestudy { background: #182c40 !important; border-color: #243d58 !important; }
+  .eot-tw-meta-pill { background: #1e3550 !important; border-color: #243d58 !important; color: #b5d0e8 !important; }
+  .eot-tw-outcomes li { color: #7aabcc !important; }
+  .eot-tw-cta { background: #182c40 !important; border-color: #243d58 !important; }
+  .eot-tw-cta p { color: #b5d0e8 !important; }
+}
+</style>
+
 
 		</article>
 	</div><!-- /.medium-12.columns -->

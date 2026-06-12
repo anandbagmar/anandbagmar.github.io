@@ -26,7 +26,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="References to all my publications and videos.">
+	<meta name="description" content="Articles, conference talks, slides, and videos — exploring quality engineering, test automation, and AI-driven testing.">
 	<meta name="google-site-verification" content="Wry44Qo0i_8rljx3C0jkldholGLLxGEqCwAb2-ZseBE">
 	
 	
@@ -37,7 +37,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Blogs &amp; Videos">
-	<meta property="og:description" content="References to all my publications and videos.">
+	<meta property="og:description" content="Articles, conference talks, slides, and videos — exploring quality engineering, test automation, and AI-driven testing.">
 	<meta property="og:url" content="http://localhost:4000/content/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -52,7 +52,7 @@
 	<meta name="twitter:site" content="BagmarAnand">
 	<meta name="twitter:creator" content="BagmarAnand">
 	<meta name="twitter:title" content="Blogs &amp; Videos">
-	<meta name="twitter:description" content="References to all my publications and videos.">
+	<meta name="twitter:description" content="Articles, conference talks, slides, and videos — exploring quality engineering, test automation, and AI-driven testing.">
 	
 	
 
@@ -94,15 +94,17 @@
 
 
 </head>
-<body id="top-of-page" class="post">
+<body id="top-of-page" class="page-fullwidth">
 	
 	
 <div id="navigation" class="sticky">
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> </a></h1>
-    </li>
+        <h1><a class="nav-logo" href="http://localhost:4000/" title="">
+          <img src="http://localhost:4000/assets/img/logo-verysmall.png" alt="">
+        </a></h1>
+      </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
@@ -227,7 +229,7 @@
 
             
             
-              <li><a  href="http://localhost:4000/">Essence Of Testing</a></li>
+              <li><a  href="http://localhost:4000/"><svg class="nav-home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="14" height="14" style="vertical-align:middle;margin-right:5px;position:relative;top:-1px;"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h4a1 1 0 001-1v-3h2v3a1 1 0 001 1h4a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>Essence Of Testing</a></li>
               <li class="divider"></li>
 
             
@@ -247,6 +249,11 @@
                 <a  href="http://localhost:4000/areas-of-specialization/">Areas of Specialization</a>
 
                   <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/areas-of-specialization/">All Areas of Specialization</a></li>
                     
 
                       
@@ -278,41 +285,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a  href="http://localhost:4000/oss/">Open Source</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/selenium/">Selenium</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/teswiz/">teswiz</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/atd">Appium Test Distribution</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/waat">WAAT</a></li>
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/oss/tta/">Test Trend Analyzer</a></li>
-                    
-                  </ul>
-
-              </li>
+              <li><a  href="http://localhost:4000/oss/">Open Source</a></li>
               <li class="divider"></li>
+
+            
             
           
         
@@ -333,17 +309,17 @@
 
                       
 
+                      <li><a  href="http://localhost:4000/content/">All Blogs &amp; Videos</a></li>
+                    
+
+                      
+
                       <li><a  href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a></li>
                     
 
                       
 
                       <li><a  href="https://applitools.com/blog/author/anandbagmar/" target="_blank">Applitools Blog</a></li>
-                    
-
-                      
-
-                      <li><a  href="https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/" target="_blank">TestProject Blog</a></li>
                     
 
                       
@@ -407,6 +383,39 @@
   </nav>
 </div><!-- /#navigation -->
 
+<script>
+// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
+// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
+// bubble-phase jQuery handlers) and navigate directly to the parent href.
+// A 'navigating' flag prevents the touchstart+click double-fire.
+(function () {
+  var navigating = false;
+
+  function mobileBreakpoint() {
+    return window.innerWidth <= 768 || ('ontouchstart' in window);
+  }
+
+  function handleNavTap(e) {
+    if (!mobileBreakpoint()) return;
+    var link = e.target.closest('.has-dropdown > a');
+    if (!link) return;
+    e.stopImmediatePropagation();
+    e.preventDefault();
+    if (navigating) return;
+    navigating = true;
+    window.location.href = link.getAttribute('href');
+    setTimeout(function () { navigating = false; }, 1000);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var nav = document.querySelector('#navigation');
+    if (!nav) return;
+    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
+    nav.addEventListener('click',      handleNavTap, true);
+  });
+}());
+</script>
+
 	
 
 	
@@ -428,67 +437,254 @@
 
 
 
-	<div class="row t30">
-	<div class="medium-8 columns medium-offset-2 end">
-		<article itemscope itemtype="http://schema.org/Article">
-			<header>
-				
+	
 
-				<div itemprop="name">
-					
-					<h1>Blogs & Videos</h1>
-				</div>
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				<p class="subheadline">Thought leadership through writing, speaking, and open knowledge-sharing</p>
+				<h1>Blogs & Videos</h1>
 			</header>
 
-
 			
-			<p class="teaser" itemprop="description">
-				References to all my publications and videos.
+			<p class="teaser">
+				Articles, conference talks, slides, and videos — exploring quality engineering, test automation, and AI-driven testing.
 			</p>
 			
 
-			<div itemprop="articleSection">
-			<blockquote>
-  <p><a href="https://essenceoftesting.blogspot.com/" target="_blank">Essence of Testing Blog</a></p>
-</blockquote>
+			<div class="eot-content-section">
 
-<blockquote>
-  <p><a href="https://applitools.com/blog/author/anandbagmar/" target="_blank">Applitools Blog</a></p>
-</blockquote>
+  <div class="eot-content-block">
+    <span class="eot-eyebrow-sm">WRITING</span>
+    <h2 class="eot-content-h2">Published Articles &amp; Blogs</h2>
+    <div class="eot-content-grid">
 
-<blockquote>
-  <p><a href="https://blog.testproject.io/author/anand-bagmaressenceoftesting-com/" target="_blank">TestProject Blog</a></p>
-</blockquote>
+      <a href="https://essenceoftesting.blogspot.com/" target="_blank" class="eot-content-card">
+        <div class="eot-content-card-icon">✍️</div>
+        <div>
+          <h3>Essence of Testing Blog</h3>
+          <p>Personal blog covering quality strategy, test automation, AI testing, and engineering practices — written for practitioners and leaders alike.</p>
+          <span class="eot-content-link">Read articles →</span>
+        </div>
+      </a>
 
-<blockquote>
-  <p><a href="https://www.slideshare.net/abagmar/" target="_blank">Slides</a></p>
-</blockquote>
+      <a href="https://applitools.com/blog/author/anandbagmar/" target="_blank" class="eot-content-card">
+        <div class="eot-content-card-icon">👁️</div>
+        <div>
+          <h3>Applitools Blog</h3>
+          <p>Guest author articles on visual AI testing, cross-browser automation, and building reliable test infrastructure at scale.</p>
+          <span class="eot-content-link">Read articles →</span>
+        </div>
+      </a>
 
-<blockquote>
-  <p><a href="https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw" target="_blank">Conference Videos</a></p>
-</blockquote>
+    </div>
+  </div>
 
-<blockquote>
-  <p>Some recent and upcoming talks</p>
-</blockquote>
+  <div class="eot-content-block">
+    <span class="eot-eyebrow-sm">PRESENTATIONS</span>
+    <h2 class="eot-content-h2">Slides &amp; Conference Talks</h2>
+    <div class="eot-content-grid">
 
-<script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/71a1af89-3ba2-4f41-a931-e5255ee6b324/0x1x1a13b1x"></script>
+      <a href="https://www.slideshare.net/abagmar/" target="_blank" class="eot-content-card">
+        <div class="eot-content-card-icon">📊</div>
+        <div>
+          <h3>SlideShare Presentations</h3>
+          <p>Slides from conference talks and workshops on automation strategy, AI-driven testing, quality frameworks, and more.</p>
+          <span class="eot-content-link">View slides →</span>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw" target="_blank" class="eot-content-card">
+        <div class="eot-content-card-icon">🎬</div>
+        <div>
+          <h3>Conference Videos</h3>
+          <p>Recorded keynotes and session recordings from global testing conferences — covering quality leadership, AI, and test automation.</p>
+          <span class="eot-content-link">Watch videos →</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="eot-content-block">
+    <span class="eot-eyebrow-sm">SPEAKING</span>
+    <h2 class="eot-content-h2">Conference Sessions</h2>
+    <p class="eot-content-lead">Conference talks and workshops at global testing events.</p>
+    <div class="eot-sessionize-wrap">
+      <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/71a1af89-3ba2-4f41-a931-e5255ee6b324/0x1x1a13b1x"></script>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.eot-content-section { max-width: 900px; margin: 0 auto; }
+
+.eot-content-block { margin-bottom: 3rem; }
+
+.eot-eyebrow-sm {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c8821a;
+  margin-bottom: 0.4rem;
+}
+
+.eot-content-h2 {
+  font-size: 1.4rem;
+  color: #1c3a5c;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dde4ed;
+}
+
+.eot-content-lead {
+  font-size: 0.95rem;
+  color: #4a5e72;
+  margin-bottom: 1.25rem;
+}
+
+.eot-content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 640px) { .eot-content-grid { grid-template-columns: 1fr; } }
+
+.eot-content-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-left: 4px solid #2b7fb0;
+  border-radius: 6px;
+  padding: 1.25rem;
+  text-decoration: none !important;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.eot-content-card:hover {
+  box-shadow: 0 4px 16px rgba(28,58,92,0.1);
+  transform: translateY(-2px);
+  border-left-color: #c8821a;
+}
+
+.eot-content-card-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.eot-content-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1c3a5c;
+  margin: 0 0 0.4rem;
+}
+
+.eot-content-card p {
+  font-size: 0.85rem;
+  color: #4a5e72;
+  margin: 0 0 0.6rem;
+  line-height: 1.55;
+}
+
+.eot-content-link {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #c8821a;
+}
+
+.eot-sessionize-wrap {
+  overflow-x: auto;
+}
+
+/* Sessionize widget overrides */
+.sz-root { font-family: inherit !important; }
+.sz-caption {
+  display: none !important; /* page already has its own heading */
+}
+.sz-group {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+@media (max-width: 640px) { .sz-group { grid-template-columns: 1fr !important; } }
+
+.sz-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.sz-item__title {
+  display: block !important;
+  background: #f0f5fa !important;
+  border: 1px solid #dde4ed !important;
+  border-left: 4px solid #2b7fb0 !important;
+  border-radius: 6px !important;
+  padding: 0.85rem 1rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  color: #1c3a5c !important;
+  text-decoration: none !important;
+  line-height: 1.45 !important;
+  transition: box-shadow 0.2s, transform 0.15s, border-left-color 0.2s !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+}
+.sz-item__title:hover {
+  box-shadow: 0 4px 12px rgba(28,58,92,0.1) !important;
+  transform: translateY(-1px) !important;
+  border-left-color: #c8821a !important;
+  color: #1c3a5c !important;
+}
+.sz-powered-by {
+  margin-top: 1rem !important;
+  font-size: 0.75rem !important;
+  color: #a0b4c8 !important;
+  text-align: right !important;
+}
+.sz-powered-by a { color: #a0b4c8 !important; font-weight: 600 !important; }
+
+@media (prefers-color-scheme: dark) {
+  .eot-content-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
+  .eot-content-lead { color: #7aabcc !important; }
+  .eot-content-card {
+    background: #1e3550 !important;
+    border-color: #243d58 !important;
+    border-left-color: #5ab0dc !important;
+  }
+  .eot-content-card:hover { border-left-color: #c8821a !important; }
+  .eot-content-card h3 { color: #b5d0e8 !important; }
+  .eot-content-card p { color: #7aabcc !important; }
+  .eot-content-link { color: #c8821a !important; }
+  /* Sessionize dark mode */
+  .sz-item__title {
+    background: #1e3550 !important;
+    border-color: #243d58 !important;
+    border-left-color: #5ab0dc !important;
+    color: #b5d0e8 !important;
+  }
+  .sz-item__title:hover {
+    border-left-color: #c8821a !important;
+    color: #b5d0e8 !important;
+  }
+}
+</style>
 
 
-			</div>
-
-			
-
-			
 		</article>
-	</div><!-- /.medium-8.columns -->
-
-
-	
-
-
-	
+	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
+
+
 
 
 	
