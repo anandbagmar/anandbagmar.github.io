@@ -20,9 +20,9 @@ categories:
 
 ## The Challenge
 
-A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation — but lacked the skills, tooling fluency, and confidence to make that transition without structured support.
+A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation - but lacked the skills, tooling fluency, and confidence to make that transition without structured support.
 
-The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance — in five weeks, without pausing delivery.
+The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance - in five weeks, without pausing delivery.
 
 ---
 
@@ -30,19 +30,19 @@ The goal: upskill all 50 SDETs to actively contribute to the existing test autom
 
 ### Customised Curriculum
 
-The programme was designed around the team's existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic — every module was contextualised to what the engineers would face on day one back at their desks.
+The programme was designed around the team's existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic - every module was contextualised to what the engineers would face on day one back at their desks.
 
 ### AI-Assisted Automation Throughout
 
-AI tools were woven into the curriculum from the start — not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.
+AI tools were woven into the curriculum from the start - not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.
 
 ### Daily Evaluations & Final Projects
 
-Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform — demonstrating real, integrated capability, not just classroom knowledge.
+Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform - demonstrating real, integrated capability, not just classroom knowledge.
 
 ### Technical Mentoring
 
-Instructors provided continuous technical feedback throughout — reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.
+Instructors provided continuous technical feedback throughout - reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.
 
 ---
 
@@ -58,7 +58,7 @@ Instructors provided continuous technical feedback throughout — reviewing code
 
 ---
 
-> *The measure of a training programme isn't what people know at the end — it's what they can do the week after. This cohort came back and shipped.*
+> *The measure of a training programme isn't what people know at the end - it's what they can do the week after. This cohort came back and shipped.*
 
 ---
 

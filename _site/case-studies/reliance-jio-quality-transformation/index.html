@@ -322,34 +322,28 @@
 </div><!-- /#navigation -->
 
 <script>
-// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
-// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
-// bubble-phase jQuery handlers) and navigate directly to the parent href.
-// A 'navigating' flag prevents the touchstart+click double-fire.
+// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
+// our CSS uses to show the dropdown inline). We intercept the second tap on an
+// already-open item and navigate to the parent href instead of letting Foundation
+// toggle it closed.
 (function () {
-  var navigating = false;
-
-  function mobileBreakpoint() {
-    return window.innerWidth <= 768 || ('ontouchstart' in window);
-  }
-
-  function handleNavTap(e) {
-    if (!mobileBreakpoint()) return;
-    var link = e.target.closest('.has-dropdown > a');
-    if (!link) return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
-    if (navigating) return;
-    navigating = true;
-    window.location.href = link.getAttribute('href');
-    setTimeout(function () { navigating = false; }, 1000);
+  function isMobileNav() {
+    return window.innerWidth <= 640;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
-    nav.addEventListener('click',      handleNavTap, true);
+
+    nav.addEventListener('click', function (e) {
+      if (!isMobileNav()) return;
+      // Only act when the dropdown is already open (Foundation has added 'moved')
+      var link = e.target.closest('.has-dropdown.moved > a');
+      if (!link) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.getAttribute('href');
+    }, true); // capture phase: run before Foundation removes 'moved' on second click
   });
 }());
 </script>
@@ -418,7 +412,7 @@
 
 <h2 id="the-challenge">The Challenge</h2>
 
-<p>Reliance Jio operates at massive scale — spanning telecom, retail, e-commerce, and media products across millions of users. As delivery velocity increased and product complexity grew, quality engineering needed to evolve from reactive testing to a structured, scalable capability embedded across 20+ product teams.</p>
+<p>Reliance Jio operates at massive scale - spanning telecom, retail, e-commerce, and media products across millions of users. As delivery velocity increased and product complexity grew, quality engineering needed to evolve from reactive testing to a structured, scalable capability embedded across 20+ product teams.</p>
 
 <hr />
 
@@ -426,24 +420,24 @@
 
 <h3 id="assessment--strategy">Assessment &amp; Strategy</h3>
 
-<p>Reviewed existing practices across teams, identified bottlenecks and redundancies, and created an actionable quality roadmap aligned with business goals. The assessment surfaced the gap between perceived and actual quality — giving leadership a clear, evidence-based starting point.</p>
+<p>Reviewed existing practices across teams, identified bottlenecks and redundancies, and created an actionable quality roadmap aligned with business goals. The assessment surfaced the gap between perceived and actual quality - giving leadership a clear, evidence-based starting point.</p>
 
 <h3 id="automation-frameworks">Automation Frameworks</h3>
 
 <p>Built reusable test automation frameworks covering:</p>
 
 <ul>
-  <li><strong>Web</strong> — cross-browser automation with stable, maintainable architecture</li>
-  <li><strong>Mobile</strong> — Android and iOS native app testing (teswiz-based)</li>
-  <li><strong>Desktop</strong> — Windows application automation</li>
-  <li><strong>APIs</strong> — contract and integration testing</li>
+  <li><strong>Web</strong> - cross-browser automation with stable, maintainable architecture</li>
+  <li><strong>Mobile</strong> - Android and iOS native app testing (teswiz-based)</li>
+  <li><strong>Desktop</strong> - Windows application automation</li>
+  <li><strong>APIs</strong> - contract and integration testing</li>
 </ul>
 
-<p>All frameworks were integrated with <strong>Azure DevOps quality gates</strong> — shifting quality left into the CI/CD pipeline and providing fast, actionable feedback on every build.</p>
+<p>All frameworks were integrated with <strong>Azure DevOps quality gates</strong> - shifting quality left into the CI/CD pipeline and providing fast, actionable feedback on every build.</p>
 
 <h3 id="ai-visual-testing">AI Visual Testing</h3>
 
-<p>Implemented AI-driven visual testing across applicable product surfaces — improving the reliability of visual validations at scale and reducing false positives that had been slowing release confidence.</p>
+<p>Implemented AI-driven visual testing across applicable product surfaces - improving the reliability of visual validations at scale and reducing false positives that had been slowing release confidence.</p>
 
 <h3 id="qecc-establishment">QECC Establishment</h3>
 
@@ -494,7 +488,7 @@
 <hr />
 
 <blockquote>
-  <p><em>A long-term engagement that moved quality from a team-level concern to an organisational capability — embedded in processes, tooling, and people.</em></p>
+  <p><em>A long-term engagement that moved quality from a team-level concern to an organisational capability - embedded in processes, tooling, and people.</em></p>
 </blockquote>
 
 <hr />

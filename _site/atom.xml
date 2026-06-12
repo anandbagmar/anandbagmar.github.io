@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title></title>
-	<updated>2026-06-12T14:38:05+05:30</updated>
+	<updated>2026-06-12T18:30:23+05:30</updated>
 
 	<subtitle>India (GMT +0530)</subtitle>
 
@@ -51,9 +51,9 @@
 
 &lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
 
-&lt;p&gt;A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation — but lacked the skills, tooling fluency, and confidence to make that transition without structured support.&lt;/p&gt;
+&lt;p&gt;A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation - but lacked the skills, tooling fluency, and confidence to make that transition without structured support.&lt;/p&gt;
 
-&lt;p&gt;The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance — in five weeks, without pausing delivery.&lt;/p&gt;
+&lt;p&gt;The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance - in five weeks, without pausing delivery.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -61,19 +61,19 @@
 
 &lt;h3 id=&quot;customised-curriculum&quot;&gt;Customised Curriculum&lt;/h3&gt;
 
-&lt;p&gt;The programme was designed around the team’s existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic — every module was contextualised to what the engineers would face on day one back at their desks.&lt;/p&gt;
+&lt;p&gt;The programme was designed around the team’s existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic - every module was contextualised to what the engineers would face on day one back at their desks.&lt;/p&gt;
 
 &lt;h3 id=&quot;ai-assisted-automation-throughout&quot;&gt;AI-Assisted Automation Throughout&lt;/h3&gt;
 
-&lt;p&gt;AI tools were woven into the curriculum from the start — not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.&lt;/p&gt;
+&lt;p&gt;AI tools were woven into the curriculum from the start - not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.&lt;/p&gt;
 
 &lt;h3 id=&quot;daily-evaluations--final-projects&quot;&gt;Daily Evaluations &amp;amp; Final Projects&lt;/h3&gt;
 
-&lt;p&gt;Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform — demonstrating real, integrated capability, not just classroom knowledge.&lt;/p&gt;
+&lt;p&gt;Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform - demonstrating real, integrated capability, not just classroom knowledge.&lt;/p&gt;
 
 &lt;h3 id=&quot;technical-mentoring&quot;&gt;Technical Mentoring&lt;/h3&gt;
 
-&lt;p&gt;Instructors provided continuous technical feedback throughout — reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.&lt;/p&gt;
+&lt;p&gt;Instructors provided continuous technical feedback throughout - reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -113,7 +113,7 @@
 &lt;hr /&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;The measure of a training programme isn’t what people know at the end — it’s what they can do the week after. This cohort came back and shipped.&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;The measure of a training programme isn’t what people know at the end - it’s what they can do the week after. This cohort came back and shipped.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
@@ -157,7 +157,7 @@
 
 &lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
 
-&lt;p&gt;Reliance Jio operates at massive scale — spanning telecom, retail, e-commerce, and media products across millions of users. As delivery velocity increased and product complexity grew, quality engineering needed to evolve from reactive testing to a structured, scalable capability embedded across 20+ product teams.&lt;/p&gt;
+&lt;p&gt;Reliance Jio operates at massive scale - spanning telecom, retail, e-commerce, and media products across millions of users. As delivery velocity increased and product complexity grew, quality engineering needed to evolve from reactive testing to a structured, scalable capability embedded across 20+ product teams.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -165,24 +165,24 @@
 
 &lt;h3 id=&quot;assessment--strategy&quot;&gt;Assessment &amp;amp; Strategy&lt;/h3&gt;
 
-&lt;p&gt;Reviewed existing practices across teams, identified bottlenecks and redundancies, and created an actionable quality roadmap aligned with business goals. The assessment surfaced the gap between perceived and actual quality — giving leadership a clear, evidence-based starting point.&lt;/p&gt;
+&lt;p&gt;Reviewed existing practices across teams, identified bottlenecks and redundancies, and created an actionable quality roadmap aligned with business goals. The assessment surfaced the gap between perceived and actual quality - giving leadership a clear, evidence-based starting point.&lt;/p&gt;
 
 &lt;h3 id=&quot;automation-frameworks&quot;&gt;Automation Frameworks&lt;/h3&gt;
 
 &lt;p&gt;Built reusable test automation frameworks covering:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Web&lt;/strong&gt; — cross-browser automation with stable, maintainable architecture&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt; — Android and iOS native app testing (teswiz-based)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Desktop&lt;/strong&gt; — Windows application automation&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;APIs&lt;/strong&gt; — contract and integration testing&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web&lt;/strong&gt; - cross-browser automation with stable, maintainable architecture&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt; - Android and iOS native app testing (teswiz-based)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop&lt;/strong&gt; - Windows application automation&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;APIs&lt;/strong&gt; - contract and integration testing&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;All frameworks were integrated with &lt;strong&gt;Azure DevOps quality gates&lt;/strong&gt; — shifting quality left into the CI/CD pipeline and providing fast, actionable feedback on every build.&lt;/p&gt;
+&lt;p&gt;All frameworks were integrated with &lt;strong&gt;Azure DevOps quality gates&lt;/strong&gt; - shifting quality left into the CI/CD pipeline and providing fast, actionable feedback on every build.&lt;/p&gt;
 
 &lt;h3 id=&quot;ai-visual-testing&quot;&gt;AI Visual Testing&lt;/h3&gt;
 
-&lt;p&gt;Implemented AI-driven visual testing across applicable product surfaces — improving the reliability of visual validations at scale and reducing false positives that had been slowing release confidence.&lt;/p&gt;
+&lt;p&gt;Implemented AI-driven visual testing across applicable product surfaces - improving the reliability of visual validations at scale and reducing false positives that had been slowing release confidence.&lt;/p&gt;
 
 &lt;h3 id=&quot;qecc-establishment&quot;&gt;QECC Establishment&lt;/h3&gt;
 
@@ -233,7 +233,7 @@
 &lt;hr /&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;A long-term engagement that moved quality from a team-level concern to an organisational capability — embedded in processes, tooling, and people.&lt;/em&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;em&gt;A long-term engagement that moved quality from a team-level concern to an organisational capability - embedded in processes, tooling, and people.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
@@ -330,7 +330,7 @@
 			
 			<summary>End-2-End framework for Native &amp; Web Automation using Cucumber-jvm, Appium, Selenium WebDriver, Applitools &amp; ReportPortal</summary>
 			<content type="html" xml:base="http://localhost:4000/oss/teswiz/">&lt;p&gt;
-  &lt;strong&gt;teswiz&lt;/strong&gt; — Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps using Cucumber-JVM.
+  &lt;strong&gt;teswiz&lt;/strong&gt; - Implement automated tests for Android &amp;amp; iOS apps, Web, and Windows desktop apps using Cucumber-JVM.
   &amp;nbsp;
   &lt;a href=&quot;https://www.teswiz.com&quot; target=&quot;_blank&quot; title=&quot;teswiz website&quot; style=&quot;text-decoration:none;&quot;&gt;🌐&lt;/a&gt;
   &amp;nbsp;
@@ -342,7 +342,7 @@
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;strong&gt;getting-started-with-teswiz&lt;/strong&gt; — Easy way to start using teswiz.
+  &lt;strong&gt;getting-started-with-teswiz&lt;/strong&gt; - Easy way to start using teswiz.
   &amp;nbsp;
   &lt;a href=&quot;https://github.com/znsio/getting-started-with-teswiz&quot; target=&quot;_blank&quot; title=&quot;getting-started-with-teswiz on GitHub&quot; style=&quot;text-decoration:none;&quot;&gt;
     &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;18&quot; height=&quot;18&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;currentColor&quot; style=&quot;vertical-align:middle;position:relative;top:-1px;&quot;&gt;
@@ -439,7 +439,7 @@
 			<summary>Quality assessments, roadmaps, and contextual implementation</summary>
 			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/transformation-and-advisory/">&lt;div class=&quot;eot-ta-section&quot;&gt;
 
-  &lt;p class=&quot;eot-ta-lead&quot;&gt;Quality transformation is not a one-size-fits-all exercise. Organisations differ in maturity, culture, team structure, and delivery context. I work with leadership and engineering teams to assess where they are, define where they need to be, and build a practical path to get there — whether that means a focused advisory engagement, a full transformation programme, or targeted training and upskilling for the team doing the work.&lt;/p&gt;
+  &lt;p class=&quot;eot-ta-lead&quot;&gt;Quality transformation is not a one-size-fits-all exercise. Organisations differ in maturity, culture, team structure, and delivery context. I work with leadership and engineering teams to assess where they are, define where they need to be, and build a practical path to get there - whether that means a focused advisory engagement, a full transformation programme, or targeted training and upskilling for the team doing the work.&lt;/p&gt;
 
   &lt;span class=&quot;eot-eyebrow&quot;&gt;WHAT THIS LOOKS LIKE&lt;/span&gt;
   &lt;h2 class=&quot;eot-ta-h2&quot;&gt;In Practice&lt;/h2&gt;
@@ -450,7 +450,7 @@
       &lt;div class=&quot;eot-ta-icon&quot;&gt;&amp;#9680;&lt;/div&gt;
       &lt;div class=&quot;eot-ta-body&quot;&gt;
         &lt;h3&gt;Current-State Assessment&lt;/h3&gt;
-        &lt;p&gt;A structured review of your quality practices, tooling, team capability, and delivery pipeline. Surfaces the gap between perceived and actual quality — and identifies the highest-leverage areas for improvement.&lt;/p&gt;
+        &lt;p&gt;A structured review of your quality practices, tooling, team capability, and delivery pipeline. Surfaces the gap between perceived and actual quality - and identifies the highest-leverage areas for improvement.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -466,7 +466,7 @@
       &lt;div class=&quot;eot-ta-icon&quot;&gt;&amp;#9650;&lt;/div&gt;
       &lt;div class=&quot;eot-ta-body&quot;&gt;
         &lt;h3&gt;Transformation Roadmap&lt;/h3&gt;
-        &lt;p&gt;A pragmatic, prioritised plan to move from current state to target state — phased to deliver early wins while building towards sustainable capability. Contextual to your product, team, and technology.&lt;/p&gt;
+        &lt;p&gt;A pragmatic, prioritised plan to move from current state to target state - phased to deliver early wins while building towards sustainable capability. Contextual to your product, team, and technology.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -474,7 +474,7 @@
       &lt;div class=&quot;eot-ta-icon&quot;&gt;&amp;#9670;&lt;/div&gt;
       &lt;div class=&quot;eot-ta-body&quot;&gt;
         &lt;h3&gt;Team Structure &amp;amp; Capability Building&lt;/h3&gt;
-        &lt;p&gt;Advice on team composition, role definitions, and career pathways for QA and SDET functions. Identifies skill gaps and defines the upskilling path — from manual testers to automation-ready contributors, and from individual contributors to leads.&lt;/p&gt;
+        &lt;p&gt;Advice on team composition, role definitions, and career pathways for QA and SDET functions. Identifies skill gaps and defines the upskilling path - from manual testers to automation-ready contributors, and from individual contributors to leads.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -482,7 +482,7 @@
       &lt;div class=&quot;eot-ta-icon&quot;&gt;&amp;#9733;&lt;/div&gt;
       &lt;div class=&quot;eot-ta-body&quot;&gt;
         &lt;h3&gt;Training &amp;amp; Upskilling&lt;/h3&gt;
-        &lt;p&gt;Hands-on training programmes to build the skills the team needs to execute the transformation — covering automation fundamentals, AI-assisted testing, quality strategy for managers, and more. Delivered as structured bootcamps, workshops, or embedded coaching. &lt;a href=&quot;/areas-of-specialization/trainings-and-workshops/&quot;&gt;View all training programmes →&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;Hands-on training programmes to build the skills the team needs to execute the transformation - covering automation fundamentals, AI-assisted testing, quality strategy for managers, and more. Delivered as structured bootcamps, workshops, or embedded coaching. &lt;a href=&quot;/areas-of-specialization/trainings-and-workshops/&quot;&gt;View all training programmes →&lt;/a&gt;&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -498,7 +498,7 @@
       &lt;div class=&quot;eot-ta-icon&quot;&gt;&amp;#9658;&lt;/div&gt;
       &lt;div class=&quot;eot-ta-body&quot;&gt;
         &lt;h3&gt;Contextual Implementation Support&lt;/h3&gt;
-        &lt;p&gt;Hands-on involvement in rolling out the roadmap — from embedding quality gates in CI/CD to coaching teams, reviewing frameworks, and tracking progress against defined quality signals.&lt;/p&gt;
+        &lt;p&gt;Hands-on involvement in rolling out the roadmap - from embedding quality gates in CI/CD to coaching teams, reviewing frameworks, and tracking progress against defined quality signals.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -511,17 +511,17 @@
 
     &lt;div class=&quot;eot-ta-model&quot;&gt;
       &lt;h3&gt;Advisory Engagement&lt;/h3&gt;
-      &lt;p&gt;Short-term, focused engagements — typically a few days to a few weeks. Ideal for organisations that need an expert perspective on a specific challenge: a quality assessment, a test strategy review, a roadmap workshop, or a second opinion before a major delivery decision.&lt;/p&gt;
+      &lt;p&gt;Short-term, focused engagements - typically a few days to a few weeks. Ideal for organisations that need an expert perspective on a specific challenge: a quality assessment, a test strategy review, a roadmap workshop, or a second opinion before a major delivery decision.&lt;/p&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;eot-ta-model eot-ta-model--accent&quot;&gt;
       &lt;h3&gt;Transformation Programme&lt;/h3&gt;
-      &lt;p&gt;Longer-term engagements that span weeks to months. Covers the full arc from assessment through roadmap design to implementation support. Suited to organisations undergoing significant change — scaling engineering teams, adopting AI-assisted delivery, or rebuilding quality capability after a period of technical debt accumulation.&lt;/p&gt;
+      &lt;p&gt;Longer-term engagements that span weeks to months. Covers the full arc from assessment through roadmap design to implementation support. Suited to organisations undergoing significant change - scaling engineering teams, adopting AI-assisted delivery, or rebuilding quality capability after a period of technical debt accumulation.&lt;/p&gt;
     &lt;/div&gt;
 
     &lt;div class=&quot;eot-ta-model eot-ta-model--training&quot;&gt;
       &lt;h3&gt;Training &amp;amp; Upskilling Programme&lt;/h3&gt;
-      &lt;p&gt;Structured training delivered to individuals or teams — as standalone programmes or embedded within a broader transformation. Formats include bootcamps, classroom sessions, online workshops, and ongoing coaching. Topics range from automation fundamentals and AI-assisted testing to quality strategy for managers and SDET capability building. Programmes are tailored to your team&apos;s existing skills, tools, and delivery context.&lt;/p&gt;
+      &lt;p&gt;Structured training delivered to individuals or teams - as standalone programmes or embedded within a broader transformation. Formats include bootcamps, classroom sessions, online workshops, and ongoing coaching. Topics range from automation fundamentals and AI-assisted testing to quality strategy for managers and SDET capability building. Programmes are tailored to your team&apos;s existing skills, tools, and delivery context.&lt;/p&gt;
       &lt;p style=&quot;margin-top:0.75rem&quot;&gt;&lt;a href=&quot;/areas-of-specialization/trainings-and-workshops/&quot;&gt;See all training programmes →&lt;/a&gt;&lt;/p&gt;
     &lt;/div&gt;
 
@@ -533,12 +533,12 @@
   &lt;div class=&quot;eot-ta-insight&quot;&gt;
     &lt;p&gt;I have led quality transformations and upskilling programmes across a wide range of industries and organisational contexts:&lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Telecom&lt;/strong&gt; — large-scale SDLC transformation with distributed QA teams; quality operating model redesign&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;E-commerce&lt;/strong&gt; — automation strategy, test coverage improvement, and team upskilling at speed&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Gaming&lt;/strong&gt; — upskilled 50 SDETs through a 5-week AI-powered automation bootcamp; transitioned manual testers to automation-ready roles&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;SaaS&lt;/strong&gt; — quality operating model design, CI/CD quality gate integration, and manager-level quality strategy workshops&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Banking &amp;amp; Financial Services&lt;/strong&gt; — risk-based test strategy and compliance-aware quality frameworks&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Enterprise Platforms&lt;/strong&gt; — cross-functional quality ownership, defect leakage reduction, and SDET capability building&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Telecom&lt;/strong&gt; - large-scale SDLC transformation with distributed QA teams; quality operating model redesign&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;E-commerce&lt;/strong&gt; - automation strategy, test coverage improvement, and team upskilling at speed&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Gaming&lt;/strong&gt; - upskilled 50 SDETs through a 5-week AI-powered automation bootcamp; transitioned manual testers to automation-ready roles&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;SaaS&lt;/strong&gt; - quality operating model design, CI/CD quality gate integration, and manager-level quality strategy workshops&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Banking &amp;amp; Financial Services&lt;/strong&gt; - risk-based test strategy and compliance-aware quality frameworks&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Enterprise Platforms&lt;/strong&gt; - cross-functional quality ownership, defect leakage reduction, and SDET capability building&lt;/li&gt;
     &lt;/ul&gt;
     &lt;p&gt;Engagements have ranged from targeted advisory work with leadership teams to full embedded transformation programmes and large-scale upskilling initiatives spanning multiple quarters.&lt;/p&gt;
   &lt;/div&gt;
@@ -549,84 +549,13 @@
   &lt;/div&gt;
 
   &lt;blockquote class=&quot;eot-ta-testimonial&quot;&gt;
-    &lt;em&gt;I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms — delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.&lt;/em&gt;
+    &lt;em&gt;I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms - delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.&lt;/em&gt;
   &lt;/blockquote&gt;
 
 &lt;/div&gt;
 
 &lt;style&gt;
 .eot-ta-section { max-width: 900px; margin: 0 auto; }
-
-.eot-ta-lead {
-  font-size: 1rem;
-  color: #4a5e72;
-  line-height: 1.75;
-  margin-bottom: 2rem;
-}
-
-.eot-eyebrow {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #c8821a;
-  margin-bottom: 0.3rem;
-}
-
-.eot-ta-h2 {
-  font-size: 1.4rem;
-  color: #1c3a5c;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #dde4ed;
-}
-
-.eot-ta-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-}
-@media (max-width: 640px) { .eot-ta-grid { grid-template-columns: 1fr; } }
-
-.eot-ta-card {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
-  border-left: 4px solid #2b7fb0;
-  border-radius: 6px;
-  padding: 1.1rem 1.2rem;
-  transition: box-shadow 0.2s, transform 0.15s;
-}
-.eot-ta-card:hover {
-  box-shadow: 0 4px 14px rgba(28,58,92,0.1);
-  transform: translateY(-2px);
-}
-
-.eot-ta-icon {
-  font-size: 1.1rem;
-  color: #c8821a;
-  flex-shrink: 0;
-  min-width: 1.5rem;
-  padding-top: 2px;
-}
-
-.eot-ta-body h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1c3a5c;
-  margin: 0 0 0.35rem;
-  line-height: 1.35;
-}
-.eot-ta-body p {
-  font-size: 0.83rem;
-  color: #4a5e72;
-  margin: 0;
-  line-height: 1.55;
-}
 
 .eot-ta-models {
   display: grid;
@@ -722,11 +651,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .eot-ta-lead { color: #7aabcc !important; }
-  .eot-ta-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
-  .eot-ta-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; }
-  .eot-ta-body h3 { color: #b5d0e8 !important; }
-  .eot-ta-body p { color: #7aabcc !important; }
   .eot-ta-model { background: #1e3550 !important; border-color: #243d58 !important; border-top-color: #5ab0dc !important; }
   .eot-ta-model--accent { border-top-color: #c8821a !important; }
   .eot-ta-model h3 { color: #b5d0e8 !important; }
@@ -769,7 +693,7 @@
 			<summary>Upskill individuals and teams!</summary>
 			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">&lt;div class=&quot;eot-tw-section&quot;&gt;
 
-  &lt;p class=&quot;eot-tw-lead&quot;&gt;Practical, hands-on programmes designed to upskill individuals and teams — from manual testers to automation-ready contributors. All programmes can be tailored to your team&apos;s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
+  &lt;p class=&quot;eot-tw-lead&quot;&gt;Practical, hands-on programmes designed to upskill individuals and teams - from manual testers to automation-ready contributors. All programmes can be tailored to your team&apos;s specific requirements, existing challenges, or technology stack.&lt;/p&gt;
 
   &lt;span class=&quot;eot-eyebrow&quot;&gt;PROGRAMMES&lt;/span&gt;
   &lt;h2 class=&quot;eot-tw-h2&quot;&gt;Training Programmes&lt;/h2&gt;
@@ -780,7 +704,7 @@
       &lt;div class=&quot;eot-tw-num&quot;&gt;01&lt;/div&gt;
       &lt;div class=&quot;eot-tw-body&quot;&gt;
         &lt;h3&gt;Quality Strategy in the AI-Accelerated World&lt;/h3&gt;
-        &lt;p&gt;Half-day or full-day workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported. Covers quality risk identification, delivery bottleneck visualisation, quality signals, and co-creating a high-level quality strategy — using a real-world case study.&lt;/p&gt;
+        &lt;p&gt;Half-day or full-day workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported. Covers quality risk identification, delivery bottleneck visualisation, quality signals, and co-creating a high-level quality strategy - using a real-world case study.&lt;/p&gt;
         &lt;p style=&quot;margin-top:0.4rem&quot;&gt;&lt;a href=&quot;/areas-of-specialization/quality-strategy/&quot; style=&quot;font-size:0.8rem;color:#2b7fb0;font-weight:600;&quot;&gt;View full workshop details →&lt;/a&gt;&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -805,7 +729,7 @@
       &lt;div class=&quot;eot-tw-num&quot;&gt;04&lt;/div&gt;
       &lt;div class=&quot;eot-tw-body&quot;&gt;
         &lt;h3&gt;Quality Metrics in the Age of AI&lt;/h3&gt;
-        &lt;p&gt;Track what truly matters — modern metrics for intelligent, data-driven quality decisions.&lt;/p&gt;
+        &lt;p&gt;Track what truly matters - modern metrics for intelligent, data-driven quality decisions.&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -869,80 +793,6 @@
 &lt;style&gt;
 .eot-tw-section { max-width: 900px; margin: 0 auto; }
 
-.eot-tw-lead {
-  font-size: 1rem;
-  color: #4a5e72;
-  line-height: 1.75;
-  margin-bottom: 2rem;
-}
-
-.eot-eyebrow {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #c8821a;
-  margin-bottom: 0.3rem;
-}
-
-.eot-tw-h2 {
-  font-size: 1.4rem;
-  color: #1c3a5c;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #dde4ed;
-}
-
-.eot-tw-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-}
-@media (max-width: 640px) { .eot-tw-grid { grid-template-columns: 1fr; } }
-
-.eot-tw-card {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
-  border-left: 4px solid #2b7fb0;
-  border-radius: 6px;
-  padding: 1.1rem 1.2rem;
-  transition: box-shadow 0.2s, transform 0.15s;
-}
-.eot-tw-card:hover {
-  box-shadow: 0 4px 14px rgba(28,58,92,0.1);
-  transform: translateY(-2px);
-}
-.eot-tw-card--cta { border-left-color: #c8821a; }
-
-.eot-tw-num {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: #c8821a;
-  line-height: 1;
-  flex-shrink: 0;
-  min-width: 2rem;
-  padding-top: 2px;
-}
-
-.eot-tw-body h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1c3a5c;
-  margin: 0 0 0.35rem;
-  line-height: 1.35;
-}
-.eot-tw-body p {
-  font-size: 0.83rem;
-  color: #4a5e72;
-  margin: 0;
-  line-height: 1.55;
-}
-
 .eot-tw-casestudy {
   background: #f0f5fa;
   border: 1px solid #dde4ed;
@@ -993,16 +843,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .eot-tw-lead { color: #7aabcc !important; }
-  .eot-tw-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
-  .eot-tw-card {
-    background: #1e3550 !important;
-    border-color: #243d58 !important;
-    border-left-color: #5ab0dc !important;
-  }
-  .eot-tw-card--cta { border-left-color: #c8821a !important; }
-  .eot-tw-body h3 { color: #b5d0e8 !important; }
-  .eot-tw-body p { color: #7aabcc !important; }
   .eot-tw-casestudy { background: #182c40 !important; border-color: #243d58 !important; }
   .eot-tw-meta-pill { background: #1e3550 !important; border-color: #243d58 !important; color: #b5d0e8 !important; }
   .eot-tw-outcomes li { color: #7aabcc !important; }
@@ -1038,28 +878,28 @@
 				</author>
 			
 			<summary>Implementing Test Automation is easy! However, implementing Maintainable, Scalable and Efficient Test Automation needs a lot of effort!</summary>
-			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/test-automation/">&lt;p&gt;Starting a test automation framework is straightforward. Keeping it scalable, maintainable, and reliable as your product and team grow — that is where most organisations struggle.&lt;/p&gt;
+			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/test-automation/">&lt;p&gt;Starting a test automation framework is straightforward. Keeping it scalable, maintainable, and reliable as your product and team grow - that is where most organisations struggle.&lt;/p&gt;
 
-&lt;p&gt;I leverage AI and industry best practices to design automation solutions that are fast, deterministic, and built to last — across web, mobile (Android &amp;amp; iOS), APIs, desktop, and visual testing.&lt;/p&gt;
+&lt;p&gt;I leverage AI and industry best practices to design automation solutions that are fast, deterministic, and built to last - across web, mobile (Android &amp;amp; iOS), APIs, desktop, and visual testing.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-i-help-teams-build&quot;&gt;What I help teams build&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;AI-Driven Automation Strategy&lt;/strong&gt; — Apply AI practically to make automation smarter, faster, and more resilient. Reduce flakiness, accelerate coverage, and improve feedback cycle times across CI/CD pipelines.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI-Driven Automation Strategy&lt;/strong&gt; - Apply AI practically to make automation smarter, faster, and more resilient. Reduce flakiness, accelerate coverage, and improve feedback cycle times across CI/CD pipelines.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Future-Ready Automation Frameworks&lt;/strong&gt; — Design scalable, maintainable frameworks that grow with your product and team. Based on your context, I identify the right automation pyramid and help you build it right from the start.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Future-Ready Automation Frameworks&lt;/strong&gt; - Design scalable, maintainable frameworks that grow with your product and team. Based on your context, I identify the right automation pyramid and help you build it right from the start.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Visual AI Testing&lt;/strong&gt; — Expand and accelerate UI test coverage for web and mobile using Visual AI tools — catching visual regressions that traditional assertions miss.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Visual AI Testing&lt;/strong&gt; - Expand and accelerate UI test coverage for web and mobile using Visual AI tools - catching visual regressions that traditional assertions miss.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Test Automation Coverage &amp;amp; ROI&lt;/strong&gt; — Measure what your automation truly covers and the business value it delivers. Move beyond vanity metrics to data-informed quality decisions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Test Automation Coverage &amp;amp; ROI&lt;/strong&gt; - Measure what your automation truly covers and the business value it delivers. Move beyond vanity metrics to data-informed quality decisions.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;CI/CD Native Integration&lt;/strong&gt; — Automation built for real-world pipeline integration — not just local runs. Fast feedback, reliable gates, and actionable reporting at every stage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CI/CD Native Integration&lt;/strong&gt; - Automation built for real-world pipeline integration - not just local runs. Fast feedback, reliable gates, and actionable reporting at every stage.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/TestPyramid.png&quot; alt=&quot;Test Pyramid&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/e2e-FrameworkArchitecture.jpg&quot; alt=&quot;Test Automation Framework Architecture&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;My open-source framework &lt;strong&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot;&gt;teswiz&lt;/a&gt;&lt;/strong&gt; is used globally and supports web, mobile, API, and desktop automation out of the box — with CI/CD integration built in.&lt;/p&gt;
+  &lt;p&gt;My open-source framework &lt;strong&gt;&lt;a href=&quot;https://github.com/znsio/teswiz&quot;&gt;teswiz&lt;/a&gt;&lt;/strong&gt; is used globally and supports web, mobile, API, and desktop automation out of the box - with CI/CD integration built in.&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
 

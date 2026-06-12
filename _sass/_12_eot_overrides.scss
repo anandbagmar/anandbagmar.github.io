@@ -2,57 +2,80 @@
 /* Essence of Testing – brand overrides & homepage components */
 
 // ─── Design tokens ───────────────────────────────────────────
-$navy:        #1c3a5c;
-$navy-dark:   #122640;
-$blue:        #2b7fb0;
-$blue-light:  #e8f3fa;
-$amber:       #c8821a;
+$navy: #1c3a5c;
+$navy-dark: #122640;
+$blue: #2b7fb0;
+$blue-light: #e8f3fa;
+$amber: #c8821a;
 $amber-light: #fdf3e3;
-$text:        #1a2332;
-$text-light:  #4a5e72;
-$border:      #dde4ed;
-$bg-tint:     #f0f5fa;
-$white:       #ffffff;
-
+$text: #1a2332;
+$text-light: #4a5e72;
+$border: #dde4ed;
+$bg-tint: #f0f5fa;
+$white: #ffffff;
 
 // ─── Global resets ───────────────────────────────────────────
 
 body {
-  font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #f7f9fc;
 }
 
-p { line-height: 1.75; color: $text-light; }
-p strong { color: $text; }
+p {
+  line-height: 1.75;
+  color: $text-light;
+}
+p strong {
+  color: $text;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $navy;
   letter-spacing: -0.02em;
   line-height: 1.3;
 }
 
-a, a:link   { color: $blue; transition: color 0.2s; }
-a:hover     { color: $navy; }
+a,
+a:link {
+  color: $blue;
+  transition: color 0.2s;
+}
+a:hover {
+  color: $navy;
+}
 
-p a, article a {
+p a,
+article a {
   color: $blue;
   font-weight: 600;
   border-bottom: 1px dotted rgba($blue, 0.4);
 }
-p a:hover, article a:hover {
+p a:hover,
+article a:hover {
   color: $navy;
   border-bottom-color: $navy;
 }
-p a.button, .button, .button:hover { border: 0; color: $white; }
-
+p a.button,
+.button,
+.button:hover {
+  border: 0;
+  color: $white;
+}
 
 // ─── Navigation ──────────────────────────────────────────────
 
 #navigation {
   border-bottom: 3px solid $amber;
-  box-shadow: 0 2px 8px rgba($navy, 0.10);
+  box-shadow: 0 2px 8px rgba($navy, 0.1);
   background: $white;
 }
 
@@ -75,20 +98,23 @@ p a.button, .button, .button:hover { border: 0; color: $white; }
   letter-spacing: 0.04em;
   color: $navy;
 }
-// Active nav item gets navy bg — must have white text so it's readable in light mode
+// Active nav item gets navy bg - must have white text so it's readable in light mode
 .top-bar-section li.active:not(.has-form) > a:not(.button) {
   color: $white !important;
 }
 
-
 // ─── Masthead (inner pages) ───────────────────────────────────
 
-#masthead, #masthead-with-pattern, #masthead-no-image-header {
+#masthead,
+#masthead-with-pattern,
+#masthead-no-image-header {
   background-color: $navy;
 }
 #masthead .row .masthead-caption,
-#masthead h1, #masthead p { color: $white; }
-
+#masthead h1,
+#masthead p {
+  color: $white;
+}
 
 // ─── Inner-page article header ───────────────────────────────
 
@@ -107,7 +133,10 @@ blockquote {
   border-radius: 0 4px 4px 0;
   font-style: italic;
   color: $text;
-  &::before, &::after { content: none; }
+  &::before,
+  &::after {
+    content: none;
+  }
 }
 
 table {
@@ -115,34 +144,57 @@ table {
   overflow: hidden;
   box-shadow: 0 1px 4px rgba($navy, 0.08);
 }
-thead tr            { background-color: $navy !important; }
-thead tr th         { color: $white !important; font-weight: 600; padding: 0.7rem 1rem; }
-tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
+thead tr {
+  background-color: $navy !important;
+}
+thead tr th {
+  color: $white !important;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+}
+tbody tr:nth-child(even) {
+  background-color: rgba($blue, 0.05) !important;
+}
 
-.button, button, input[type="submit"] {
+.button,
+button,
+input[type="submit"] {
   background-color: $navy;
   border-radius: 4px;
   font-weight: 600;
-  &:hover, &:focus { background-color: $blue; }
+  &:hover,
+  &:focus {
+    background-color: $blue;
+  }
 }
-
 
 // ─── Footer ──────────────────────────────────────────────────
 
 #footer-content {
   background: $navy !important;
-  h5 { color: #e8f0f7; }
-  p  { color: #a0b4c8; }
-  a  { color: $amber; }
-  a:hover { color: lighten($amber, 15%); }
+  h5 {
+    color: #e8f0f7;
+  }
+  p {
+    color: #a0b4c8;
+  }
+  a {
+    color: $amber;
+  }
+  a:hover {
+    color: lighten($amber, 15%);
+  }
 }
 #subfooter {
   background: $navy-dark !important;
   border-top: 1px solid rgba($white, 0.08);
-  .credits, .credits a { color: #6a88a0; }
+  .credits,
+  .credits a {
+    color: #6a88a0;
+  }
 }
 
-// Quick Links in footer — larger, easier to tap
+// Quick Links in footer - larger, easier to tap
 #footer .no-bullet li a {
   display: block;
   font-size: 1rem;
@@ -150,7 +202,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   color: $amber;
   padding: 0.45rem 0;
   letter-spacing: 0.01em;
-  transition: color 0.2s, padding-left 0.2s;
+  transition:
+    color 0.2s,
+    padding-left 0.2s;
   &:hover {
     color: lighten($amber, 18%);
     padding-left: 0.4rem;
@@ -164,7 +218,6 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   color: rgba(#e8f0f7, 0.6) !important;
   margin-bottom: 0.75rem;
 }
-
 
 // ═══════════════════════════════════════════════════════════════
 //  SHARED PRIMITIVES
@@ -192,7 +245,10 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
 .eot-section-header {
   text-align: center;
   margin-bottom: 2.5rem;
-  .eot-eyebrow { justify-content: center; display: block; }
+  .eot-eyebrow {
+    justify-content: center;
+    display: block;
+  }
 }
 
 // Buttons
@@ -204,27 +260,190 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   font-size: 0.92rem;
   text-decoration: none !important;
   border: 2px solid transparent;
-  transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    transform 0.15s,
+    box-shadow 0.2s;
   cursor: pointer;
 
-  &:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba($navy, 0.15); }
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba($navy, 0.15);
+  }
 
-  &--primary  { background: $white; color: $navy !important; border-color: $white;
-                font-weight: 700;
-                &:hover { background: darken($white, 6%); border-color: darken($white, 6%); } }
+  &--primary {
+    background: $white;
+    color: $navy !important;
+    border-color: $white;
+    font-weight: 700;
+    &:hover {
+      background: darken($white, 6%);
+      border-color: darken($white, 6%);
+    }
+  }
 
-  &--secondary { background: $navy; color: $white !important; border-color: $navy;
-                 &:hover { background: $blue; border-color: $blue; } }
+  &--secondary {
+    background: $navy;
+    color: $white !important;
+    border-color: $navy;
+    &:hover {
+      background: $blue;
+      border-color: $blue;
+    }
+  }
 
-  &--outline  { background: transparent; color: $white !important; border-color: rgba($white, 0.6);
-                &:hover { background: rgba($white, 0.1); border-color: $white; } }
+  &--outline {
+    background: transparent;
+    color: $white !important;
+    border-color: rgba($white, 0.6);
+    &:hover {
+      background: rgba($white, 0.1);
+      border-color: $white;
+    }
+  }
 
-  &--outline-dark { background: transparent; color: $navy !important; border-color: $navy;
-                    &:hover { background: $navy; color: $white !important; } }
+  &--outline-dark {
+    background: transparent;
+    color: $navy !important;
+    border-color: $navy;
+    &:hover {
+      background: $navy;
+      color: $white !important;
+    }
+  }
 
-  &--sm { padding: 0.45rem 1rem; font-size: 0.85rem; }
+  &--sm {
+    padding: 0.45rem 1rem;
+    font-size: 0.85rem;
+  }
 }
 
+// ═══════════════════════════════════════════════════════════════
+//  PAGE SHARED UTILITIES
+//  (used across inner pages - content, talks, specialization)
+// ═══════════════════════════════════════════════════════════════
+
+// Small eyebrow variant used as section labels on inner pages
+.eot-eyebrow-sm {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $amber;
+  margin-bottom: 0.4rem;
+}
+
+// Section h2 - identical across all content and specialization inner pages
+.eot-content-h2,
+.eot-tv-h2,
+.eot-qs-h2,
+.eot-tw-h2,
+.eot-ta-h2 {
+  font-size: 1.4rem;
+  color: $navy;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $border;
+}
+
+// Lead / intro paragraph text
+.eot-content-lead,
+.eot-tv-lead {
+  font-size: 0.95rem;
+  color: $text-light;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+.eot-qs-lead {
+  font-size: 1rem;
+  color: $text-light;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+.eot-tw-lead,
+.eot-ta-lead {
+  font-size: 1rem;
+  color: $text-light;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+// Left-border card base - shared across quality-strategy, trainings, transformation pages
+.eot-qs-card,
+.eot-tw-card,
+.eot-ta-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: $bg-tint;
+  border: 1px solid $border;
+  border-left: 4px solid $blue;
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+  transition:
+    box-shadow 0.2s,
+    transform 0.15s;
+  &:hover {
+    box-shadow: 0 4px 14px rgba($navy, 0.1);
+    transform: translateY(-2px);
+  }
+}
+.eot-tw-card--cta {
+  border-left-color: $amber;
+}
+
+// Card body text
+.eot-qs-body,
+.eot-tw-body,
+.eot-ta-body {
+  h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: $navy;
+    margin: 0 0 0.35rem;
+    line-height: 1.35;
+  }
+  p {
+    font-size: 0.83rem;
+    color: $text-light;
+    margin: 0;
+    line-height: 1.55;
+  }
+}
+
+// Card decorators (icon / number)
+.eot-qs-icon,
+.eot-ta-icon {
+  font-size: 1.1rem;
+  color: $amber;
+  flex-shrink: 0;
+  min-width: 1.5rem;
+  padding-top: 2px;
+}
+.eot-tw-num {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: $amber;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 2rem;
+  padding-top: 2px;
+}
+
+// Two-column card grids (specialization inner pages)
+.eot-qs-grid,
+.eot-tw-grid,
+.eot-ta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
 
 // ═══════════════════════════════════════════════════════════════
 //  HOMEPAGE SECTIONS
@@ -249,7 +468,10 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
 
   &-text {
     flex: 1 1 400px;
-    .eot-eyebrow { color: $amber; font-size: 0.75rem; }
+    .eot-eyebrow {
+      color: $amber;
+      font-size: 0.75rem;
+    }
   }
 
   &-name {
@@ -290,12 +512,12 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
       object-fit: cover;
       object-position: top;
       border: 4px solid $amber;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
     }
   }
 
   &-quote {
-    background: rgba(0,0,0,0.25);
+    background: rgba(0, 0, 0, 0.25);
     border-top: 1px solid rgba($white, 0.1);
     padding: 1.1rem 2rem;
     text-align: center;
@@ -321,7 +543,6 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   margin-bottom: 0.5rem;
 }
 
-
 // ─── Stats bar ───────────────────────────────────────────────
 
 .eot-stats {
@@ -344,7 +565,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   padding: 1.4rem 1rem;
   border-right: 1px solid rgba($white, 0.25);
 
-  &:last-child { border-right: none; }
+  &:last-child {
+    border-right: none;
+  }
 
   &-number {
     font-size: 2rem;
@@ -363,14 +586,15 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   }
 }
 
-
 // ─── Generic section wrapper ─────────────────────────────────
 
 .eot-section {
   padding: 4rem 2rem;
   background: $white;
 
-  &--tint { background: $bg-tint; }
+  &--tint {
+    background: $bg-tint;
+  }
 
   &-inner {
     max-width: 1100px;
@@ -383,7 +607,6 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   }
 }
 
-
 // ─── About ───────────────────────────────────────────────────
 
 .eot-about {
@@ -394,8 +617,13 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
 
   &-text {
     flex: 1 1 420px;
-    .eot-section-title { text-align: left; font-size: 1.5rem; }
-    p { margin-bottom: 1rem; }
+    .eot-section-title {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
   }
 
   &-stats-col {
@@ -432,9 +660,10 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   margin-top: 1.25rem;
   font-size: 0.85rem;
   color: $text-light;
-  strong { color: $navy; }
+  strong {
+    color: $navy;
+  }
 }
-
 
 // ─── Expertise grid ──────────────────────────────────────────
 
@@ -443,8 +672,12 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
 
-  @media (max-width: 860px) { grid-template-columns: repeat(2, 1fr); }
-  @media (max-width: 560px) { grid-template-columns: 1fr; }
+  @media (max-width: 860px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .eot-expertise-card {
@@ -453,7 +686,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   border-top: 3px solid $blue;
   border-radius: 6px;
   padding: 1.5rem 1.4rem;
-  transition: box-shadow 0.2s, transform 0.15s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.15s;
   position: relative;
 
   &:hover {
@@ -480,7 +715,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
     font-weight: 600;
     color: $amber;
     border: none !important;
-    &:hover { color: darken($amber, 10%); }
+    &:hover {
+      color: darken($amber, 10%);
+    }
   }
 }
 
@@ -489,14 +726,14 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   font-weight: 700;
   color: $white;
   background: $navy;
-  width: 26px; height: 26px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   letter-spacing: 0;
 }
-
 
 // ─── Offerings grid ──────────────────────────────────────────
 
@@ -505,7 +742,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
 
-  @media (max-width: 560px) { grid-template-columns: 1fr; }
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .eot-offering-card {
@@ -515,8 +754,18 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   border-radius: 6px;
   padding: 1.5rem 1.4rem;
 
-  h3 { font-size: 1rem; font-weight: 700; color: $navy; margin: 0.4rem 0 0.5rem; }
-  p  { font-size: 0.875rem; color: $text-light; margin: 0; line-height: 1.6; }
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $navy;
+    margin: 0.4rem 0 0.5rem;
+  }
+  p {
+    font-size: 0.875rem;
+    color: $text-light;
+    margin: 0;
+    line-height: 1.6;
+  }
 }
 
 .eot-offering-num {
@@ -526,7 +775,6 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   line-height: 1;
   margin-bottom: 0.2rem;
 }
-
 
 // ─── Clients ─────────────────────────────────────────────────
 
@@ -547,7 +795,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   font-weight: 500;
   color: $navy;
   box-shadow: 0 1px 3px rgba($navy, 0.06);
-  transition: box-shadow 0.15s, transform 0.1s;
+  transition:
+    box-shadow 0.15s,
+    transform 0.1s;
 
   &:hover {
     box-shadow: 0 3px 10px rgba($navy, 0.12);
@@ -562,7 +812,6 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   margin: 0;
 }
 
-
 // ─── Case studies preview ────────────────────────────────────
 
 .eot-cases-preview {
@@ -570,7 +819,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 
-  @media (max-width: 640px) { grid-template-columns: 1fr; }
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .eot-case-card {
@@ -579,7 +830,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   border-radius: 8px;
   padding: 1.75rem;
   border-top: 4px solid $amber;
-  transition: box-shadow 0.2s, transform 0.15s;
+  transition:
+    box-shadow 0.2s,
+    transform 0.15s;
   display: flex;
   flex-direction: column;
 
@@ -619,11 +872,19 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  &--navy  { background: rgba($navy, 0.08); color: $navy; }
-  &--amber { background: $amber-light; color: darken($amber, 5%); }
-  &--blue  { background: $blue-light; color: $blue; }
+  &--navy {
+    background: rgba($navy, 0.08);
+    color: $navy;
+  }
+  &--amber {
+    background: $amber-light;
+    color: darken($amber, 5%);
+  }
+  &--blue {
+    background: $blue-light;
+    color: $blue;
+  }
 }
-
 
 // ─── Thought leadership ──────────────────────────────────────
 
@@ -633,7 +894,9 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   gap: 1.5rem;
   margin-bottom: 2rem;
 
-  @media (max-width: 700px) { grid-template-columns: 1fr; }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .eot-tl-item {
@@ -641,8 +904,16 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   gap: 1rem;
   align-items: flex-start;
 
-  strong { color: $navy; display: block; font-size: 1rem; margin-bottom: 0.3rem; }
-  p { font-size: 0.875rem; margin: 0; }
+  strong {
+    color: $navy;
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  p {
+    font-size: 0.875rem;
+    margin: 0;
+  }
 }
 
 .eot-tl-icon {
@@ -657,7 +928,6 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 // ─── CTA strip ───────────────────────────────────────────────
 
@@ -679,7 +949,10 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
     display: block !important;
   }
 
-  p { color: rgba($white, 0.75); margin-bottom: 1.5rem; }
+  p {
+    color: rgba($white, 0.75);
+    margin-bottom: 1.5rem;
+  }
 
   &-actions {
     display: flex;
@@ -696,18 +969,18 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
       color: rgba($white, 0.75) !important;
       border: none !important;
       font-weight: 600;
-      &:hover { color: $amber !important; }
+      &:hover {
+        color: $amber !important;
+      }
     }
   }
 }
-
 
 // ═══════════════════════════════════════════════════════════════
 //  MOBILE  (max 768px)
 // ═══════════════════════════════════════════════════════════════
 
 @media (max-width: 768px) {
-
   // ── Hero
   .eot-hero-inner {
     padding: 2.5rem 1.25rem 1.5rem;
@@ -715,15 +988,35 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
     text-align: center;
     gap: 1.5rem;
   }
-  .eot-hero-photo { flex: 0 0 auto; img { width: 140px; height: 140px; } }
-  .eot-hero-name  { font-size: 2rem; }
-  .eot-hero-role  { font-size: 1.1rem !important; }
-  .eot-hero-descriptors { font-size: 0.85rem !important; }
-  .eot-hero-ctas  { justify-content: center; gap: 0.5rem; }
-  .eot-hero-quote p { font-size: 0.85rem; }
-  .eot-open-badge { display: inline-block; font-size: 0.8rem; }
+  .eot-hero-photo {
+    flex: 0 0 auto;
+    img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+  .eot-hero-name {
+    font-size: 2rem;
+  }
+  .eot-hero-role {
+    font-size: 1.1rem !important;
+  }
+  .eot-hero-descriptors {
+    font-size: 0.85rem !important;
+  }
+  .eot-hero-ctas {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .eot-hero-quote p {
+    font-size: 0.85rem;
+  }
+  .eot-open-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+  }
 
-  // ── Stats bar — 2×2 grid on mobile
+  // ── Stats bar - 2×2 grid on mobile
   .eot-stats-inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -732,97 +1025,230 @@ tbody tr:nth-child(even) { background-color: rgba($blue, 0.05) !important; }
     border-right: 1px solid rgba(#fff, 0.2);
     border-bottom: 1px solid rgba(#fff, 0.2);
     padding: 1rem 0.75rem;
-    &:nth-child(2n) { border-right: none; }
-    &:nth-child(3), &:nth-child(4) { border-bottom: none; }
+    &:nth-child(2n) {
+      border-right: none;
+    }
+    &:nth-child(3),
+    &:nth-child(4) {
+      border-bottom: none;
+    }
   }
-  .eot-stat-number { font-size: 1.6rem; }
+  .eot-stat-number {
+    font-size: 1.6rem;
+  }
 
   // ── Sections
-  .eot-section      { padding: 2.5rem 1.25rem; }
-  .eot-section-title { font-size: 1.35rem; }
+  .eot-section {
+    padding: 2.5rem 1.25rem;
+  }
+  .eot-section-title {
+    font-size: 1.35rem;
+  }
 
   // ── About
-  .eot-about          { flex-direction: column; gap: 1.5rem; }
-  .eot-about-text     { flex: none; }
-  .eot-about-stats-col { flex-direction: row; flex-wrap: wrap; gap: 0.6rem; }
-  .eot-about-stat     { flex: 1 1 130px; }
+  .eot-about {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .eot-about-text {
+    flex: none;
+  }
+  .eot-about-stats-col {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .eot-about-stat {
+    flex: 1 1 130px;
+  }
 
   // ── Grids → single column
-  .eot-expertise-grid  { grid-template-columns: 1fr; }
-  .eot-offerings-grid  { grid-template-columns: 1fr; }
-  .eot-cases-preview   { grid-template-columns: 1fr; }
-  .eot-tl-grid         { grid-template-columns: 1fr; }
+  .eot-expertise-grid {
+    grid-template-columns: 1fr;
+  }
+  .eot-offerings-grid {
+    grid-template-columns: 1fr;
+  }
+  .eot-cases-preview {
+    grid-template-columns: 1fr;
+  }
+  .eot-tl-grid {
+    grid-template-columns: 1fr;
+  }
 
   // ── Clients wrap nicely at small size
-  .eot-client { font-size: 0.8rem; padding: 0.4rem 0.8rem; }
+  .eot-client {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
 
   // ── CTA
-  .eot-cta              { padding: 2.5rem 1.25rem; }
-  .eot-cta-inner h2     { font-size: 1.3rem !important; }
-  .eot-cta-actions      { flex-direction: column; align-items: center; }
-  .eot-btn              { width: 100%; max-width: 260px; text-align: center; }
+  .eot-cta {
+    padding: 2.5rem 1.25rem;
+  }
+  .eot-cta-inner h2 {
+    font-size: 1.3rem !important;
+  }
+  .eot-cta-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  .eot-btn {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+  }
 
   // ── Inner-page articles
   .format.page-fullwidth .row.t30,
-  .row.t30 { padding-left: 1rem; padding-right: 1rem; }
-  article header h1 { font-size: 1.5rem; }
+  .row.t30 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  article header h1 {
+    font-size: 1.5rem;
+  }
 
   // ── Tables: horizontal scroll on mobile
-  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
   // ── Navigation: increase tap targets + scrollable dropdown
-  .top-bar-section li > a { padding: 0.8rem 1rem !important; }
-  // Allow scrolling when nav items exceed viewport height (left + right sections combined)
+  .top-bar-section li > a {
+    padding: 0.8rem 1rem !important;
+  }
+  // Keep section pinned — prevent Foundation's off-canvas slide (left: -100%)
   .top-bar.expanded .top-bar-section {
+    left: 0 !important;
+    transform: none !important;
     overflow-y: auto;
     max-height: calc(100vh - 45px);
     -webkit-overflow-scrolling: touch;
   }
 
+  // Hide Foundation's injected Back + section-label rows inside dropdowns
+  .top-bar-section .dropdown .title,
+  .top-bar-section .dropdown li.back { display: none !important; }
+
+  // All dropdowns hidden by default
+  .top-bar-section .has-dropdown > .dropdown {
+    display: none !important;
+    position: static !important;
+    width: 100% !important;
+    clip: auto !important;
+    overflow: visible !important;
+    left: 0 !important;
+    top: auto !important;
+    background: rgba(0, 0, 0, 0.06) !important;
+    border-radius: 4px;
+    margin: 0 0 0.25rem !important;
+    padding: 0.25rem 0 !important;
+  }
+  // Foundation adds class="moved" to the li when user taps a has-dropdown item
+  .top-bar-section .has-dropdown.moved > .dropdown {
+    display: block !important;
+  }
+  // Chevron indicator
+  .top-bar-section .has-dropdown > a::after {
+    content: " ▾" !important;
+    font-size: 0.7em;
+    opacity: 0.65;
+    border: none !important;
+    width: auto !important;
+    height: auto !important;
+    position: static !important;
+    margin-left: 0.3rem;
+  }
+  .top-bar-section .has-dropdown.moved > a::after {
+    content: " ▴" !important;
+  }
+
   // ── Nav logo on mobile: ensure it stays visible and properly sized
-  .top-bar .nav-logo img { max-height: 32px; margin-top: 6px; }
+  .top-bar .nav-logo img {
+    max-height: 32px;
+    margin-top: 6px;
+  }
 }
 
 // Extra small (iPhone SE etc)
 @media (max-width: 380px) {
-  .eot-hero-name  { font-size: 1.75rem; }
-  .eot-btn        { max-width: 100%; }
-  .eot-stat-number { font-size: 1.4rem; }
+  .eot-hero-name {
+    font-size: 1.75rem;
+  }
+  .eot-btn {
+    max-width: 100%;
+  }
+  .eot-stat-number {
+    font-size: 1.4rem;
+  }
 }
-
 
 // ═══════════════════════════════════════════════════════════════
 //  DARK MODE
 // ═══════════════════════════════════════════════════════════════
 
 // Dark palette tokens
-$dk-bg:         #0d1b2a;
-$dk-bg-tint:    #091522;
-$dk-card:       #182c40;
-$dk-card-2:     #1e3550;
-$dk-border:     #243d58;
-$dk-text:       #cfe0f0;
+$dk-bg: #0d1b2a;
+$dk-bg-tint: #091522;
+$dk-card: #182c40;
+$dk-card-2: #1e3550;
+$dk-border: #243d58;
+$dk-text: #cfe0f0;
 $dk-text-muted: #7aabcc;
-$dk-heading:    #b5d0e8;
-$dk-blue:       #5ab0dc;
+$dk-heading: #b5d0e8;
+$dk-blue: #5ab0dc;
 
 @media (prefers-color-scheme: dark) {
-
   // ── Page base
-  body                { background: $dk-bg !important; }
-  p                   { color: $dk-text-muted; }
-  p strong            { color: $dk-text; }
-  h1, h2, h3, h4, h5, h6 { color: $dk-heading; }
-  a, a:link           { color: $dk-blue; }
-  a:hover             { color: lighten($dk-blue, 10%); }
-  p a, article a      { color: $dk-blue; border-bottom-color: rgba($dk-blue, 0.35); }
-  p a:hover, article a:hover { color: lighten($dk-blue, 10%); border-bottom-color: lighten($dk-blue, 10%); }
-  hr                  { border-color: $dk-border; }
+  body {
+    background: $dk-bg !important;
+  }
+  p {
+    color: $dk-text-muted;
+  }
+  p strong {
+    color: $dk-text;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $dk-heading;
+  }
+  a,
+  a:link {
+    color: $dk-blue;
+  }
+  a:hover {
+    color: lighten($dk-blue, 10%);
+  }
+  p a,
+  article a {
+    color: $dk-blue;
+    border-bottom-color: rgba($dk-blue, 0.35);
+  }
+  p a:hover,
+  article a:hover {
+    color: lighten($dk-blue, 10%);
+    border-bottom-color: lighten($dk-blue, 10%);
+  }
+  hr {
+    border-color: $dk-border;
+  }
 
   // ── Nav logo: invert (transparent PNG) so it reads as white on dark navbar
-  .top-bar .nav-logo img { filter: brightness(0) invert(1); }
+  .top-bar .nav-logo img {
+    filter: brightness(0) invert(1);
+  }
   // ── Masthead logo on inner pages: same treatment
-  #logo img { filter: brightness(0) invert(1); }
+  #logo img {
+    filter: brightness(0) invert(1);
+  }
 
   // ── Navigation
   #navigation {
@@ -834,7 +1260,7 @@ $dk-blue:       #5ab0dc;
   .top-bar.expanded {
     background: $dk-bg !important;
   }
-  // Foundation explicitly resets title-area bg when expanded — override it
+  // Foundation explicitly resets title-area bg when expanded - override it
   .top-bar.expanded .title-area {
     background: $dk-bg !important;
   }
@@ -854,10 +1280,21 @@ $dk-blue:       #5ab0dc;
   .top-bar-section ul,
   .top-bar-section .dropdown {
     background: $dk-card !important;
-    li { background: $dk-card !important; }
-    li a { background: $dk-card !important; color: $dk-text !important; }
-    li a:hover { background: $dk-card-2 !important; color: $white !important; }
-    li.divider { border-top-color: $dk-border !important; background: $dk-border !important; }
+    li {
+      background: $dk-card !important;
+    }
+    li a {
+      background: $dk-card !important;
+      color: $dk-text !important;
+    }
+    li a:hover {
+      background: $dk-card-2 !important;
+      color: $white !important;
+    }
+    li.divider {
+      border-top-color: $dk-border !important;
+      background: $dk-border !important;
+    }
   }
   // Label rows in dropdown ("Areas of Specialization" etc.)
   .top-bar-section .dropdown label {
@@ -865,16 +1302,19 @@ $dk-blue:       #5ab0dc;
     color: $amber !important;
   }
 
-  // Hamburger icon — Foundation creates ALL 3 lines via span::after box-shadow.
-  // The span itself is just the "Nav" text container — do NOT set background on it
+  // Hamburger icon - Foundation creates ALL 3 lines via span::after box-shadow.
+  // The span itself is just the "Nav" text container - do NOT set background on it
   // (doing so colors the entire text box, creating the visible teal rectangle).
   .top-bar .toggle-topbar.menu-icon > a span {
-    background: transparent !important; // must be transparent — do not remove
+    background: transparent !important; // must be transparent - do not remove
   }
   // Override the 3 hamburger lines (all from span::after box-shadow) to light colour
   .top-bar .toggle-topbar.menu-icon > a span::after,
   .top-bar.expanded .toggle-topbar.menu-icon > a span::after {
-    box-shadow: 0 0 0 1px $dk-text, 0 7px 0 1px $dk-text, 0 14px 0 1px $dk-text !important;
+    box-shadow:
+      0 0 0 1px $dk-text,
+      0 7px 0 1px $dk-text,
+      0 14px 0 1px $dk-text !important;
   }
   // "NAV" text label colour + clear any background on the toggle <a>
   .top-bar .toggle-topbar > a {
@@ -883,16 +1323,22 @@ $dk-blue:       #5ab0dc;
   }
 
   // ── Page background (Foundation rows)
-  .row { background: transparent !important; }
+  .row {
+    background: transparent !important;
+  }
 
-  // ── Inner-page masthead (inner pages use navy — stays fine)
+  // ── Inner-page masthead (inner pages use navy - stays fine)
 
   // ── Inner-page article
   article {
     background: transparent;
-    header h1 { color: $dk-heading; }
+    header h1 {
+      color: $dk-heading;
+    }
   }
-  .format.page-fullwidth { background: $dk-bg; }
+  .format.page-fullwidth {
+    background: $dk-bg;
+  }
 
   // ── Blockquote
   blockquote {
@@ -902,44 +1348,96 @@ $dk-blue:       #5ab0dc;
   }
 
   // ── Tables
-  table { box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
-  thead tr            { background-color: darken($navy, 5%) !important; }
-  tbody tr            { background-color: $dk-card !important; }
-  tbody tr:nth-child(even) { background-color: $dk-card-2 !important; }
-  td, th              { border-color: $dk-border !important; color: $dk-text; }
+  table {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  thead tr {
+    background-color: darken($navy, 5%) !important;
+  }
+  tbody tr {
+    background-color: $dk-card !important;
+  }
+  tbody tr:nth-child(even) {
+    background-color: $dk-card-2 !important;
+  }
+  td,
+  th {
+    border-color: $dk-border !important;
+    color: $dk-text !important;
+  }
 
   // ── Sections
-  .eot-section        { background: $dk-card; }
-  .eot-section--tint  { background: $dk-bg-tint; }
-  .eot-section-title  { color: $dk-heading !important; }
-  .eot-eyebrow        { color: $amber; }
+  .eot-section {
+    background: $dk-card;
+  }
+  .eot-section--tint {
+    background: $dk-bg-tint;
+  }
+  .eot-section-title {
+    color: $dk-heading !important;
+  }
+  .eot-eyebrow {
+    color: $amber;
+  }
 
   // ── About
-  .eot-about-text p   { color: $dk-text-muted; }
-  .eot-about-stat     { background: $dk-card-2; border-color: $dk-border; box-shadow: none; }
-  .eot-about-stat-lbl { color: $dk-text-muted; }
-  .eot-domains        { color: $dk-text-muted; strong { color: $dk-heading; } }
-  .eot-domains-footer { color: $dk-text-muted; }
+  .eot-about-text p {
+    color: $dk-text-muted;
+  }
+  .eot-about-stat {
+    background: $dk-card-2;
+    border-color: $dk-border;
+    box-shadow: none;
+  }
+  .eot-about-stat-lbl {
+    color: $dk-text-muted;
+  }
+  .eot-domains {
+    color: $dk-text-muted;
+    strong {
+      color: $dk-heading;
+    }
+  }
+  .eot-domains-footer {
+    color: $dk-text-muted;
+  }
 
   // ── Expertise cards
   .eot-expertise-card {
     background: $dk-card-2;
     border-color: $dk-border;
     border-top-color: $dk-blue;
-    &:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.3); }
-    h3 { color: $dk-blue; }
-    p  { color: $dk-text-muted; }
-    a  { color: $amber; &:hover { color: lighten($amber, 10%); } }
+    &:hover {
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    h3 {
+      color: $dk-blue;
+    }
+    p {
+      color: $dk-text-muted;
+    }
+    a {
+      color: $amber;
+      &:hover {
+        color: lighten($amber, 10%);
+      }
+    }
   }
-  .eot-expertise-num  { background: $dk-border; }
+  .eot-expertise-num {
+    background: $dk-border;
+  }
 
   // ── Offering cards
   .eot-offering-card {
     background: $dk-card-2;
     border-color: $dk-border;
     border-left-color: $amber;
-    h3 { color: $dk-heading; }
-    p  { color: $dk-text-muted; }
+    h3 {
+      color: $dk-heading;
+    }
+    p {
+      color: $dk-text-muted;
+    }
   }
 
   // ── Clients
@@ -948,7 +1446,9 @@ $dk-blue:       #5ab0dc;
     border-color: $dk-border;
     color: $dk-text;
     box-shadow: none;
-    &:hover { box-shadow: 0 3px 10px rgba(0,0,0,0.3); }
+    &:hover {
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    }
   }
 
   // ── Case study cards
@@ -956,32 +1456,58 @@ $dk-blue:       #5ab0dc;
     background: $dk-card-2;
     border-color: $dk-border;
     border-top-color: $amber;
-    &:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.3); }
-    h3 { color: $dk-heading; }
-    p  { color: $dk-text-muted; }
+    &:hover {
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    h3 {
+      color: $dk-heading;
+    }
+    p {
+      color: $dk-text-muted;
+    }
   }
 
   // ── Tags
-  .eot-tag--navy  { background: rgba($dk-blue, 0.15); color: $dk-blue; }
-  .eot-tag--amber { background: rgba($amber, 0.15); color: lighten($amber, 8%); }
-  .eot-tag--blue  { background: rgba($dk-blue, 0.15); color: $dk-blue; }
+  .eot-tag--navy {
+    background: rgba($dk-blue, 0.15);
+    color: $dk-blue;
+  }
+  .eot-tag--amber {
+    background: rgba($amber, 0.15);
+    color: lighten($amber, 8%);
+  }
+  .eot-tag--blue {
+    background: rgba($dk-blue, 0.15);
+    color: $dk-blue;
+  }
 
   // ── Thought leadership
   .eot-tl-item {
-    strong { color: $dk-heading; }
-    p      { color: $dk-text-muted; }
+    strong {
+      color: $dk-heading;
+    }
+    p {
+      color: $dk-text-muted;
+    }
   }
 
-  // ── Buttons (dark-outline variant only — others already work on dark)
+  // ── Buttons (dark-outline variant only - others already work on dark)
   .eot-btn--outline-dark {
     color: $dk-text !important;
     border-color: rgba($dk-text, 0.45);
-    &:hover { background: rgba($dk-text, 0.1); color: $white !important; border-color: $dk-text; }
+    &:hover {
+      background: rgba($dk-text, 0.1);
+      color: $white !important;
+      border-color: $dk-text;
+    }
   }
   .eot-btn--secondary {
     background: $dk-card-2;
     border-color: $dk-border;
-    &:hover { background: $dk-blue; border-color: $dk-blue; }
+    &:hover {
+      background: $dk-blue;
+      border-color: $dk-blue;
+    }
   }
 
   // ── Spec cards (areas-of-specialization page)
@@ -989,38 +1515,106 @@ $dk-blue:       #5ab0dc;
     background: $dk-card-2 !important;
     border-color: $dk-border !important;
     border-top-color: $dk-blue !important;
-    h3 a { color: $dk-blue !important; }
-    p, li { color: $dk-text-muted !important; }
+    h3 a {
+      color: $dk-blue !important;
+    }
+    p,
+    li {
+      color: $dk-text-muted !important;
+    }
   }
-  .eot-spec-cta { background: rgba($dk-blue, 0.1) !important; p { color: $dk-heading !important; } }
+  .eot-spec-cta {
+    background: rgba($dk-blue, 0.1) !important;
+    p {
+      color: $dk-heading !important;
+    }
+  }
 
   // ── OSS page
   .eot-oss-card {
     background: $dk-card-2 !important;
     border-color: $dk-border !important;
-    p { color: $dk-text-muted !important; }
-    li { color: $dk-text-muted !important; }
+    p {
+      color: $dk-text-muted !important;
+    }
+    li {
+      color: $dk-text-muted !important;
+    }
   }
-  .eot-oss-contrib     { border-top-color: $dk-border !important; }
-  .eot-oss-contrib h2  { color: $dk-heading !important; }
+  .eot-oss-contrib {
+    border-top-color: $dk-border !important;
+  }
+  .eot-oss-contrib h2 {
+    color: $dk-heading !important;
+  }
   .eot-oss-contrib-item {
     background: $dk-card !important;
     border-color: $dk-border !important;
-    p { color: $dk-text-muted !important; }
+    p {
+      color: $dk-text-muted !important;
+    }
   }
 
   // ── Case study detail pages (metadata tags)
-  div[style*="background:#1c3a5c"] { background: $dk-card-2 !important; }
-  div[style*="background:#2b7fb0"] { background: darken($dk-blue, 10%) !important; }
+  div[style*="background:#1c3a5c"] {
+    background: $dk-card-2 !important;
+  }
+  div[style*="background:#2b7fb0"] {
+    background: darken($dk-blue, 10%) !important;
+  }
 
   // ── Profile page download cards
   div[style*="border: 1px solid #ddd"] {
     background: $dk-card-2 !important;
     border-color: $dk-border !important;
-    h3 { color: $dk-heading !important; }
-    p  { color: $dk-text-muted !important; }
+    h3 {
+      color: $dk-heading !important;
+    }
+    p {
+      color: $dk-text-muted !important;
+    }
   }
 
-  // ── Subfooter / footer — already dark navy, minimal tweaks
-  #footer-content p { color: rgba($dk-text, 0.65); }
+  // ── Subfooter / footer - already dark navy, minimal tweaks
+  #footer-content p {
+    color: rgba($dk-text, 0.65);
+  }
+
+  // ── Page shared utilities
+  .eot-content-h2,
+  .eot-tv-h2,
+  .eot-qs-h2,
+  .eot-tw-h2,
+  .eot-ta-h2 {
+    color: $dk-heading !important;
+    border-bottom-color: $dk-border !important;
+  }
+  .eot-content-lead,
+  .eot-tv-lead,
+  .eot-qs-lead,
+  .eot-tw-lead,
+  .eot-ta-lead {
+    color: $dk-text-muted !important;
+  }
+
+  .eot-qs-card,
+  .eot-tw-card,
+  .eot-ta-card {
+    background: $dk-card-2 !important;
+    border-color: $dk-border !important;
+    border-left-color: $dk-blue !important;
+  }
+  .eot-tw-card--cta {
+    border-left-color: $amber !important;
+  }
+  .eot-qs-body,
+  .eot-tw-body,
+  .eot-ta-body {
+    h3 {
+      color: $dk-heading !important;
+    }
+    p {
+      color: $dk-text-muted !important;
+    }
+  }
 }

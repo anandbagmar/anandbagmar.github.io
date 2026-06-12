@@ -322,34 +322,28 @@
 </div><!-- /#navigation -->
 
 <script>
-// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
-// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
-// bubble-phase jQuery handlers) and navigate directly to the parent href.
-// A 'navigating' flag prevents the touchstart+click double-fire.
+// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
+// our CSS uses to show the dropdown inline). We intercept the second tap on an
+// already-open item and navigate to the parent href instead of letting Foundation
+// toggle it closed.
 (function () {
-  var navigating = false;
-
-  function mobileBreakpoint() {
-    return window.innerWidth <= 768 || ('ontouchstart' in window);
-  }
-
-  function handleNavTap(e) {
-    if (!mobileBreakpoint()) return;
-    var link = e.target.closest('.has-dropdown > a');
-    if (!link) return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
-    if (navigating) return;
-    navigating = true;
-    window.location.href = link.getAttribute('href');
-    setTimeout(function () { navigating = false; }, 1000);
+  function isMobileNav() {
+    return window.innerWidth <= 640;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
-    nav.addEventListener('click',      handleNavTap, true);
+
+    nav.addEventListener('click', function (e) {
+      if (!isMobileNav()) return;
+      // Only act when the dropdown is already open (Foundation has added 'moved')
+      var link = e.target.closest('.has-dropdown.moved > a');
+      if (!link) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.getAttribute('href');
+    }, true); // capture phase: run before Foundation removes 'moved' on second click
   });
 }());
 </script>
@@ -403,7 +397,7 @@
         <div class="eot-content-card-icon">✍️</div>
         <div>
           <h3>Essence of Testing Blog</h3>
-          <p>Personal blog covering quality strategy, test automation, AI testing, and engineering practices — written for practitioners and leaders alike.</p>
+          <p>Personal blog covering quality strategy, test automation, AI testing, and engineering practices - written for practitioners and leaders alike.</p>
           <span class="eot-content-link">Read articles →</span>
         </div>
       </a>
@@ -443,30 +437,6 @@
 .eot-content-section { max-width: 900px; margin: 0 auto; }
 
 .eot-content-block { margin-bottom: 3rem; }
-
-.eot-eyebrow-sm {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #c8821a;
-  margin-bottom: 0.4rem;
-}
-
-.eot-content-h2 {
-  font-size: 1.4rem;
-  color: #1c3a5c;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #dde4ed;
-}
-
-.eot-content-lead {
-  font-size: 0.95rem;
-  color: #4a5e72;
-  margin-bottom: 1.25rem;
-}
 
 .eot-content-grid {
   display: grid;
@@ -521,8 +491,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .eot-content-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
-  .eot-content-lead { color: #7aabcc !important; }
   .eot-content-card {
     background: #1e3550 !important;
     border-color: #243d58 !important;

@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Open-Source Tools"
 subheadline: "Building tools the global QA community relies on"
-teaser: "Creator of three open-source tools used by quality engineers worldwide — plus active contributor to Selenium and Appium."
+teaser: "Creator of three open-source tools used by quality engineers worldwide - plus active contributor to Selenium and Appium."
 permalink: "/oss/"
 header:
     title: Open Source Contributions
@@ -40,7 +40,7 @@ header:
         <span class="eot-oss-subtitle">Web Analytics Automation Testing</span>
       </div>
     </div>
-    <p>Dedicated framework for automated testing of web analytics implementations — ensuring accurate data collection and event tracking at scale.</p>
+    <p>Dedicated framework for automated testing of web analytics implementations - ensuring accurate data collection and event tracking at scale.</p>
     <ul class="eot-oss-features">
       <li>✓ Analytics Validation</li>
       <li>✓ Event Tracking Automation</li>
@@ -60,7 +60,7 @@ header:
         <span class="eot-oss-subtitle">Test Trend Analyzer</span>
       </div>
     </div>
-    <p>Intelligent analysis of test execution trends — surfacing patterns in stability, flakiness, and coverage to drive data-informed quality decisions.</p>
+    <p>Intelligent analysis of test execution trends - surfacing patterns in stability, flakiness, and coverage to drive data-informed quality decisions.</p>
     <ul class="eot-oss-features">
       <li>✓ Trend &amp; Pattern Analysis</li>
       <li>✓ Flakiness Detection</li>
@@ -79,15 +79,15 @@ header:
   <div class="eot-oss-contrib-grid">
     <div class="eot-oss-contrib-item">
       <strong><a href="https://www.selenium.dev" target="_blank">Selenium</a></strong>
-      <p>Active contributor to the Selenium browser automation project — the foundation of web testing globally.</p>
+      <p>Active contributor to the Selenium browser automation project - the foundation of web testing globally.</p>
     </div>
     <div class="eot-oss-contrib-item">
       <strong><a href="https://appium.io" target="_blank">Appium</a></strong>
-      <p>Contributor to Appium — the open-source standard for mobile test automation on iOS and Android.</p>
+      <p>Contributor to Appium - the open-source standard for mobile test automation on iOS and Android.</p>
     </div>
     <div class="eot-oss-contrib-item">
       <strong><a href="https://specmatic.in" target="_blank">Specmatic</a></strong>
-      <p>Contract Driven Development — enabling API contract testing across distributed teams.</p>
+      <p>Contract Driven Development - enabling API contract testing across distributed teams.</p>
     </div>
   </div>
   <p style="margin-top:1.5rem;">

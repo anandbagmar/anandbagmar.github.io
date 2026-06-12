@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Case Studies"
 subheadline: "Real engagements. Measurable outcomes."
-teaser: "From large-scale quality transformations to intensive team upskilling — here is how I have helped organisations build durable quality capability."
+teaser: "From large-scale quality transformations to intensive team upskilling - here is how I have helped organisations build durable quality capability."
 permalink: "/case-studies/"
 header:
     title: Case Studies
@@ -10,7 +10,7 @@ header:
 ---
 
 <div style="margin-bottom:2rem;">
-  <p>Each engagement below is a real example of quality strategy, transformation, or training in practice — with context, approach, and outcomes.</p>
+  <p>Each engagement below is a real example of quality strategy, transformation, or training in practice - with context, approach, and outcomes.</p>
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1rem;">

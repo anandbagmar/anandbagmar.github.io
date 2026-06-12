@@ -13,9 +13,9 @@ categories:
 
 <div class="eot-qs-section">
 
-  <p class="eot-qs-lead">Quality is not a testing problem — it is an organisational capability. AI is helping software and product teams move faster. But faster work does not automatically lead to better product outcomes. When delivery accelerates, organisations need better ways to understand quality risks, product gaps, regression impact, release confidence, and production feedback.</p>
+  <p class="eot-qs-lead">Quality is not a testing problem - it is an organisational capability. AI is helping software and product teams move faster. But faster work does not automatically lead to better product outcomes. When delivery accelerates, organisations need better ways to understand quality risks, product gaps, regression impact, release confidence, and production feedback.</p>
 
-  <p class="eot-qs-lead">I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC — from planning through to customer feedback — in a world where AI is part of how work gets done.</p>
+  <p class="eot-qs-lead">I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC - from planning through to customer feedback - in a world where AI is part of how work gets done.</p>
 
   <span class="eot-eyebrow">WHAT THIS LOOKS LIKE</span>
   <h2 class="eot-qs-h2">In Practice</h2>
@@ -42,7 +42,7 @@ categories:
       <div class="eot-qs-icon">&#9650;</div>
       <div class="eot-qs-body">
         <h3>Test Strategy &amp; Roadmap</h3>
-        <p>Create a shared understanding of the quality vision and a pragmatic, prioritised plan to achieve it — contextual to your product, team, and technology.</p>
+        <p>Create a shared understanding of the quality vision and a pragmatic, prioritised plan to achieve it - contextual to your product, team, and technology.</p>
       </div>
     </div>
 
@@ -58,7 +58,7 @@ categories:
       <div class="eot-qs-icon">&#9679;</div>
       <div class="eot-qs-body">
         <h3>Test Data Management</h3>
-        <p>Design scalable approaches to creating, reusing, and managing test data — a critical enabler for reliable automation at scale.</p>
+        <p>Design scalable approaches to creating, reusing, and managing test data - a critical enabler for reliable automation at scale.</p>
       </div>
     </div>
 
@@ -92,13 +92,13 @@ categories:
   <h2 class="eot-qs-h2">Quality Strategy in the AI-Accelerated World</h2>
 
   <div class="eot-qs-insight">
-    <p>AI is changing how product managers, developers, testers, DevOps teams, and managers work. Speed increases. But quality gaps, integration risks, and release confidence challenges do not disappear — they shift and sometimes amplify.</p>
+    <p>AI is changing how product managers, developers, testers, DevOps teams, and managers work. Speed increases. But quality gaps, integration risks, and release confidence challenges do not disappear - they shift and sometimes amplify.</p>
     <p>A quality strategy built for today's environment must account for:</p>
     <ul>
       <li>Faster delivery cycles and AI-assisted work across the team</li>
       <li>Regression and integration risks that surface differently at higher velocity</li>
       <li>The need for human judgement on context, risk trade-offs, and product impact</li>
-      <li>Quality signals that reflect product confidence — not just test pass rates</li>
+      <li>Quality signals that reflect product confidence - not just test pass rates</li>
       <li>Cross-functional ownership of quality decisions beyond the QA team</li>
     </ul>
     <p>Human judgement remains critical. AI can help with speed and productivity, but understanding context, risk, and product impact requires people who know the product and its customers.</p>
@@ -109,13 +109,13 @@ categories:
     <h2 class="eot-qs-h2">Quality Strategy in the AI-Accelerated World</h2>
     <p class="eot-qs-workshop-sub">Building Product Confidence When Teams Are Moving Faster</p>
 
-    <p>This workshop — available as a half-day or full-day session depending on participant needs — helps managers explore how to think about quality strategy in today's software and product development environment. The central question:</p>
+    <p>This workshop - available as a half-day or full-day session depending on participant needs - helps managers explore how to think about quality strategy in today's software and product development environment. The central question:</p>
     <blockquote class="eot-qs-quote">How do we build confidence in the product when delivery is becoming faster, more distributed, and increasingly supported by AI?</blockquote>
 
     <div class="eot-qs-two-col">
       <div>
         <h4>Who Should Attend</h4>
-        <p>Managers and leaders involved in software or product delivery — including Engineering, Product, QA, Delivery, DevOps, Business Analysis, Agile, and Technology managers. Any manager who influences how work flows from idea to production.</p>
+        <p>Managers and leaders involved in software or product delivery - including Engineering, Product, QA, Delivery, DevOps, Business Analysis, Agile, and Technology managers. Any manager who influences how work flows from idea to production.</p>
 
         <h4>Workshop Format</h4>
         <ul>
@@ -164,85 +164,13 @@ categories:
   </div>
 
   <blockquote class="eot-qs-testimonial">
-    <em>I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms — delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.</em>
+    <em>I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms - delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.</em>
   </blockquote>
 
 </div>
 
 <style>
 .eot-qs-section { max-width: 900px; margin: 0 auto; }
-
-.eot-qs-lead {
-  font-size: 1rem;
-  color: #4a5e72;
-  line-height: 1.75;
-  margin-bottom: 1.25rem;
-}
-
-.eot-eyebrow {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #c8821a;
-  margin-bottom: 0.3rem;
-}
-
-.eot-qs-h2 {
-  font-size: 1.4rem;
-  color: #1c3a5c;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #dde4ed;
-}
-
-.eot-qs-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-}
-@media (max-width: 640px) { .eot-qs-grid { grid-template-columns: 1fr; } }
-
-.eot-qs-card {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
-  border-left: 4px solid #2b7fb0;
-  border-radius: 6px;
-  padding: 1.1rem 1.2rem;
-  transition: box-shadow 0.2s, transform 0.15s;
-}
-.eot-qs-card:hover {
-  box-shadow: 0 4px 14px rgba(28,58,92,0.1);
-  transform: translateY(-2px);
-}
-
-.eot-qs-icon {
-  font-size: 1.1rem;
-  color: #c8821a;
-  line-height: 1;
-  flex-shrink: 0;
-  min-width: 1.5rem;
-  padding-top: 2px;
-}
-
-.eot-qs-body h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1c3a5c;
-  margin: 0 0 0.35rem;
-  line-height: 1.35;
-}
-.eot-qs-body p {
-  font-size: 0.83rem;
-  color: #4a5e72;
-  margin: 0;
-  line-height: 1.55;
-}
 
 .eot-qs-insight {
   background: #f0f5fa;
@@ -383,11 +311,6 @@ categories:
 }
 
 @media (prefers-color-scheme: dark) {
-  .eot-qs-lead { color: #7aabcc !important; }
-  .eot-qs-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
-  .eot-qs-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; }
-  .eot-qs-body h3 { color: #b5d0e8 !important; }
-  .eot-qs-body p { color: #7aabcc !important; }
   .eot-qs-insight { background: #182c40 !important; border-color: #243d58 !important; }
   .eot-qs-insight p, .eot-qs-insight li { color: #7aabcc !important; }
   .eot-qs-workshop { background: #182c40 !important; border-color: #243d58 !important; }

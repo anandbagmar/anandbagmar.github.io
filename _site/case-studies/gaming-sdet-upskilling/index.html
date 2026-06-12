@@ -322,34 +322,28 @@
 </div><!-- /#navigation -->
 
 <script>
-// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
-// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
-// bubble-phase jQuery handlers) and navigate directly to the parent href.
-// A 'navigating' flag prevents the touchstart+click double-fire.
+// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
+// our CSS uses to show the dropdown inline). We intercept the second tap on an
+// already-open item and navigate to the parent href instead of letting Foundation
+// toggle it closed.
 (function () {
-  var navigating = false;
-
-  function mobileBreakpoint() {
-    return window.innerWidth <= 768 || ('ontouchstart' in window);
-  }
-
-  function handleNavTap(e) {
-    if (!mobileBreakpoint()) return;
-    var link = e.target.closest('.has-dropdown > a');
-    if (!link) return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
-    if (navigating) return;
-    navigating = true;
-    window.location.href = link.getAttribute('href');
-    setTimeout(function () { navigating = false; }, 1000);
+  function isMobileNav() {
+    return window.innerWidth <= 640;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
-    nav.addEventListener('click',      handleNavTap, true);
+
+    nav.addEventListener('click', function (e) {
+      if (!isMobileNav()) return;
+      // Only act when the dropdown is already open (Foundation has added 'moved')
+      var link = e.target.closest('.has-dropdown.moved > a');
+      if (!link) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.getAttribute('href');
+    }, true); // capture phase: run before Foundation removes 'moved' on second click
   });
 }());
 </script>
@@ -418,9 +412,9 @@
 
 <h2 id="the-challenge">The Challenge</h2>
 
-<p>A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation — but lacked the skills, tooling fluency, and confidence to make that transition without structured support.</p>
+<p>A fast-growing gaming organisation had 50 testers performing largely manual testing. As product complexity scaled and release cadence accelerated, the team needed to shift quickly toward automation - but lacked the skills, tooling fluency, and confidence to make that transition without structured support.</p>
 
-<p>The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance — in five weeks, without pausing delivery.</p>
+<p>The goal: upskill all 50 SDETs to actively contribute to the existing test automation platform using modern tools and AI assistance - in five weeks, without pausing delivery.</p>
 
 <hr />
 
@@ -428,19 +422,19 @@
 
 <h3 id="customised-curriculum">Customised Curriculum</h3>
 
-<p>The programme was designed around the team’s existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic — every module was contextualised to what the engineers would face on day one back at their desks.</p>
+<p>The programme was designed around the team’s existing tech stack, real test cases from their platform, and the specific gaps surfaced during a pre-training assessment. Nothing was generic - every module was contextualised to what the engineers would face on day one back at their desks.</p>
 
 <h3 id="ai-assisted-automation-throughout">AI-Assisted Automation Throughout</h3>
 
-<p>AI tools were woven into the curriculum from the start — not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.</p>
+<p>AI tools were woven into the curriculum from the start - not as a separate topic, but as a practical accelerant for writing, reviewing, and debugging test code. Engineers learned to use AI to move faster while building genuine understanding.</p>
 
 <h3 id="daily-evaluations--final-projects">Daily Evaluations &amp; Final Projects</h3>
 
-<p>Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform — demonstrating real, integrated capability, not just classroom knowledge.</p>
+<p>Each day ended with a short evaluation to reinforce learning and catch gaps early. The final week required each participant to complete a hands-on project against the live automation platform - demonstrating real, integrated capability, not just classroom knowledge.</p>
 
 <h3 id="technical-mentoring">Technical Mentoring</h3>
 
-<p>Instructors provided continuous technical feedback throughout — reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.</p>
+<p>Instructors provided continuous technical feedback throughout - reviewing code, unblocking individuals, and raising the floor across the cohort so no one was left behind.</p>
 
 <hr />
 
@@ -480,7 +474,7 @@
 <hr />
 
 <blockquote>
-  <p><em>The measure of a training programme isn’t what people know at the end — it’s what they can do the week after. This cohort came back and shipped.</em></p>
+  <p><em>The measure of a training programme isn’t what people know at the end - it’s what they can do the week after. This cohort came back and shipped.</em></p>
 </blockquote>
 
 <hr />

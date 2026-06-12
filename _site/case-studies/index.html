@@ -26,7 +26,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="From large-scale quality transformations to intensive team upskilling — here is how I have helped organisations build durable quality capability.">
+	<meta name="description" content="From large-scale quality transformations to intensive team upskilling - here is how I have helped organisations build durable quality capability.">
 	<meta name="google-site-verification" content="Wry44Qo0i_8rljx3C0jkldholGLLxGEqCwAb2-ZseBE">
 	
 	
@@ -37,7 +37,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Case Studies">
-	<meta property="og:description" content="From large-scale quality transformations to intensive team upskilling — here is how I have helped organisations build durable quality capability.">
+	<meta property="og:description" content="From large-scale quality transformations to intensive team upskilling - here is how I have helped organisations build durable quality capability.">
 	<meta property="og:url" content="http://localhost:4000/case-studies/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -52,7 +52,7 @@
 	<meta name="twitter:site" content="BagmarAnand">
 	<meta name="twitter:creator" content="BagmarAnand">
 	<meta name="twitter:title" content="Case Studies">
-	<meta name="twitter:description" content="From large-scale quality transformations to intensive team upskilling — here is how I have helped organisations build durable quality capability.">
+	<meta name="twitter:description" content="From large-scale quality transformations to intensive team upskilling - here is how I have helped organisations build durable quality capability.">
 	
 	
 
@@ -322,34 +322,28 @@
 </div><!-- /#navigation -->
 
 <script>
-// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
-// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
-// bubble-phase jQuery handlers) and navigate directly to the parent href.
-// A 'navigating' flag prevents the touchstart+click double-fire.
+// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
+// our CSS uses to show the dropdown inline). We intercept the second tap on an
+// already-open item and navigate to the parent href instead of letting Foundation
+// toggle it closed.
 (function () {
-  var navigating = false;
-
-  function mobileBreakpoint() {
-    return window.innerWidth <= 768 || ('ontouchstart' in window);
-  }
-
-  function handleNavTap(e) {
-    if (!mobileBreakpoint()) return;
-    var link = e.target.closest('.has-dropdown > a');
-    if (!link) return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
-    if (navigating) return;
-    navigating = true;
-    window.location.href = link.getAttribute('href');
-    setTimeout(function () { navigating = false; }, 1000);
+  function isMobileNav() {
+    return window.innerWidth <= 640;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
-    nav.addEventListener('click',      handleNavTap, true);
+
+    nav.addEventListener('click', function (e) {
+      if (!isMobileNav()) return;
+      // Only act when the dropdown is already open (Foundation has added 'moved')
+      var link = e.target.closest('.has-dropdown.moved > a');
+      if (!link) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.getAttribute('href');
+    }, true); // capture phase: run before Foundation removes 'moved' on second click
   });
 }());
 </script>
@@ -388,12 +382,12 @@
 
 			
 			<p class="teaser">
-				From large-scale quality transformations to intensive team upskilling — here is how I have helped organisations build durable quality capability.
+				From large-scale quality transformations to intensive team upskilling - here is how I have helped organisations build durable quality capability.
 			</p>
 			
 
 			<div style="margin-bottom:2rem;">
-  <p>Each engagement below is a real example of quality strategy, transformation, or training in practice — with context, approach, and outcomes.</p>
+  <p>Each engagement below is a real example of quality strategy, transformation, or training in practice - with context, approach, and outcomes.</p>
 </div>
 
 <div style="display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1rem;">

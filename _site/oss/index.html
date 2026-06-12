@@ -26,7 +26,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="Creator of three open-source tools used by quality engineers worldwide — plus active contributor to Selenium and Appium.">
+	<meta name="description" content="Creator of three open-source tools used by quality engineers worldwide - plus active contributor to Selenium and Appium.">
 	<meta name="google-site-verification" content="Wry44Qo0i_8rljx3C0jkldholGLLxGEqCwAb2-ZseBE">
 	
 	
@@ -37,7 +37,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Open-Source Tools">
-	<meta property="og:description" content="Creator of three open-source tools used by quality engineers worldwide — plus active contributor to Selenium and Appium.">
+	<meta property="og:description" content="Creator of three open-source tools used by quality engineers worldwide - plus active contributor to Selenium and Appium.">
 	<meta property="og:url" content="http://localhost:4000/oss/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -52,7 +52,7 @@
 	<meta name="twitter:site" content="BagmarAnand">
 	<meta name="twitter:creator" content="BagmarAnand">
 	<meta name="twitter:title" content="Open-Source Tools">
-	<meta name="twitter:description" content="Creator of three open-source tools used by quality engineers worldwide — plus active contributor to Selenium and Appium.">
+	<meta name="twitter:description" content="Creator of three open-source tools used by quality engineers worldwide - plus active contributor to Selenium and Appium.">
 	
 	
 
@@ -322,34 +322,28 @@
 </div><!-- /#navigation -->
 
 <script>
-// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
-// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
-// bubble-phase jQuery handlers) and navigate directly to the parent href.
-// A 'navigating' flag prevents the touchstart+click double-fire.
+// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
+// our CSS uses to show the dropdown inline). We intercept the second tap on an
+// already-open item and navigate to the parent href instead of letting Foundation
+// toggle it closed.
 (function () {
-  var navigating = false;
-
-  function mobileBreakpoint() {
-    return window.innerWidth <= 768 || ('ontouchstart' in window);
-  }
-
-  function handleNavTap(e) {
-    if (!mobileBreakpoint()) return;
-    var link = e.target.closest('.has-dropdown > a');
-    if (!link) return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
-    if (navigating) return;
-    navigating = true;
-    window.location.href = link.getAttribute('href');
-    setTimeout(function () { navigating = false; }, 1000);
+  function isMobileNav() {
+    return window.innerWidth <= 640;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
-    nav.addEventListener('click',      handleNavTap, true);
+
+    nav.addEventListener('click', function (e) {
+      if (!isMobileNav()) return;
+      // Only act when the dropdown is already open (Foundation has added 'moved')
+      var link = e.target.closest('.has-dropdown.moved > a');
+      if (!link) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.getAttribute('href');
+    }, true); // capture phase: run before Foundation removes 'moved' on second click
   });
 }());
 </script>
@@ -388,7 +382,7 @@
 
 			
 			<p class="teaser">
-				Creator of three open-source tools used by quality engineers worldwide — plus active contributor to Selenium and Appium.
+				Creator of three open-source tools used by quality engineers worldwide - plus active contributor to Selenium and Appium.
 			</p>
 			
 
@@ -423,7 +417,7 @@
         <span class="eot-oss-subtitle">Web Analytics Automation Testing</span>
       </div>
     </div>
-    <p>Dedicated framework for automated testing of web analytics implementations — ensuring accurate data collection and event tracking at scale.</p>
+    <p>Dedicated framework for automated testing of web analytics implementations - ensuring accurate data collection and event tracking at scale.</p>
     <ul class="eot-oss-features">
       <li>✓ Analytics Validation</li>
       <li>✓ Event Tracking Automation</li>
@@ -443,7 +437,7 @@
         <span class="eot-oss-subtitle">Test Trend Analyzer</span>
       </div>
     </div>
-    <p>Intelligent analysis of test execution trends — surfacing patterns in stability, flakiness, and coverage to drive data-informed quality decisions.</p>
+    <p>Intelligent analysis of test execution trends - surfacing patterns in stability, flakiness, and coverage to drive data-informed quality decisions.</p>
     <ul class="eot-oss-features">
       <li>✓ Trend &amp; Pattern Analysis</li>
       <li>✓ Flakiness Detection</li>
@@ -462,15 +456,15 @@
   <div class="eot-oss-contrib-grid">
     <div class="eot-oss-contrib-item">
       <strong><a href="https://www.selenium.dev" target="_blank">Selenium</a></strong>
-      <p>Active contributor to the Selenium browser automation project — the foundation of web testing globally.</p>
+      <p>Active contributor to the Selenium browser automation project - the foundation of web testing globally.</p>
     </div>
     <div class="eot-oss-contrib-item">
       <strong><a href="https://appium.io" target="_blank">Appium</a></strong>
-      <p>Contributor to Appium — the open-source standard for mobile test automation on iOS and Android.</p>
+      <p>Contributor to Appium - the open-source standard for mobile test automation on iOS and Android.</p>
     </div>
     <div class="eot-oss-contrib-item">
       <strong><a href="https://specmatic.in" target="_blank">Specmatic</a></strong>
-      <p>Contract Driven Development — enabling API contract testing across distributed teams.</p>
+      <p>Contract Driven Development - enabling API contract testing across distributed teams.</p>
     </div>
   </div>
   <p style="margin-top:1.5rem;">

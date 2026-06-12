@@ -17,7 +17,7 @@ permalink: /index.html
       <h1 class="eot-hero-name">Anand Bagmar</h1>
       <p class="eot-hero-role">Senior Quality Engineering Leadership</p>
       <p class="eot-hero-descriptors">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Software Quality Evangelist &nbsp;·&nbsp; 25+ Years</p>
-      <div class="eot-open-badge">Open to: FTE &nbsp;·&nbsp; Fractional &nbsp;·&nbsp; Consulting &amp; Advisory</div>
+      <div class="eot-open-badge">Open to FTE &nbsp;·&nbsp; Fractional &nbsp;·&nbsp; Consulting &amp; Advisory</div>
       <div class="eot-hero-ctas">
         <a href="/contact/" class="eot-btn eot-btn--primary">Get in Touch</a>
         <a href="/profile/" class="eot-btn eot-btn--outline">View Profile</a>
@@ -29,7 +29,7 @@ permalink: /index.html
     </div>
   </div>
   <div class="eot-hero-quote">
-    <p>"Strategic where it matters, practical where it counts — helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both."</p>
+    <p>"Strategic where it matters, practical where it counts - helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both."</p>
   </div>
 </section>
 
@@ -66,8 +66,8 @@ permalink: /index.html
       <div class="eot-about-text">
         <span class="eot-eyebrow">PROFESSIONAL SUMMARY</span>
         <h2 class="eot-section-title">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Automation Expert</h2>
-        <p>Anand Bagmar is a software quality executive, keynote speaker, and test automation expert with over 25 years of experience leading quality strategy and transformation across complex technology environments. He is open to senior quality engineering leadership roles — FTE or fractional/interim — as well as consulting and advisory engagements.</p>
-        <p>His work spans quality assessments, roadmap definition, automation strategy, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services. A Selenium and Appium contributor and creator of open-source tools used globally — and a regular conference speaker on software quality and AI-driven test automation.</p>
+        <p>Anand Bagmar is a software quality executive, keynote speaker, and test automation expert with over 25 years of experience leading quality strategy and transformation across complex technology environments. He is open to senior quality engineering leadership roles - FTE or fractional/interim - as well as consulting and advisory engagements.</p>
+        <p>His work spans quality assessments, roadmap definition, automation strategy, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services. A Selenium and Appium contributor and creator of open-source tools used globally - and a regular conference speaker on software quality and AI-driven test automation.</p>
         <div class="eot-domains">
           <strong>Domains:</strong> Telecom &nbsp;·&nbsp; E-Commerce &nbsp;·&nbsp; Gaming &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; Banking &amp; Financial Services &nbsp;·&nbsp; Enterprise Platforms
         </div>
@@ -103,28 +103,28 @@ permalink: /index.html
       <div class="eot-expertise-card">
         <div class="eot-expertise-num">02</div>
         <h3>Test Automation &amp; AI Quality</h3>
-        <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing — improving reliability across CI/CD pipelines.</p>
+        <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
         <a href="/areas-of-specialization/test-automation/">Learn more →</a>
       </div>
 
       <div class="eot-expertise-card">
         <div class="eot-expertise-num">03</div>
         <h3>Transformation &amp; Advisory</h3>
-        <p>Quality assessments, roadmaps, and contextual implementation — equally effective in short advisory engagements and full transformation programmes.</p>
+        <p>Quality assessments, roadmaps, and contextual implementation - equally effective in short advisory engagements and full transformation programmes.</p>
         <a href="/areas-of-specialization/">Learn more →</a>
       </div>
 
       <div class="eot-expertise-card">
         <div class="eot-expertise-num">04</div>
         <h3>Training &amp; Enablement</h3>
-        <p>Workshops, bootcamps, and enterprise programmes — training hundreds of professionals on modern automation and AI adoption.</p>
+        <p>Workshops, bootcamps, and enterprise programmes - training hundreds of professionals on modern automation and AI adoption.</p>
         <a href="/areas-of-specialization/trainings-and-workshops/">Learn more →</a>
       </div>
 
       <div class="eot-expertise-card">
         <div class="eot-expertise-num">05</div>
         <h3>Framework &amp; Tool Innovation</h3>
-        <p>Creator of Teswiz, WAAT, and TTA — open-source tools adopted and trusted by the global testing community.</p>
+        <p>Creator of Teswiz, WAAT, and TTA - open-source tools adopted and trusted by the global testing community.</p>
         <a href="/oss/">Learn more →</a>
       </div>
 
@@ -152,7 +152,7 @@ permalink: /index.html
       <div class="eot-offering-card">
         <div class="eot-offering-num">01</div>
         <h3>Strategic Consulting</h3>
-        <p>Practical, fit-for-purpose solutions leveraging AI and industry best practices — tailored to your product, team, and business goals.</p>
+        <p>Practical, fit-for-purpose solutions leveraging AI and industry best practices - tailored to your product, team, and business goals.</p>
       </div>
       <div class="eot-offering-card">
         <div class="eot-offering-num">02</div>
@@ -167,7 +167,7 @@ permalink: /index.html
       <div class="eot-offering-card">
         <div class="eot-offering-num">04</div>
         <h3>QA Community Engagement</h3>
-        <p>Stay ahead with the latest practices, tools, and thought leadership — connecting with the global quality engineering community.</p>
+        <p>Stay ahead with the latest practices, tools, and thought leadership - connecting with the global quality engineering community.</p>
       </div>
     </div>
   </div>
@@ -222,7 +222,7 @@ permalink: /index.html
           <span class="eot-tag eot-tag--amber">4.5 Years · 75+ SDETs</span>
         </div>
         <h3>Reliance Jio: Transforming Quality Engineering at Scale</h3>
-        <p>Assessment, strategy, and full implementation across 20+ product teams — automation frameworks, AI visual testing, and a Quality Engineering Competency Centre.</p>
+        <p>Assessment, strategy, and full implementation across 20+ product teams - automation frameworks, AI visual testing, and a Quality Engineering Competency Centre.</p>
         <a href="/case-studies/reliance-jio-quality-transformation/" class="eot-btn eot-btn--sm">Read case study →</a>
       </div>
 
@@ -232,7 +232,7 @@ permalink: /index.html
           <span class="eot-tag eot-tag--amber">5 Weeks · 50 SDETs</span>
         </div>
         <h3>Upskilling 50 SDETs with AI-Powered Test Automation</h3>
-        <p>Intensive classroom programme that transitioned manual testers to automation-ready contributors — with AI-assisted automation, daily evaluations, and final projects.</p>
+        <p>Intensive classroom programme that transitioned manual testers to automation-ready contributors - with AI-assisted automation, daily evaluations, and final projects.</p>
         <a href="/case-studies/gaming-sdet-upskilling/" class="eot-btn eot-btn--sm">Read case study →</a>
       </div>
 
@@ -271,7 +271,7 @@ permalink: /index.html
         <div class="eot-tl-icon">⚙️</div>
         <div>
           <strong>Open-Source Creator</strong>
-          <p>Selenium and Appium contributor. Creator of Teswiz, WAAT, and TTA — tools trusted by the global QA community.</p>
+          <p>Selenium and Appium contributor. Creator of Teswiz, WAAT, and TTA - tools trusted by the global QA community.</p>
         </div>
       </div>
     </div>
@@ -288,7 +288,7 @@ permalink: /index.html
 <section class="eot-cta">
   <div class="eot-cta-inner">
     <h2>Ready to build quality into your engineering culture?</h2>
-    <p>Whether you need a strategic advisor, a hands-on leader, or a training partner — let's talk.</p>
+    <p>Whether you need a strategic advisor, a hands-on leader, or a training partner - let's talk.</p>
     <div class="eot-cta-actions">
       <a href="/contact/" class="eot-btn eot-btn--primary">Get in Touch</a>
       <a href="/profile/" class="eot-btn eot-btn--outline">Download Profile</a>

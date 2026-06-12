@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Talks & Videos"
 subheadline: "Conference keynotes, talks, and webinars"
-teaser: "Recorded sessions from global testing conferences — covering quality leadership, AI, and test automation."
+teaser: "Recorded sessions from global testing conferences - covering quality leadership, AI, and test automation."
 permalink: "/talks-and-videos/"
 header:
     title: Talks & Videos
@@ -23,7 +23,7 @@ header:
           <div class="eot-featured-play">▶</div>
         </div>
         <div class="eot-featured-meta">
-          <h3>Changing Tyres In A Moving Car — Making Functional Test Automation Effective</h3>
+          <h3>Changing Tyres In A Moving Car - Making Functional Test Automation Effective</h3>
           <span class="eot-featured-event">SeConf 2022</span>
         </div>
       </div>
@@ -59,7 +59,7 @@ header:
           <div class="eot-featured-play">▶</div>
         </div>
         <div class="eot-featured-meta">
-          <h3>Measuring Consumer Quality — The Missing Feedback Loop</h3>
+          <h3>Measuring Consumer Quality - The Missing Feedback Loop</h3>
           <span class="eot-featured-event">Pune Agile UnConference</span>
         </div>
       </div>
@@ -113,7 +113,7 @@ header:
       </a>
 
       <a href="https://www.youtube.com/watch?v=t6hRwEFu95I" target="_blank" class="eot-talk-card">
-        <div class="eot-talk-title">Visual Validation — The Missing Tip of the Automation Pyramid</div>
+        <div class="eot-talk-title">Visual Validation - The Missing Tip of the Automation Pyramid</div>
         <span class="eot-talk-event">Agile India 2020</span>
       </a>
 
@@ -124,7 +124,7 @@ header:
 
       <a href="https://www.youtube.com/watch?v=I-VWY47R-pI" target="_blank" class="eot-talk-card">
         <div class="eot-talk-title">Why Quality is an End-to-End Process</div>
-        <span class="eot-talk-event">Podcast — James Walker, Curiosity Software</span>
+        <span class="eot-talk-event">Podcast - James Walker, Curiosity Software</span>
       </a>
 
       <a href="https://www.youtube.com/watch?v=uxnZFePfAMQ" target="_blank" class="eot-talk-card">
@@ -143,7 +143,7 @@ header:
       </a>
 
       <a href="https://www.youtube.com/watch?v=yiI4-zTxlCk" target="_blank" class="eot-talk-card">
-        <div class="eot-talk-title">To Deploy or Not-to-Deploy — Decide Using TTA's Trend &amp; Failure Analysis</div>
+        <div class="eot-talk-title">To Deploy or Not-to-Deploy - Decide Using TTA's Trend &amp; Failure Analysis</div>
         <span class="eot-talk-event">Conference Talk</span>
       </a>
 
@@ -164,30 +164,6 @@ header:
 <style>
 .eot-tv-section { max-width: 900px; margin: 0 auto; }
 .eot-tv-block { margin-bottom: 3rem; }
-
-.eot-eyebrow-sm {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #c8821a;
-  margin-bottom: 0.4rem;
-}
-
-.eot-tv-h2 {
-  font-size: 1.4rem;
-  color: #1c3a5c;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #dde4ed;
-}
-
-.eot-tv-lead {
-  font-size: 0.95rem;
-  color: #4a5e72;
-  margin-bottom: 1.25rem;
-}
 
 /* Featured grid */
 .eot-featured-grid {
@@ -396,8 +372,6 @@ header:
 .sz-powered-by a { color: #a0b4c8 !important; font-weight: 600 !important; }
 
 @media (prefers-color-scheme: dark) {
-  .eot-tv-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
-  .eot-tv-lead { color: #7aabcc !important; }
   .eot-featured-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #c8821a !important; }
   .eot-featured-meta h3 { color: #b5d0e8 !important; }
   .eot-featured-event { color: #c8821a !important; }

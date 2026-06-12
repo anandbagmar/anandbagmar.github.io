@@ -26,7 +26,7 @@
 
 
 	<!-- Search Engine Optimization -->
-	<meta name="description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.">
+	<meta name="description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC - from planning through to customer feedback.">
 	<meta name="google-site-verification" content="Wry44Qo0i_8rljx3C0jkldholGLLxGEqCwAb2-ZseBE">
 	
 	
@@ -37,7 +37,7 @@
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Areas of Specialization">
-	<meta property="og:description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.">
+	<meta property="og:description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC - from planning through to customer feedback.">
 	<meta property="og:url" content="http://localhost:4000/areas-of-specialization/">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
@@ -52,7 +52,7 @@
 	<meta name="twitter:site" content="BagmarAnand">
 	<meta name="twitter:creator" content="BagmarAnand">
 	<meta name="twitter:title" content="Areas of Specialization">
-	<meta name="twitter:description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.">
+	<meta name="twitter:description" content="With 25+ years in quality engineering, I embed quality across the entire SDLC - from planning through to customer feedback.">
 	
 	
 
@@ -322,34 +322,28 @@
 </div><!-- /#navigation -->
 
 <script>
-// Foundation 5 uses touchstart (not click) on mobile to drive its dropdown logic.
-// We intercept BOTH touchstart and click in capture phase (runs before Foundation's
-// bubble-phase jQuery handlers) and navigate directly to the parent href.
-// A 'navigating' flag prevents the touchstart+click double-fire.
+// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
+// our CSS uses to show the dropdown inline). We intercept the second tap on an
+// already-open item and navigate to the parent href instead of letting Foundation
+// toggle it closed.
 (function () {
-  var navigating = false;
-
-  function mobileBreakpoint() {
-    return window.innerWidth <= 768 || ('ontouchstart' in window);
-  }
-
-  function handleNavTap(e) {
-    if (!mobileBreakpoint()) return;
-    var link = e.target.closest('.has-dropdown > a');
-    if (!link) return;
-    e.stopImmediatePropagation();
-    e.preventDefault();
-    if (navigating) return;
-    navigating = true;
-    window.location.href = link.getAttribute('href');
-    setTimeout(function () { navigating = false; }, 1000);
+  function isMobileNav() {
+    return window.innerWidth <= 640;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-    nav.addEventListener('touchstart', handleNavTap, true); // capture before Foundation
-    nav.addEventListener('click',      handleNavTap, true);
+
+    nav.addEventListener('click', function (e) {
+      if (!isMobileNav()) return;
+      // Only act when the dropdown is already open (Foundation has added 'moved')
+      var link = e.target.closest('.has-dropdown.moved > a');
+      if (!link) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      window.location.href = link.getAttribute('href');
+    }, true); // capture phase: run before Foundation removes 'moved' on second click
   });
 }());
 </script>
@@ -388,12 +382,12 @@
 
 			
 			<p class="teaser">
-				With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback.
+				With 25+ years in quality engineering, I embed quality across the entire SDLC - from planning through to customer feedback.
 			</p>
 			
 
 			<div class="eot-spec-intro">
-  <p>Quality is not a testing problem — it is an organisational capability. I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility.</p>
+  <p>Quality is not a testing problem - it is an organisational capability. I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility.</p>
 </div>
 
 <div class="eot-spec-grid">
@@ -414,7 +408,7 @@
   <div class="eot-spec-card">
     <div class="eot-spec-num">02</div>
     <h3><a href="http://localhost:4000/areas-of-specialization/test-automation/">Test Automation &amp; AI Quality</a></h3>
-    <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing — improving reliability across CI/CD pipelines.</p>
+    <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
     <ul>
       <li>Future-ready automation frameworks</li>
       <li>AI-assisted test generation</li>
@@ -427,7 +421,7 @@
   <div class="eot-spec-card">
     <div class="eot-spec-num">03</div>
     <h3><a href="http://localhost:4000/areas-of-specialization/transformation-and-advisory/">Transformation &amp; Advisory</a></h3>
-    <p>Quality assessments, roadmaps, and contextual implementation — equally effective in short advisory engagements and full transformation programmes.</p>
+    <p>Quality assessments, roadmaps, and contextual implementation - equally effective in short advisory engagements and full transformation programmes.</p>
     <ul>
       <li>Current-state assessment</li>
       <li>Quality operating model design</li>
@@ -440,7 +434,7 @@
   <div class="eot-spec-card">
     <div class="eot-spec-num">04</div>
     <h3><a href="http://localhost:4000/areas-of-specialization/trainings-and-workshops/">Training &amp; Enablement</a></h3>
-    <p>Workshops, bootcamps, and enterprise programmes — training hundreds of professionals on modern automation and AI adoption.</p>
+    <p>Workshops, bootcamps, and enterprise programmes - training hundreds of professionals on modern automation and AI adoption.</p>
     <ul>
       <li>7 structured training programmes</li>
       <li>Custom team workshops</li>
@@ -453,11 +447,11 @@
   <div class="eot-spec-card">
     <div class="eot-spec-num">05</div>
     <h3><a href="http://localhost:4000/oss/">Framework &amp; Tool Innovation</a></h3>
-    <p>Creator of Teswiz, WAAT, and TTA — open-source tools adopted and trusted by the global testing community.</p>
+    <p>Creator of Teswiz, WAAT, and TTA - open-source tools adopted and trusted by the global testing community.</p>
     <ul>
-      <li>Teswiz — end-to-end automation framework</li>
-      <li>WAAT — web analytics automation testing</li>
-      <li>TTA — test trend analyzer</li>
+      <li>Teswiz - end-to-end automation framework</li>
+      <li>WAAT - web analytics automation testing</li>
+      <li>TTA - test trend analyzer</li>
       <li>Selenium &amp; Appium contributor</li>
     </ul>
     <a href="http://localhost:4000/oss/" class="eot-spec-link">View tools →</a>
@@ -479,7 +473,7 @@
 </div>
 
 <div class="eot-spec-cta">
-  <p>Not sure which area fits your challenge? <a href="/contact/">Get in touch</a> — I'll help you figure it out.</p>
+  <p>Not sure which area fits your challenge? <a href="/contact/">Get in touch</a> - I'll help you figure it out.</p>
 </div>
 
 <style>

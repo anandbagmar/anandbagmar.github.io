@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Areas of Specialization"
 subheadline: "Six pillars of measurable impact"
-teaser: "With 25+ years in quality engineering, I embed quality across the entire SDLC — from planning through to customer feedback."
+teaser: "With 25+ years in quality engineering, I embed quality across the entire SDLC - from planning through to customer feedback."
 permalink: "/areas-of-specialization/"
 header:
     title: Areas of Specialization
@@ -10,7 +10,7 @@ header:
 ---
 
 <div class="eot-spec-intro">
-  <p>Quality is not a testing problem — it is an organisational capability. I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility.</p>
+  <p>Quality is not a testing problem - it is an organisational capability. I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility.</p>
 </div>
 
 <div class="eot-spec-grid">
@@ -31,7 +31,7 @@ header:
   <div class="eot-spec-card">
     <div class="eot-spec-num">02</div>
     <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/test-automation/">Test Automation &amp; AI Quality</a></h3>
-    <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing — improving reliability across CI/CD pipelines.</p>
+    <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
     <ul>
       <li>Future-ready automation frameworks</li>
       <li>AI-assisted test generation</li>
@@ -44,7 +44,7 @@ header:
   <div class="eot-spec-card">
     <div class="eot-spec-num">03</div>
     <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/transformation-and-advisory/">Transformation &amp; Advisory</a></h3>
-    <p>Quality assessments, roadmaps, and contextual implementation — equally effective in short advisory engagements and full transformation programmes.</p>
+    <p>Quality assessments, roadmaps, and contextual implementation - equally effective in short advisory engagements and full transformation programmes.</p>
     <ul>
       <li>Current-state assessment</li>
       <li>Quality operating model design</li>
@@ -57,7 +57,7 @@ header:
   <div class="eot-spec-card">
     <div class="eot-spec-num">04</div>
     <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/trainings-and-workshops/">Training &amp; Enablement</a></h3>
-    <p>Workshops, bootcamps, and enterprise programmes — training hundreds of professionals on modern automation and AI adoption.</p>
+    <p>Workshops, bootcamps, and enterprise programmes - training hundreds of professionals on modern automation and AI adoption.</p>
     <ul>
       <li>7 structured training programmes</li>
       <li>Custom team workshops</li>
@@ -70,11 +70,11 @@ header:
   <div class="eot-spec-card">
     <div class="eot-spec-num">05</div>
     <h3><a href="{{ site.url }}{{ site.baseurl }}/oss/">Framework &amp; Tool Innovation</a></h3>
-    <p>Creator of Teswiz, WAAT, and TTA — open-source tools adopted and trusted by the global testing community.</p>
+    <p>Creator of Teswiz, WAAT, and TTA - open-source tools adopted and trusted by the global testing community.</p>
     <ul>
-      <li>Teswiz — end-to-end automation framework</li>
-      <li>WAAT — web analytics automation testing</li>
-      <li>TTA — test trend analyzer</li>
+      <li>Teswiz - end-to-end automation framework</li>
+      <li>WAAT - web analytics automation testing</li>
+      <li>TTA - test trend analyzer</li>
       <li>Selenium &amp; Appium contributor</li>
     </ul>
     <a href="{{ site.url }}{{ site.baseurl }}/oss/" class="eot-spec-link">View tools →</a>
@@ -96,7 +96,7 @@ header:
 </div>
 
 <div class="eot-spec-cta">
-  <p>Not sure which area fits your challenge? <a href="/contact/">Get in touch</a> — I'll help you figure it out.</p>
+  <p>Not sure which area fits your challenge? <a href="/contact/">Get in touch</a> - I'll help you figure it out.</p>
 </div>
 
 <style>

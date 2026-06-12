@@ -20,7 +20,7 @@ header:
         <div class="eot-content-card-icon">✍️</div>
         <div>
           <h3>Essence of Testing Blog</h3>
-          <p>Personal blog covering quality strategy, test automation, AI testing, and engineering practices — written for practitioners and leaders alike.</p>
+          <p>Personal blog covering quality strategy, test automation, AI testing, and engineering practices - written for practitioners and leaders alike.</p>
           <span class="eot-content-link">Read articles →</span>
         </div>
       </a>
@@ -60,30 +60,6 @@ header:
 .eot-content-section { max-width: 900px; margin: 0 auto; }
 
 .eot-content-block { margin-bottom: 3rem; }
-
-.eot-eyebrow-sm {
-  display: inline-block;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #c8821a;
-  margin-bottom: 0.4rem;
-}
-
-.eot-content-h2 {
-  font-size: 1.4rem;
-  color: #1c3a5c;
-  margin: 0 0 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #dde4ed;
-}
-
-.eot-content-lead {
-  font-size: 0.95rem;
-  color: #4a5e72;
-  margin-bottom: 1.25rem;
-}
 
 .eot-content-grid {
   display: grid;
@@ -138,8 +114,6 @@ header:
 }
 
 @media (prefers-color-scheme: dark) {
-  .eot-content-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
-  .eot-content-lead { color: #7aabcc !important; }
   .eot-content-card {
     background: #1e3550 !important;
     border-color: #243d58 !important;
