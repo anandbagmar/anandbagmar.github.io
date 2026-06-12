@@ -1116,11 +1116,10 @@ input[type="submit"] {
     -webkit-overflow-scrolling: touch;
   }
 
-  // ── Navigation: increase tap targets + scrollable dropdown
-  .top-bar-section li > a {
-    padding: 0.8rem 1rem !important;
-  }
-  // Keep section pinned — prevent Foundation's off-canvas slide (left: -100%)
+  // ── Navigation: mobile — flat always-visible list, no Foundation slide
+  .top-bar-section li > a { padding: 0.75rem 1rem !important; }
+
+  // Pin the section — prevent Foundation's left:-100% slide
   .top-bar.expanded .top-bar-section {
     left: 0 !important;
     transform: none !important;
@@ -1129,42 +1128,57 @@ input[type="submit"] {
     -webkit-overflow-scrolling: touch;
   }
 
-  // Hide Foundation's injected Back + section-label rows inside dropdowns
-  .top-bar-section .dropdown .title,
-  .top-bar-section .dropdown li.back { display: none !important; }
+  // Allow the li itself to show its dropdown (Foundation may set overflow:hidden)
+  .top-bar-section .has-dropdown {
+    overflow: visible !important;
+  }
 
-  // All dropdowns hidden by default
+  // Always show sub-items (no accordion toggle)
   .top-bar-section .has-dropdown > .dropdown {
-    display: none !important;
+    display: block !important;
     position: static !important;
     width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
     clip: auto !important;
     overflow: visible !important;
-    left: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    left: auto !important;
     top: auto !important;
-    background: rgba(0, 0, 0, 0.06) !important;
-    border-radius: 4px;
-    margin: 0 0 0.25rem !important;
-    padding: 0.25rem 0 !important;
+    transform: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
   }
-  // Foundation adds class="moved" to the li when user taps a has-dropdown item
-  .top-bar-section .has-dropdown.moved > .dropdown {
+
+  // Ensure each sub-item li is also visible
+  .top-bar-section .has-dropdown > .dropdown > li {
     display: block !important;
-  }
-  // Chevron indicator
-  .top-bar-section .has-dropdown > a::after {
-    content: " ▾" !important;
-    font-size: 0.7em;
-    opacity: 0.65;
-    border: none !important;
-    width: auto !important;
     height: auto !important;
-    position: static !important;
-    margin-left: 0.3rem;
+    clip: auto !important;
   }
-  .top-bar-section .has-dropdown.moved > a::after {
-    content: " ▴" !important;
+
+  // Hide Foundation's injected Back button, section label li, and label element
+  .top-bar-section .dropdown li.title,
+  .top-bar-section .dropdown li.back,
+  .top-bar-section .dropdown label { display: none !important; }
+
+  // Sub-items: indent with → prefix and amber left border
+  .top-bar-section .dropdown li a {
+    padding-left: 1.4rem !important;
+    font-size: 0.875rem !important;
+    border-left: 3px solid rgba(200, 130, 26, 0.5) !important;
+    margin-left: 0.75rem;
+    opacity: 0.9;
   }
+  .top-bar-section .dropdown li a::before {
+    content: "→ ";
+    color: #c8821a;
+    font-size: 0.8em;
+  }
+
+  // No dropdown arrow needed — items are always visible
+  .top-bar-section .has-dropdown > a::after { display: none !important; }
 
   // ── Nav logo on mobile: ensure it stays visible and properly sized
   .top-bar .nav-logo img {

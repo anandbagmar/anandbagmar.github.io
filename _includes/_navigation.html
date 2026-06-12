@@ -138,28 +138,22 @@
 </div><!-- /#navigation -->
 
 <script>
-// Mobile nav: Foundation handles first tap (adds class="moved" to the li, which
-// our CSS uses to show the dropdown inline). We intercept the second tap on an
-// already-open item and navigate to the parent href instead of letting Foundation
-// toggle it closed.
+// Mobile nav: sub-items are always visible (no accordion). This handler stops
+// Foundation's slide from running and navigates parent links normally.
 (function () {
-  function isMobileNav() {
-    return window.innerWidth <= 640;
-  }
-
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
-
     nav.addEventListener('click', function (e) {
-      if (!isMobileNav()) return;
-      // Only act when the dropdown is already open (Foundation has added 'moved')
-      var link = e.target.closest('.has-dropdown.moved > a');
-      if (!link) return;
-      e.preventDefault();
-      e.stopImmediatePropagation();
-      window.location.href = link.getAttribute('href');
-    }, true); // capture phase: run before Foundation removes 'moved' on second click
+      if (window.innerWidth > 640) return;
+      if (!e.target.closest('li.has-dropdown')) return;
+      e.stopImmediatePropagation(); // prevent Foundation's slide handler
+      var parentLink = e.target.closest('.has-dropdown > a');
+      if (parentLink) {
+        // Foundation would call preventDefault on this; navigate manually instead
+        window.location.href = parentLink.getAttribute('href');
+      }
+    }, true);
   });
 }());
 </script>
