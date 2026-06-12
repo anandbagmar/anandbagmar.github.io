@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title></title>
-	<updated>2026-06-12T12:47:18+05:30</updated>
+	<updated>2026-06-12T13:15:09+05:30</updated>
 
 	<subtitle>India (GMT +0530)</subtitle>
 
@@ -450,7 +450,8 @@
       &lt;div class=&quot;eot-tw-num&quot;&gt;01&lt;/div&gt;
       &lt;div class=&quot;eot-tw-body&quot;&gt;
         &lt;h3&gt;Quality Strategy in the AI-Accelerated World&lt;/h3&gt;
-        &lt;p&gt;Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.&lt;/p&gt;
+        &lt;p&gt;Half-day or full-day workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported. Covers quality risk identification, delivery bottleneck visualisation, quality signals, and co-creating a high-level quality strategy — using a real-world case study.&lt;/p&gt;
+        &lt;p style=&quot;margin-top:0.4rem&quot;&gt;&lt;a href=&quot;/areas-of-specialization/quality-strategy/&quot; style=&quot;font-size:0.8rem;color:#2b7fb0;font-weight:600;&quot;&gt;View full workshop details →&lt;/a&gt;&lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
 
@@ -742,8 +743,8 @@
 	
 		<entry>
 			<id>http://localhost:4000/areas-of-specialization/quality-strategy/</id>
-			<title>Quality Strategy</title>
-			<link href="http://localhost:4000/areas-of-specialization/quality-strategy/" rel="alternate" type="text/html" title="Quality Strategy" />
+			<title>Quality Strategy for AI-Accelerated Teams</title>
+			<link href="http://localhost:4000/areas-of-specialization/quality-strategy/" rel="alternate" type="text/html" title="Quality Strategy for AI-Accelerated Teams" />
 			<updated>2021-12-28T00:00:00+05:30</updated>
 
 			
@@ -756,30 +757,401 @@
 					
 				</author>
 			
-			<summary>Quality is a team responsibilty</summary>
-			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/quality-strategy/">&lt;p&gt;Quality is not a testing problem — it is an organisational capability. Focusing only on testing after development creates bottlenecks, inflates the cost of defects, and erodes delivery confidence.&lt;/p&gt;
+			<summary>Quality is a team responsibility</summary>
+			<content type="html" xml:base="http://localhost:4000/areas-of-specialization/quality-strategy/">&lt;div class=&quot;eot-qs-section&quot;&gt;
 
-&lt;p&gt;I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC — from planning through to customer feedback.&lt;/p&gt;
+  &lt;p class=&quot;eot-qs-lead&quot;&gt;Quality is not a testing problem — it is an organisational capability. AI is helping software and product teams move faster. But faster work does not automatically lead to better product outcomes. When delivery accelerates, organisations need better ways to understand quality risks, product gaps, regression impact, release confidence, and production feedback.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-this-looks-like-in-practice&quot;&gt;What this looks like in practice&lt;/h2&gt;
+  &lt;p class=&quot;eot-qs-lead&quot;&gt;I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC — from planning through to customer feedback — in a world where AI is part of how work gets done.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Quality Assessment&lt;/strong&gt; — Uncover the gap between perceived and actual quality. Identify bottlenecks, risks, and quick wins before committing to a roadmap.&lt;/p&gt;
+  &lt;span class=&quot;eot-eyebrow&quot;&gt;WHAT THIS LOOKS LIKE&lt;/span&gt;
+  &lt;h2 class=&quot;eot-qs-h2&quot;&gt;In Practice&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Quality Operating Model&lt;/strong&gt; — Define governance frameworks, ownership structures, and risk-based practices that align quality outcomes with business goals and delivery cadence.&lt;/p&gt;
+  &lt;div class=&quot;eot-qs-grid&quot;&gt;
 
-&lt;p&gt;&lt;strong&gt;Test Strategy &amp;amp; Roadmap&lt;/strong&gt; — Create a shared understanding of the quality vision and a pragmatic, prioritised plan to achieve it — contextual to your product, team, and technology.&lt;/p&gt;
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9680;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Quality Assessment&lt;/h3&gt;
+        &lt;p&gt;Uncover the gap between perceived and actual quality. Identify bottlenecks, risks, and quick wins before committing to a roadmap.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Test Automation Strategy&lt;/strong&gt; — Identify the right automation pyramid for your product, recommend tools and technologies, and help build automation that is fast, reliable, and maintainable.&lt;/p&gt;
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9632;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Quality Operating Model&lt;/h3&gt;
+        &lt;p&gt;Define governance frameworks, ownership structures, and risk-based practices that align quality outcomes with business goals and delivery cadence.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Test Data Management&lt;/strong&gt; — Design scalable approaches to creating, reusing, and managing test data — a critical enabler for reliable automation at scale.&lt;/p&gt;
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9650;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Test Strategy &amp;amp; Roadmap&lt;/h3&gt;
+        &lt;p&gt;Create a shared understanding of the quality vision and a pragmatic, prioritised plan to achieve it — contextual to your product, team, and technology.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;CI/CD Integration &amp;amp; Feedback Loops&lt;/strong&gt; — Faster, more reliable feedback cycles through quality gates in your pipelines, and data-driven insights through analytics and test trend analysis.&lt;/p&gt;
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9670;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Test Automation Strategy&lt;/h3&gt;
+        &lt;p&gt;Identify the right automation pyramid for your product, recommend tools and technologies, and help build automation that is fast, reliable, and maintainable.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Visual Testing&lt;/strong&gt; — Increase test coverage and reduce flakiness using AI-powered visual validation tools.&lt;/p&gt;
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9679;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Test Data Management&lt;/h3&gt;
+        &lt;p&gt;Design scalable approaches to creating, reusing, and managing test data — a critical enabler for reliable automation at scale.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms — delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9658;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;CI/CD Integration &amp;amp; Feedback Loops&lt;/h3&gt;
+        &lt;p&gt;Faster, more reliable feedback cycles through quality gates in your pipelines, and data-driven insights through analytics and test trend analysis.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9733;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Quality Signals &amp;amp; Delivery Confidence&lt;/h3&gt;
+        &lt;p&gt;Move beyond activity metrics. Define meaningful quality signals that connect engineering behaviour with product confidence and release readiness.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-qs-card&quot;&gt;
+      &lt;div class=&quot;eot-qs-icon&quot;&gt;&amp;#9788;&lt;/div&gt;
+      &lt;div class=&quot;eot-qs-body&quot;&gt;
+        &lt;h3&gt;Visual Testing&lt;/h3&gt;
+        &lt;p&gt;Increase test coverage and reduce flakiness using AI-powered visual validation tools.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;span class=&quot;eot-eyebrow&quot;&gt;THE AI CONTEXT&lt;/span&gt;
+  &lt;h2 class=&quot;eot-qs-h2&quot;&gt;Quality Strategy in the AI-Accelerated World&lt;/h2&gt;
+
+  &lt;div class=&quot;eot-qs-insight&quot;&gt;
+    &lt;p&gt;AI is changing how product managers, developers, testers, DevOps teams, and managers work. Speed increases. But quality gaps, integration risks, and release confidence challenges do not disappear — they shift and sometimes amplify.&lt;/p&gt;
+    &lt;p&gt;A quality strategy built for today&apos;s environment must account for:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Faster delivery cycles and AI-assisted work across the team&lt;/li&gt;
+      &lt;li&gt;Regression and integration risks that surface differently at higher velocity&lt;/li&gt;
+      &lt;li&gt;The need for human judgement on context, risk trade-offs, and product impact&lt;/li&gt;
+      &lt;li&gt;Quality signals that reflect product confidence — not just test pass rates&lt;/li&gt;
+      &lt;li&gt;Cross-functional ownership of quality decisions beyond the QA team&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Human judgement remains critical. AI can help with speed and productivity, but understanding context, risk, and product impact requires people who know the product and its customers.&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;eot-qs-workshop&quot;&gt;
+    &lt;span class=&quot;eot-eyebrow&quot;&gt;WORKSHOP&lt;/span&gt;
+    &lt;h2 class=&quot;eot-qs-h2&quot;&gt;Quality Strategy in the AI-Accelerated World&lt;/h2&gt;
+    &lt;p class=&quot;eot-qs-workshop-sub&quot;&gt;Building Product Confidence When Teams Are Moving Faster&lt;/p&gt;
+
+    &lt;p&gt;This workshop — available as a half-day or full-day session depending on participant needs — helps managers explore how to think about quality strategy in today&apos;s software and product development environment. The central question:&lt;/p&gt;
+    &lt;blockquote class=&quot;eot-qs-quote&quot;&gt;How do we build confidence in the product when delivery is becoming faster, more distributed, and increasingly supported by AI?&lt;/blockquote&gt;
+
+    &lt;div class=&quot;eot-qs-two-col&quot;&gt;
+      &lt;div&gt;
+        &lt;h4&gt;Who Should Attend&lt;/h4&gt;
+        &lt;p&gt;Managers and leaders involved in software or product delivery — including Engineering, Product, QA, Delivery, DevOps, Business Analysis, Agile, and Technology managers. Any manager who influences how work flows from idea to production.&lt;/p&gt;
+
+        &lt;h4&gt;Workshop Format&lt;/h4&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Facilitator-led framing&lt;/li&gt;
+          &lt;li&gt;Real-world case study discussion&lt;/li&gt;
+          &lt;li&gt;Small group activities&lt;/li&gt;
+          &lt;li&gt;Quality strategy co-creation&lt;/li&gt;
+          &lt;li&gt;Group reflection &amp;amp; Q&amp;amp;A&lt;/li&gt;
+          &lt;li&gt;Individual action identification&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h4&gt;What Participants Will Leave With&lt;/h4&gt;
+        &lt;ul&gt;
+          &lt;li&gt;A broader view of quality beyond testing, defects, and automation&lt;/li&gt;
+          &lt;li&gt;A practical way to think about quality strategy&lt;/li&gt;
+          &lt;li&gt;A simple method to visualise quality risks and bottlenecks&lt;/li&gt;
+          &lt;li&gt;A high-level quality strategy created for the case study&lt;/li&gt;
+          &lt;li&gt;A better understanding of quality signals and delivery confidence&lt;/li&gt;
+          &lt;li&gt;A phased strategy view for the case study&lt;/li&gt;
+          &lt;li&gt;Two action items identified during the workshop&lt;/li&gt;
+          &lt;li&gt;A clearer sense of where deeper quality strategy work may be useful&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-qs-outcomes&quot;&gt;
+      &lt;h4&gt;Learning Outcomes&lt;/h4&gt;
+      &lt;p&gt;By the end of the workshop, participants will be able to:&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Describe what quality means in the context of the case study&lt;/li&gt;
+        &lt;li&gt;Identify product, engineering, testing, release, and operational risks&lt;/li&gt;
+        &lt;li&gt;Visualise where quality issues and bottlenecks appear across delivery&lt;/li&gt;
+        &lt;li&gt;Recognise how speed, handoffs, assumptions, and AI-assisted work can create or expose quality gaps&lt;/li&gt;
+        &lt;li&gt;Prioritise the most important quality concerns and connect them to business and customer impact&lt;/li&gt;
+        &lt;li&gt;Define useful quality signals for the case study&lt;/li&gt;
+        &lt;li&gt;Co-create a high-level quality strategy and outline a phased implementation approach&lt;/li&gt;
+        &lt;li&gt;Identify two practical action items to reflect on or explore after the workshop&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;eot-qs-cta&quot;&gt;
+      &lt;p&gt;Interested in running this workshop for your team or organisation?&lt;/p&gt;
+      &lt;a href=&quot;/contact/&quot; class=&quot;eot-btn eot-btn--primary&quot;&gt;Get in touch →&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;blockquote class=&quot;eot-qs-testimonial&quot;&gt;
+    &lt;em&gt;I have successfully driven quality transformations across telecom, e-commerce, gaming, SaaS, banking/financial services, and enterprise platforms — delivering scalable frameworks, reduced defect leakage, and stronger QA and SDET teams.&lt;/em&gt;
+  &lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+&lt;style&gt;
+.eot-qs-section { max-width: 900px; margin: 0 auto; }
+
+.eot-qs-lead {
+  font-size: 1rem;
+  color: #4a5e72;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.eot-eyebrow {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c8821a;
+  margin-bottom: 0.3rem;
+}
+
+.eot-qs-h2 {
+  font-size: 1.4rem;
+  color: #1c3a5c;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #dde4ed;
+}
+
+.eot-qs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+@media (max-width: 640px) { .eot-qs-grid { grid-template-columns: 1fr; } }
+
+.eot-qs-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-left: 4px solid #2b7fb0;
+  border-radius: 6px;
+  padding: 1.1rem 1.2rem;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+.eot-qs-card:hover {
+  box-shadow: 0 4px 14px rgba(28,58,92,0.1);
+  transform: translateY(-2px);
+}
+
+.eot-qs-icon {
+  font-size: 1.1rem;
+  color: #c8821a;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 1.5rem;
+  padding-top: 2px;
+}
+
+.eot-qs-body h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1c3a5c;
+  margin: 0 0 0.35rem;
+  line-height: 1.35;
+}
+.eot-qs-body p {
+  font-size: 0.83rem;
+  color: #4a5e72;
+  margin: 0;
+  line-height: 1.55;
+}
+
+.eot-qs-insight {
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-left: 4px solid #c8821a;
+  border-radius: 6px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 2.5rem;
+}
+.eot-qs-insight p {
+  font-size: 0.9rem;
+  color: #4a5e72;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+.eot-qs-insight ul {
+  margin: 0.5rem 0 0.75rem;
+  padding-left: 1.2rem;
+}
+.eot-qs-insight li {
+  font-size: 0.875rem;
+  color: #4a5e72;
+  line-height: 1.65;
+  margin-bottom: 0.3rem;
+}
+
+.eot-qs-workshop {
+  background: #f0f5fa;
+  border: 1px solid #dde4ed;
+  border-radius: 8px;
+  padding: 1.8rem;
+  margin-bottom: 2rem;
+}
+.eot-qs-workshop-sub {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2b7fb0;
+  margin: -0.75rem 0 1rem;
+}
+.eot-qs-workshop &gt; p {
+  font-size: 0.9rem;
+  color: #4a5e72;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.eot-qs-quote {
+  border-left: 4px solid #c8821a;
+  background: #fff8ee;
+  padding: 0.9rem 1.2rem;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.95rem;
+  color: #1c3a5c;
+  font-style: italic;
+  border-radius: 0 6px 6px 0;
+}
+
+.eot-qs-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 640px) { .eot-qs-two-col { grid-template-columns: 1fr; } }
+
+.eot-qs-two-col h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1c3a5c;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.eot-qs-two-col p, .eot-qs-two-col li {
+  font-size: 0.85rem;
+  color: #4a5e72;
+  line-height: 1.65;
+}
+.eot-qs-two-col ul {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+.eot-qs-two-col li { margin-bottom: 0.3rem; }
+
+.eot-qs-outcomes {
+  background: #ffffff;
+  border: 1px solid #dde4ed;
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1.5rem;
+}
+.eot-qs-outcomes h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #1c3a5c;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.eot-qs-outcomes p {
+  font-size: 0.85rem;
+  color: #4a5e72;
+  margin-bottom: 0.5rem;
+}
+.eot-qs-outcomes ol {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+.eot-qs-outcomes li {
+  font-size: 0.85rem;
+  color: #4a5e72;
+  line-height: 1.65;
+  margin-bottom: 0.35rem;
+}
+
+.eot-qs-cta {
+  text-align: center;
+  padding: 1.2rem;
+  background: #fff8ee;
+  border-radius: 6px;
+  border: 1px solid #f0d8a0;
+  margin-top: 1.2rem;
+}
+.eot-qs-cta p {
+  font-size: 1rem;
+  color: #1c3a5c;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.eot-qs-testimonial {
+  border-left: 4px solid #2b7fb0;
+  padding: 0.9rem 1.2rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: #4a5e72;
+  font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .eot-qs-lead { color: #7aabcc !important; }
+  .eot-qs-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
+  .eot-qs-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; }
+  .eot-qs-body h3 { color: #b5d0e8 !important; }
+  .eot-qs-body p { color: #7aabcc !important; }
+  .eot-qs-insight { background: #182c40 !important; border-color: #243d58 !important; }
+  .eot-qs-insight p, .eot-qs-insight li { color: #7aabcc !important; }
+  .eot-qs-workshop { background: #182c40 !important; border-color: #243d58 !important; }
+  .eot-qs-workshop-sub { color: #5ab0dc !important; }
+  .eot-qs-workshop &gt; p { color: #7aabcc !important; }
+  .eot-qs-quote { background: #1e3040 !important; color: #b5d0e8 !important; border-left-color: #c8821a !important; }
+  .eot-qs-two-col h4 { color: #b5d0e8 !important; }
+  .eot-qs-two-col p, .eot-qs-two-col li { color: #7aabcc !important; }
+  .eot-qs-outcomes { background: #1e3550 !important; border-color: #243d58 !important; }
+  .eot-qs-outcomes h4 { color: #b5d0e8 !important; }
+  .eot-qs-outcomes p, .eot-qs-outcomes li { color: #7aabcc !important; }
+  .eot-qs-cta { background: #1e3040 !important; border-color: #2e4a60 !important; }
+  .eot-qs-cta p { color: #b5d0e8 !important; }
+  .eot-qs-testimonial { color: #7aabcc !important; }
+}
+&lt;/style&gt;
+
 </content>
 
 			

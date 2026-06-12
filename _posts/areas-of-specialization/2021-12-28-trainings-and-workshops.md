@@ -24,7 +24,8 @@ categories:
       <div class="eot-tw-num">01</div>
       <div class="eot-tw-body">
         <h3>Quality Strategy in the AI-Accelerated World</h3>
-        <p>Workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported.</p>
+        <p>Half-day or full-day workshop for managers: building product confidence when delivery is faster, more distributed, and AI-supported. Covers quality risk identification, delivery bottleneck visualisation, quality signals, and co-creating a high-level quality strategy — using a real-world case study.</p>
+        <p style="margin-top:0.4rem"><a href="/areas-of-specialization/quality-strategy/" style="font-size:0.8rem;color:#2b7fb0;font-weight:600;">View full workshop details →</a></p>
       </div>
     </div>
 

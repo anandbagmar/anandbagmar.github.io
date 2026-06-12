@@ -8,7 +8,7 @@
   dropdown:
     - title: "All Areas of Specialization"
       url: "/areas-of-specialization/"
-    - title: Quality Strategy
+    - title: Quality Strategy for AI-Accelerated Teams
       url: "/areas-of-specialization/quality-strategy/"
     - title: Test Automation
       url: "/areas-of-specialization/test-automation/"
