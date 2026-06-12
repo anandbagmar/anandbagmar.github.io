@@ -1,11 +1,11 @@
 ---
 layout: page-fullwidth
-title: "Blogs & Videos"
-subheadline: "Thought leadership through writing, speaking, and open knowledge-sharing"
-teaser: "Articles, conference talks, slides, and videos — exploring quality engineering, test automation, and AI-driven testing."
+title: "Blogs & Articles"
+subheadline: "Thought leadership through writing and open knowledge-sharing"
+teaser: "Articles and blogs exploring quality engineering, test automation, and AI-driven testing."
 permalink: "/content/"
 header:
-    title: Blogs & Videos
+    title: Blogs & Articles
     image_fullwidth: "header-bg.jpeg"
 ---
 
@@ -39,7 +39,7 @@ header:
 
   <div class="eot-content-block">
     <span class="eot-eyebrow-sm">PRESENTATIONS</span>
-    <h2 class="eot-content-h2">Slides &amp; Conference Talks</h2>
+    <h2 class="eot-content-h2">Slides</h2>
     <div class="eot-content-grid">
 
       <a href="https://www.slideshare.net/abagmar/" target="_blank" class="eot-content-card">
@@ -51,24 +51,6 @@ header:
         </div>
       </a>
 
-      <a href="https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw" target="_blank" class="eot-content-card">
-        <div class="eot-content-card-icon">🎬</div>
-        <div>
-          <h3>Conference Videos</h3>
-          <p>Recorded keynotes and session recordings from global testing conferences — covering quality leadership, AI, and test automation.</p>
-          <span class="eot-content-link">Watch videos →</span>
-        </div>
-      </a>
-
-    </div>
-  </div>
-
-  <div class="eot-content-block">
-    <span class="eot-eyebrow-sm">SPEAKING</span>
-    <h2 class="eot-content-h2">Conference Sessions</h2>
-    <p class="eot-content-lead">Conference talks and workshops at global testing events.</p>
-    <div class="eot-sessionize-wrap">
-      <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/71a1af89-3ba2-4f41-a931-e5255ee6b324/0x1x1a13b1x"></script>
     </div>
   </div>
 
@@ -155,59 +137,6 @@ header:
   color: #c8821a;
 }
 
-.eot-sessionize-wrap {
-  overflow-x: auto;
-}
-
-/* Sessionize widget overrides */
-.sz-root { font-family: inherit !important; }
-.sz-caption {
-  display: none !important; /* page already has its own heading */
-}
-.sz-group {
-  list-style: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.75rem;
-}
-@media (max-width: 640px) { .sz-group { grid-template-columns: 1fr !important; } }
-
-.sz-item {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-.sz-item__title {
-  display: block !important;
-  background: #f0f5fa !important;
-  border: 1px solid #dde4ed !important;
-  border-left: 4px solid #2b7fb0 !important;
-  border-radius: 6px !important;
-  padding: 0.85rem 1rem !important;
-  font-size: 0.875rem !important;
-  font-weight: 600 !important;
-  color: #1c3a5c !important;
-  text-decoration: none !important;
-  line-height: 1.45 !important;
-  transition: box-shadow 0.2s, transform 0.15s, border-left-color 0.2s !important;
-  height: 100% !important;
-  box-sizing: border-box !important;
-}
-.sz-item__title:hover {
-  box-shadow: 0 4px 12px rgba(28,58,92,0.1) !important;
-  transform: translateY(-1px) !important;
-  border-left-color: #c8821a !important;
-  color: #1c3a5c !important;
-}
-.sz-powered-by {
-  margin-top: 1rem !important;
-  font-size: 0.75rem !important;
-  color: #a0b4c8 !important;
-  text-align: right !important;
-}
-.sz-powered-by a { color: #a0b4c8 !important; font-weight: 600 !important; }
-
 @media (prefers-color-scheme: dark) {
   .eot-content-h2 { color: #b5d0e8 !important; border-bottom-color: #243d58 !important; }
   .eot-content-lead { color: #7aabcc !important; }
@@ -220,16 +149,5 @@ header:
   .eot-content-card h3 { color: #b5d0e8 !important; }
   .eot-content-card p { color: #7aabcc !important; }
   .eot-content-link { color: #c8821a !important; }
-  /* Sessionize dark mode */
-  .sz-item__title {
-    background: #1e3550 !important;
-    border-color: #243d58 !important;
-    border-left-color: #5ab0dc !important;
-    color: #b5d0e8 !important;
-  }
-  .sz-item__title:hover {
-    border-left-color: #c8821a !important;
-    color: #b5d0e8 !important;
-  }
 }
 </style>

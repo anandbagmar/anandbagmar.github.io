@@ -19,19 +19,26 @@
   url: "/oss/"
   side: left
 
-- title: "Blogs & Videos"
+- title: "Blogs & Articles"
   url: "/content/"
   side: left
   dropdown:
-  - title: "All Blogs & Videos"
-    url: "/content/"
   - title: "Essence of Testing Blog"
     url: "https://essenceoftesting.blogspot.com/"
   - title: "Applitools Blog"
     url: "https://applitools.com/blog/author/anandbagmar/"
   - title: "Slides"
     url: "https://www.slideshare.net/abagmar/"
-  - title: "Conference videos"
+
+- title: "Talks & Videos"
+  url: "/talks-and-videos/"
+  side: left
+  dropdown:
+  - title: "Featured Talks"
+    url: "/talks-and-videos/#featured-talks"
+  - title: "All Talks"
+    url: "/talks-and-videos/#all-talks"
+  - title: "YouTube Channel"
     url: "https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw"
 
 - title: "Case Studies"

@@ -165,6 +165,14 @@
 
           
           
+        
+
+              
+
+
+
+          
+          
             
             
               <li class="divider"></li>
@@ -308,14 +316,9 @@
             
 
               <li class="has-dropdown">
-                <a  href="http://localhost:4000/content/">Blogs &amp; Videos</a>
+                <a  href="http://localhost:4000/content/">Blogs &amp; Articles</a>
 
                   <ul class="dropdown">
-                    
-
-                      
-
-                      <li><a  href="http://localhost:4000/content/">All Blogs &amp; Videos</a></li>
                     
 
                       
@@ -332,10 +335,41 @@
 
                       <li><a  href="https://www.slideshare.net/abagmar/" target="_blank">Slides</a></li>
                     
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/talks-and-videos/">Talks &amp; Videos</a>
+
+                  <ul class="dropdown">
+                    
 
                       
 
-                      <li><a  href="https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw" target="_blank">Conference videos</a></li>
+                      <li><a  href="http://localhost:4000/talks-and-videos/#featured-talks">Featured Talks</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/talks-and-videos/#all-talks">All Talks</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw" target="_blank">YouTube Channel</a></li>
                     
                   </ul>
 
