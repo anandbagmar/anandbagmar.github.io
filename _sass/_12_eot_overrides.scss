@@ -1116,7 +1116,16 @@ input[type="submit"] {
     -webkit-overflow-scrolling: touch;
   }
 
-  // ── Navigation: mobile — flat always-visible list, no Foundation slide
+  // ── Nav logo on mobile: ensure it stays visible and properly sized
+  .top-bar .nav-logo img {
+    max-height: 32px;
+    margin-top: 6px;
+  }
+}
+
+// Foundation's top-bar switches to mobile mode below 64.063em (≈1025px).
+// All nav overrides must live here so they apply across the full mobile range.
+@media (max-width: 1024px) {
   .top-bar-section li > a { padding: 0.75rem 1rem !important; }
 
   // Pin the section — prevent Foundation's left:-100% slide
@@ -1129,11 +1138,9 @@ input[type="submit"] {
   }
 
   // Allow the li itself to show its dropdown (Foundation may set overflow:hidden)
-  .top-bar-section .has-dropdown {
-    overflow: visible !important;
-  }
+  .top-bar-section .has-dropdown { overflow: visible !important; }
 
-  // Always show sub-items (no accordion toggle)
+  // Always show sub-items — no accordion toggle
   .top-bar-section .has-dropdown > .dropdown {
     display: block !important;
     position: static !important;
@@ -1151,19 +1158,18 @@ input[type="submit"] {
     box-shadow: none !important;
   }
 
-  // Ensure each sub-item li is also visible
   .top-bar-section .has-dropdown > .dropdown > li {
     display: block !important;
     height: auto !important;
     clip: auto !important;
   }
 
-  // Hide Foundation's injected Back button, section label li, and label element
+  // Foundation injects these — JS removes them; belt-and-suspenders hide via CSS too
   .top-bar-section .dropdown li.title,
   .top-bar-section .dropdown li.back,
   .top-bar-section .dropdown label { display: none !important; }
 
-  // Sub-items: indent with → prefix and amber left border
+  // Sub-items: indent with amber left border (→ prefix added by JS, not CSS)
   .top-bar-section .dropdown li a {
     padding-left: 1.4rem !important;
     font-size: 0.875rem !important;
@@ -1171,20 +1177,9 @@ input[type="submit"] {
     margin-left: 0.75rem;
     opacity: 0.9;
   }
-  .top-bar-section .dropdown li a::before {
-    content: "→ ";
-    color: #c8821a;
-    font-size: 0.8em;
-  }
 
-  // No dropdown arrow needed — items are always visible
+  // No Foundation dropdown arrow — always visible
   .top-bar-section .has-dropdown > a::after { display: none !important; }
-
-  // ── Nav logo on mobile: ensure it stays visible and properly sized
-  .top-bar .nav-logo img {
-    max-height: 32px;
-    margin-top: 6px;
-  }
 }
 
 // Extra small (iPhone SE etc)

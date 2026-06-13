@@ -6,9 +6,7 @@
   url: "/areas-of-specialization/"
   side: left
   dropdown:
-    - title: "All Areas of Specialization"
-      url: "/areas-of-specialization/"
-    - title: Quality Strategy for AI-Accelerated Teams
+    - title: "★ Quality Strategy for AI-Accelerated Teams"
       url: "/areas-of-specialization/quality-strategy/"
     - title: Test Automation
       url: "/areas-of-specialization/test-automation/"
@@ -16,6 +14,8 @@
       url: "/areas-of-specialization/transformation-and-advisory/"
     - title: Trainings & Workshops
       url: "/areas-of-specialization/trainings-and-workshops/"
+    - title: "All Areas of Specialization"
+      url: "/areas-of-specialization/"
 
 - title: "Open Source"
   url: "/oss/"
