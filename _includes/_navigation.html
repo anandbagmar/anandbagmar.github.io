@@ -206,7 +206,9 @@
 
     updateIcon();
 
-    btn.addEventListener('click', function () {
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      e.preventDefault();
       var dark = !isDark();
       document.documentElement.classList.toggle('dark-mode', dark);
       localStorage.setItem('eot-theme', dark ? 'dark' : 'light');

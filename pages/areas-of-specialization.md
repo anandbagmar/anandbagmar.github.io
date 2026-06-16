@@ -151,11 +151,6 @@ header:
 }
 .eot-spec-cta p { margin: 0; color: #1c3a5c; }
 
-  .eot-spec-card {
-    background: #1e3550 !important;
-    border-color: #243d58 !important;
-    border-top-color: #5ab0dc !important;
-  }
 html.dark-mode .eot-spec-intro p { color: #7aabcc !important; }
 html.dark-mode .eot-spec-card { background: #1e3550 !important; border-color: #243d58 !important; border-top-color: #5ab0dc !important; }
 html.dark-mode .eot-spec-num { background: #243d58 !important; color: #cfe0f0 !important; }

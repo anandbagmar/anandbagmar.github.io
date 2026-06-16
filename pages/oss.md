@@ -163,15 +163,6 @@ header:
 .eot-oss-contrib-item strong a { color: #1c3a5c !important; font-size: 1rem; border: none !important; }
 .eot-oss-contrib-item p { font-size: 0.82rem; color: #4a5e72; margin: 0.3rem 0 0; line-height: 1.55; }
 
-  .eot-oss-header h3 { color: #b5d0e8 !important; }
-  .eot-oss-subtitle { color: #c8821a !important; }
-  .eot-oss-card p, .eot-oss-features li { color: #7aabcc !important; }
-  .eot-oss-contrib { border-top-color: #243d58 !important; }
-  .eot-oss-contrib h2 { color: #b5d0e8 !important; }
-  .eot-oss-contrib-item {
-    background: #182c40 !important;
-    border-color: #243d58 !important;
-  }
 html.dark-mode .eot-oss-card { background: #1e3550 !important; border-color: #243d58 !important; }
 html.dark-mode .eot-oss-header h3 { color: #b5d0e8 !important; }
 html.dark-mode .eot-oss-subtitle { color: #c8821a !important; }
