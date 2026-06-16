@@ -122,3 +122,5 @@ apple-touch-icon-72x72-precomposed   : 'apple-touch-icon-72x72.png'
 apple-touch-icon-precomposed         : 'apple-touch-icon.png'
 msapplication_tileimage              : 'apple-touch-icon-144x144.png'               # Size 144x144
 msapplication_tilecolor              : '#fabb00'
+
+google_analytics_tracking_id: 'G-KEG5FPCYF2'
