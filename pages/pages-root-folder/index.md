@@ -58,13 +58,32 @@ permalink: /index.html
 </section>
 
 <!-- ═══════════════════════════════════════════════════
+     ESSENCE OF TESTING SUMMARY
+════════════════════════════════════════════════════ -->
+<section class="eot-section eot-section--tint">
+  <div class="eot-section-inner">
+    <div class="eot-about">
+      <div class="eot-about-text">
+        <span class="eot-eyebrow">ABOUT ESSENCE OF TESTING</span>
+        <h2 class="eot-section-title">Where Quality Meets Strategy</h2>
+        <p>Essence of Testing is a specialist quality engineering consultancy focused on helping organisations build lasting quality practices - not just fix immediate testing gaps. From early-stage startups to large enterprise programmes, we bring strategic thinking and hands-on execution together.</p>
+        <p>We work at the intersection of quality strategy, automation, AI-driven tooling, and engineering culture - delivering outcomes that stick. Whether through targeted advisory, embedded leadership, or structured upskilling programmes, Essence of Testing creates measurable, durable change.</p>
+        <div class="eot-domains">
+          <strong>Engagement Models:</strong> Strategic Consulting &nbsp;·&nbsp; Fractional QA Leadership &nbsp;·&nbsp; Training &amp; Upskilling &nbsp;·&nbsp; Advisory
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════
      ABOUT / SUMMARY
 ════════════════════════════════════════════════════ -->
 <section class="eot-section">
   <div class="eot-section-inner">
     <div class="eot-about">
       <div class="eot-about-text">
-        <span class="eot-eyebrow">PROFESSIONAL SUMMARY</span>
+        <span class="eot-eyebrow">ANAND BAGMAR – FOUNDER</span>
         <h2 class="eot-section-title">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Automation Expert</h2>
         <p>Anand Bagmar is a software quality executive, keynote speaker, and test automation expert with over 25 years of experience leading quality strategy and transformation across complex technology environments. He is open to senior quality engineering leadership roles - FTE or fractional/interim - as well as consulting and advisory engagements.</p>
         <p>His work spans quality assessments, roadmap definition, automation strategy, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services. A Selenium and Appium contributor and creator of open-source tools used globally - and a regular conference speaker on software quality and AI-driven test automation.</p>
