@@ -74,6 +74,9 @@
           {% endif %}
         {% endfor %}
         {% comment %}   First loop finished 1   {% endcomment %}
+        <li class="theme-toggle-li">
+          <button id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle dark/light mode">🌙</button>
+        </li>
       </ul>
 {% comment %}
 
@@ -188,6 +191,29 @@
     });
   }
 
+  function initThemeToggle() {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+
+    function isDark() {
+      return document.documentElement.classList.contains('dark-mode');
+    }
+
+    function updateIcon() {
+      btn.textContent = isDark() ? '☀️' : '🌙';
+      btn.setAttribute('aria-label', isDark() ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+
+    updateIcon();
+
+    btn.addEventListener('click', function () {
+      var dark = !isDark();
+      document.documentElement.classList.toggle('dark-mode', dark);
+      localStorage.setItem('eot-theme', dark ? 'dark' : 'light');
+      updateIcon();
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     var nav = document.querySelector('#navigation');
     if (!nav) return;
@@ -195,6 +221,7 @@
     colourNavStars();
     // Run after Foundation's DOMContentLoaded handlers (~jQuery ready)
     setTimeout(cleanMobileNav, 200);
+    initThemeToggle();
   });
 }());
 </script>

@@ -185,12 +185,156 @@ input[type="submit"] {
     color: lighten($amber, 15%);
   }
 }
+
+// ─── Footer layout ───────────────────────────────────────────
+
+.eot-footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+// Quick links — one horizontal line with pipe separators
+.eot-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+
+  a {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: $amber;
+    text-decoration: none;
+    padding: 0.2rem 1.1rem;
+    white-space: nowrap;
+    transition: color 0.2s;
+    border-right: 1px solid rgba($white, 0.18);
+
+    &:last-child {
+      border-right: none;
+    }
+
+    &:hover {
+      color: lighten($amber, 18%);
+    }
+  }
+}
+
+// Brand line below links
+.eot-footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eot-footer-name {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(#e8f0f7, 0.7);
+}
+
+.eot-footer-location {
+  font-size: 0.8rem;
+  color: rgba(#a0b4c8, 0.8);
+
+  &::before {
+    content: "·";
+    margin-right: 0.75rem;
+    color: rgba($white, 0.2);
+  }
+}
+
 #subfooter {
   background: $navy-dark !important;
   border-top: 1px solid rgba($white, 0.08);
-  .credits,
-  .credits a {
-    color: #6a88a0;
+}
+
+// Subfooter: social icons centred
+.eot-subfooter-inner {
+  display: flex;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+}
+
+.social-icons {
+  justify-content: center;
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0 !important;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 0 !important;
+  }
+
+  a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+    font-size: 1.1rem !important;
+    background: rgba($white, 0.12) !important;
+    color: $white !important;
+    border: 1px solid rgba($white, 0.22);
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+
+    &:hover {
+      background: $amber !important;
+      color: $navy-dark !important;
+      border-color: $amber;
+    }
+  }
+}
+
+// ─── Dark/light mode toggle ──────────────────────────────────
+
+#theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba($white, 0.3);
+  background: transparent;
+  color: $white;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  transition: background 0.2s, border-color 0.2s;
+
+  &:hover {
+    background: rgba($white, 0.15);
+    border-color: $amber;
+  }
+}
+
+// wrapper li in the nav right list
+li.theme-toggle-li {
+  display: inline-flex !important;
+  align-items: center;
+  padding: 0 0.5rem !important;
+  background: transparent !important;
+  border: none !important;
+
+  &:hover {
+    background: transparent !important;
   }
 }
 
@@ -778,6 +922,121 @@ input[type="submit"] {
 
 // ─── Clients ─────────────────────────────────────────────────
 
+// ─── Industry-grouped clients ────────────────────────────────
+
+.eot-industry-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.eot-industry-group {
+  background: $white;
+  border: 1px solid $border;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba($navy, 0.07);
+  transition: box-shadow 0.2s, transform 0.15s;
+
+  &:hover {
+    box-shadow: 0 6px 18px rgba($navy, 0.13);
+    transform: translateY(-2px);
+  }
+}
+
+.eot-industry-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: $navy;
+  padding: 0.7rem 1rem;
+}
+
+.eot-industry-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.eot-industry-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $amber;
+}
+
+.eot-industry-clients {
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+
+  li {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $navy;
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid $border;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: $amber;
+      flex-shrink: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+// ─── Client aka label ────────────────────────────────────────
+
+.eot-client-aka {
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: $text-light;
+  font-style: italic;
+}
+
+// ─── AI badge ────────────────────────────────────────────────
+
+.eot-ai-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $white;
+  background: linear-gradient(135deg, #6c3fc5 0%, #3b82c4 100%);
+  border-radius: 3px;
+  padding: 0.1em 0.45em 0.15em;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+  flex-shrink: 0;
+}
+
+.eot-ai-legend {
+  text-align: right;
+  font-size: 0.78rem;
+  color: $text-light;
+  margin: 0.75rem 0 0;
+
+  .eot-ai-badge {
+    margin-left: 0;
+    margin-right: 0.35rem;
+  }
+}
+
+// keep old helpers in case referenced elsewhere
 .eot-clients-grid {
   display: flex;
   flex-wrap: wrap;
@@ -810,6 +1069,21 @@ input[type="submit"] {
   font-size: 0.82rem;
   color: $text-light;
   margin: 0;
+}
+
+// ─── Case studies CTA callout ────────────────────────────────
+
+.eot-cs-cta {
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
+  background: $bg-tint;
+  border-radius: 8px;
+  border-left: 4px solid $blue;
+  color: $text;
+
+  strong {
+    color: $navy;
+  }
 }
 
 // ─── Case studies preview ────────────────────────────────────
@@ -1082,6 +1356,11 @@ input[type="submit"] {
     padding: 0.4rem 0.8rem;
   }
 
+  // ── Industry grid: 2 cols on wide mobile, 1 col on narrow
+  .eot-industry-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   // ── CTA
   .eot-cta {
     padding: 2.5rem 1.25rem;
@@ -1193,6 +1472,11 @@ input[type="submit"] {
   .eot-stat-number {
     font-size: 1.4rem;
   }
+
+  // ── Industry grid: single column on very narrow screens
+  .eot-industry-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -1210,7 +1494,7 @@ $dk-text-muted: #7aabcc;
 $dk-heading: #b5d0e8;
 $dk-blue: #5ab0dc;
 
-@media (prefers-color-scheme: dark) {
+html.dark-mode {
   // ── Page base
   body {
     background: $dk-bg !important;
@@ -1449,7 +1733,37 @@ $dk-blue: #5ab0dc;
     }
   }
 
-  // ── Clients
+  // ── Industry grouped clients
+  .eot-industry-group {
+    background: $dk-card;
+    border-color: $dk-border;
+    box-shadow: none;
+    &:hover {
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+  .eot-industry-header {
+    background: $dk-card-2;
+  }
+  .eot-industry-label {
+    color: $amber;
+  }
+  .eot-industry-clients li {
+    color: $dk-text;
+    border-bottom-color: $dk-border;
+  }
+
+  // ── Client aka label
+  .eot-client-aka {
+    color: $dk-text-muted;
+  }
+
+  // ── AI badge (gradient already works on dark; just lighten legend text)
+  .eot-ai-legend {
+    color: $dk-text-muted;
+  }
+
+  // ── Clients (legacy pill grid, kept for fallback)
   .eot-client {
     background: $dk-card-2;
     border-color: $dk-border;
@@ -1538,6 +1852,14 @@ $dk-blue: #5ab0dc;
       color: $dk-heading !important;
     }
   }
+  .eot-cs-cta {
+    background: $dk-card !important;
+    border-left-color: $dk-blue !important;
+    color: $dk-text !important;
+    strong {
+      color: $dk-heading !important;
+    }
+  }
 
   // ── OSS page
   .eot-oss-card {
@@ -1587,6 +1909,100 @@ $dk-blue: #5ab0dc;
   // ── Subfooter / footer - already dark navy, minimal tweaks
   #footer-content p {
     color: rgba($dk-text, 0.65);
+  }
+
+  // ── Inner-page backgrounds and text
+  .row.t30,
+  .format.post,
+  .format.page-fullwidth {
+    background: $dk-bg !important;
+  }
+  .medium-8.columns,
+  .medium-12.columns {
+    background: transparent !important;
+  }
+  article,
+  article header {
+    background: transparent !important;
+    color: $dk-text;
+  }
+
+  // ── General text elements not covered by p {}
+  label {
+    color: $dk-text !important;
+  }
+  .teaser {
+    color: $dk-text-muted !important;
+  }
+  .subheadline {
+    color: $dk-text-muted !important;
+  }
+  li {
+    color: $dk-text-muted;
+  }
+
+  // ── Forms
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="search"],
+  input[type="url"],
+  input[type="tel"],
+  textarea,
+  select {
+    background: $dk-card !important;
+    border-color: $dk-border !important;
+    color: $dk-text !important;
+    box-shadow: none !important;
+
+    &::placeholder {
+      color: $dk-text-muted !important;
+      opacity: 0.7;
+    }
+
+    &:focus {
+      background: $dk-card-2 !important;
+      border-color: $dk-blue !important;
+      outline: none;
+    }
+  }
+
+  // Foundation wraps inputs in a specific way
+  .row input,
+  .row textarea,
+  article input,
+  article textarea {
+    background: $dk-card !important;
+    border-color: $dk-border !important;
+    color: $dk-text !important;
+  }
+
+  // ── Masthead / header image area on inner pages
+  #masthead {
+    background: $dk-bg-tint;
+  }
+  #masthead-no-image-header {
+    background: $dk-bg-tint;
+  }
+  .masthead-caption {
+    color: $dk-text-muted;
+  }
+
+  // ── Breadcrumb
+  .breadcrumbs {
+    background: $dk-card !important;
+    li {
+      color: $dk-text-muted;
+    }
+    a {
+      color: $dk-blue;
+    }
+  }
+
+  // ── Sidebar
+  .sidebar-module {
+    background: $dk-card !important;
+    border-color: $dk-border !important;
   }
 
   // ── Page shared utilities

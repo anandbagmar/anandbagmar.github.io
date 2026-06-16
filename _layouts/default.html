@@ -5,6 +5,15 @@ layout: compress
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	{% include _head.html %}
+	<script>
+	(function(){
+	  var stored = localStorage.getItem('eot-theme');
+	  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+	  if (stored === 'dark' || (!stored && prefersDark)) {
+	    document.documentElement.classList.add('dark-mode');
+	  }
+	})();
+	</script>
 </head>
 <body id="top-of-page" class="{{ layout.format }}">
 	{% unless page.skip_boilerplate %}

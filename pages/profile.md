@@ -100,9 +100,9 @@ header:
   font-weight: 700;
 }
 @media (max-width: 640px) {
-  .eot-profile-name { font-size: 1.5rem; }
-  .eot-profile-hero-inner { padding: 1.5rem; }
-}
+html.dark-mode .eot-profile-card { background: #1e3550 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-profile-card h3 { color: #b5d0e8 !important; }
+html.dark-mode .eot-profile-card p { color: #7aabcc !important; }
 </style>
 
 ---
@@ -143,14 +143,9 @@ header:
 .eot-profile-card h3 { margin-top: 0; color: #1c3a5c; }
 .eot-profile-card p  { color: #4a5e72; }
 
-@media (prefers-color-scheme: dark) {
-  .eot-profile-card {
-    background: #1e3550 !important;
-    border-color: #243d58 !important;
-  }
-  .eot-profile-card h3 { color: #b5d0e8 !important; }
-  .eot-profile-card p  { color: #7aabcc !important; }
-}
+html.dark-mode .eot-profile-card { background: #1e3550 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-profile-card h3 { color: #b5d0e8 !important; }
+html.dark-mode .eot-profile-card p { color: #7aabcc !important; }
 </style>
 
 ---

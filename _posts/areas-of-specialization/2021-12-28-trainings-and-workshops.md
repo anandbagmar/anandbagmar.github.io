@@ -162,11 +162,9 @@ categories:
   margin-bottom: 0.75rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .eot-tw-casestudy { background: #182c40 !important; border-color: #243d58 !important; }
-  .eot-tw-meta-pill { background: #1e3550 !important; border-color: #243d58 !important; color: #b5d0e8 !important; }
-  .eot-tw-outcomes li { color: #7aabcc !important; }
-  .eot-tw-cta { background: #182c40 !important; border-color: #243d58 !important; }
-  .eot-tw-cta p { color: #b5d0e8 !important; }
-}
+html.dark-mode .eot-tw-casestudy { background: #182c40 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-tw-meta-pill { background: #1e3550 !important; border-color: #243d58 !important; color: #b5d0e8 !important; }
+html.dark-mode .eot-tw-outcomes li { color: #7aabcc !important; }
+html.dark-mode .eot-tw-cta { background: #182c40 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-tw-cta p { color: #b5d0e8 !important; }
 </style>

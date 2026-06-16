@@ -151,18 +151,18 @@ header:
 }
 .eot-spec-cta p { margin: 0; color: #1c3a5c; }
 
-@media (prefers-color-scheme: dark) {
-  .eot-spec-intro p { color: #7aabcc !important; }
   .eot-spec-card {
     background: #1e3550 !important;
     border-color: #243d58 !important;
     border-top-color: #5ab0dc !important;
   }
-  .eot-spec-num { background: #243d58 !important; color: #cfe0f0 !important; }
-  .eot-spec-card h3 a { color: #5ab0dc !important; }
-  .eot-spec-card p, .eot-spec-card li { color: #7aabcc !important; }
-  .eot-spec-link { color: #c8821a !important; }
-  .eot-spec-cta { background: rgba(90, 176, 220, 0.1) !important; }
-  .eot-spec-cta p { color: #b5d0e8 !important; }
-}
+html.dark-mode .eot-spec-intro p { color: #7aabcc !important; }
+html.dark-mode .eot-spec-card { background: #1e3550 !important; border-color: #243d58 !important; border-top-color: #5ab0dc !important; }
+html.dark-mode .eot-spec-num { background: #243d58 !important; color: #cfe0f0 !important; }
+html.dark-mode .eot-spec-card h3 a { color: #5ab0dc !important; }
+html.dark-mode .eot-spec-card p { color: #7aabcc !important; }
+html.dark-mode .eot-spec-card li { color: #7aabcc !important; }
+html.dark-mode .eot-spec-link { color: #c8821a !important; }
+html.dark-mode .eot-spec-cta { background: rgba(90, 176, 220, 0.1) !important; }
+html.dark-mode .eot-spec-cta p { color: #b5d0e8 !important; }
 </style>

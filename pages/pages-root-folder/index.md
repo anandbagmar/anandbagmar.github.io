@@ -91,12 +91,6 @@ permalink: /index.html
           <strong>Domains:</strong> Telecom &nbsp;·&nbsp; E-Commerce &nbsp;·&nbsp; Gaming &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; Banking &amp; Financial Services &nbsp;·&nbsp; Enterprise Platforms
         </div>
       </div>
-      <div class="eot-about-stats-col">
-        <div class="eot-about-stat"><span class="eot-about-stat-num">25+</span><span class="eot-about-stat-lbl">Years of QA Excellence</span></div>
-        <div class="eot-about-stat"><span class="eot-about-stat-num">15+</span><span class="eot-about-stat-lbl">Global Organisations</span></div>
-        <div class="eot-about-stat"><span class="eot-about-stat-num">100s</span><span class="eot-about-stat-lbl">Professionals Trained</span></div>
-        <div class="eot-about-stat"><span class="eot-about-stat-num">3</span><span class="eot-about-stat-lbl">Open-Source Tools</span></div>
-      </div>
     </div>
   </div>
 </section>
@@ -201,26 +195,87 @@ permalink: /index.html
       <span class="eot-eyebrow">CLIENTS &amp; ORGANISATIONS</span>
       <h2 class="eot-section-title">Trusted by global leaders across industries</h2>
     </div>
-    <div class="eot-clients-grid">
-      <span class="eot-client">AmberPoint</span>
-      <span class="eot-client">AmDocs</span>
-      <span class="eot-client">Applitools</span>
-      <span class="eot-client">Borland</span>
-      <span class="eot-client">ChargedUp.green</span>
-      <span class="eot-client">Microsoft</span>
-      <span class="eot-client">Myntra</span>
-      <span class="eot-client">SnapDeal</span>
-      <span class="eot-client">Specmatic</span>
-      <span class="eot-client">Srijan</span>
-      <span class="eot-client">ThoughtWorks</span>
-      <span class="eot-client">Tieto</span>
-      <span class="eot-client">Vuclip</span>
-      <span class="eot-client">WebMD</span>
-      <span class="eot-client">Xnsio</span>
+
+    <!-- Industry-grouped grid -->
+    <div class="eot-industry-grid">
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">📡</span>
+          <span class="eot-industry-label">Telecom</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>AmDocs</li>
+          <li>Reliance Jio <span class="eot-ai-badge">AI</span></li>
+          <li>Tieto Evry</li>
+          <li>Vuclip</li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🛒</span>
+          <span class="eot-industry-label">E-Commerce &amp; Retail</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>Myntra</li>
+          <li>SnapDeal</li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🎮</span>
+          <span class="eot-industry-label">Gaming</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>PlayGames 24x7</li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">💼</span>
+          <span class="eot-industry-label">SaaS &amp; Enterprise</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>AmberPoint</li>
+          <li>Applitools <span class="eot-ai-badge">AI</span></li>
+          <li>Borland</li>
+          <li>Microsoft</li>
+          <li>Specmatic <span class="eot-ai-badge">AI</span></li>
+          <li>ThoughtWorks</li>
+          <li>Xnsio <small class="eot-client-aka">formerly AgileFAQs</small> <span class="eot-ai-badge">AI</span></li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🏥</span>
+          <span class="eot-industry-label">Healthcare</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>Varian Medical Systems</li>
+          <li>WebMD</li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🌱</span>
+          <span class="eot-industry-label">Green Tech &amp; Other</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>ChargedUp.green</li>
+          <li>Moolya Testing Services</li>
+          <li>Srijan</li>
+        </ul>
+      </div>
+
     </div>
-    <p class="eot-domains-footer">
-      Telecom &nbsp;·&nbsp; E-Commerce &nbsp;·&nbsp; Gaming &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; Banking &amp; Financial Services &nbsp;·&nbsp; Enterprise Platforms
-    </p>
+
+    <p class="eot-ai-legend"><span class="eot-ai-badge">AI</span> AI-powered engagement</p>
+
   </div>
 </section>
 

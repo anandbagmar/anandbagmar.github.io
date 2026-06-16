@@ -27,8 +27,8 @@ header:
 
 </div>
 
-<div style="margin-top:3rem; padding:1.5rem 2rem; background:#f0f5fa; border-radius:8px; border-left:4px solid #2b7fb0;">
+<div class="eot-cs-cta">
   <strong>Working on a quality challenge?</strong> These case studies represent a fraction of the engagements I have run across telecom, gaming, e-commerce, SaaS, and enterprise platforms.
   <br><br>
-  <a href="/contact/" style="display:inline-block; background:#c8821a; color:#fff; padding:0.55rem 1.2rem; border-radius:4px; font-weight:600; text-decoration:none; border:none;">Get in touch →</a>
+  <a href="/contact/" class="eot-btn eot-btn--primary">Get in touch →</a>
 </div>

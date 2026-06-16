@@ -310,20 +310,21 @@ categories:
   font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  .eot-qs-insight { background: #182c40 !important; border-color: #243d58 !important; }
-  .eot-qs-insight p, .eot-qs-insight li { color: #7aabcc !important; }
-  .eot-qs-workshop { background: #182c40 !important; border-color: #243d58 !important; }
-  .eot-qs-workshop-sub { color: #5ab0dc !important; }
-  .eot-qs-workshop > p { color: #7aabcc !important; }
-  .eot-qs-quote { background: #1e3040 !important; color: #b5d0e8 !important; border-left-color: #c8821a !important; }
-  .eot-qs-two-col h4 { color: #b5d0e8 !important; }
-  .eot-qs-two-col p, .eot-qs-two-col li { color: #7aabcc !important; }
-  .eot-qs-outcomes { background: #1e3550 !important; border-color: #243d58 !important; }
-  .eot-qs-outcomes h4 { color: #b5d0e8 !important; }
-  .eot-qs-outcomes p, .eot-qs-outcomes li { color: #7aabcc !important; }
-  .eot-qs-cta { background: #1e3040 !important; border-color: #2e4a60 !important; }
-  .eot-qs-cta p { color: #b5d0e8 !important; }
-  .eot-qs-testimonial { color: #7aabcc !important; }
-}
+html.dark-mode .eot-qs-insight { background: #182c40 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-qs-insight p { color: #7aabcc !important; }
+html.dark-mode .eot-qs-insight li { color: #7aabcc !important; }
+html.dark-mode .eot-qs-workshop { background: #182c40 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-qs-workshop-sub { color: #5ab0dc !important; }
+html.dark-mode .eot-qs-workshop > p { color: #7aabcc !important; }
+html.dark-mode .eot-qs-quote { background: #1e3040 !important; color: #b5d0e8 !important; border-left-color: #c8821a !important; }
+html.dark-mode .eot-qs-two-col h4 { color: #b5d0e8 !important; }
+html.dark-mode .eot-qs-two-col p { color: #7aabcc !important; }
+html.dark-mode .eot-qs-two-col li { color: #7aabcc !important; }
+html.dark-mode .eot-qs-outcomes { background: #1e3550 !important; border-color: #243d58 !important; }
+html.dark-mode .eot-qs-outcomes h4 { color: #b5d0e8 !important; }
+html.dark-mode .eot-qs-outcomes p { color: #7aabcc !important; }
+html.dark-mode .eot-qs-outcomes li { color: #7aabcc !important; }
+html.dark-mode .eot-qs-cta { background: #1e3040 !important; border-color: #2e4a60 !important; }
+html.dark-mode .eot-qs-cta p { color: #b5d0e8 !important; }
+html.dark-mode .eot-qs-testimonial { color: #7aabcc !important; }
 </style>

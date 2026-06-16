@@ -112,16 +112,9 @@ header:
   font-weight: 700;
   color: #c8821a;
 }
-
-@media (prefers-color-scheme: dark) {
-  .eot-content-card {
-    background: #1e3550 !important;
-    border-color: #243d58 !important;
-    border-left-color: #5ab0dc !important;
-  }
-  .eot-content-card:hover { border-left-color: #c8821a !important; }
-  .eot-content-card h3 { color: #b5d0e8 !important; }
-  .eot-content-card p { color: #7aabcc !important; }
-  .eot-content-link { color: #c8821a !important; }
-}
+html.dark-mode .eot-content-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; }
+html.dark-mode .eot-content-card:hover { border-left-color: #c8821a !important; }
+html.dark-mode .eot-content-card h3 { color: #b5d0e8 !important; }
+html.dark-mode .eot-content-card p { color: #7aabcc !important; }
+html.dark-mode .eot-content-link { color: #c8821a !important; }
 </style>
