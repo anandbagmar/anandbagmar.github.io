@@ -47,7 +47,7 @@ permalink: /index.html
       <span class="eot-stat-label">Global Clients</span>
     </div>
     <div class="eot-stat">
-      <span class="eot-stat-number">100s</span>
+      <span class="eot-stat-number">100+</span>
       <span class="eot-stat-label">Professionals Trained</span>
     </div>
     <div class="eot-stat">
