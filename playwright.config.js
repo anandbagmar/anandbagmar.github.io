@@ -16,22 +16,26 @@ module.exports = defineConfig({
     {
       name: 'desktop',
       use: {
-        ...devices['Desktop Chrome'],
+        browserName: 'chromium',
         viewport: { width: 1440, height: 900 },
       },
     },
     {
       name: 'mobile-wide',
       use: {
-        ...devices['iPad Mini'],
+        browserName: 'chromium',
         viewport: { width: 768, height: 1024 },
+        isMobile: true,
+        hasTouch: true,
       },
     },
     {
       name: 'mobile-narrow',
       use: {
-        ...devices['iPhone 14'],
+        browserName: 'chromium',
         viewport: { width: 390, height: 844 },
+        isMobile: true,
+        hasTouch: true,
       },
     },
   ],
