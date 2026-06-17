@@ -301,11 +301,9 @@ input[type="submit"] {
 
 // ─── Dark/light mode toggle ──────────────────────────────────
 
-// Desktop: push nav items left to make room for fixed toggle button
-@media #{$medium-up} {
-  .top-bar-section ul.right {
-    padding-right: 50px !important;
-  }
+// Push nav items left on desktop to make room for fixed toggle button
+.top-bar-section ul.right {
+  padding-right: 44px !important;
 }
 
 // Fixed-position toggle — lives outside Foundation's nav so it can never be
@@ -340,7 +338,7 @@ input[type="submit"] {
   // flip to the left, sitting just after the logo (nav collapses below 1024px).
   // Match logo size: 32px with margin-top: 6px.
   @media screen and (max-width: 1023px) {
-    right: 90px;
+    right: 120px;
     left: auto;
     top: 9px;
     width: 26px;

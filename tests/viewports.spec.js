@@ -72,14 +72,14 @@ test.describe('Responsive layout', () => {
     if (!viewport || viewport.width >= 1024) test.skip();
     await page.goto('/');
     const toggleBox = await page.locator('#theme-toggle').boundingBox();
-    const hamburgerBox = await page.locator('li.toggle-topbar').boundingBox();
-    if (!toggleBox || !hamburgerBox) return;
-    const overlap =
-      toggleBox.x < hamburgerBox.x + hamburgerBox.width &&
-      toggleBox.x + toggleBox.width > hamburgerBox.x &&
-      toggleBox.y < hamburgerBox.y + hamburgerBox.height &&
-      toggleBox.y + toggleBox.height > hamburgerBox.y;
-    expect(overlap, 'Theme toggle overlaps the hamburger menu icon').toBe(false);
+    expect(toggleBox, 'Theme toggle not found').not.toBeNull();
+    // Foundation's "NAV ≡" icon occupies the rightmost ~65px of the nav bar.
+    // Verify the toggle's right edge sits outside that zone.
+    const toggleRightEdge = toggleBox.x + toggleBox.width;
+    expect(
+      toggleRightEdge,
+      `Theme toggle right edge (${toggleRightEdge}px) overlaps hamburger zone (rightmost 65px of ${viewport.width}px)`
+    ).toBeLessThanOrEqual(viewport.width - 65);
   });
 
   test('theme toggle does not overlap the last nav item on desktop', async ({ page, viewport }) => {
