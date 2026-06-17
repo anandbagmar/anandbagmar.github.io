@@ -86,11 +86,11 @@ p a.button,
   line-height: 1;
 }
 .top-bar .nav-logo img {
-  max-height: 36px;
+  max-height: 48px;
   width: auto;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -301,18 +301,25 @@ input[type="submit"] {
 
 // ─── Dark/light mode toggle ──────────────────────────────────
 
+// Desktop: push nav items left to make room for fixed toggle button
+@media #{$medium-up} {
+  .top-bar-section ul.right {
+    padding-right: 50px !important;
+  }
+}
+
 // Fixed-position toggle — lives outside Foundation's nav so it can never be
 // intercepted by Foundation's topbar event delegation.
 #theme-toggle {
   position: fixed;
-  top: 10px;
-  right: 14px;
+  top: 9px;
+  right: 10px;
   z-index: 9999;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   border: 1px solid rgba($white, 0.45);
   background: rgba($primary-color, 0.85);
@@ -327,6 +334,17 @@ input[type="submit"] {
   &:hover {
     background: rgba($primary-color, 1);
     border-color: $amber;
+  }
+
+  // On mobile/tablet the hamburger + "Nav" label occupy the full right side —
+  // flip to the left, sitting just after the logo (nav collapses below 1024px).
+  // Match logo size: 32px with margin-top: 6px.
+  @media screen and (max-width: 1023px) {
+    right: 90px;
+    left: auto;
+    top: 9px;
+    width: 26px;
+    height: 26px;
   }
 }
 
@@ -1389,8 +1407,8 @@ input[type="submit"] {
 
   // ── Nav logo on mobile: ensure it stays visible and properly sized
   .top-bar .nav-logo img {
-    max-height: 32px;
-    margin-top: 6px;
+    max-height: 44px;
+    margin-top: 0;
   }
 }
 
@@ -1526,14 +1544,6 @@ html.dark-mode {
     border-color: $dk-border;
   }
 
-  // ── Nav logo: invert (transparent PNG) so it reads as white on dark navbar
-  .top-bar .nav-logo img {
-    filter: brightness(0) invert(1);
-  }
-  // ── Masthead logo on inner pages: same treatment
-  #logo img {
-    filter: brightness(0) invert(1);
-  }
 
   // ── Navigation
   #navigation {

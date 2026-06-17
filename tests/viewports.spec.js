@@ -68,6 +68,36 @@ test.describe('Responsive layout', () => {
     await expect(page.locator('#theme-toggle')).toBeVisible();
   });
 
+  test('theme toggle does not overlap the hamburger icon on mobile', async ({ page, viewport }) => {
+    if (!viewport || viewport.width >= 1024) test.skip();
+    await page.goto('/');
+    const toggleBox = await page.locator('#theme-toggle').boundingBox();
+    const hamburgerBox = await page.locator('li.toggle-topbar').boundingBox();
+    if (!toggleBox || !hamburgerBox) return;
+    const overlap =
+      toggleBox.x < hamburgerBox.x + hamburgerBox.width &&
+      toggleBox.x + toggleBox.width > hamburgerBox.x &&
+      toggleBox.y < hamburgerBox.y + hamburgerBox.height &&
+      toggleBox.y + toggleBox.height > hamburgerBox.y;
+    expect(overlap, 'Theme toggle overlaps the hamburger menu icon').toBe(false);
+  });
+
+  test('theme toggle does not overlap the last nav item on desktop', async ({ page, viewport }) => {
+    if (!viewport || viewport.width < 1024) test.skip();
+    await page.goto('/');
+    const toggleBox = await page.locator('#theme-toggle').boundingBox();
+    const navItems = page.locator('.top-bar-section ul.right li');
+    const lastItem = navItems.last();
+    const lastItemBox = await lastItem.boundingBox();
+    if (!toggleBox || !lastItemBox) return;
+    const overlap =
+      toggleBox.x < lastItemBox.x + lastItemBox.width &&
+      toggleBox.x + toggleBox.width > lastItemBox.x &&
+      toggleBox.y < lastItemBox.y + lastItemBox.height &&
+      toggleBox.y + toggleBox.height > lastItemBox.y;
+    expect(overlap, 'Theme toggle overlaps the last nav item').toBe(false);
+  });
+
   test('industry grid renders on references page', async ({ page }) => {
     await page.goto('/references/');
     const groups = page.locator('.eot-industry-group');
