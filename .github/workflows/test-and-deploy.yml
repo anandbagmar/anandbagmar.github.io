@@ -15,15 +15,12 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   test:
     name: Build and Test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -37,7 +34,7 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'npm'
@@ -50,7 +47,6 @@ jobs:
 
       - name: Serve built site
         run: npx serve _site --listen 4000 &
-        # Give the server a moment to be ready
       - name: Wait for server
         run: npx wait-on http://localhost:4000 --timeout 30000
 
@@ -61,23 +57,21 @@ jobs:
 
       - name: Upload test report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: playwright-report
           path: playwright-report/
           retention-days: 14
 
       - name: Upload site artifact for deploy
-        # Only upload when on master — PRs don't deploy
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
   deploy:
     name: Deploy to GitHub Pages
     needs: test
-    # Only deploy from master after tests pass
     if: github.ref == 'refs/heads/master' && github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
@@ -86,4 +80,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
