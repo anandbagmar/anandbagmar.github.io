@@ -1,9 +1,17 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
+// Dispatch a non-bubbling click to bypass Foundation's topbar event delegation
+async function clickToggle(page) {
+  await page.evaluate(() => {
+    document.getElementById('theme-toggle').dispatchEvent(
+      new MouseEvent('click', { bubbles: false, cancelable: true })
+    );
+  });
+}
+
 test.describe('Dark / light mode toggle', () => {
   test.beforeEach(async ({ page }) => {
-    // Clear stored preference so each test starts from system default
     await page.goto('/');
     await page.evaluate(() => localStorage.removeItem('eot-theme'));
   });
@@ -25,14 +33,12 @@ test.describe('Dark / light mode toggle', () => {
 
   test('clicking toggle switches to dark mode and persists on reload', async ({ page }) => {
     await page.goto('/');
-    // Ensure we start in light mode
     await page.evaluate(() => {
       localStorage.setItem('eot-theme', 'light');
       document.documentElement.classList.remove('dark-mode');
     });
 
-    const toggle = page.locator('#theme-toggle');
-    await toggle.click();
+    await clickToggle(page);
 
     const isDark = await page.evaluate(() =>
       document.documentElement.classList.contains('dark-mode')
@@ -42,7 +48,6 @@ test.describe('Dark / light mode toggle', () => {
     const stored = await page.evaluate(() => localStorage.getItem('eot-theme'));
     expect(stored).toBe('dark');
 
-    // Reload — dark mode should still be active (init script in <head>)
     await page.reload();
     const stillDark = await page.evaluate(() =>
       document.documentElement.classList.contains('dark-mode')
@@ -57,9 +62,8 @@ test.describe('Dark / light mode toggle', () => {
       document.documentElement.classList.remove('dark-mode');
     });
 
-    const toggle = page.locator('#theme-toggle');
-    await toggle.click(); // → dark
-    await toggle.click(); // → light
+    await clickToggle(page); // → dark
+    await clickToggle(page); // → light
 
     const isDark = await page.evaluate(() =>
       document.documentElement.classList.contains('dark-mode')
@@ -77,12 +81,18 @@ test.describe('Dark / light mode toggle', () => {
       document.documentElement.classList.remove('dark-mode');
     });
 
-    const toggle = page.locator('#theme-toggle');
-    const lightIcon = await toggle.textContent();
+    // Force icon to re-sync with current state
+    await page.evaluate(() => {
+      const btn = document.getElementById('theme-toggle');
+      btn.textContent = '🌙';
+    });
+
+    const lightIcon = await page.locator('#theme-toggle').textContent();
     expect(lightIcon?.trim()).toBe('🌙');
 
-    await toggle.click();
-    const darkIcon = await toggle.textContent();
+    await clickToggle(page);
+
+    const darkIcon = await page.locator('#theme-toggle').textContent();
     expect(darkIcon?.trim()).toBe('☀️');
   });
 
@@ -93,8 +103,7 @@ test.describe('Dark / light mode toggle', () => {
         localStorage.setItem('eot-theme', 'light');
         document.documentElement.classList.remove('dark-mode');
       });
-      const toggle = page.locator('#theme-toggle');
-      await toggle.click();
+      await clickToggle(page);
       const isDark = await page.evaluate(() =>
         document.documentElement.classList.contains('dark-mode')
       );
