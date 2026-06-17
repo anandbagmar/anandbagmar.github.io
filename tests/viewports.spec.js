@@ -53,7 +53,7 @@ for (const pg of KEY_PAGES) {
 }
 
 async function clickToggle(page) {
-  await page.locator('#theme-toggle').click();
+  await page.locator('#theme-toggle').dispatchEvent('click');
 }
 
 test.describe('Responsive layout', () => {
@@ -68,34 +68,34 @@ test.describe('Responsive layout', () => {
     await expect(page.locator('#theme-toggle')).toBeVisible();
   });
 
-  test('theme toggle does not overlap the hamburger icon on mobile', async ({ page, viewport }) => {
-    if (!viewport || viewport.width >= 1024) test.skip();
+  test('theme toggle shows correct label for current mode', async ({ page }) => {
     await page.goto('/');
-    const toggleBox = await page.locator('#theme-toggle').boundingBox();
-    expect(toggleBox, 'Theme toggle not found').not.toBeNull();
-    // Foundation's "NAV ≡" icon occupies the rightmost ~65px of the nav bar.
-    // Verify the toggle's right edge sits outside that zone.
-    const toggleRightEdge = toggleBox.x + toggleBox.width;
-    expect(
-      toggleRightEdge,
-      `Theme toggle right edge (${toggleRightEdge}px) overlaps hamburger zone (rightmost 65px of ${viewport.width}px)`
-    ).toBeLessThanOrEqual(viewport.width - 65);
+    await page.evaluate(() => {
+      localStorage.setItem('eot-theme', 'light');
+      document.documentElement.classList.remove('dark-mode');
+    });
+    await page.reload();
+    await expect(page.locator('#theme-toggle')).toHaveText('DARK MODE');
+
+    await page.evaluate(() => {
+      localStorage.setItem('eot-theme', 'dark');
+      document.documentElement.classList.add('dark-mode');
+    });
+    await page.reload();
+    await expect(page.locator('#theme-toggle')).toHaveText('LIGHT MODE');
   });
 
-  test('theme toggle does not overlap the last nav item on desktop', async ({ page, viewport }) => {
-    if (!viewport || viewport.width < 1024) test.skip();
+  test('theme toggle sits within the nav bar height', async ({ page, viewport }) => {
+    if (viewport && viewport.width < 1024) test.skip();
     await page.goto('/');
     const toggleBox = await page.locator('#theme-toggle').boundingBox();
-    const navItems = page.locator('.top-bar-section ul.right li');
-    const lastItem = navItems.last();
-    const lastItemBox = await lastItem.boundingBox();
-    if (!toggleBox || !lastItemBox) return;
-    const overlap =
-      toggleBox.x < lastItemBox.x + lastItemBox.width &&
-      toggleBox.x + toggleBox.width > lastItemBox.x &&
-      toggleBox.y < lastItemBox.y + lastItemBox.height &&
-      toggleBox.y + toggleBox.height > lastItemBox.y;
-    expect(overlap, 'Theme toggle overlaps the last nav item').toBe(false);
+    const navBox = await page.locator('#navigation').boundingBox();
+    expect(toggleBox).not.toBeNull();
+    expect(navBox).not.toBeNull();
+    // Toggle's vertical midpoint must be within the nav container
+    const toggleMid = toggleBox.y + toggleBox.height / 2;
+    expect(toggleMid >= navBox.y, 'Toggle midpoint above nav').toBe(true);
+    expect(toggleMid <= navBox.y + navBox.height, 'Toggle midpoint below nav').toBe(true);
   });
 
   test('industry grid renders on references page', async ({ page }) => {

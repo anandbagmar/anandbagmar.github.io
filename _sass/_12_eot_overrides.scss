@@ -301,50 +301,43 @@ input[type="submit"] {
 
 // ─── Dark/light mode toggle ──────────────────────────────────
 
-// Push nav items left on desktop to make room for fixed toggle button
-.top-bar-section ul.right {
-  padding-right: 44px !important;
-}
-
-// Fixed-position toggle — lives outside Foundation's nav so it can never be
-// intercepted by Foundation's topbar event delegation.
-#theme-toggle {
-  position: fixed;
-  top: 9px;
-  right: 10px;
-  z-index: 9999;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border: 1px solid rgba($white, 0.45);
-  background: rgba($primary-color, 0.85);
-  color: $white;
-  cursor: pointer;
-  font-size: 1rem;
-  line-height: 1;
-  padding: 0;
-  transition: background 0.2s, border-color 0.2s;
-  backdrop-filter: blur(4px);
+li.theme-toggle-li {
+  display: list-item !important;
+  float: right !important;
+  padding: 0 !important;
+  background: transparent !important;
+  height: $topbar-height !important;
+  line-height: $topbar-height !important;
 
   &:hover {
-    background: rgba($primary-color, 1);
-    border-color: $amber;
-  }
-
-  // On mobile/tablet the hamburger + "Nav" label occupy the full right side —
-  // flip to the left, sitting just after the logo (nav collapses below 1024px).
-  // Match logo size: 32px with margin-top: 6px.
-  @media screen and (max-width: 1023px) {
-    right: 120px;
-    left: auto;
-    top: 9px;
-    width: 26px;
-    height: 26px;
+    background: transparent !important;
   }
 }
+
+#theme-toggle {
+  display: inline-block;
+  padding: 0 15px;
+  height: $topbar-height;
+  line-height: $topbar-height;
+  vertical-align: top;
+  background: transparent;
+  border: none;
+  color: $navy;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: inherit;
+  transition: color 0.2s, background 0.2s;
+
+  &:hover {
+    color: $amber;
+    background: transparent;
+  }
+}
+
 
 // Quick Links in footer - larger, easier to tap
 #footer .no-bullet li a {
@@ -1567,6 +1560,11 @@ html.dark-mode {
   .top-bar-section .active > a {
     background: $dk-card !important;
     color: $white !important;
+  }
+
+  #theme-toggle {
+    color: $dk-text;
+    &:hover { color: $amber; }
   }
 
   // Mobile dropdown panels

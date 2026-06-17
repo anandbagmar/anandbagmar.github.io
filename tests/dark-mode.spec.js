@@ -69,26 +69,21 @@ test.describe('Dark / light mode toggle', () => {
     expect(stored).toBe('light');
   });
 
-  test('toggle icon updates to reflect current mode', async ({ page }) => {
+  test('toggle label updates to reflect current mode', async ({ page }) => {
     await page.goto('/');
     await page.evaluate(() => {
       localStorage.setItem('eot-theme', 'light');
       document.documentElement.classList.remove('dark-mode');
     });
+    await page.reload();
 
-    // Force icon to re-sync with current state
-    await page.evaluate(() => {
-      const btn = document.getElementById('theme-toggle');
-      btn.textContent = '🌙';
-    });
-
-    const lightIcon = await page.locator('#theme-toggle').textContent();
-    expect(lightIcon?.trim()).toBe('🌙');
+    const lightLabel = await page.locator('#theme-toggle').textContent();
+    expect(lightLabel?.trim()).toBe('DARK MODE');
 
     await clickToggle(page);
 
-    const darkIcon = await page.locator('#theme-toggle').textContent();
-    expect(darkIcon?.trim()).toBe('☀️');
+    const darkLabel = await page.locator('#theme-toggle').textContent();
+    expect(darkLabel?.trim()).toBe('LIGHT MODE');
   });
 
   test('toggle works on inner pages', async ({ page }) => {
