@@ -10,6 +10,10 @@ const IGNORED_ERROR_PATTERNS = [
   /jquery/i,
   /Cannot read prop.*undefined/i,   // Foundation 5 common in headless
   /ResizeObserver loop/i,
+  /Unexpected end of input/i,       // External script (e.g. GA) blocked/empty in CI
+  /Failed to fetch/i,
+  /NetworkError/i,
+  /Load failed/i,
 ];
 
 function isOwnError(message) {
