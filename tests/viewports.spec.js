@@ -52,14 +52,8 @@ for (const pg of KEY_PAGES) {
   });
 }
 
-// Helper: dispatch a non-bubbling click on the toggle to bypass Foundation's
-// event delegation which intercepts bubbling clicks on the nav.
 async function clickToggle(page) {
-  await page.evaluate(() => {
-    document.getElementById('theme-toggle').dispatchEvent(
-      new MouseEvent('click', { bubbles: false, cancelable: true })
-    );
-  });
+  await page.locator('#theme-toggle').click();
 }
 
 test.describe('Responsive layout', () => {

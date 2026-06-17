@@ -301,40 +301,32 @@ input[type="submit"] {
 
 // ─── Dark/light mode toggle ──────────────────────────────────
 
+// Fixed-position toggle — lives outside Foundation's nav so it can never be
+// intercepted by Foundation's topbar event delegation.
 #theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 14px;
+  z-index: 9999;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  border: 1px solid rgba($white, 0.3);
-  background: transparent;
+  border: 1px solid rgba($white, 0.45);
+  background: rgba($primary-color, 0.85);
   color: $white;
   cursor: pointer;
   font-size: 1rem;
   line-height: 1;
   padding: 0;
-  margin-left: 0.5rem;
-  vertical-align: middle;
   transition: background 0.2s, border-color 0.2s;
+  backdrop-filter: blur(4px);
 
   &:hover {
-    background: rgba($white, 0.15);
+    background: rgba($primary-color, 1);
     border-color: $amber;
-  }
-}
-
-// wrapper li in the nav right list
-li.theme-toggle-li {
-  display: inline-flex !important;
-  align-items: center;
-  padding: 0 0.5rem !important;
-  background: transparent !important;
-  border: none !important;
-
-  &:hover {
-    background: transparent !important;
   }
 }
 

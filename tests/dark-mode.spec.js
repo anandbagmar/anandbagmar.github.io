@@ -1,13 +1,8 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
 
-// Dispatch a non-bubbling click to bypass Foundation's topbar event delegation
 async function clickToggle(page) {
-  await page.evaluate(() => {
-    document.getElementById('theme-toggle').dispatchEvent(
-      new MouseEvent('click', { bubbles: false, cancelable: true })
-    );
-  });
+  await page.locator('#theme-toggle').click();
 }
 
 test.describe('Dark / light mode toggle', () => {
