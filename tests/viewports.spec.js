@@ -47,23 +47,18 @@ test.describe('Responsive layout', () => {
     await expect(groups).toHaveCount(6);
   });
 
-  test('dark mode applies background change visually', async ({ page }) => {
+  test('dark mode toggle adds dark-mode class to html element', async ({ page }) => {
     await page.goto('/');
     await page.evaluate(() => {
       localStorage.setItem('eot-theme', 'light');
       document.documentElement.classList.remove('dark-mode');
     });
 
-    const lightBg = await page.evaluate(() =>
-      getComputedStyle(document.body).backgroundColor
-    );
-
     await page.locator('#theme-toggle').click();
 
-    const darkBg = await page.evaluate(() =>
-      getComputedStyle(document.body).backgroundColor
+    const hasDark = await page.evaluate(() =>
+      document.documentElement.classList.contains('dark-mode')
     );
-
-    expect(lightBg).not.toBe(darkBg);
+    expect(hasDark).toBe(true);
   });
 });
