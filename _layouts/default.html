@@ -29,5 +29,23 @@ layout: compress
 	{% endunless %}
 
 	{% include _footer_scripts.html %}
+	<script>
+	(function () {
+	  var btn = document.getElementById('theme-toggle');
+	  if (!btn) return;
+	  function isDark() { return document.documentElement.classList.contains('dark-mode'); }
+	  function updateIcon() {
+	    btn.textContent = isDark() ? '☀️' : '🌙';
+	    btn.setAttribute('aria-label', isDark() ? 'Switch to light mode' : 'Switch to dark mode');
+	  }
+	  updateIcon();
+	  btn.addEventListener('click', function () {
+	    var dark = !isDark();
+	    document.documentElement.classList.toggle('dark-mode', dark);
+	    localStorage.setItem('eot-theme', dark ? 'dark' : 'light');
+	    updateIcon();
+	  });
+	}());
+	</script>
 </body>
 </html>
