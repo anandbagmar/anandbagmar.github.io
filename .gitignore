@@ -2,3 +2,8 @@
 .jekyll-cache
 .DS_Store
 _site/
+
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
