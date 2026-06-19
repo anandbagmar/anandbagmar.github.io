@@ -936,7 +936,10 @@ li.theme-toggle-li {
 
 .eot-industry-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  // Column count follows the actual container width (not the viewport), so it
+  // stays correct under mobile emulation where @media width can differ from the
+  // rendered width. Narrow containers collapse to a single column on their own.
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.25rem;
   margin-top: 2rem;
 }
@@ -1396,11 +1399,6 @@ li.theme-toggle-li {
     padding: 0.4rem 0.8rem;
   }
 
-  // ── Industry grid: 2 cols on wide mobile, 1 col on narrow
-  .eot-industry-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   // ── CTA
   .eot-cta {
     padding: 2.5rem 1.25rem;
@@ -1513,14 +1511,6 @@ li.theme-toggle-li {
     font-size: 1.4rem;
   }
 
-}
-
-// ── Industry grid: single column on phones, where the dense cards
-//    (name + product annotation + EoT/TW/AI badges) overflow 2 columns.
-@media (max-width: 600px) {
-  .eot-industry-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 // ═══════════════════════════════════════════════════════════════

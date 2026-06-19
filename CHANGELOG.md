@@ -14,7 +14,11 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
   IST rather than the build server's UTC.
 - Fixed the client-references grid on mobile: badges (EoT/TW/AI) were being
   clipped in the cramped 2-column layout on phones. List rows now wrap, and the
-  grid drops to a single column below 600px instead of 380px.
+  industry grid is now container-driven (`auto-fit` + `minmax(240px, 1fr)`)
+  instead of fixed viewport breakpoints — so the column count follows the real
+  rendered width and collapses to one column on narrow screens reliably (the
+  breakpoint approach mis-rendered as 2 columns under Playwright's mobile
+  emulation in CI). Added a regression test asserting badges stay within their row.
 - Listed Reliance Jio across four categories (Telecom, E-Commerce & Retail,
   Enterprise Products/Platforms/Tools, and Consulting & Professional Services),
   each annotated with the relevant product line (MyJio/Jio.com; Ajio/Jio Prime
