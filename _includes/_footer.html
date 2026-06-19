@@ -33,6 +33,7 @@
             <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
           {% endfor %}
           </ul>
+          <span class="eot-last-updated">Last updated: {{ site.time | date: "%d %b %Y, %H:%M %Z" }}</span>
         </nav>
       </div>
 

@@ -8,6 +8,10 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Fri, 19-Jun-2026
 
+- Added a "Last updated: DD Mon YYYY, HH:MM IST" line to the footer subfooter
+  (visible on all pages), driven by the Jekyll build time and showing the
+  timezone. Set `timezone: Asia/Kolkata` in `_config.yml` so the time renders in
+  IST rather than the build server's UTC.
 - Fixed the client-references grid on mobile: badges (EoT/TW/AI) were being
   clipped in the cramped 2-column layout on phones. List rows now wrap, and the
   grid drops to a single column below 600px instead of 380px.

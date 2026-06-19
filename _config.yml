@@ -4,6 +4,8 @@ description: "India (GMT +0530)"
 author: "Anand Bagmar"
 url: 'https://anandbagmar.github.io'
 baseurl: ''
+# Used for rendering build time (e.g. footer "Last updated") in IST
+timezone: Asia/Kolkata
 
 #remote_theme:
 # This is for the editing function in _/includes/improve_content

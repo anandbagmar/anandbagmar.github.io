@@ -258,11 +258,20 @@ input[type="submit"] {
   border-top: 1px solid rgba($white, 0.08);
 }
 
-// Subfooter: social icons centred
+// Subfooter: social icons centred, with last-updated line below
 .eot-subfooter-inner {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: 0.5rem;
   padding: 0.6rem 1rem;
+}
+
+.eot-last-updated {
+  font-size: 0.72rem;
+  color: rgba($white, 0.55);
+  letter-spacing: 0.02em;
 }
 
 .social-icons {
