@@ -13,12 +13,14 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
   timezone. Set `timezone: Asia/Kolkata` in `_config.yml` so the time renders in
   IST rather than the build server's UTC.
 - Fixed the client-references grid on mobile: badges (EoT/TW/AI) were being
-  clipped in the cramped 2-column layout on phones. List rows now wrap, and the
-  industry grid is now container-driven (`auto-fit` + `minmax(240px, 1fr)`)
-  instead of fixed viewport breakpoints — so the column count follows the real
-  rendered width and collapses to one column on narrow screens reliably (the
-  breakpoint approach mis-rendered as 2 columns under Playwright's mobile
-  emulation in CI). Added a regression test asserting badges stay within their row.
+  clipped in the cramped 2-column layout on phones. Rewrote the industry grid as
+  "narrow-first" — single column by default, widening to 2 columns at
+  `min-width: 820px` and 3 at `min-width: 1180px`. Earlier `max-width` and
+  `auto-fit` attempts both keyed off a width that Playwright's CI mobile
+  emulation inflated (a 390px device reported ~600–768px), so they kept producing
+  cramped multi-column cells; min-width opt-ins only fire on genuinely wide
+  screens, so phones stay single column. Added a regression test asserting badges
+  stay within their row.
 - Listed Reliance Jio across four categories (Telecom, E-Commerce & Retail,
   Enterprise Products/Platforms/Tools, and Consulting & Professional Services),
   each annotated with the relevant product line (MyJio/Jio.com; Ajio/Jio Prime

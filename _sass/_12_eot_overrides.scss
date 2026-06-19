@@ -936,12 +936,25 @@ li.theme-toggle-li {
 
 .eot-industry-grid {
   display: grid;
-  // Column count follows the actual container width (not the viewport), so it
-  // stays correct under mobile emulation where @media width can differ from the
-  // rendered width. Narrow containers collapse to a single column on their own.
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  // Single column by default; widen only via min-width breakpoints below. This
+  // "narrow-first" approach is deliberate: max-width / auto-fit both keyed off a
+  // width that Playwright's mobile emulation distorts (a 390px device reported a
+  // ~600px width in CI), producing cramped multi-column cells that clipped the
+  // badges. min-width thresholds only fire on genuinely wide screens, so phones
+  // (and emulated phones) reliably stay single column.
+  grid-template-columns: 1fr;
   gap: 1.25rem;
   margin-top: 2rem;
+}
+
+// 2 columns once there's room for comfortably wide cells (~400px each).
+@media (min-width: 820px) {
+  .eot-industry-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+// 3 columns on full desktop widths (cells still ~380px+).
+@media (min-width: 1180px) {
+  .eot-industry-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 .eot-industry-group {
