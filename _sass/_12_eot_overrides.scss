@@ -1025,15 +1025,44 @@ li.theme-toggle-li {
   flex-shrink: 0;
 }
 
+// ─── Engagement org badges (EoT / TW) ────────────────────────
+// Same shape as the AI badge, distinct colours.
+
+.eot-eot-badge,
+.eot-tw-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: $white;
+  border-radius: 3px;
+  padding: 0.1em 0.45em 0.15em;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+  flex-shrink: 0;
+}
+
+.eot-eot-badge { background: linear-gradient(135deg, #b5731a 0%, #d89a3a 100%); }
+.eot-tw-badge  { background: linear-gradient(135deg, #d8364f 0%, #f2617a 100%); }
+
 .eot-ai-legend {
   text-align: right;
   font-size: 0.78rem;
   color: $text-light;
   margin: 0.75rem 0 0;
 
-  .eot-ai-badge {
+  .eot-ai-badge,
+  .eot-eot-badge,
+  .eot-tw-badge {
     margin-left: 0;
     margin-right: 0.35rem;
+  }
+
+  .eot-ai-badge:not(:first-child),
+  .eot-eot-badge:not(:first-child),
+  .eot-tw-badge:not(:first-child) {
+    margin-left: 1rem;
   }
 }
 

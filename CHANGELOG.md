@@ -8,6 +8,25 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Fri, 19-Jun-2026
 
+- Listed Reliance Jio across four categories (Telecom, E-Commerce & Retail,
+  Enterprise Products/Platforms/Tools, and Consulting & Professional Services),
+  each annotated with the relevant product line (MyJio/Jio.com; Ajio/Jio Prime
+  Merchant; JioMeet/Enterprise/JPW; QECC).
+- Renamed the "Developer & Testing Tools" category to "Enterprise Products,
+  Platforms & Tools" to reflect its mix of enterprise products and testing tools,
+  and annotated Microsoft with LiveMeeting.
+- Reorganised the client references (landing page and References page) from the
+  broad "SaaS & Enterprise" bucket into more specific industries: added
+  Banking, Finance & Insurance; Automotive; Consulting & Professional Services;
+  Developer & Testing Tools; merged Gaming with OTT. Moved companies to fit
+  (e.g. Tieto Evry → Banking, McKinsey → Healthcare, Moolya/Srijan → Consulting,
+  Sony → E-Commerce, Vuclip → Gaming & OTT, OVE → Automotive).
+- Added engagement-source badges to the client references (landing page and
+  References page): an `EoT` badge (Essence of Testing) and a `TW` badge
+  (ThoughtWorks), styled like the existing `AI` badge, with both shown in the
+  legend.
+- Added the missing ThoughtWorks clients to references: Sears (Retail), Sony
+  (Gaming), and McKinsey, OVE, Suncorp (SaaS & Enterprise).
 - Added a hidden honeypot (`_gotcha`) field to the contact form so Formspree
   silently discards bot submissions, with no friction for real visitors.
 - Added a **Recent Videos** section at the top of the Talks & Videos page,

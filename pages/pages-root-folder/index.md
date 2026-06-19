@@ -205,10 +205,8 @@ permalink: /index.html
           <span class="eot-industry-label">Telecom</span>
         </div>
         <ul class="eot-industry-clients">
-          <li>AmDocs</li>
-          <li>Reliance Jio <span class="eot-ai-badge">AI</span></li>
-          <li>Tieto Evry</li>
-          <li>Vuclip</li>
+          <li>AmDocs <span class="eot-eot-badge">EoT</span></li>
+          <li>Reliance Jio <small class="eot-client-aka">MyJio, Jio.com</small> <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
         </ul>
       </div>
 
@@ -218,34 +216,72 @@ permalink: /index.html
           <span class="eot-industry-label">E-Commerce &amp; Retail</span>
         </div>
         <ul class="eot-industry-clients">
-          <li>Myntra</li>
-          <li>SnapDeal</li>
+          <li>Myntra <span class="eot-eot-badge">EoT</span></li>
+          <li>Reliance Jio <small class="eot-client-aka">Ajio, Jio Prime Merchant</small> <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
+          <li>Sears <span class="eot-tw-badge">TW</span></li>
+          <li>SnapDeal <span class="eot-eot-badge">EoT</span></li>
+          <li>Sony <span class="eot-tw-badge">TW</span></li>
         </ul>
       </div>
 
       <div class="eot-industry-group">
         <div class="eot-industry-header">
           <span class="eot-industry-icon">🎮</span>
-          <span class="eot-industry-label">Gaming</span>
+          <span class="eot-industry-label">Gaming &amp; OTT</span>
         </div>
         <ul class="eot-industry-clients">
-          <li>PlayGames 24x7</li>
+          <li>PlayGames 24x7 <span class="eot-eot-badge">EoT</span></li>
+          <li>Vuclip</li>
         </ul>
       </div>
 
       <div class="eot-industry-group">
         <div class="eot-industry-header">
-          <span class="eot-industry-icon">💼</span>
-          <span class="eot-industry-label">SaaS &amp; Enterprise</span>
+          <span class="eot-industry-icon">🚗</span>
+          <span class="eot-industry-label">Automotive</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>OVE <span class="eot-tw-badge">TW</span></li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🏦</span>
+          <span class="eot-industry-label">Banking, Finance &amp; Insurance</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>Suncorp <span class="eot-tw-badge">TW</span></li>
+          <li>Tieto Evry <span class="eot-eot-badge">EoT</span></li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🧭</span>
+          <span class="eot-industry-label">Consulting &amp; Professional Services</span>
+        </div>
+        <ul class="eot-industry-clients">
+          <li>Moolya Testing Services <span class="eot-eot-badge">EoT</span></li>
+          <li>Reliance Jio <small class="eot-client-aka">QECC</small> <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
+          <li>Srijan <span class="eot-eot-badge">EoT</span></li>
+          <li>ThoughtWorks</li>
+          <li>Xnsio <small class="eot-client-aka">formerly AgileFAQs</small> <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
+        </ul>
+      </div>
+
+      <div class="eot-industry-group">
+        <div class="eot-industry-header">
+          <span class="eot-industry-icon">🧰</span>
+          <span class="eot-industry-label">Enterprise Products, Platforms &amp; Tools</span>
         </div>
         <ul class="eot-industry-clients">
           <li>AmberPoint</li>
-          <li>Applitools <span class="eot-ai-badge">AI</span></li>
+          <li>Applitools <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
           <li>Borland</li>
-          <li>Microsoft</li>
-          <li>Specmatic <span class="eot-ai-badge">AI</span></li>
-          <li>ThoughtWorks</li>
-          <li>Xnsio <small class="eot-client-aka">formerly AgileFAQs</small> <span class="eot-ai-badge">AI</span></li>
+          <li>Microsoft <small class="eot-client-aka">LiveMeeting</small></li>
+          <li>Reliance Jio <small class="eot-client-aka">JioMeet, Enterprise, JPW</small> <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
+          <li>Specmatic <span class="eot-eot-badge">EoT</span> <span class="eot-ai-badge">AI</span></li>
         </ul>
       </div>
 
@@ -255,7 +291,8 @@ permalink: /index.html
           <span class="eot-industry-label">Healthcare</span>
         </div>
         <ul class="eot-industry-clients">
-          <li>Varian Medical Systems</li>
+          <li>McKinsey <span class="eot-tw-badge">TW</span></li>
+          <li>Varian Medical Systems <span class="eot-tw-badge">TW</span></li>
           <li>WebMD</li>
         </ul>
       </div>
@@ -263,18 +300,16 @@ permalink: /index.html
       <div class="eot-industry-group">
         <div class="eot-industry-header">
           <span class="eot-industry-icon">🌱</span>
-          <span class="eot-industry-label">Green Tech &amp; Other</span>
+          <span class="eot-industry-label">Green Tech</span>
         </div>
         <ul class="eot-industry-clients">
-          <li>ChargedUp.green</li>
-          <li>Moolya Testing Services</li>
-          <li>Srijan</li>
+          <li>ChargedUp.green <span class="eot-eot-badge">EoT</span></li>
         </ul>
       </div>
 
     </div>
 
-    <p class="eot-ai-legend"><span class="eot-ai-badge">AI</span> AI-powered engagement</p>
+    <p class="eot-ai-legend"><span class="eot-eot-badge">EoT</span> Essence of Testing <span class="eot-tw-badge">TW</span> ThoughtWorks <span class="eot-ai-badge">AI</span> AI-powered engagement</p>
 
   </div>
 </section>

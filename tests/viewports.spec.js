@@ -101,7 +101,7 @@ test.describe('Responsive layout', () => {
   test('industry grid renders on references page', async ({ page }) => {
     await page.goto('/references/');
     const groups = page.locator('.eot-industry-group');
-    await expect(groups).toHaveCount(6);
+    await expect(groups).toHaveCount(9);
   });
 
   test('dark mode toggle adds dark-mode class to html element', async ({ page }) => {
