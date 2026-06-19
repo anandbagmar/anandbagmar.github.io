@@ -20,6 +20,7 @@ header:
     Your message:
     <textarea name="message"></textarea>
   </label>
-  <!-- your other form fields go here -->
+  <!-- Honeypot: hidden from humans; bots fill it and Formspree discards the submission -->
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;opacity:0;height:0;width:0;">
   <button type="submit">Send</button>
 </form>

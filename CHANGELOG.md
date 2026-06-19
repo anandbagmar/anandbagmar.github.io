@@ -8,6 +8,8 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Fri, 19-Jun-2026
 
+- Added a hidden honeypot (`_gotcha`) field to the contact form so Formspree
+  silently discards bot submissions, with no friction for real visitors.
 - Added a **Recent Videos** section at the top of the Talks & Videos page,
   highlighting the 2 most recent talks ("Let the AI experiments begin!" and
   "The Path to Autonomous Testing" — Agile India 2025) as click-to-play cards.
