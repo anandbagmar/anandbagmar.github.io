@@ -30,7 +30,7 @@ header:
 
 <style>
 .eot-profile-hero {
-  background: linear-gradient(135deg, #122640 0%, #1c3a5c 100%);
+  background: linear-gradient(135deg, #122640 0%, #283890 100%);
   border-radius: 10px;
   margin: 0 0 2rem;
   overflow: hidden;
@@ -52,7 +52,7 @@ header:
 .eot-profile-role {
   font-size: 1rem;
   font-weight: 600;
-  color: #c8821a;
+  color: #0b9444;
   margin-bottom: 0.85rem;
   letter-spacing: 0.01em;
 }
@@ -79,7 +79,7 @@ header:
   letter-spacing: 0.02em;
 }
 .eot-profile-quote {
-  border-left: 3px solid #c8821a;
+  border-left: 3px solid #0b9444;
   background: rgba(255,255,255,0.06);
   border-radius: 0 6px 6px 0;
   padding: 0.9rem 1.2rem 0.9rem 1.4rem;
@@ -92,7 +92,7 @@ header:
 }
 .eot-profile-quote-mark {
   font-size: 2.5rem;
-  color: #c8821a;
+  color: #0b9444;
   line-height: 0;
   vertical-align: -0.6rem;
   margin-right: 0.2rem;
@@ -133,14 +133,14 @@ html.dark-mode .eot-profile-card p { color: #7aabcc !important; }
   margin: 1.5rem 0;
 }
 .eot-profile-card {
-  border: 1px solid #dde4ed;
+  border: 1px solid #dde1f0;
   border-radius: 8px;
   padding: 1.5rem;
   flex: 1;
   min-width: 220px;
-  background: #f0f5fa;
+  background: #eef1fb;
 }
-.eot-profile-card h3 { margin-top: 0; color: #1c3a5c; }
+.eot-profile-card h3 { margin-top: 0; color: #283890; }
 .eot-profile-card p  { color: #4a5e72; }
 
 html.dark-mode .eot-profile-card { background: #1e3550 !important; border-color: #243d58 !important; }
@@ -178,4 +178,4 @@ AmberPoint · AmDocs · Applitools · Borland · ChargedUp.green · Microsoft ·
 - **GitHub:** <a href="https://github.com/anandbagmar" target="_blank">@anandbagmar</a>
 - **Twitter:** <a href="https://twitter.com/BagmarAnand" target="_blank">@BagmarAnand</a>
 
-<a href="/contact/" style="display: inline-block; margin-top: 1rem; background: #c8821a; color: #fff; padding: 0.7rem 1.5rem; border-radius: 4px; text-decoration: none;">Get in Touch</a>
+<a href="/contact/" style="display: inline-block; margin-top: 1rem; background: #0b9444; color: #fff; padding: 0.7rem 1.5rem; border-radius: 4px; text-decoration: none;">Get in Touch</a>

@@ -1,17 +1,23 @@
 @charset "utf-8";
 /* Essence of Testing – brand overrides & homepage components */
 
-// ─── Design tokens ───────────────────────────────────────────
-$navy: #1c3a5c;
-$navy-dark: #122640;
-$blue: #2b7fb0;
-$blue-light: #e8f3fa;
-$amber: #c8821a;
-$amber-light: #fdf3e3;
-$text: #1a2332;
-$text-light: #4a5e72;
-$border: #dde4ed;
-$bg-tint: #f0f5fa;
+// ─── Design tokens (derived from the EoT logo) ───────────────
+// Logo palette: indigo-blue #283890 · green #0b9444 · red #bf1e2e
+$brand: #283890; // logo indigo-blue – primary anchor
+$green: #0b9444; // logo green – vibrant accent / positive
+$green-light: #e7f6ee;
+$red: #bf1e2e; // logo red – spark / alert
+
+$navy: $brand; // deep indigo brand (footers, headings, gradients)
+$navy-dark: #1a2160; // darker indigo for depth
+$blue: #3949ab; // brighter indigo for interactive/secondary
+$blue-light: #eaecf9;
+$amber: $green; // single accent role, now the logo green
+$amber-light: $green-light;
+$text: #1a2030;
+$text-light: #51607a;
+$border: #dde1f0;
+$bg-tint: #eef1fb;
 $white: #ffffff;
 
 // ─── Global resets ───────────────────────────────────────────
@@ -22,7 +28,7 @@ body {
     "liga" 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f7f9fc;
+  background: #f7f8fd;
 }
 
 p {
@@ -168,6 +174,29 @@ input[type="submit"] {
   }
 }
 
+// ─── Back-to-top row (sits directly above the footer) ────────
+// Make it part of the footer visually instead of a stray band in
+// the page background: full-width navy strip with a subtle arrow.
+#up-to-top {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  background: $navy !important; // beat dark-mode `.row { background: transparent !important }`
+  padding: 0.25rem 0 !important;
+
+  .columns {
+    padding-right: 2rem;
+  }
+  a {
+    color: rgba($white, 0.5);
+    transition: color 0.2s;
+    &:hover {
+      background: transparent;
+      color: $white;
+    }
+  }
+}
+
 // ─── Footer ──────────────────────────────────────────────────
 
 #footer-content {
@@ -191,11 +220,11 @@ input[type="submit"] {
 .eot-footer-inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 1.75rem 2rem;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.85rem;
 }
 
 // Quick links — one horizontal line with pipe separators
@@ -253,24 +282,17 @@ input[type="submit"] {
   }
 }
 
-#subfooter {
-  background: $navy-dark !important;
-  border-top: 1px solid rgba($white, 0.08);
-}
-
-// Subfooter: social icons centred, with last-updated line below
-.eot-subfooter-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.6rem 1rem;
+// Thin divider between the links row and the social icons so the merged
+// footer still reads as two logical groups within one band.
+.eot-footer-links {
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid rgba($white, 0.1);
+  width: 100%;
 }
 
 .eot-last-updated {
   font-size: 0.72rem;
-  color: rgba($white, 0.55);
+  color: rgba($white, 0.5);
   letter-spacing: 0.02em;
 }
 
@@ -279,7 +301,7 @@ input[type="submit"] {
   display: flex !important;
   flex-wrap: wrap;
   gap: 0.4rem;
-  margin: 0.5rem 0 0 !important;
+  margin: 0 !important;
   padding: 0;
   list-style: none;
 
@@ -1043,7 +1065,7 @@ li.theme-toggle-li {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: $white;
-  background: linear-gradient(135deg, #6c3fc5 0%, #3b82c4 100%);
+  background: linear-gradient(135deg, #283890 0%, #3949ab 100%);
   border-radius: 3px;
   padding: 0.1em 0.45em 0.15em;
   vertical-align: middle;
@@ -1069,14 +1091,17 @@ li.theme-toggle-li {
   flex-shrink: 0;
 }
 
-.eot-eot-badge { background: linear-gradient(135deg, #b5731a 0%, #d89a3a 100%); }
+.eot-eot-badge { background: linear-gradient(135deg, #0b9444 0%, #16b257 100%); }
 .eot-tw-badge  { background: linear-gradient(135deg, #d8364f 0%, #f2617a 100%); }
 
 .eot-ai-legend {
   text-align: right;
   font-size: 0.78rem;
   color: $text-light;
-  margin: 0.75rem 0 0;
+  margin: 1.75rem 0 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid $border;
 
   .eot-ai-badge,
   .eot-eot-badge,
@@ -1088,7 +1113,7 @@ li.theme-toggle-li {
   .eot-ai-badge:not(:first-child),
   .eot-eot-badge:not(:first-child),
   .eot-tw-badge:not(:first-child) {
-    margin-left: 1rem;
+    margin-left: 2.25rem;
   }
 }
 
@@ -1263,7 +1288,7 @@ li.theme-toggle-li {
 
 .eot-cta {
   background: linear-gradient(135deg, $navy-dark 0%, $navy 100%);
-  padding: 4rem 2rem;
+  padding: 2.25rem 2rem 1.75rem;
   text-align: center;
 
   &-inner {
@@ -1274,14 +1299,17 @@ li.theme-toggle-li {
   h2 {
     color: $white !important;
     font-size: 1.75rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.6rem;
     border: none !important;
     display: block !important;
   }
 
   p {
     color: rgba($white, 0.75);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.1rem;
+  }
+  p:last-child {
+    margin-bottom: 0;
   }
 
   &-actions {
@@ -1289,11 +1317,12 @@ li.theme-toggle-li {
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   &-connect {
     font-size: 0.875rem;
+    margin-bottom: 0;
     color: rgba($white, 0.55) !important;
     a {
       color: rgba($white, 0.75) !important;
@@ -1499,11 +1528,11 @@ li.theme-toggle-li {
   .top-bar-section .dropdown li.back,
   .top-bar-section .dropdown label { display: none !important; }
 
-  // Sub-items: indent with amber left border (→ prefix added by JS, not CSS)
+  // Sub-items: indent with green accent left border (→ prefix added by JS, not CSS)
   .top-bar-section .dropdown li a {
     padding-left: 1.4rem !important;
     font-size: 0.875rem !important;
-    border-left: 3px solid rgba(200, 130, 26, 0.5) !important;
+    border-left: 3px solid rgba($green, 0.5) !important;
     margin-left: 0.75rem;
     opacity: 0.9;
   }
@@ -1531,15 +1560,16 @@ li.theme-toggle-li {
 // ═══════════════════════════════════════════════════════════════
 
 // Dark palette tokens
-$dk-bg: #0d1b2a;
-$dk-bg-tint: #091522;
-$dk-card: #182c40;
-$dk-card-2: #1e3550;
-$dk-border: #243d58;
-$dk-text: #cfe0f0;
-$dk-text-muted: #7aabcc;
-$dk-heading: #b5d0e8;
-$dk-blue: #5ab0dc;
+$dk-bg: #0c1230; // deep indigo-black (logo-tinted)
+$dk-bg-tint: #080d24;
+$dk-card: #141b46;
+$dk-card-2: #1b2358;
+$dk-border: #28316a;
+$dk-text: #d7ddf6;
+$dk-text-muted: #9aa4dd;
+$dk-heading: #c3cbf3;
+$dk-blue: #7b8cf7; // vivid indigo for links on dark
+$dk-green: #2ec46f; // brightened logo green for accents on dark
 
 html.dark-mode {
   // ── Page base
@@ -1585,7 +1615,7 @@ html.dark-mode {
   // ── Navigation
   #navigation {
     background: $dk-bg !important;
-    border-bottom-color: $amber;
+    border-bottom-color: $dk-green;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }
   .top-bar,
@@ -1610,7 +1640,16 @@ html.dark-mode {
 
   #theme-toggle {
     color: $dk-text;
-    &:hover { color: $amber; }
+    &:hover { color: $dk-green; }
+  }
+
+  // Logo: the indigo arcs of the mark blend into the dark header, so give
+  // it a light circular chip to make all three brand colours pop.
+  .top-bar .nav-logo img {
+    background: $white;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 0 0 1px rgba($white, 0.25);
   }
 
   // Mobile dropdown panels
@@ -1636,7 +1675,7 @@ html.dark-mode {
   // Label rows in dropdown ("Areas of Specialization" etc.)
   .top-bar-section .dropdown label {
     background: $dk-card-2 !important;
-    color: $amber !important;
+    color: $dk-green !important;
   }
 
   // Hamburger icon - Foundation creates ALL 3 lines via span::after box-shadow.
@@ -1680,7 +1719,7 @@ html.dark-mode {
   // ── Blockquote
   blockquote {
     background: rgba($dk-blue, 0.08);
-    border-left-color: $amber;
+    border-left-color: $dk-green;
     color: $dk-text;
   }
 
@@ -1714,7 +1753,7 @@ html.dark-mode {
     color: $dk-heading !important;
   }
   .eot-eyebrow {
-    color: $amber;
+    color: $dk-green;
   }
 
   // ── About
@@ -1754,9 +1793,9 @@ html.dark-mode {
       color: $dk-text-muted;
     }
     a {
-      color: $amber;
+      color: $dk-green;
       &:hover {
-        color: lighten($amber, 10%);
+        color: lighten($dk-green, 10%);
       }
     }
   }
@@ -1768,7 +1807,7 @@ html.dark-mode {
   .eot-offering-card {
     background: $dk-card-2;
     border-color: $dk-border;
-    border-left-color: $amber;
+    border-left-color: $dk-green;
     h3 {
       color: $dk-heading;
     }
@@ -1790,7 +1829,7 @@ html.dark-mode {
     background: $dk-card-2;
   }
   .eot-industry-label {
-    color: $amber;
+    color: $dk-green;
   }
   .eot-industry-clients li {
     color: $dk-text;
@@ -1805,6 +1844,7 @@ html.dark-mode {
   // ── AI badge (gradient already works on dark; just lighten legend text)
   .eot-ai-legend {
     color: $dk-text-muted;
+    border-top-color: $dk-border;
   }
 
   // ── Clients (legacy pill grid, kept for fallback)
@@ -1822,7 +1862,7 @@ html.dark-mode {
   .eot-case-card {
     background: $dk-card-2;
     border-color: $dk-border;
-    border-top-color: $amber;
+    border-top-color: $dk-green;
     &:hover {
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
     }
@@ -1840,8 +1880,8 @@ html.dark-mode {
     color: $dk-blue;
   }
   .eot-tag--amber {
-    background: rgba($amber, 0.15);
-    color: lighten($amber, 8%);
+    background: rgba($dk-green, 0.15);
+    color: lighten($dk-green, 8%);
   }
   .eot-tag--blue {
     background: rgba($dk-blue, 0.15);
@@ -1931,10 +1971,10 @@ html.dark-mode {
   }
 
   // ── Case study detail pages (metadata tags)
-  div[style*="background:#1c3a5c"] {
+  div[style*="background:#283890"] {
     background: $dk-card-2 !important;
   }
-  div[style*="background:#2b7fb0"] {
+  div[style*="background:#3949ab"] {
     background: darken($dk-blue, 10%) !important;
   }
 
@@ -2074,7 +2114,7 @@ html.dark-mode {
     border-left-color: $dk-blue !important;
   }
   .eot-tw-card--cta {
-    border-left-color: $amber !important;
+    border-left-color: $dk-green !important;
   }
   .eot-qs-body,
   .eot-tw-body,

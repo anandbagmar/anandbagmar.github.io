@@ -14,19 +14,20 @@
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color: #1a2332;
+$text-color: #1a2030;
 $body-font-color: $text-color;
-$body-bg: #f7f9fc;
+$body-bg: #f7f8fd;
 
 /* Corporate Identity Colorpalette – Essence of Testing
+   Derived directly from the EoT logo: indigo-blue / green / red
 ------------------------------------------------------------------- */
 
-$ci-1: #1c3a5c; // deep navy (primary)
-$ci-2: #2b7fb0; // steel blue
-$ci-3: #c8821a; // warm amber / EoT gold
-$ci-4: #e07b3a; // soft orange
-$ci-5: #d94040; // alert red
-$ci-6: #2b7fb0; // steel blue (replaces green for nav hovers)
+$ci-1: #283890; // logo indigo-blue (primary brand)
+$ci-2: #3949ab; // brighter indigo (interactive: links, buttons)
+$ci-3: #0b9444; // logo green (accent / positive)
+$ci-4: #e07b3a; // soft orange (warning UI state only)
+$ci-5: #bf1e2e; // logo red (alert / highlight)
+$ci-6: #283890; // logo indigo (nav hovers)
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
@@ -34,9 +35,9 @@ $ci-6: #2b7fb0; // steel blue (replaces green for nav hovers)
 $primary-color: $ci-1;
 $secondary-color: $ci-2;
 $alert-color: $ci-5;
-$success-color: $ci-2;
+$success-color: $ci-3;
 $warning-color: $ci-4;
-$info-color: $ci-1;
+$info-color: $ci-2;
 
 /* Grey Scale
 ------------------------------------------------------------------- */

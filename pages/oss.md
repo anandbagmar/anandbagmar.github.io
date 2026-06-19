@@ -13,7 +13,7 @@ header:
 
   <div class="eot-oss-card eot-oss-card--teswiz">
     <div class="eot-oss-header">
-      <div class="eot-oss-badge" style="background:#1c3a5c;">T</div>
+      <div class="eot-oss-badge" style="background:#283890;">T</div>
       <div>
         <h3>Teswiz</h3>
         <span class="eot-oss-subtitle">End-to-End Automation Framework</span>
@@ -34,7 +34,7 @@ header:
 
   <div class="eot-oss-card eot-oss-card--waat">
     <div class="eot-oss-header">
-      <div class="eot-oss-badge" style="background:#c8821a;">W</div>
+      <div class="eot-oss-badge" style="background:#0b9444;">W</div>
       <div>
         <h3>WAAT</h3>
         <span class="eot-oss-subtitle">Web Analytics Automation Testing</span>
@@ -54,7 +54,7 @@ header:
 
   <div class="eot-oss-card eot-oss-card--tta">
     <div class="eot-oss-header">
-      <div class="eot-oss-badge" style="background:#2b7fb0;">TTA</div>
+      <div class="eot-oss-badge" style="background:#3949ab;">TTA</div>
       <div>
         <h3>TTA</h3>
         <span class="eot-oss-subtitle">Test Trend Analyzer</span>
@@ -105,15 +105,15 @@ header:
 @media (max-width: 860px) { .eot-oss-grid { grid-template-columns: 1fr; } }
 
 .eot-oss-card {
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
+  background: #eef1fb;
+  border: 1px solid #dde1f0;
   border-radius: 8px;
   padding: 1.6rem;
   display: flex;
   flex-direction: column;
   transition: box-shadow 0.2s, transform 0.15s;
 }
-.eot-oss-card:hover { box-shadow: 0 6px 20px rgba(28,58,92,0.1); transform: translateY(-2px); }
+.eot-oss-card:hover { box-shadow: 0 6px 20px rgba(40, 56, 144,0.1); transform: translateY(-2px); }
 
 .eot-oss-header {
   display: flex;
@@ -130,8 +130,8 @@ header:
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
 }
-.eot-oss-header h3 { margin: 0; font-size: 1.2rem; color: #1c3a5c; }
-.eot-oss-subtitle { font-size: 0.78rem; color: #c8821a; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+.eot-oss-header h3 { margin: 0; font-size: 1.2rem; color: #283890; }
+.eot-oss-subtitle { font-size: 0.78rem; color: #0b9444; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
 
 .eot-oss-card p { font-size: 0.875rem; color: #4a5e72; line-height: 1.65; margin-bottom: 1rem; }
 
@@ -144,8 +144,8 @@ header:
 
 .eot-oss-links { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: auto; }
 
-.eot-oss-contrib { border-top: 2px solid #dde4ed; padding-top: 2rem; }
-.eot-oss-contrib h2 { font-size: 1.3rem; color: #1c3a5c; margin-bottom: 1.25rem; }
+.eot-oss-contrib { border-top: 2px solid #dde1f0; padding-top: 2rem; }
+.eot-oss-contrib h2 { font-size: 1.3rem; color: #283890; margin-bottom: 1.25rem; }
 
 .eot-oss-contrib-grid {
   display: grid;
@@ -156,16 +156,16 @@ header:
 
 .eot-oss-contrib-item {
   background: #f7f9fc;
-  border: 1px solid #dde4ed;
+  border: 1px solid #dde1f0;
   border-radius: 6px;
   padding: 1.1rem 1.2rem;
 }
-.eot-oss-contrib-item strong a { color: #1c3a5c !important; font-size: 1rem; border: none !important; }
+.eot-oss-contrib-item strong a { color: #283890 !important; font-size: 1rem; border: none !important; }
 .eot-oss-contrib-item p { font-size: 0.82rem; color: #4a5e72; margin: 0.3rem 0 0; line-height: 1.55; }
 
 html.dark-mode .eot-oss-card { background: #1e3550 !important; border-color: #243d58 !important; }
 html.dark-mode .eot-oss-header h3 { color: #b5d0e8 !important; }
-html.dark-mode .eot-oss-subtitle { color: #c8821a !important; }
+html.dark-mode .eot-oss-subtitle { color: #0b9444 !important; }
 html.dark-mode .eot-oss-card p { color: #7aabcc !important; }
 html.dark-mode .eot-oss-features li { color: #7aabcc !important; }
 html.dark-mode .eot-oss-contrib { border-top-color: #243d58 !important; }

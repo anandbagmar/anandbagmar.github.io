@@ -8,19 +8,41 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Fri, 19-Jun-2026
 
+- Added balanced vertical padding above and below the EoT/TW/AI badge legend so
+  it sits evenly within its section instead of hugging the bottom edge.
+- Polished the new palette based on feedback: (1) increased the spacing between
+  the EoT/TW/AI legend groups so they read as distinct items; (2) removed the
+  empty light/dark band that sat above the footer — it was a 160px spacer on the
+  back-to-top row (`#up-to-top`), now a slim full-width navy strip that blends
+  into the footer with a subtle arrow; (3) in dark mode the logo's indigo arcs
+  blended into the dark header, so the logo now sits on a light circular chip to
+  make all three brand colours pop.
+- Reworked the whole-site colour palette to derive from the EoT logo (indigo-blue
+  `#283890`, green `#0b9444`, red `#bf1e2e`) instead of the old navy/steel-blue/amber
+  scheme. Indigo is the brand anchor (nav, headings, hero, footer, buttons), green is
+  the vibrant accent (stats band, links, card borders, footer links, ★ markers) and
+  red stays for alerts. Applied across light + dark mode and mobile + desktop:
+  re-pointed the `$ci-*` tokens (`_01_settings_colors`), the design tokens and
+  dark-mode tokens (`_12_eot_overrides`, including a brightened `$dk-green` for
+  accessible accents on dark), the engagement badges (EoT→green, AI→indigo; TW stays
+  ThoughtWorks red so the three mirror the logo trio), the nav ★ colour, and all
+  hardcoded inline colours in the content pages. All 84 Playwright tests pass.
 - Added a "Last updated: DD Mon YYYY, HH:MM IST" line to the footer subfooter
   (visible on all pages), driven by the Jekyll build time and showing the
   timezone. Set `timezone: Asia/Kolkata` in `_config.yml` so the time renders in
   IST rather than the build server's UTC.
+- Made local build assets (main stylesheet, modernizr, mediaelement) load via a
+  host-relative path (`{{ site.baseurl }}/assets/...`) instead of the absolute
+  `{{ site.url }}` path. In production builds `{{ site.url }}` is the live domain,
+  so the CI Playwright tests were loading CSS/JS from the *deployed* site rather
+  than the freshly built `_site` they serve on localhost — meaning no CSS change
+  could ever be verified in CI (the deploy only happens after tests pass). This
+  was the real reason the references-grid fixes "didn't work" in CI.
 - Fixed the client-references grid on mobile: badges (EoT/TW/AI) were being
   clipped in the cramped 2-column layout on phones. Rewrote the industry grid as
   "narrow-first" — single column by default, widening to 2 columns at
-  `min-width: 820px` and 3 at `min-width: 1180px`. Earlier `max-width` and
-  `auto-fit` attempts both keyed off a width that Playwright's CI mobile
-  emulation inflated (a 390px device reported ~600–768px), so they kept producing
-  cramped multi-column cells; min-width opt-ins only fire on genuinely wide
-  screens, so phones stay single column. Added a regression test asserting badges
-  stay within their row.
+  `min-width: 820px` and 3 at `min-width: 1180px`. Added a regression test
+  asserting badges stay within their row.
 - Listed Reliance Jio across four categories (Telecom, E-Commerce & Retail,
   Enterprise Products/Platforms/Tools, and Consulting & Professional Services),
   each annotated with the relevant product line (MyJio/Jio.com; Ajio/Jio Prime

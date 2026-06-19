@@ -17,24 +17,23 @@
             {% endfor %}
           </nav>
 
+          <!-- Social icons -->
+          <ul class="social-icons">
+          {% for social_item in site.data.socialmedia %}
+            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
+          {% endfor %}
+          </ul>
+
           <!-- Brand row -->
           <div class="eot-footer-brand">
             <span class="eot-footer-name">{{ site.data.language.info_website }}</span>
             <span class="eot-footer-location">{{ site.description }}</span>
           </div>
 
-        </div>
-      </div>
-
-      <div id="subfooter">
-        <nav class="eot-subfooter-inner">
-          <ul class="social-icons">
-          {% for social_item in site.data.socialmedia %}
-            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}" title="{{ social_item.title }}"></a></li>
-          {% endfor %}
-          </ul>
+          <!-- Build timestamp -->
           <span class="eot-last-updated">Last updated: {{ site.time | date: "%d %b %Y, %H:%M %Z" }}</span>
-        </nav>
+
+        </div>
       </div>
 
     </footer>

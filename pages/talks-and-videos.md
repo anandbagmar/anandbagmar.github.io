@@ -203,21 +203,21 @@ header:
   position: relative;
   display: flex;
   flex-direction: column;
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
-  border-left: 4px solid #c8821a;
+  background: #eef1fb;
+  border: 1px solid #dde1f0;
+  border-left: 4px solid #0b9444;
   border-radius: 8px;
   overflow: hidden;
   cursor: pointer;
   transition: box-shadow 0.2s, transform 0.15s;
 }
 .eot-featured-card:hover {
-  box-shadow: 0 6px 20px rgba(28,58,92,0.13);
+  box-shadow: 0 6px 20px rgba(40, 56, 144,0.13);
   transform: translateY(-3px);
 }
 .eot-featured-card.is-playing {
   transform: none;
-  box-shadow: 0 6px 24px rgba(28,58,92,0.18);
+  box-shadow: 0 6px 24px rgba(40, 56, 144,0.18);
 }
 
 .eot-featured-badge {
@@ -231,8 +231,8 @@ header:
   border-radius: 3px;
   z-index: 2;
 }
-.eot-badge--keynote { background: #1c3a5c; color: #ffffff; }
-.eot-badge--featured { background: #c8821a; color: #ffffff; }
+.eot-badge--keynote { background: #283890; color: #ffffff; }
+.eot-badge--featured { background: #0b9444; color: #ffffff; }
 
 .eot-featured-thumb {
   position: relative;
@@ -305,14 +305,14 @@ header:
 .eot-featured-meta h3 {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #1c3a5c;
+  color: #283890;
   margin: 0 0 0.35rem;
   line-height: 1.4;
 }
 .eot-featured-event {
   font-size: 0.78rem;
   font-weight: 600;
-  color: #c8821a;
+  color: #0b9444;
 }
 
 /* All talks grid */
@@ -327,30 +327,30 @@ header:
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
-  border-left: 4px solid #2b7fb0;
+  background: #eef1fb;
+  border: 1px solid #dde1f0;
+  border-left: 4px solid #3949ab;
   border-radius: 6px;
   padding: 0.85rem 1rem;
   text-decoration: none !important;
   transition: box-shadow 0.2s, transform 0.15s, border-left-color 0.2s;
 }
 .eot-talk-card:hover {
-  box-shadow: 0 4px 12px rgba(28,58,92,0.1);
+  box-shadow: 0 4px 12px rgba(40, 56, 144,0.1);
   transform: translateY(-2px);
-  border-left-color: #c8821a;
+  border-left-color: #0b9444;
 }
 .eot-talk-title {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #1c3a5c;
+  color: #283890;
   line-height: 1.45;
   margin-bottom: 0.4rem;
 }
 .eot-talk-event {
   font-size: 0.75rem;
   font-weight: 600;
-  color: #c8821a;
+  color: #0b9444;
 }
 
 /* Sessionize */
@@ -369,14 +369,14 @@ header:
 .sz-item { margin: 0 !important; padding: 0 !important; }
 .sz-item__title {
   display: block !important;
-  background: #f0f5fa !important;
-  border: 1px solid #dde4ed !important;
-  border-left: 4px solid #2b7fb0 !important;
+  background: #eef1fb !important;
+  border: 1px solid #dde1f0 !important;
+  border-left: 4px solid #3949ab !important;
   border-radius: 6px !important;
   padding: 0.85rem 1rem !important;
   font-size: 0.875rem !important;
   font-weight: 600 !important;
-  color: #1c3a5c !important;
+  color: #283890 !important;
   text-decoration: none !important;
   line-height: 1.45 !important;
   transition: box-shadow 0.2s, transform 0.15s, border-left-color 0.2s !important;
@@ -384,10 +384,10 @@ header:
   box-sizing: border-box !important;
 }
 .sz-item__title:hover {
-  box-shadow: 0 4px 12px rgba(28,58,92,0.1) !important;
+  box-shadow: 0 4px 12px rgba(40, 56, 144,0.1) !important;
   transform: translateY(-1px) !important;
-  border-left-color: #c8821a !important;
-  color: #1c3a5c !important;
+  border-left-color: #0b9444 !important;
+  color: #283890 !important;
 }
 .sz-powered-by {
   margin-top: 1rem !important;
@@ -397,15 +397,15 @@ header:
 }
 .sz-powered-by a { color: #a0b4c8 !important; font-weight: 600 !important; }
 
-html.dark-mode .eot-featured-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #c8821a !important; }
+html.dark-mode .eot-featured-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #0b9444 !important; }
 html.dark-mode .eot-featured-meta h3 { color: #b5d0e8 !important; }
-html.dark-mode .eot-featured-event { color: #c8821a !important; }
+html.dark-mode .eot-featured-event { color: #0b9444 !important; }
 html.dark-mode .eot-talk-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; }
-html.dark-mode .eot-talk-card:hover { border-left-color: #c8821a !important; }
+html.dark-mode .eot-talk-card:hover { border-left-color: #0b9444 !important; }
 html.dark-mode .eot-talk-title { color: #b5d0e8 !important; }
-html.dark-mode .eot-talk-event { color: #c8821a !important; }
+html.dark-mode .eot-talk-event { color: #0b9444 !important; }
 html.dark-mode .sz-item__title { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; color: #b5d0e8 !important; }
-html.dark-mode .sz-item__title:hover { border-left-color: #c8821a !important; color: #b5d0e8 !important; }
+html.dark-mode .sz-item__title:hover { border-left-color: #0b9444 !important; color: #b5d0e8 !important; }
 </style>
 
 <script>

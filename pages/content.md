@@ -72,18 +72,18 @@ header:
   display: flex;
   gap: 1rem;
   align-items: flex-start;
-  background: #f0f5fa;
-  border: 1px solid #dde4ed;
-  border-left: 4px solid #2b7fb0;
+  background: #eef1fb;
+  border: 1px solid #dde1f0;
+  border-left: 4px solid #3949ab;
   border-radius: 6px;
   padding: 1.25rem;
   text-decoration: none !important;
   transition: box-shadow 0.2s, transform 0.15s;
 }
 .eot-content-card:hover {
-  box-shadow: 0 4px 16px rgba(28,58,92,0.1);
+  box-shadow: 0 4px 16px rgba(40, 56, 144,0.1);
   transform: translateY(-2px);
-  border-left-color: #c8821a;
+  border-left-color: #0b9444;
 }
 
 .eot-content-card-icon {
@@ -96,7 +96,7 @@ header:
 .eot-content-card h3 {
   font-size: 1rem;
   font-weight: 700;
-  color: #1c3a5c;
+  color: #283890;
   margin: 0 0 0.4rem;
 }
 
@@ -110,11 +110,11 @@ header:
 .eot-content-link {
   font-size: 0.82rem;
   font-weight: 700;
-  color: #c8821a;
+  color: #0b9444;
 }
 html.dark-mode .eot-content-card { background: #1e3550 !important; border-color: #243d58 !important; border-left-color: #5ab0dc !important; }
-html.dark-mode .eot-content-card:hover { border-left-color: #c8821a !important; }
+html.dark-mode .eot-content-card:hover { border-left-color: #0b9444 !important; }
 html.dark-mode .eot-content-card h3 { color: #b5d0e8 !important; }
 html.dark-mode .eot-content-card p { color: #7aabcc !important; }
-html.dark-mode .eot-content-link { color: #c8821a !important; }
+html.dark-mode .eot-content-link { color: #0b9444 !important; }
 </style>
