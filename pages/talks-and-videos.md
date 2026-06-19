@@ -12,6 +12,37 @@ header:
 <div class="eot-tv-section">
 
   <div class="eot-tv-block">
+    <span class="eot-eyebrow-sm">RECENT VIDEOS</span>
+    <h2 class="eot-tv-h2">Latest Sessions</h2>
+    <div class="eot-featured-grid">
+
+      <div class="eot-featured-card" data-video-id="g2KXoNdn0pc">
+        <div class="eot-featured-badge eot-badge--featured">RECENT</div>
+        <div class="eot-featured-thumb">
+          <img src="https://img.youtube.com/vi/g2KXoNdn0pc/mqdefault.jpg" alt="Let the AI experiments begin!" loading="lazy" />
+          <div class="eot-featured-play">▶</div>
+        </div>
+        <div class="eot-featured-meta">
+          <h3>Let the AI experiments begin!</h3>
+        </div>
+      </div>
+
+      <div class="eot-featured-card" data-video-id="aDk63eUZLk0">
+        <div class="eot-featured-badge eot-badge--featured">RECENT</div>
+        <div class="eot-featured-thumb">
+          <img src="https://img.youtube.com/vi/aDk63eUZLk0/mqdefault.jpg" alt="The Path to Autonomous Testing" loading="lazy" />
+          <div class="eot-featured-play">▶</div>
+        </div>
+        <div class="eot-featured-meta">
+          <h3>The Path to Autonomous Testing</h3>
+          <span class="eot-featured-event">Agile India 2025</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="eot-tv-block">
     <span class="eot-eyebrow-sm">FEATURED TALKS</span>
     <h2 class="eot-tv-h2">Keynotes &amp; Highlighted Sessions</h2>
     <div class="eot-featured-grid">
@@ -71,11 +102,6 @@ header:
     <span class="eot-eyebrow-sm">ALL TALKS</span>
     <h2 class="eot-tv-h2">Conference Talks &amp; Webinars</h2>
     <div class="eot-talks-grid">
-
-      <a href="https://www.youtube.com/watch?v=aDk63eUZLk0" target="_blank" class="eot-talk-card">
-        <div class="eot-talk-title">The Path to Autonomous Testing</div>
-        <span class="eot-talk-event">Agile India 2025</span>
-      </a>
 
       <a href="https://www.youtube.com/watch?v=nrpEPo-eVaw" target="_blank" class="eot-talk-card">
         <div class="eot-talk-title">Unlocking the Power of ChatGPT and AI in Test Automation</div>
