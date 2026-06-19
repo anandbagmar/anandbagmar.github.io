@@ -1,0 +1,98 @@
+# Single source of truth for the industry-grouped client / references list.
+# Rendered by _includes/_client-grid.html on both the homepage and /references/.
+#
+# badges (zero or more per client):
+#   eot - Essence of Testing engagement
+#   tw  - ThoughtWorks engagement
+#   ai  - AI-powered engagement
+# aka: optional sub-brand / alternate name shown in smaller text.
+
+- icon: "📡"
+  label: "Telecom"
+  clients:
+    - name: "AmDocs"
+      badges: [eot]
+    - name: "Reliance Jio"
+      aka: "MyJio, Jio.com"
+      badges: [eot, ai]
+
+- icon: "🛒"
+  label: "E-Commerce & Retail"
+  clients:
+    - name: "Myntra"
+      badges: [eot]
+    - name: "Reliance Jio"
+      aka: "Ajio, Jio Prime Merchant"
+      badges: [eot, ai]
+    - name: "Sears"
+      badges: [tw]
+    - name: "SnapDeal"
+      badges: [eot]
+    - name: "Sony"
+      badges: [tw]
+
+- icon: "🎮"
+  label: "Gaming & OTT"
+  clients:
+    - name: "PlayGames 24x7"
+      badges: [eot]
+    - name: "Vuclip"
+
+- icon: "🚗"
+  label: "Automotive"
+  clients:
+    - name: "OVE"
+      badges: [tw]
+
+- icon: "🏦"
+  label: "Banking, Finance & Insurance"
+  clients:
+    - name: "Suncorp"
+      badges: [tw]
+    - name: "Tieto Evry"
+      badges: [eot]
+
+- icon: "🧭"
+  label: "Consulting & Professional Services"
+  clients:
+    - name: "Moolya Testing Services"
+      badges: [eot]
+    - name: "Reliance Jio"
+      aka: "QECC"
+      badges: [eot, ai]
+    - name: "Srijan"
+      badges: [eot]
+    - name: "ThoughtWorks"
+    - name: "Xnsio"
+      aka: "formerly AgileFAQs"
+      badges: [eot, ai]
+
+- icon: "🧰"
+  label: "Enterprise Products, Platforms & Tools"
+  clients:
+    - name: "AmberPoint"
+    - name: "Applitools"
+      badges: [eot, ai]
+    - name: "Borland"
+    - name: "Microsoft"
+      aka: "LiveMeeting"
+    - name: "Reliance Jio"
+      aka: "JioMeet, Enterprise, JPW"
+      badges: [eot, ai]
+    - name: "Specmatic"
+      badges: [eot, ai]
+
+- icon: "🏥"
+  label: "Healthcare"
+  clients:
+    - name: "McKinsey"
+      badges: [tw]
+    - name: "Varian Medical Systems"
+      badges: [tw]
+    - name: "WebMD"
+
+- icon: "🌱"
+  label: "Green Tech"
+  clients:
+    - name: "ChargedUp.green"
+      badges: [eot]

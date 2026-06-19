@@ -8,6 +8,10 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Fri, 19-Jun-2026
 
+- De-duplicated the client/references list. The industry-grouped grid was
+  hand-maintained identically on both the homepage and `/references/`. Moved the
+  data to a single source (`_data/clients.yml`) rendered by a shared include
+  (`_includes/_client-grid.html`), so updates now happen in one place.
 - Added balanced vertical padding above and below the EoT/TW/AI badge legend so
   it sits evenly within its section instead of hugging the bottom edge.
 - Polished the new palette based on feedback: (1) increased the spacing between

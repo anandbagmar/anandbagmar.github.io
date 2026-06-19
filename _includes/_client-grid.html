@@ -1,0 +1,22 @@
+{% comment %}
+  Renders the industry-grouped client / references grid from _data/clients.yml.
+  Single source shared by the homepage and /references/.
+  Optional param: grid_style - inline style applied to the grid wrapper.
+{% endcomment %}
+<div class="eot-industry-grid"{% if include.grid_style %} style="{{ include.grid_style }}"{% endif %}>
+{% for group in site.data.clients %}
+  <div class="eot-industry-group">
+    <div class="eot-industry-header">
+      <span class="eot-industry-icon">{{ group.icon }}</span>
+      <span class="eot-industry-label">{{ group.label | escape }}</span>
+    </div>
+    <ul class="eot-industry-clients">
+{% for client in group.clients %}
+      <li>{{ client.name | escape }}{% if client.aka %} <small class="eot-client-aka">{{ client.aka | escape }}</small>{% endif %}{% for b in client.badges %}{% if b == 'eot' %} <span class="eot-eot-badge">EoT</span>{% elsif b == 'tw' %} <span class="eot-tw-badge">TW</span>{% elsif b == 'ai' %} <span class="eot-ai-badge">AI</span>{% endif %}{% endfor %}</li>
+{% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>
+
+<p class="eot-ai-legend"><span class="eot-eot-badge">EoT</span> Essence of Testing <span class="eot-tw-badge">TW</span> ThoughtWorks <span class="eot-ai-badge">AI</span> AI-powered engagement</p>
