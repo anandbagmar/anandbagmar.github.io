@@ -8,6 +8,9 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Fri, 19-Jun-2026
 
+- Fixed the client-references grid on mobile: badges (EoT/TW/AI) were being
+  clipped in the cramped 2-column layout on phones. List rows now wrap, and the
+  grid drops to a single column below 600px instead of 380px.
 - Listed Reliance Jio across four categories (Telecom, E-Commerce & Retail,
   Enterprise Products/Platforms/Tools, and Consulting & Professional Services),
   each annotated with the relevant product line (MyJio/Jio.com; Ajio/Jio Prime

@@ -104,6 +104,25 @@ test.describe('Responsive layout', () => {
     await expect(groups).toHaveCount(9);
   });
 
+  test('client badges are not clipped by their row on references page', async ({ page }) => {
+    await page.goto('/references/');
+    // Each EoT/TW/AI badge must stay within its <li> bounds (regression for the
+    // mobile 2-column layout where badges overflowed and got cut off).
+    const overflowing = await page.evaluate(() => {
+      const bad = [];
+      document.querySelectorAll('.eot-industry-clients li').forEach((li) => {
+        const row = li.getBoundingClientRect();
+        li.querySelectorAll('.eot-eot-badge, .eot-tw-badge, .eot-ai-badge').forEach((b) => {
+          const box = b.getBoundingClientRect();
+          // allow 1px for sub-pixel rounding
+          if (box.right > row.right + 1) bad.push(li.textContent.trim().replace(/\s+/g, ' '));
+        });
+      });
+      return bad;
+    });
+    expect(overflowing, `Badges overflow their row: ${overflowing.join(' | ')}`).toEqual([]);
+  });
+
   test('dark mode toggle adds dark-mode class to html element', async ({ page }) => {
     await page.goto('/');
     await page.evaluate(() => {
