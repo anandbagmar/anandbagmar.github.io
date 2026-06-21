@@ -6,6 +6,17 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Sun, 21-Jun-2026
+
+- Removed duplicated content on the `/profile/` page. The custom gradient "hero"
+  block restated the same name, role, and availability that the standard page
+  header (subheadline + h1 + teaser) already shows. Dropped the hero so the page
+  matches every other page, keeping only the genuinely unique extras as in-flow
+  content: the fuller bio sentence and the positioning quote.
+- Split the `/profile/` teaser onto two lines (role descriptors + "25+ Years" on
+  the first, availability on the second). Added a clean `meta_description` so the
+  line break doesn't leak into the SEO/Open Graph meta tags.
+
 ## Fri, 19-Jun-2026
 
 - De-duplicated the client/references list. The industry-grouped grid was

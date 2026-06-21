@@ -2,91 +2,30 @@
 layout: page-fullwidth
 title: "Anand Bagmar - Profile"
 subheadline: "Senior Quality Engineering Leadership"
-teaser: "Quality Executive · Strategist · Software Quality Evangelist · 25+ Years · Open to FTE, Fractional & Consulting"
+teaser: "Quality Executive · Strategist · Software Quality Evangelist · 25+ Years<br>Open to FTE, Fractional & Consulting"
+meta_description: "Quality Executive · Strategist · Software Quality Evangelist · 25+ Years · Open to FTE, Fractional & Consulting"
 permalink: "/profile/"
 header:
     title: My Profile
     image_fullwidth: "header-bg.jpeg"
 ---
 
-<div class="eot-profile-hero">
-  <div class="eot-profile-hero-inner">
-    <div class="eot-profile-hero-text">
-      <div class="eot-profile-name">Anand Bagmar</div>
-      <div class="eot-profile-role">Senior Quality Engineering Leadership</div>
-      <p class="eot-profile-bio">Software quality executive, keynote speaker, and test automation expert with 25+ years of experience leading quality strategy and transformation across complex technology environments.</p>
-      <div class="eot-profile-pills">
-        <span class="eot-profile-pill">Open to FTE</span>
-        <span class="eot-profile-pill">Fractional / Interim</span>
-        <span class="eot-profile-pill">Consulting &amp; Advisory</span>
-      </div>
-    </div>
-    <blockquote class="eot-profile-quote">
-      <span class="eot-profile-quote-mark">"</span>
-      Strategic where it matters, practical where it counts - helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both.
-    </blockquote>
-  </div>
-</div>
+Software quality executive, keynote speaker, and test automation expert with 25+ years of experience leading quality strategy and transformation across complex technology environments.
+
+<blockquote class="eot-profile-quote">
+  <span class="eot-profile-quote-mark">"</span>
+  Strategic where it matters, practical where it counts - helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both.
+</blockquote>
 
 <style>
-.eot-profile-hero {
-  background: linear-gradient(135deg, #122640 0%, #283890 100%);
-  border-radius: 10px;
-  margin: 0 0 2rem;
-  overflow: hidden;
-}
-.eot-profile-hero-inner {
-  padding: 2rem 2.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.eot-profile-name {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #ffffff;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-bottom: 0.2rem;
-}
-.eot-profile-role {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #0b9444;
-  margin-bottom: 0.85rem;
-  letter-spacing: 0.01em;
-}
-.eot-profile-bio {
-  font-size: 0.925rem;
-  color: rgba(255,255,255,0.82) !important;
-  line-height: 1.7;
-  margin: 0 0 1rem;
-  max-width: 640px;
-}
-.eot-profile-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-.eot-profile-pill {
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 0.3rem 0.85rem;
-  border-radius: 100px;
-  background: rgba(200,130,26,0.18);
-  border: 1px solid rgba(200,130,26,0.5);
-  color: #f0b55a;
-  letter-spacing: 0.02em;
-}
 .eot-profile-quote {
   border-left: 3px solid #0b9444;
-  background: rgba(255,255,255,0.06);
+  background: rgba(11,148,68,0.06);
   border-radius: 0 6px 6px 0;
   padding: 0.9rem 1.2rem 0.9rem 1.4rem;
-  margin: 0;
-  font-size: 0.92rem;
+  margin: 1.5rem 0 0;
+  font-size: 0.95rem;
   font-style: italic;
-  color: rgba(255,255,255,0.7) !important;
   line-height: 1.65;
   position: relative;
 }
@@ -99,10 +38,7 @@ header:
   font-style: normal;
   font-weight: 700;
 }
-@media (max-width: 640px) {
-html.dark-mode .eot-profile-card { background: #1e3550 !important; border-color: #243d58 !important; }
-html.dark-mode .eot-profile-card h3 { color: #b5d0e8 !important; }
-html.dark-mode .eot-profile-card p { color: #7aabcc !important; }
+html.dark-mode .eot-profile-quote { background: rgba(255,255,255,0.06); color: #b9d4ea; }
 </style>
 
 ---
