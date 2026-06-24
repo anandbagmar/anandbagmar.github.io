@@ -6,6 +6,13 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Wed, 24-Jun-2026
+
+- Talks & Videos: added the "TheMCPJourney" video to the recent videos grid and
+  renamed the section heading from "Latest Sessions" to "Recent Videos".
+- Talks & Videos: moved "The Path to Autonomous Testing" out of Recent Videos
+  into the Keynotes & Highlighted Sessions block (now badged FEATURED).
+
 ## Sun, 21-Jun-2026
 
 - Removed duplicated content on the `/profile/` page. The custom gradient "hero"

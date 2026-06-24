@@ -13,8 +13,19 @@ header:
 
   <div class="eot-tv-block">
     <span class="eot-eyebrow-sm">RECENT VIDEOS</span>
-    <h2 class="eot-tv-h2">Latest Sessions</h2>
+    <h2 class="eot-tv-h2">Recent Videos</h2>
     <div class="eot-featured-grid">
+
+      <div class="eot-featured-card" data-video-id="-SAYd2XiuK8">
+        <div class="eot-featured-badge eot-badge--featured">RECENT</div>
+        <div class="eot-featured-thumb">
+          <img src="https://img.youtube.com/vi/-SAYd2XiuK8/mqdefault.jpg" alt="TheMCPJourney" loading="lazy" />
+          <div class="eot-featured-play">▶</div>
+        </div>
+        <div class="eot-featured-meta">
+          <h3>The MCP Journey</h3>
+        </div>
+      </div>
 
       <div class="eot-featured-card" data-video-id="g2KXoNdn0pc">
         <div class="eot-featured-badge eot-badge--featured">RECENT</div>
@@ -27,8 +38,16 @@ header:
         </div>
       </div>
 
+    </div>
+  </div>
+
+  <div class="eot-tv-block">
+    <span class="eot-eyebrow-sm">FEATURED TALKS</span>
+    <h2 class="eot-tv-h2">Keynotes &amp; Highlighted Sessions</h2>
+    <div class="eot-featured-grid">
+
       <div class="eot-featured-card" data-video-id="aDk63eUZLk0">
-        <div class="eot-featured-badge eot-badge--featured">RECENT</div>
+        <div class="eot-featured-badge eot-badge--featured">FEATURED</div>
         <div class="eot-featured-thumb">
           <img src="https://img.youtube.com/vi/aDk63eUZLk0/mqdefault.jpg" alt="The Path to Autonomous Testing" loading="lazy" />
           <div class="eot-featured-play">▶</div>
@@ -38,14 +57,6 @@ header:
           <span class="eot-featured-event">Agile India 2025</span>
         </div>
       </div>
-
-    </div>
-  </div>
-
-  <div class="eot-tv-block">
-    <span class="eot-eyebrow-sm">FEATURED TALKS</span>
-    <h2 class="eot-tv-h2">Keynotes &amp; Highlighted Sessions</h2>
-    <div class="eot-featured-grid">
 
       <div class="eot-featured-card" data-video-id="A-Bal_xMEQ0">
         <div class="eot-featured-badge eot-badge--keynote">KEYNOTE</div>
