@@ -10,6 +10,8 @@ tags:
   - "web"
   - "mobile"
   - "opensource"
+redirect_from:
+  - "/blog/automating-the-real-user-scenarios/"
 author: Anand Bagmar
 show_meta: true
 ---

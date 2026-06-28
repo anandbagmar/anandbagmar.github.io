@@ -14,6 +14,8 @@ tags:
   - "collaboration"
   - "testing"
   - "vodQA"
+redirect_from:
+  - "/blog/a-very-intense-bdt-workshop-in-vodqa/"
 author: Anand Bagmar
 show_meta: true
 ---

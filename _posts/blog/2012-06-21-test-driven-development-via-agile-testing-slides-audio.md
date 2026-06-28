@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "bdt"
+redirect_from:
+  - "/blog/test-driven-development-via-agile/"
 author: Anand Bagmar
 show_meta: true
 ---

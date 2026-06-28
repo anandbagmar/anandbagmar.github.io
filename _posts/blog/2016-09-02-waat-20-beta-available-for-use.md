@@ -18,6 +18,8 @@ tags:
   - "browsermob-proxy"
   - "web analytics"
   - "automation_framework"
+redirect_from:
+  - "/blog/waat-2-0-beta-available-for-use/"
 author: Anand Bagmar
 show_meta: true
 ---

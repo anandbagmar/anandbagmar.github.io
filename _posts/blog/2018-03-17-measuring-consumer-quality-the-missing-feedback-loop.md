@@ -23,6 +23,8 @@ tags:
   - "web analytics"
   - "metrics"
   - "mobile_testing"
+redirect_from:
+  - "/blog/measuring-consumer-quality-the-missing/"
 author: Anand Bagmar
 show_meta: true
 ---

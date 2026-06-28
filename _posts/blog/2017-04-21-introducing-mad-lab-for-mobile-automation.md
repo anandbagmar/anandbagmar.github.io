@@ -22,6 +22,8 @@ tags:
   - "madlab"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/introducing-mad-lab-for-mobile/"
 author: Anand Bagmar
 show_meta: true
 ---

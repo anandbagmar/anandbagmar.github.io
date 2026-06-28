@@ -4,6 +4,8 @@ title: "My article on \"Future of Test Automation Tools and Infrastructure\" fea
 date: 2011-01-18 12:12:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/my-article-on-future-of-test/"
 author: Anand Bagmar
 show_meta: true
 ---

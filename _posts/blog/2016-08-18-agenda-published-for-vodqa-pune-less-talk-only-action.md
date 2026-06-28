@@ -19,6 +19,8 @@ tags:
   - "automation"
   - "web analytics"
   - "mobile_testing"
+redirect_from:
+  - "/blog/agenda-published-for-vodqa-pune-less/"
 author: Anand Bagmar
 show_meta: true
 ---

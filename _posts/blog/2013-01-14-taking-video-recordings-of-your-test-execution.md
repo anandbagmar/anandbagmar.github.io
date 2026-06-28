@@ -10,6 +10,8 @@ tags:
   - "mac"
   - "testing"
   - "ruby"
+redirect_from:
+  - "/blog/taking-video-recordings-of-your-test/"
 author: Anand Bagmar
 show_meta: true
 ---

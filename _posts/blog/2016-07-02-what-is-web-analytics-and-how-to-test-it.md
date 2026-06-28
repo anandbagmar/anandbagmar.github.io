@@ -20,6 +20,8 @@ tags:
   - "web analytics"
   - "opensource"
   - "automation_framework"
+redirect_from:
+  - "/blog/what-is-web-analytics-and-how-to-test/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -17,6 +17,8 @@ tags:
   - "punedashboard"
   - "collaboration"
   - "opensource"
+redirect_from:
+  - "/blog/real-time-trend-and-failure-analysis/"
 author: Anand Bagmar
 show_meta: true
 ---

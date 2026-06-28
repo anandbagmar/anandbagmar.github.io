@@ -16,6 +16,8 @@ tags:
   - "test_automation"
   - "automation_framework"
   - "practices"
+redirect_from:
+  - "/blog/why-not-to-use-pagefactory-and-findsby/"
 author: Anand Bagmar
 show_meta: true
 ---

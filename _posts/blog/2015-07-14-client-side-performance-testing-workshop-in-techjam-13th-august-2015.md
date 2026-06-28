@@ -18,6 +18,8 @@ tags:
   - "domain"
   - "#patterns"
   - "automation_framework"
+redirect_from:
+  - "/blog/client-side-performance-testing/"
 author: Anand Bagmar
 show_meta: true
 ---

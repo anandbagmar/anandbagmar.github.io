@@ -14,6 +14,8 @@ tags:
   - "api"
   - "mobile_testing"
   - "test_automation"
+redirect_from:
+  - "/blog/using-fakesms-service-in-functional/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "waat"
+redirect_from:
+  - "/blog/waat-ruby-available-on-rubygems-and/"
 author: Anand Bagmar
 show_meta: true
 ---

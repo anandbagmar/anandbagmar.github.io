@@ -4,6 +4,8 @@ title: "Effective Strategies of Distributed Testing - recording available"
 date: 2011-11-10 10:45:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/effective-strategies-of-distributed/"
 author: Anand Bagmar
 show_meta: true
 ---

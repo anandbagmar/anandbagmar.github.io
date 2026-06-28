@@ -16,6 +16,8 @@ tags:
   - "pune"
   - "automation_framework"
   - "ruby"
+redirect_from:
+  - "/blog/sample-test-automation-framework-using/"
 author: Anand Bagmar
 show_meta: true
 ---

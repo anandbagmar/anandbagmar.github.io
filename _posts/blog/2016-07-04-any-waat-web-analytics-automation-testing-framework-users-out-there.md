@@ -21,6 +21,8 @@ tags:
   - "web analytics"
   - "opensource"
   - "automation_framework"
+redirect_from:
+  - "/blog/any-waat-web-analytics-automation/"
 author: Anand Bagmar
 show_meta: true
 ---

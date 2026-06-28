@@ -7,6 +7,8 @@ categories:
 tags:
   - "testing"
   - "automation"
+redirect_from:
+  - "/blog/interesting-way-to-create-graphs-and/"
 author: Anand Bagmar
 show_meta: true
 ---

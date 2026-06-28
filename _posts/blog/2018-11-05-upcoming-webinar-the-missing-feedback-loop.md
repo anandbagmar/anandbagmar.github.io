@@ -17,6 +17,8 @@ tags:
   - "testcraft"
   - "webinar"
   - "quality"
+redirect_from:
+  - "/blog/upcoming-webinar-the-missing-feedback/"
 author: Anand Bagmar
 show_meta: true
 ---
@@ -28,7 +30,7 @@ You can register for the webinar from **[here](<https://hubs.ly/H0fp4by0>) (<htt
   
 
 
-[![](/assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-284-29.png)](</assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-284-29.png>)
+[![](/assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-4.png)](</assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-4.png>)
 
   
 

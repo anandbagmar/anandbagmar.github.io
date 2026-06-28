@@ -14,6 +14,8 @@ tags:
   - "opensource"
   - "agile2013"
   - "ruby"
+redirect_from:
+  - "/blog/taas-in-wcngt-bangalore-and-agile-2013/"
 author: Anand Bagmar
 show_meta: true
 ---

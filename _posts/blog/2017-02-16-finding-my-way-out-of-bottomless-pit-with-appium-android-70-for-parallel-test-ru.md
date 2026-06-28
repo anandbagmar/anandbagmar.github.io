@@ -17,6 +17,8 @@ tags:
   - "opensource"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/finding-my-way-out-of-bottomless-pit/"
 author: Anand Bagmar
 show_meta: true
 ---

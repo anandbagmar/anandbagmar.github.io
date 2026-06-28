@@ -18,6 +18,8 @@ tags:
   - "meetup"
   - "automation_framework"
   - "webinar"
+redirect_from:
+  - "/blog/update-learning-from-webinar-on-test/"
 author: Anand Bagmar
 show_meta: true
 ---

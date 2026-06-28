@@ -15,6 +15,8 @@ tags:
   - "webdriver"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/shared-relatively-less-pain-of-using/"
 author: Anand Bagmar
 show_meta: true
 ---

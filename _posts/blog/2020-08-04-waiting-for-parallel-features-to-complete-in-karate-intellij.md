@@ -9,6 +9,8 @@ tags:
   - "debug"
   - "api"
   - "test_automation"
+redirect_from:
+  - "/blog/waiting-for-parallel-features-to/"
 author: Anand Bagmar
 show_meta: true
 ---

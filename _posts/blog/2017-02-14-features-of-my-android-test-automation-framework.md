@@ -19,6 +19,8 @@ tags:
   - "opensource"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/features-of-my-android-test-automation/"
 author: Anand Bagmar
 show_meta: true
 ---

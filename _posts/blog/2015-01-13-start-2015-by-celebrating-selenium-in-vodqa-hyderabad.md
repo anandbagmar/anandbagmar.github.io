@@ -21,6 +21,8 @@ tags:
   - "opensource"
   - "meetup"
   - "automation_framework"
+redirect_from:
+  - "/blog/start-2015-by-celebrating-selenium-in/"
 author: Anand Bagmar
 show_meta: true
 ---

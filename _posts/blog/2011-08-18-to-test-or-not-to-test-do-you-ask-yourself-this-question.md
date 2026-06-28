@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "automation"
+redirect_from:
+  - "/blog/to-test-or-not-to-test-do-you-ask/"
 author: Anand Bagmar
 show_meta: true
 ---

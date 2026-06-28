@@ -17,6 +17,8 @@ tags:
   - "automation"
   - "#workshop"
   - "meetup"
+redirect_from:
+  - "/blog/client-side-performance-testing/"
 author: Anand Bagmar
 show_meta: true
 ---

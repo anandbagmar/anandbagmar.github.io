@@ -22,6 +22,8 @@ tags:
   - "madlab"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/mad-lab-capabilities-features-agile/"
 author: Anand Bagmar
 show_meta: true
 ---

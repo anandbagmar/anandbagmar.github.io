@@ -13,6 +13,8 @@ tags:
   - "test_strategy"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/questions-at-at-taquelah-does-your/"
 author: Anand Bagmar
 show_meta: true
 ---

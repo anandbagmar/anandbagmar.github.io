@@ -21,6 +21,8 @@ tags:
   - "agile"
   - "meetup"
   - "automation_framework"
+redirect_from:
+  - "/blog/update-from-webinar-on-build-the-right/"
 author: Anand Bagmar
 show_meta: true
 ---

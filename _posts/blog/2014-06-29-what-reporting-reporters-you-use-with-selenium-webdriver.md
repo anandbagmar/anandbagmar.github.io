@@ -14,6 +14,8 @@ tags:
   - "testing"
   - "opensource"
   - "automation_framework"
+redirect_from:
+  - "/blog/what-reporting-reporters-you-use-with/"
 author: Anand Bagmar
 show_meta: true
 ---

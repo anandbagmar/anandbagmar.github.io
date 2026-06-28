@@ -24,6 +24,8 @@ tags:
   - "opensource"
   - "meetup"
   - "automation_framework"
+redirect_from:
+  - "/blog/vodqa-geek-night-in-thoughtworks/"
 author: Anand Bagmar
 show_meta: true
 ---

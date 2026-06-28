@@ -11,6 +11,8 @@ tags:
   - "testing"
   - "waat"
   - "ruby"
+redirect_from:
+  - "/blog/waat-v1-5-0-released-to-rubygems-org/"
 author: Anand Bagmar
 show_meta: true
 ---

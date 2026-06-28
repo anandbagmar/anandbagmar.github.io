@@ -14,6 +14,8 @@ tags:
   - "test_strategy"
   - "thinktest"
   - "continuousdelivery"
+redirect_from:
+  - "/blog/patterns-in-test-automation-enabling/"
 author: Anand Bagmar
 show_meta: true
 ---

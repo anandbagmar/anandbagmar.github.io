@@ -16,6 +16,8 @@ tags:
   - "webdriver"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/how-to-handle-select-certificate-popup/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -15,6 +15,8 @@ tags:
   - "mobile_testing"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/how-to-upgrade-the-appium-uiautomator2/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -10,6 +10,8 @@ tags:
   - "opensource"
   - "seconf"
   - "meetup"
+redirect_from:
+  - "/blog/speaking-schedule-in-the-past-year-and/"
 author: Anand Bagmar
 show_meta: true
 ---

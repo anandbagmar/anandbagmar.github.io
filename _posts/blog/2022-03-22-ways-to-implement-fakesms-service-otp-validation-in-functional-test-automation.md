@@ -11,6 +11,8 @@ tags:
   - "test_automation"
   - "automation_framework"
   - "email"
+redirect_from:
+  - "/blog/ways-to-implement-fakesms-service-otp/"
 author: Anand Bagmar
 show_meta: true
 ---

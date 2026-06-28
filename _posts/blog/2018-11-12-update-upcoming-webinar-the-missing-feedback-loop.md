@@ -18,6 +18,8 @@ tags:
   - "mobile_testing"
   - "automation_framework"
   - "webinar"
+redirect_from:
+  - "/blog/update-upcoming-webinar-the-missing/"
 author: Anand Bagmar
 show_meta: true
 ---
@@ -28,4 +30,4 @@ Register **[here](<https://hubs.ly/H0fp4by0>) (<https://hubs.ly/H0fp4by0>****)**
   
 
 
-[![](/assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-284-29.png)](</assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-284-29.png>)
+[![](/assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-4.png)](</assets/img/blog/the-missing-feedback-loopthe-tools-techniques-and-automation-to-solve-it-4.png>)

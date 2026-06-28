@@ -11,6 +11,8 @@ tags:
   - "testproject"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/getting-started-with-implementing/"
 author: Anand Bagmar
 show_meta: true
 ---

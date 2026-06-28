@@ -15,6 +15,8 @@ tags:
   - "test_automation"
   - "test_strategy"
   - "automation_framework"
+redirect_from:
+  - "/blog/slides-video-from-test-data-food-for/"
 author: Anand Bagmar
 show_meta: true
 ---

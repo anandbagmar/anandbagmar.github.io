@@ -18,6 +18,8 @@ tags:
   - "stareast"
   - "agile"
   - "meetup"
+redirect_from:
+  - "/blog/update-from-stareast-2014-build-the/"
 author: Anand Bagmar
 show_meta: true
 ---

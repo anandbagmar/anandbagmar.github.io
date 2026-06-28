@@ -12,6 +12,8 @@ tags:
   - "testing"
   - "taas"
   - "ruby"
+redirect_from:
+  - "/blog/end-2-end-automated-integration/"
 author: Anand Bagmar
 show_meta: true
 ---

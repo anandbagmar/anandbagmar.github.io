@@ -13,6 +13,8 @@ tags:
   - "devops"
   - "testing"
   - "datascience"
+redirect_from:
+  - "/blog/interesting-reads-data-analytics/"
 author: Anand Bagmar
 show_meta: true
 ---

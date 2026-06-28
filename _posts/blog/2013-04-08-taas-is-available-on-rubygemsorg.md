@@ -13,6 +13,8 @@ tags:
   - "opensource"
   - "taas"
   - "ruby"
+redirect_from:
+  - "/blog/taas-is-available-on-rubygems-org/"
 author: Anand Bagmar
 show_meta: true
 ---

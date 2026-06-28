@@ -12,6 +12,8 @@ tags:
   - "taas"
   - "waat"
   - "agile"
+redirect_from:
+  - "/blog/speaking-in-bangalore-about-waat-and/"
 author: Anand Bagmar
 show_meta: true
 ---

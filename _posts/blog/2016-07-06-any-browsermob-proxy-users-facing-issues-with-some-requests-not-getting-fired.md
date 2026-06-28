@@ -16,6 +16,8 @@ tags:
   - "javascript"
   - "mac"
   - "ruby"
+redirect_from:
+  - "/blog/any-browsermob-proxy-users-facing/"
 author: Anand Bagmar
 show_meta: true
 ---

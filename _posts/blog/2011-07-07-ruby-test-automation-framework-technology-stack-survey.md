@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "waat"
+redirect_from:
+  - "/blog/ruby-test-automation-framework/"
 author: Anand Bagmar
 show_meta: true
 ---

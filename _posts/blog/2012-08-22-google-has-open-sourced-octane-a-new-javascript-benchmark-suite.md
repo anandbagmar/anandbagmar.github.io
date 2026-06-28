@@ -7,6 +7,8 @@ categories:
 tags:
   - "performance"
   - "automation"
+redirect_from:
+  - "/blog/google-has-open-sourced-octane-a-new/"
 author: Anand Bagmar
 show_meta: true
 ---

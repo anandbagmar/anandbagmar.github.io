@@ -24,6 +24,8 @@ tags:
   - "agile"
   - "meetup"
   - "automation_framework"
+redirect_from:
+  - "/blog/enabling-continuous-delivery-cd-in/"
 author: Anand Bagmar
 show_meta: true
 ---

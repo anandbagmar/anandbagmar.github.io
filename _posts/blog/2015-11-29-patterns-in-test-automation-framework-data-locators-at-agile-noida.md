@@ -15,6 +15,8 @@ tags:
   - "agilenoida"
   - "automation_framework"
   - "ruby"
+redirect_from:
+  - "/blog/patterns-in-test-automation-framework/"
 author: Anand Bagmar
 show_meta: true
 ---

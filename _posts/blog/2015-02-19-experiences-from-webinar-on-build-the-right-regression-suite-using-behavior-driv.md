@@ -23,6 +23,8 @@ tags:
   - "pyramid"
   - "agile"
   - "webinar"
+redirect_from:
+  - "/blog/experiences-from-webinar-on-build-the/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -19,6 +19,8 @@ tags:
   - "opensource"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/sharing-implementation-of-cucumber-jvm/"
 author: Anand Bagmar
 show_meta: true
 ---
@@ -271,7 +273,7 @@ By this stage, our Jenkins Server, Jenkins Agent setup is done, including the so
   
 
 
-[![](/assets/img/blog/4.-manage-test-infrastructure-26-test-execution.png)](</assets/img/blog/4.-manage-test-infrastructure-26-test-execution.png>)
+[![](/assets/img/blog/4.-manage-test-infrastructure-test-execution.png)](</assets/img/blog/4.-manage-test-infrastructure-test-execution.png>)
 
   
 

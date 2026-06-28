@@ -9,6 +9,8 @@ tags:
   - "thoughtworks"
   - "automation"
   - "ruby"
+redirect_from:
+  - "/blog/waat-ruby-crosses-1000-downloads-on/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -10,6 +10,8 @@ tags:
   - "android studio"
   - "setup"
   - "mac"
+redirect_from:
+  - "/blog/making-android-studio-emulator-work-on/"
 author: Anand Bagmar
 show_meta: true
 ---

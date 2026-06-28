@@ -12,6 +12,8 @@ tags:
   - "thoughtworks"
   - "automation"
   - "#testing"
+redirect_from:
+  - "/blog/automating-look-feel-along-with/"
 author: Anand Bagmar
 show_meta: true
 ---

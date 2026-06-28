@@ -14,6 +14,8 @@ tags:
   - "test_automation"
   - "test_strategy"
   - "automation_framework"
+redirect_from:
+  - "/blog/how-to-enable-seamless-running-of/"
 author: Anand Bagmar
 show_meta: true
 ---

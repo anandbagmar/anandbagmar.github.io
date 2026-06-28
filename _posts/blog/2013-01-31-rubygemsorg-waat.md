@@ -9,6 +9,8 @@ tags:
   - "automation"
   - "testing"
   - "ruby"
+redirect_from:
+  - "/blog/rubygems-org-waat/"
 author: Anand Bagmar
 show_meta: true
 ---

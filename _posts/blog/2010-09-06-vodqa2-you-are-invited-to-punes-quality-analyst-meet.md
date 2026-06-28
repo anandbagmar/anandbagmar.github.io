@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "vodQA"
+redirect_from:
+  - "/blog/vodqa2-you-are-invited-to-pune-s/"
 author: Anand Bagmar
 show_meta: true
 ---

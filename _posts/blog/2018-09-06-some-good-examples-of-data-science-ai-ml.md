@@ -12,6 +12,8 @@ tags:
   - "learning"
   - "datascience"
   - "ml"
+redirect_from:
+  - "/blog/some-good-examples-of-data-science-ai/"
 author: Anand Bagmar
 show_meta: true
 ---

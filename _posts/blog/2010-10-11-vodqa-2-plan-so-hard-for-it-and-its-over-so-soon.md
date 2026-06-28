@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "vodQA"
+redirect_from:
+  - "/blog/vodqa-2-plan-so-hard-for-it-and-its/"
 author: Anand Bagmar
 show_meta: true
 ---

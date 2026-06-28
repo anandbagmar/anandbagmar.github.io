@@ -15,6 +15,8 @@ tags:
   - "opensource"
   - "pune"
   - "ruby"
+redirect_from:
+  - "/blog/test-execution-trend-feature-added-in/"
 author: Anand Bagmar
 show_meta: true
 ---

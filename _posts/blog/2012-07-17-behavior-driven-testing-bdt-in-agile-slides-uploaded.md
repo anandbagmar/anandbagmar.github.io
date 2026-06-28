@@ -8,6 +8,8 @@ tags:
   - "vodQA"
   - "bdt"
   - "automation"
+redirect_from:
+  - "/blog/behavior-driven-testing-bdt-in-agile/"
 author: Anand Bagmar
 show_meta: true
 ---

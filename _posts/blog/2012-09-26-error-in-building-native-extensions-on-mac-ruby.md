@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "ruby"
+redirect_from:
+  - "/blog/error-in-building-native-extensions-on/"
 author: Anand Bagmar
 show_meta: true
 ---

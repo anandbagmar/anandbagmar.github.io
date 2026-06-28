@@ -13,6 +13,8 @@ tags:
   - "test_automation"
   - "automation_framework"
   - "javascript"
+redirect_from:
+  - "/blog/recording-video-of-test-execution-via/"
 author: Anand Bagmar
 show_meta: true
 ---

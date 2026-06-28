@@ -18,6 +18,8 @@ tags:
   - "agile"
   - "mobile_testing"
   - "qualityanalyst"
+redirect_from:
+  - "/blog/understanding-measuring-and-building/"
 author: Anand Bagmar
 show_meta: true
 ---

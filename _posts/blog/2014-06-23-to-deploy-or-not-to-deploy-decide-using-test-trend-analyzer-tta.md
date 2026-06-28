@@ -23,6 +23,8 @@ tags:
   - "opensource"
   - "agile"
   - "automation_framework"
+redirect_from:
+  - "/blog/to-deploy-or-not-to-deploy-decide/"
 author: Anand Bagmar
 show_meta: true
 ---

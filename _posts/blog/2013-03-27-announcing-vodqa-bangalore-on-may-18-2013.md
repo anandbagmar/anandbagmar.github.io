@@ -9,6 +9,8 @@ tags:
   - "vodQA"
   - "thoughtworks"
   - "punedashboard"
+redirect_from:
+  - "/blog/announcing-vodqa-bangalore-on-may-18/"
 author: Anand Bagmar
 show_meta: true
 ---

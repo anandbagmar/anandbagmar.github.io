@@ -25,6 +25,8 @@ tags:
   - "opensource"
   - "agile"
   - "mobile_testing"
+redirect_from:
+  - "/blog/evolution-of-vodqa-the-software-tester/"
 author: Anand Bagmar
 show_meta: true
 ---

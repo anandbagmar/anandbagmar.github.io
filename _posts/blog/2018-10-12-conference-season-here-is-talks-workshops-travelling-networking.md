@@ -16,6 +16,8 @@ tags:
   - "agiletesting"
   - "test_automation"
   - "quality"
+redirect_from:
+  - "/blog/conference-season-here-is-talks/"
 author: Anand Bagmar
 show_meta: true
 ---

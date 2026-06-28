@@ -13,6 +13,8 @@ tags:
   - "punedashboard"
   - "testing"
   - "opensource"
+redirect_from:
+  - "/blog/tta-closer-to-becoming-unified/"
 author: Anand Bagmar
 show_meta: true
 ---

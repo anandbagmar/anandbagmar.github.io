@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "vodQA"
+redirect_from:
+  - "/blog/date-updated-announcing-the-next-vodqa/"
 author: Anand Bagmar
 show_meta: true
 ---

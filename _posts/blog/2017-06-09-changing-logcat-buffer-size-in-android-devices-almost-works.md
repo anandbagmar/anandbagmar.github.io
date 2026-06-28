@@ -12,6 +12,8 @@ tags:
   - "android"
   - "webdriver"
   - "madlab"
+redirect_from:
+  - "/blog/changing-logcat-buffer-size-in-android/"
 author: Anand Bagmar
 show_meta: true
 ---

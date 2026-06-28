@@ -4,6 +4,8 @@ title: "Interesting webinar coming up ... \"Where Exploration and Automation mee
 date: 2011-04-13 12:50:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/interesting-webinar-coming-up-where/"
 author: Anand Bagmar
 show_meta: true
 ---

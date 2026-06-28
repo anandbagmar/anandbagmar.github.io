@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "waat"
+redirect_from:
+  - "/blog/waat-web-analytics-automation-testing/"
 author: Anand Bagmar
 show_meta: true
 ---

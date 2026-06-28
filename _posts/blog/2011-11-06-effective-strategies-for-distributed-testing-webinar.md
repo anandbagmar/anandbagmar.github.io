@@ -4,6 +4,8 @@ title: "Effective Strategies for Distributed Testing - webinar"
 date: 2011-11-06 01:12:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/effective-strategies-for-distributed/"
 author: Anand Bagmar
 show_meta: true
 ---

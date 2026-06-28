@@ -22,6 +22,8 @@ tags:
   - "collaboration"
   - "pyramid"
   - "opensource"
+redirect_from:
+  - "/blog/reading-does-help-bring-about-fearless/"
 author: Anand Bagmar
 show_meta: true
 ---

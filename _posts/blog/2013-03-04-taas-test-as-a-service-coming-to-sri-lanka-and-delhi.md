@@ -12,6 +12,8 @@ tags:
   - "collaboration"
   - "taas"
   - "ruby"
+redirect_from:
+  - "/blog/taas-test-as-a-service-coming-to-sri/"
 author: Anand Bagmar
 show_meta: true
 ---

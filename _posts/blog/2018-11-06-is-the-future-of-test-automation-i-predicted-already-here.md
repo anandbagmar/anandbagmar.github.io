@@ -13,6 +13,8 @@ tags:
   - "experiences"
   - "automation_framework"
   - "influence"
+redirect_from:
+  - "/blog/is-the-future-of-test-automation-i/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -17,6 +17,8 @@ tags:
   - "agile"
   - "meetup"
   - "automation_framework"
+redirect_from:
+  - "/blog/future-of-testing-test-automation-and/"
 author: Anand Bagmar
 show_meta: true
 ---

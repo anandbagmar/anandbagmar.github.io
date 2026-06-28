@@ -19,6 +19,8 @@ tags:
   - "#vodqa"
   - "collaboration"
   - "opensource"
+redirect_from:
+  - "/blog/vodqa-pune-faster-smarter-reliable/"
 author: Anand Bagmar
 show_meta: true
 ---

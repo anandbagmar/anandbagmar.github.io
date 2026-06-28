@@ -12,6 +12,8 @@ tags:
   - "testing"
   - "vodQA"
   - "agile"
+redirect_from:
+  - "/blog/vodqa-geek-night-test-automation/"
 author: Anand Bagmar
 show_meta: true
 ---

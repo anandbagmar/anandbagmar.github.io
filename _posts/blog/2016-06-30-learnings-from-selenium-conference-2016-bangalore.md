@@ -20,6 +20,8 @@ tags:
   - "protractor"
   - "test_data"
   - "automation_framework"
+redirect_from:
+  - "/blog/learnings-from-selenium-conference/"
 author: Anand Bagmar
 show_meta: true
 ---

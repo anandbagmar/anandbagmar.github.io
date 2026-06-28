@@ -8,6 +8,9 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Fixed Blogger→new-site redirect 404s: Blogger truncates post slugs to ~39 chars before the last word boundary; added `blogger_slug()` to `convert_blogger.py` so each post gets a `redirect_from` entry for the truncated local path, making Blogspot's JS redirect land correctly.
+- Fixed `migrate_media.py` re-generating hidden filenames (e.g. `.avvxseg…`) for opaque `/img/a/` images on each run: now uses a persistent `blog/opaque_map.json` mapping so re-runs reuse the same `img-NN.ext` names instead of creating new hidden files.
+
 - Fixed GitHub code-scanning alerts: added `rel="noopener noreferrer"` to `target="_blank"` links in `_footer.html` and `_meta_information.html`; added URL scheme validation before assigning `data-src` to iframe `src` in `javascript.js`.
 - Updated `faraday` (2.14.2→2.14.3) and `concurrent-ruby` (1.3.6→1.3.7) to close open Dependabot high-severity alerts.
 - Dismissed 12 code-scanning alerts for vendored/generated code (mediaelement jQuery bundle, Foundation minified JS, `_site/` build artifacts).

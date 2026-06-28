@@ -4,6 +4,8 @@ title: "Effective Strategies for Distributed Testing - slides available"
 date: 2011-11-29 05:41:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/effective-strategies-for-distributed/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -19,6 +19,8 @@ tags:
   - "test_data"
   - "page-object-pattern"
   - "automation_framework"
+redirect_from:
+  - "/blog/sharing-the-pain-in-automating-with/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -7,6 +7,8 @@ categories:
 tags:
   - "vodQA"
   - "bdt"
+redirect_from:
+  - "/blog/vodqa-pune-17th-mar-12-videos-pictures/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -15,6 +15,8 @@ tags:
   - "ios"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/overcoming-chromedriver-version/"
 author: Anand Bagmar
 show_meta: true
 ---

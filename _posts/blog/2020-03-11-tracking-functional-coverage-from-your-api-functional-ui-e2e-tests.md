@@ -15,6 +15,8 @@ tags:
   - "metrics"
   - "tools"
   - "automation_framework"
+redirect_from:
+  - "/blog/tracking-functional-coverage-from-your/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -13,6 +13,8 @@ tags:
   - "collaboration"
   - "opensource"
   - "ruby"
+redirect_from:
+  - "/blog/tta-0-5-4-feature-information-and/"
 author: Anand Bagmar
 show_meta: true
 ---

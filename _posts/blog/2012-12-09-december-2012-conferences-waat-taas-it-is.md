@@ -12,6 +12,8 @@ tags:
   - "taas"
   - "waat"
   - "agile"
+redirect_from:
+  - "/blog/december-2012-conferences-waat-taas-it/"
 author: Anand Bagmar
 show_meta: true
 ---

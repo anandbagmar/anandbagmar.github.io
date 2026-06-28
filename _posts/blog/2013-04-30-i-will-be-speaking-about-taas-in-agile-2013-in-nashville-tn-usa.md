@@ -12,6 +12,8 @@ tags:
   - "taas"
   - "agile"
   - "ruby"
+redirect_from:
+  - "/blog/i-will-be-speaking-about-taas-in-agile/"
 author: Anand Bagmar
 show_meta: true
 ---

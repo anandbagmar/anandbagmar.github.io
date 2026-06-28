@@ -17,6 +17,8 @@ tags:
   - "punedashboard"
   - "opensource"
   - "agile"
+redirect_from:
+  - "/blog/automate-across-platform-os/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -17,6 +17,8 @@ tags:
   - "thoughtworks"
   - "@thoughtworks"
   - "agile"
+redirect_from:
+  - "/blog/starting-2016-with-vodqa-in-pune-agile/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -23,6 +23,8 @@ tags:
   - "#testing_conference"
   - "#workshop"
   - "mobile_testing"
+redirect_from:
+  - "/blog/its-all-about-testing-in-vodqa/"
 author: Anand Bagmar
 show_meta: true
 ---

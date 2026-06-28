@@ -13,6 +13,8 @@ tags:
   - "test_automation"
   - "test_strategy"
   - "automation_framework"
+redirect_from:
+  - "/blog/automating-functional-end-2-end-tests/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -7,6 +7,8 @@ categories:
 tags:
   - "vodQA"
   - "bdt"
+redirect_from:
+  - "/blog/vodqa-geek-night-behavior-driven/"
 author: Anand Bagmar
 show_meta: true
 ---

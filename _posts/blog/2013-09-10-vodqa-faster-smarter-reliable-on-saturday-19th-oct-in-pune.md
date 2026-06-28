@@ -11,6 +11,8 @@ tags:
   - "punedashboard"
   - "pune"
   - "vodQA"
+redirect_from:
+  - "/blog/vodqa-faster-smarter-reliable-on/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -19,6 +19,8 @@ tags:
   - "opensource"
   - "infoq"
   - "automation_framework"
+redirect_from:
+  - "/blog/test-automation-in-the-world-of-ai-and/"
 author: Anand Bagmar
 show_meta: true
 ---

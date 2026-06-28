@@ -24,6 +24,8 @@ tags:
   - "web analytics"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/slides-from-vodqa-pune-less-talk-only/"
 author: Anand Bagmar
 show_meta: true
 ---

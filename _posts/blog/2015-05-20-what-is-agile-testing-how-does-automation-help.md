@@ -21,6 +21,8 @@ tags:
   - "pyramid"
   - "agile"
   - "automation_framework"
+redirect_from:
+  - "/blog/what-is-agile-testing-how-does/"
 author: Anand Bagmar
 show_meta: true
 ---

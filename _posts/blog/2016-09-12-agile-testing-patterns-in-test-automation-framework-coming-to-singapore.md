@@ -20,6 +20,8 @@ tags:
   - "page-object-pattern"
   - "agile"
   - "automation_framework"
+redirect_from:
+  - "/blog/agile-testing-patterns-in-test/"
 author: Anand Bagmar
 show_meta: true
 ---

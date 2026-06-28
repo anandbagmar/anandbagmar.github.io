@@ -16,6 +16,8 @@ tags:
   - "android"
   - "code-coverage"
   - "automation_framework"
+redirect_from:
+  - "/blog/does-your-functional-automation-really/"
 author: Anand Bagmar
 show_meta: true
 ---

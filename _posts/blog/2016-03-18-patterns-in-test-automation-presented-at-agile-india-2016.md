@@ -16,6 +16,8 @@ tags:
   - "agile"
   - "test_automation"
   - "agileindia2016"
+redirect_from:
+  - "/blog/patterns-in-test-automation-presented/"
 author: Anand Bagmar
 show_meta: true
 ---

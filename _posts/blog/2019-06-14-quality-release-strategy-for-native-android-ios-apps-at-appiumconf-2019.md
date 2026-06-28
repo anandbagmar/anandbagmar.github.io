@@ -15,6 +15,8 @@ tags:
   - "test_automation"
   - "test_strategy"
   - "automation_framework"
+redirect_from:
+  - "/blog/quality-release-strategy-for-native/"
 author: Anand Bagmar
 show_meta: true
 ---

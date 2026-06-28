@@ -4,6 +4,8 @@ title: "Generic Test Automation Frameworks - Good or Bad?"
 date: 2010-11-20 12:58:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/generic-test-automation-frameworks/"
 author: Anand Bagmar
 show_meta: true
 ---

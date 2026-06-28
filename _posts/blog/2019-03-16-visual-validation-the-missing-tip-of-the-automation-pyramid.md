@@ -19,6 +19,8 @@ tags:
   - "visual"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/visual-validation-the-missing-tip-of/"
 author: Anand Bagmar
 show_meta: true
 ---

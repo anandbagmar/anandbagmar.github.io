@@ -13,6 +13,8 @@ tags:
   - "testing"
   - "agile"
   - "interview"
+redirect_from:
+  - "/blog/anna-royzman-speaks-on-encouraging/"
 author: Anand Bagmar
 show_meta: true
 ---

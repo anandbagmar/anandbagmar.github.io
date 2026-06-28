@@ -4,6 +4,8 @@ title: "MEDIA ALERT: Live Web Event: The End of the Free Internet"
 date: 2010-12-08 02:16:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/media-alert-live-web-event-the-end-of/"
 author: Anand Bagmar
 show_meta: true
 ---

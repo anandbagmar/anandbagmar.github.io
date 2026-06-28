@@ -19,6 +19,8 @@ tags:
   - "automation"
   - "web analytics"
   - "agile"
+redirect_from:
+  - "/blog/agile-testing-analytics-testing-and/"
 author: Anand Bagmar
 show_meta: true
 ---

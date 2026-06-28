@@ -13,6 +13,8 @@ tags:
   - "testing"
   - "test_automation"
   - "automation_framework"
+redirect_from:
+  - "/blog/patterns-of-test-automation-in/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -21,6 +21,8 @@ tags:
   - "page-object-pattern"
   - "agile"
   - "meetup"
+redirect_from:
+  - "/blog/agile-testing-patterns-for-a-good-test/"
 author: Anand Bagmar
 show_meta: true
 ---

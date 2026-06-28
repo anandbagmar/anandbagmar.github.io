@@ -4,6 +4,8 @@ title: "Future of Test Automation Tools & Infrastructure"
 date: 2010-08-25 05:44:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/future-of-test-automation-tools/"
 author: Anand Bagmar
 show_meta: true
 ---

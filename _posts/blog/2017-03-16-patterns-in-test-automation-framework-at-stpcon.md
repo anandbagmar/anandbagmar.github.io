@@ -20,6 +20,8 @@ tags:
   - "page-object-pattern"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/patterns-in-test-automation-framework/"
 author: Anand Bagmar
 show_meta: true
 ---

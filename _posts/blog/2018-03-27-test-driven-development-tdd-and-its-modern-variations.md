@@ -14,6 +14,8 @@ tags:
   - "xdd"
   - "agile"
   - "practices"
+redirect_from:
+  - "/blog/test-driven-development-tdd-and-its/"
 author: Anand Bagmar
 show_meta: true
 ---

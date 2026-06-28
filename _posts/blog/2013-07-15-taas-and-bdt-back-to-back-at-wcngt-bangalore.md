@@ -18,6 +18,8 @@ tags:
   - "collaboration"
   - "opensource"
   - "agile"
+redirect_from:
+  - "/blog/taas-and-bdt-back-to-back-at-wcngt/"
 author: Anand Bagmar
 show_meta: true
 ---

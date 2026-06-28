@@ -9,6 +9,8 @@ tags:
   - "BiDi"
   - "selenium"
   - "opensource"
+redirect_from:
+  - "/blog/getting-selenium-4-s-devtools-working/"
 author: Anand Bagmar
 show_meta: true
 ---

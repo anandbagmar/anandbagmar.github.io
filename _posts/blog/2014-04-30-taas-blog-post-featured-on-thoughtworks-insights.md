@@ -14,6 +14,8 @@ tags:
   - "taas"
   - "automation_framework"
   - "ruby"
+redirect_from:
+  - "/blog/taas-blog-post-featured-on/"
 author: Anand Bagmar
 show_meta: true
 ---

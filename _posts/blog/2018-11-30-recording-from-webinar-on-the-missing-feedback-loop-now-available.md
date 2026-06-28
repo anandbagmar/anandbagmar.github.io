@@ -19,6 +19,8 @@ tags:
   - "qualityanalyst"
   - "automation_framework"
   - "webinar"
+redirect_from:
+  - "/blog/recording-from-webinar-on-the-missing/"
 author: Anand Bagmar
 show_meta: true
 ---

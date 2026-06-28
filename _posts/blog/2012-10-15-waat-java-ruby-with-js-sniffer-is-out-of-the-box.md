@@ -10,6 +10,8 @@ tags:
   - "thoughtworks"
   - "automation"
   - "ruby"
+redirect_from:
+  - "/blog/waat-java-ruby-with-js-sniffer-is-out/"
 author: Anand Bagmar
 show_meta: true
 ---

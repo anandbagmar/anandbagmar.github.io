@@ -14,6 +14,8 @@ tags:
   - "pune"
   - "waat"
   - "ruby"
+redirect_from:
+  - "/blog/waat-java-v1-5-1-released-today/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -4,6 +4,8 @@ title: "Lessons from a 1-day training engagement - a Trainer perspective"
 date: 2011-08-04 05:35:00 +0000
 categories:
   - blog
+redirect_from:
+  - "/blog/lessons-from-a-1-day-training/"
 author: Anand Bagmar
 show_meta: true
 ---

@@ -24,6 +24,8 @@ tags:
   - "agile"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/the-story-of-a-small-vodqa-ending-up/"
 author: Anand Bagmar
 show_meta: true
 ---

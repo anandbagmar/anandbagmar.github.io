@@ -12,6 +12,8 @@ tags:
   - "mobile"
   - "mobile_testing"
   - "automation_framework"
+redirect_from:
+  - "/blog/what-are-the-criteria-for-determining/"
 author: Anand Bagmar
 show_meta: true
 ---

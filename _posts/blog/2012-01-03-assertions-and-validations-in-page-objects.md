@@ -6,6 +6,8 @@ categories:
   - blog
 tags:
   - "automation"
+redirect_from:
+  - "/blog/assertions-and-validations-in-page/"
 author: Anand Bagmar
 show_meta: true
 ---

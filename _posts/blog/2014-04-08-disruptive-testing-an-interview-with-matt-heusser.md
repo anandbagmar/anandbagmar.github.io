@@ -11,6 +11,8 @@ tags:
   - "collaboration"
   - "testing"
   - "agile"
+redirect_from:
+  - "/blog/disruptive-testing-an-interview-with/"
 author: Anand Bagmar
 show_meta: true
 ---

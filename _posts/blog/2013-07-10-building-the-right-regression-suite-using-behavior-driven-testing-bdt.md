@@ -14,6 +14,8 @@ tags:
   - "opensource"
   - "agile2013"
   - "ruby"
+redirect_from:
+  - "/blog/building-the-right-regression-suite/"
 author: Anand Bagmar
 show_meta: true
 ---
