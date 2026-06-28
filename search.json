@@ -1,0 +1,32 @@
+---
+layout: none
+---
+[
+  {% assign all_pages = site.pages | where_exp: "p", "p.sitemap != false and p.url != '/search.json'" %}
+  {% assign blog_posts = site.posts | where_exp: "post", "post.categories contains 'blog'" %}
+  {% assign comma = false %}
+
+  {% for post in blog_posts %}
+    {% if comma %},{% endif %}{% assign comma = true %}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "date": {{ post.date | date: "%b %-d, %Y" | jsonify }},
+      "tags": {{ post.tags | join: ", " | jsonify }},
+      "excerpt": {{ post.content | strip_html | strip_newlines | truncate: 300 | jsonify }}
+    }
+  {% endfor %}
+
+  {% for page in all_pages %}
+    {% if page.title and page.title != "" %}
+    ,
+    {
+      "title": {{ page.title | jsonify }},
+      "url": {{ page.url | relative_url | jsonify }},
+      "date": "",
+      "tags": "",
+      "excerpt": {{ page.content | strip_html | strip_newlines | truncate: 300 | jsonify }}
+    }
+    {% endif %}
+  {% endfor %}
+]

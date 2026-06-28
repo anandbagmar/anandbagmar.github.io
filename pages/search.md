@@ -1,11 +1,13 @@
 ---
 permalink: /search/
-layout: page
+layout: page-fullwidth
 title: "Search"
+subheadline: "Essence of Testing"
+teaser: "Search across all posts and pages on this site."
 sitemap: false
 header:
     title: Search
     image_fullwidth: "header-bg.jpeg"
 ---
 
-{% include _google_search.html %}
+{% include _search.html %}
