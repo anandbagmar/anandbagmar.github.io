@@ -6,6 +6,10 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Sun, 29-Jun-2026
+
+- Fixed `/blog/` 404 on live site: `blog/*` in `.gitignore` was blocking `blog/index.html` from being committed; added `!blog/index.html` negation rule and force-added the file to git.
+
 ## Sat, 28-Jun-2026
 
 - Migrated all 252 posts from essenceoftesting.blogspot.com into `_posts/blog/` as Jekyll Markdown files, with tags, dates, and redirect_from front matter pointing back to original Blogspot URLs.
