@@ -8,6 +8,12 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Fixed GitHub code-scanning alerts: added `rel="noopener noreferrer"` to `target="_blank"` links in `_footer.html` and `_meta_information.html`; added URL scheme validation before assigning `data-src` to iframe `src` in `javascript.js`.
+- Updated `faraday` (2.14.2→2.14.3) and `concurrent-ruby` (1.3.6→1.3.7) to close open Dependabot high-severity alerts.
+- Dismissed 12 code-scanning alerts for vendored/generated code (mediaelement jQuery bundle, Foundation minified JS, `_site/` build artifacts).
+
+## Sun, 29-Jun-2026
+
 - Fixed `/blog/` 404 on live site: `blog/*` in `.gitignore` was blocking `blog/index.html` from being committed; added `!blog/index.html` negation rule and force-added the file to git.
 
 ## Sat, 28-Jun-2026
