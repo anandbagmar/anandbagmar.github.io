@@ -24,7 +24,7 @@ tags:
   - "agile"
   - "automation_framework"
 redirect_from:
-  - "/blog/to-deploy-or-not-to-deploy-decide/"
+  - "/blog/to-deploy-or-not-to-deploy-decide-using/"
 author: Anand Bagmar
 show_meta: true
 ---

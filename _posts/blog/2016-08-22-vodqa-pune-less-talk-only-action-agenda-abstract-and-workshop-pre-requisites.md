@@ -20,7 +20,7 @@ tags:
   - "mobile_testing"
   - "automation_framework"
 redirect_from:
-  - "/blog/vodqa-pune-less-talk-only-action/"
+  - "/blog/vodqa-pune-less-talk-only-action-agenda/"
 author: Anand Bagmar
 show_meta: true
 ---

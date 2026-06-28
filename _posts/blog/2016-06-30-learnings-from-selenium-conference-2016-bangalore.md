@@ -21,7 +21,7 @@ tags:
   - "test_data"
   - "automation_framework"
 redirect_from:
-  - "/blog/learnings-from-selenium-conference/"
+  - "/blog/learnings-from-selenium-conference-2016/"
 author: Anand Bagmar
 show_meta: true
 ---

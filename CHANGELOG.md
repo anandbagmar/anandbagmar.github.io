@@ -8,7 +8,7 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
-- Fixed Blogger→new-site redirect 404s: Blogger truncates post slugs to ~39 chars before the last word boundary; added `blogger_slug()` to `convert_blogger.py` so each post gets a `redirect_from` entry for the truncated local path, making Blogspot's JS redirect land correctly.
+- Fixed Blogger→new-site redirect 404s: corrected `blogger_slug()` in `convert_blogger.py` — the function was incorrectly backing up past the last hyphen even when the 39-char truncation already fell on a clean word boundary (e.g. `end-2-end-automated-integration-testing` was being shortened to `end-2-end-automated-integration`). Now only backs up when the cut falls mid-word.
 - Fixed `migrate_media.py` re-generating hidden filenames (e.g. `.avvxseg…`) for opaque `/img/a/` images on each run: now uses a persistent `blog/opaque_map.json` mapping so re-runs reuse the same `img-NN.ext` names instead of creating new hidden files.
 
 - Fixed GitHub code-scanning alerts: added `rel="noopener noreferrer"` to `target="_blank"` links in `_footer.html` and `_meta_information.html`; added URL scheme validation before assigning `data-src` to iframe `src` in `javascript.js`.

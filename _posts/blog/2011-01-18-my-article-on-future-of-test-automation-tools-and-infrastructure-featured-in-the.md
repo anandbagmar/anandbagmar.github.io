@@ -5,7 +5,7 @@ date: 2011-01-18 12:12:00 +0000
 categories:
   - blog
 redirect_from:
-  - "/blog/my-article-on-future-of-test/"
+  - "/blog/my-article-on-future-of-test-automation/"
 author: Anand Bagmar
 show_meta: true
 ---

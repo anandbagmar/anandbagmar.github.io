@@ -15,7 +15,7 @@ tags:
   - "automation_framework"
   - "ruby"
 redirect_from:
-  - "/blog/taas-blog-post-featured-on/"
+  - "/blog/taas-blog-post-featured-on-thoughtworks/"
 author: Anand Bagmar
 show_meta: true
 ---

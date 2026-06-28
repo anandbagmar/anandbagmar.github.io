@@ -18,7 +18,7 @@ tags:
   - "@thoughtworks"
   - "mobile_testing"
 redirect_from:
-  - "/blog/vodqa-quest-for-quality-taste-of/"
+  - "/blog/vodqa-quest-for-quality-taste-of-mobile/"
 author: Anand Bagmar
 show_meta: true
 ---

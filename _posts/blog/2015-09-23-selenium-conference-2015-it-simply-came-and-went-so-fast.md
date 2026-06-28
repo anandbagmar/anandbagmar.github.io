@@ -23,7 +23,7 @@ tags:
   - "pyramid"
   - "automation_framework"
 redirect_from:
-  - "/blog/selenium-conference-2015-it-simply/"
+  - "/blog/selenium-conference-2015-it-simply-came/"
 author: Anand Bagmar
 show_meta: true
 ---

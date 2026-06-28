@@ -7,7 +7,7 @@ categories:
 tags:
   - "mac"
 redirect_from:
-  - "/blog/mac-air-video-problem-this-may-work/"
+  - "/blog/mac-air-video-problem-this-may-work-for/"
 author: Anand Bagmar
 show_meta: true
 ---
