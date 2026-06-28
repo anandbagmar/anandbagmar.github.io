@@ -6,6 +6,14 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Sat, 28-Jun-2026
+
+- Migrated all 252 posts from essenceoftesting.blogspot.com into `_posts/blog/` as Jekyll Markdown files, with tags, dates, and redirect_from front matter pointing back to original Blogspot URLs.
+- Added `/blog/` listing page (paginated, 10 posts per page) using the existing `blog` layout.
+- Added "Blog" link to site navigation; updated Resources dropdown to point to `/blog/` instead of Blogspot.
+- Added `jekyll-redirect-from` plugin so old Blogspot post URLs redirect correctly.
+- Updated content.md to link to the local `/blog/` instead of the external Blogspot URL.
+
 ## Wed, 24-Jun-2026
 
 - Talks & Videos: added the "TheMCPJourney" video to the recent videos grid and

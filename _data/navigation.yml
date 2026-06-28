@@ -21,12 +21,16 @@
   url: "/oss/"
   side: left
 
+- title: "Blog"
+  url: "/blog/"
+  side: left
+
 - title: "Resources"
   url: "/content/"
   side: left
   dropdown:
   - title: "Blogs & Articles"
-    url: "/content/"
+    url: "/blog/"
   - title: "Talks & Videos"
     url: "/talks-and-videos/"
   - title: "Case Studies"

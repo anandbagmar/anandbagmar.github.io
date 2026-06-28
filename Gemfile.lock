@@ -59,6 +59,8 @@ GEM
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-watch (2.2.1)
@@ -120,6 +122,7 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-gist
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sass-converter
   listen (~> 3.0.8)
   sassc

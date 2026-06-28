@@ -16,7 +16,7 @@ header:
     <h2 class="eot-content-h2">Published Articles &amp; Blogs</h2>
     <div class="eot-content-grid">
 
-      <a href="https://essenceoftesting.blogspot.com/" target="_blank" class="eot-content-card">
+      <a href="/blog/" class="eot-content-card">
         <div class="eot-content-card-icon">✍️</div>
         <div>
           <h3>Essence of Testing Blog</h3>
