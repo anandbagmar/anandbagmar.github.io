@@ -14,7 +14,7 @@
 
 				{% if page.categories != empty %}<span class="icon-archive pr20"> {{ page.categories | join: ' · ' | upcase }}{% endif %}</span>
 				<br />
-				<span class="pr20">{% for tag in page.tags %}<span class="icon-price-tag pr10"> {{tag}}</span> {% endfor %}</span>
+				<span class="pr20">{% for tag in page.tags %}<a class="icon-price-tag pr10" href="/blog/tags/#{{ tag | slugify }}" style="text-decoration:none"> {{tag}}</a> {% endfor %}</span>
 			</p>
 
 			{% if page.collection == "posts" %}
