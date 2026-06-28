@@ -8,6 +8,10 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Removed standalone "Blog" nav item; consolidated everything under Resources dropdown: Blog Posts, Browse by Tag, Talks & Videos, Case Studies, then external links (Applitools Articles ↗, Slides ↗, YouTube ↗) — all distinguished by ↗ suffix.
+- Fixed `site.url` from `anandbagmar.github.io` to `essenceoftesting.com` so sitemap, canonical tags, and absolute URLs all use the correct live domain.
+- Improved sitemap: blog posts now get `priority=0.8` / `changefreq=yearly` (vs `0.3` / `monthly` before); pages get `0.5`; redirect pages excluded; `lastmod` uses actual post date rather than build time.
+- Cleaned up Resources nav dropdown: replaced redundant "Blogs & Articles → /blog/" (same as top-level Blog link) with "Blog Posts → /blog/" and "Browse by Tag → /blog/tags/".
 - Replaced Google-only site search with Lunr.js local full-text search: a `search.json` index (generated at build time, 270 entries — all 252 blog posts + site pages) is queried client-side for instant results including title, tags, and excerpt highlighting. A "Search Google for this site" link appears below results for external fallback. Query is preserved in the URL (`?q=`) for shareability.
 - Added `/blog/tags/` page listing all blog post tags alphabetically, each as a heading with all matching posts beneath it; the page is fully automatic — Jekyll regenerates it on every build so new tags appear without any manual work. Tag badges on the blog index and on individual post pages now link directly to the relevant tag section.
 - Fixed infinite redirect loop on all Blogspot→new-site redirects: the theme's `_layouts/redirect.html` used `{{ page.redirect_to }}` but `jekyll-redirect-from` sets `{{ page.redirect.to }}` — the mismatch produced empty `url=` in every meta-refresh, sending the browser back to itself. Fixed by using `page.redirect.to | default: page.redirect_to` so both the plugin-generated pages and hand-authored redirect pages work.

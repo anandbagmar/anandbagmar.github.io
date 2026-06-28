@@ -2,7 +2,7 @@ title: ""
 #slogan: "Working together to build a quality product!"
 description: "India (GMT +0530)"
 author: "Anand Bagmar"
-url: 'https://anandbagmar.github.io'
+url: 'https://essenceoftesting.com'
 baseurl: ''
 # Used for rendering build time (e.g. footer "Last updated") in IST
 timezone: Asia/Kolkata
@@ -12,7 +12,7 @@ timezone: Asia/Kolkata
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 
-urlimg: 'https://anandbagmar.github.io/images/'
+urlimg: 'https://essenceoftesting.com/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo-verysmall.png"

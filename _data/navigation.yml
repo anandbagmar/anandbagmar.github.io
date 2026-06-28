@@ -21,23 +21,23 @@
   url: "/oss/"
   side: left
 
-- title: "Blog"
-  url: "/blog/"
-  side: left
-
 - title: "Resources"
   url: "/content/"
   side: left
   dropdown:
-  - title: "Blogs & Articles"
+  - title: "Blog Posts"
     url: "/blog/"
+  - title: "Browse by Tag"
+    url: "/blog/tags/"
   - title: "Talks & Videos"
     url: "/talks-and-videos/"
   - title: "Case Studies"
     url: "/case-studies/"
-  - title: "Slides"
+  - title: "Applitools Articles ↗"
+    url: "https://applitools.com/blog/author/anandbagmar/"
+  - title: "Slides ↗"
     url: "https://www.slideshare.net/abagmar/"
-  - title: "YouTube Channel"
+  - title: "YouTube ↗"
     url: "https://www.youtube.com/channel/UCTBPUHgU5ezu8KdXhF4CAWw"
 
 - title: "My Profile"
