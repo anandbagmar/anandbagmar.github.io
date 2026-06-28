@@ -8,6 +8,7 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Fixed infinite redirect loop on all Blogspot→new-site redirects: the theme's `_layouts/redirect.html` used `{{ page.redirect_to }}` but `jekyll-redirect-from` sets `{{ page.redirect.to }}` — the mismatch produced empty `url=` in every meta-refresh, sending the browser back to itself. Fixed by using `page.redirect.to | default: page.redirect_to` so both the plugin-generated pages and hand-authored redirect pages work.
 - Fixed Blogger→new-site redirect 404s: corrected `blogger_slug()` in `convert_blogger.py` — the function was incorrectly backing up past the last hyphen even when the 39-char truncation already fell on a clean word boundary (e.g. `end-2-end-automated-integration-testing` was being shortened to `end-2-end-automated-integration`). Now only backs up when the cut falls mid-word.
 - Fixed `migrate_media.py` re-generating hidden filenames (e.g. `.avvxseg…`) for opaque `/img/a/` images on each run: now uses a persistent `blog/opaque_map.json` mapping so re-runs reuse the same `img-NN.ext` names instead of creating new hidden files.
 
