@@ -26,7 +26,7 @@ On request from a very enthusiastic Tester - Buddhini from Sri Lanka, I did a we
   
 Below is the flyer they created.  
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpE62I7AsQLQ0qpPT3TadLZFAnZopgPZE9JqW_pAQ9V2QJ_9yPJnfGsV1DF1Wi_WTpQJquQdH3XtNACnh3y3tIS9SuB1_9K5v0mn7yCIdituxm3yjzUVH2OC1iiJ9T5ZhuJ-tbAMgiSP5E/s320/Webinar+-+TestAutomation-Principles%2526Practices.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpE62I7AsQLQ0qpPT3TadLZFAnZopgPZE9JqW_pAQ9V2QJ_9yPJnfGsV1DF1Wi_WTpQJquQdH3XtNACnh3y3tIS9SuB1_9K5v0mn7yCIdituxm3yjzUVH2OC1iiJ9T5ZhuJ-tbAMgiSP5E/s1600/Webinar+-+TestAutomation-Principles%2526Practices.jpg>)  
+[![](/assets/img/blog/webinar-testautomation-principles-practices.jpg)](</assets/img/blog/webinar-testautomation-principles-practices.jpg>)  
   
 This was a different type of webinar - with all attendees in Sri Lanka in one room, and me, the presenter, speaking over GoToMeeting from ThoughtWorks Pune, India.  
   

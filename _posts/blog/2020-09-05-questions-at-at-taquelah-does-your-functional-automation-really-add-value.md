@@ -21,7 +21,7 @@ I spoke at [Taquelah Lightning Talks](<https://lightningtalks.taqelah.com/>) on 
 
 ### **Does your functional automation really add value?**
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlpcsQ5glZBLLIzngdFrmyIEh8IvML-NOlX4JDPaYO2LAEmJ1qmcwtBZkcm-2IO_rUh_QPLnY8n_TqTM9qB3Mm1enRpBrKU4_zxBNi4LIoGKowuEjJodGTmKK1rEvCUKtgrg9ekshhDx_q/s320/AnandBagmar.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlpcsQ5glZBLLIzngdFrmyIEh8IvML-NOlX4JDPaYO2LAEmJ1qmcwtBZkcm-2IO_rUh_QPLnY8n_TqTM9qB3Mm1enRpBrKU4_zxBNi4LIoGKowuEjJodGTmKK1rEvCUKtgrg9ekshhDx_q/s1024/AnandBagmar.png>)
+[![](/assets/img/blog/anandbagmar.png)](</assets/img/blog/anandbagmar.png>)
 
   
 

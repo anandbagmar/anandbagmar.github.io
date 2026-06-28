@@ -72,9 +72,9 @@ This discussion will be applicable for any type of Test Automation (web / mobile
 
 ###  Pictures
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_qmC1mtFlUuZbk0HGuhkZKZ4vJXW-t3JipE4nR2ggjVE7eHJa0V_kLjZ5k65LOfCZ7f8mK-E6O1zDztD_HyTvwmFkc7MQI1Oo0or7vpY4oTEBxuOzMAaW59n5wAml0RdU3EW76qwS84kJ/s200/Anand-TestData-2.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_qmC1mtFlUuZbk0HGuhkZKZ4vJXW-t3JipE4nR2ggjVE7eHJa0V_kLjZ5k65LOfCZ7f8mK-E6O1zDztD_HyTvwmFkc7MQI1Oo0or7vpY4oTEBxuOzMAaW59n5wAml0RdU3EW76qwS84kJ/s1600/Anand-TestData-2.JPG>)
+[![](/assets/img/blog/anand-testdata-2.jpg)](</assets/img/blog/anand-testdata-2.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgceqfq5hMZR6y6oK2FzxyZLaiUzu40sqgEey8vJC5_T7f1RCClHh5mXkgT-3Xdq87jhJoyCqMGgY-XOS9lp15dMxT77w-9jFGj7OrFmjVOzry7iQ6a7uMq15mfmQxRkaF-8AvuS6d347gB/s200/Anand-TestData.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgceqfq5hMZR6y6oK2FzxyZLaiUzu40sqgEey8vJC5_T7f1RCClHh5mXkgT-3Xdq87jhJoyCqMGgY-XOS9lp15dMxT77w-9jFGj7OrFmjVOzry7iQ6a7uMq15mfmQxRkaF-8AvuS6d347gB/s1600/Anand-TestData.JPG>)
+[![](/assets/img/blog/anand-testdata.jpg)](</assets/img/blog/anand-testdata.jpg>)

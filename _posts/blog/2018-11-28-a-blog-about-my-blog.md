@@ -39,7 +39,7 @@ Here are some charts from Analytics of my SlideShare and blog:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9p1DE5sVf63uuHJau5jXxrEIY9vMtcu_833rqcj3n3j-M5fbD-iHH0qonvZbURZk8fGlo9HFf0bVjSJ6e8F81JfLDRD0K-mNrn3AlwX1cii3hBoPT24aurFBi0zu9iS-80vFdbhDwqF1/s400/TopSlideShare.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9p1DE5sVf63uuHJau5jXxrEIY9vMtcu_833rqcj3n3j-M5fbD-iHH0qonvZbURZk8fGlo9HFf0bVjSJ6e8F81JfLDRD0K-mNrn3AlwX1cii3hBoPT24aurFBi0zu9iS-80vFdbhDwqF1/s1600/TopSlideShare.png>)
+[![](/assets/img/blog/topslideshare.png)](</assets/img/blog/topslideshare.png>)
 
   
 
@@ -49,7 +49,7 @@ Here are some charts from Analytics of my SlideShare and blog:
 
 ###  Blog Overview:
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivUg3OOmDmW08ATiCgz4YxgUKpywmDyoo8B0WhyphenhyphenUL_lrNKSBaObosDHq_Jn25TpzCGxxCwxg0PnALTKoEhRc90E4qoiLuWMsIaZYnQ3vD4jgSeuAfB8SPGtr38I-ofAYvm6-bAxjtsLXhs/s320/Overview.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivUg3OOmDmW08ATiCgz4YxgUKpywmDyoo8B0WhyphenhyphenUL_lrNKSBaObosDHq_Jn25TpzCGxxCwxg0PnALTKoEhRc90E4qoiLuWMsIaZYnQ3vD4jgSeuAfB8SPGtr38I-ofAYvm6-bAxjtsLXhs/s1600/Overview.png>)
+[![](/assets/img/blog/overview.png)](</assets/img/blog/overview.png>)
 
   
   
@@ -57,7 +57,7 @@ Here are some charts from Analytics of my SlideShare and blog:
 
 ###  Audience:
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNkMrBKadGLEd4znW9d0DHJ21A-nTiWnivBmbkzqSLBsKUqcM6RXbvmpXFK9lFm9pwjdLMLT7NQTyFcGo879IvL0jBXhoeBrcDaawNzVXTm7jfhh7abnMz1ZtmRkYqX8C_uKuOrObqr7nF/s320/Audience.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNkMrBKadGLEd4znW9d0DHJ21A-nTiWnivBmbkzqSLBsKUqcM6RXbvmpXFK9lFm9pwjdLMLT7NQTyFcGo879IvL0jBXhoeBrcDaawNzVXTm7jfhh7abnMz1ZtmRkYqX8C_uKuOrObqr7nF/s1600/Audience.png>)
+[![](/assets/img/blog/audience.png)](</assets/img/blog/audience.png>)
 
   
 
@@ -67,7 +67,7 @@ Here are some charts from Analytics of my SlideShare and blog:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNP7ZhBZyJXtuHSNULFXTJ_H__1omgNOU-q8XSq8jJDHrQIMBXRDOn5UHMlb0hWeuGvLYDFJ-KEao4kWNQ2BdPVfr_1Z_K4t1DIJvaJKJ1-CLF_vAK7z_HXp4MqfeMrQGEYk-lwlvmAMIw/s320/PopularPosts.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNP7ZhBZyJXtuHSNULFXTJ_H__1omgNOU-q8XSq8jJDHrQIMBXRDOn5UHMlb0hWeuGvLYDFJ-KEao4kWNQ2BdPVfr_1Z_K4t1DIJvaJKJ1-CLF_vAK7z_HXp4MqfeMrQGEYk-lwlvmAMIw/s1600/PopularPosts.png>)
+[![](/assets/img/blog/popularposts.png)](</assets/img/blog/popularposts.png>)
 
   
 
@@ -87,4 +87,4 @@ Here are some charts from Analytics of my SlideShare and blog:
 
 ###  Referrers:
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9VWQygXdeGXHit854Mmjzfplmdm_efQeRexcfXcyip-JHw8UE6Y09lxA22WFC7jIlsbqRkpsrNDLHABhnbYjsNOKWMOfhIl3dOriSEDXv1WJ7FZaC0eKgnHyJ2psb72uLTnrtoesJLekI/s320/Referrers.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9VWQygXdeGXHit854Mmjzfplmdm_efQeRexcfXcyip-JHw8UE6Y09lxA22WFC7jIlsbqRkpsrNDLHABhnbYjsNOKWMOfhIl3dOriSEDXv1WJ7FZaC0eKgnHyJ2psb72uLTnrtoesJLekI/s1600/Referrers.png>)
+[![](/assets/img/blog/referrers.png)](</assets/img/blog/referrers.png>)

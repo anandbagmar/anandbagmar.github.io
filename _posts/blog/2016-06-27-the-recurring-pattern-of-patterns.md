@@ -24,7 +24,7 @@ On popular demand, I spoke in [TechJam](<http://techjam.org/>), the 2nd time aro
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF5V1o5304dvFV8DEGu70cYxbIMoA6S1qbb_3qpy-1f-VP3_O_Sx7y3q6z0M5fOP4Bfo0urMYLiP4d8FcYvmxySaU4x26Hw7_5mmn8nRcsWJOO_fhJhP9MMvLYy_1wRc0h1Ah9iDU_sry-/s200/techjam_21June2016_a3.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF5V1o5304dvFV8DEGu70cYxbIMoA6S1qbb_3qpy-1f-VP3_O_Sx7y3q6z0M5fOP4Bfo0urMYLiP4d8FcYvmxySaU4x26Hw7_5mmn8nRcsWJOO_fhJhP9MMvLYy_1wRc0h1Ah9iDU_sry-/s1600/techjam_21June2016_a3.jpg>)
+[![](/assets/img/blog/techjam_21june2016_a3.jpg)](</assets/img/blog/techjam_21june2016_a3.jpg>)
 
   
   
@@ -53,9 +53,9 @@ This time, the TechJam team at IDeaS used a different setup - a new conference r
 
 ###  Pictures
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_s7oYhoPp25H3-WStElvBgvIfKDPUyEc5GgtdJpI7GlLnlSkDYe9NTYJTSWtbgJuQ6Ryargxph8Uppmk4uAn7-g-vVFAZT-4OjUjCt1Z1mh5ON2g2Gw1zEkjaht_HL8D-DCClFeCFMGJr/s200/TechJam_1.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_s7oYhoPp25H3-WStElvBgvIfKDPUyEc5GgtdJpI7GlLnlSkDYe9NTYJTSWtbgJuQ6Ryargxph8Uppmk4uAn7-g-vVFAZT-4OjUjCt1Z1mh5ON2g2Gw1zEkjaht_HL8D-DCClFeCFMGJr/s1600/TechJam_1.jpg>)
+[![](/assets/img/blog/techjam_1.jpg)](</assets/img/blog/techjam_1.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiQiXLTKWAdcyLSCostzWmwwJ-qPoKR4JJllGAHZJE2yl-KThsgmNRqAi1yf9N5jXLjamXkLiW3D6XNHv13boGvT-IXyMniar95kzYT4YH2XoeRsXmF-JmygYOrMDTA_ERqkGJZyJQ8onN/s200/TechJam_2.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiQiXLTKWAdcyLSCostzWmwwJ-qPoKR4JJllGAHZJE2yl-KThsgmNRqAi1yf9N5jXLjamXkLiW3D6XNHv13boGvT-IXyMniar95kzYT4YH2XoeRsXmF-JmygYOrMDTA_ERqkGJZyJQ8onN/s1600/TechJam_2.jpg>)
+[![](/assets/img/blog/techjam_2.jpg)](</assets/img/blog/techjam_2.jpg>)

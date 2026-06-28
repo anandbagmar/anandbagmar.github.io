@@ -10,7 +10,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGtfOZetC273zjxtTloj6I6uf4goIDUsnOHADfNqYQhCEBjtlCWzUaXnwag8_avKwnYkrQjGR0dRx4x-dMq4EEXskmbAs2QWuUAom47R4rdXoHXrmN_KKW6MWJISH_8gWdRAIFrJ2SaRCe/s1600/RewardingInnovation.gif)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGtfOZetC273zjxtTloj6I6uf4goIDUsnOHADfNqYQhCEBjtlCWzUaXnwag8_avKwnYkrQjGR0dRx4x-dMq4EEXskmbAs2QWuUAom47R4rdXoHXrmN_KKW6MWJISH_8gWdRAIFrJ2SaRCe/s1600/RewardingInnovation.gif>)
+[![](/assets/img/blog/rewardinginnovation.gif)](</assets/img/blog/rewardinginnovation.gif>)
 
   
   

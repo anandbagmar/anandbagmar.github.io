@@ -44,7 +44,7 @@ See the diagram below for reference on different possible layers of a Test Frame
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju5iMhkdVa-RmoNsKy6dENc-4MV39QdZrL2tVD_-MrhJWJ0OYtBVcZ2iHdP_xZ_cFBET5ntvEY7DsQOm8J9hSwGByBpM5PYvD3aYCnmby7ZUW5-pElzsQDFWou2NF_CdhuBMlP_Q4SS6bn/s640/TestFrameworkLayers.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju5iMhkdVa-RmoNsKy6dENc-4MV39QdZrL2tVD_-MrhJWJ0OYtBVcZ2iHdP_xZ_cFBET5ntvEY7DsQOm8J9hSwGByBpM5PYvD3aYCnmby7ZUW5-pElzsQDFWou2NF_CdhuBMlP_Q4SS6bn/s1600/TestFrameworkLayers.JPG>)
+[![](/assets/img/blog/testframeworklayers.jpg)](</assets/img/blog/testframeworklayers.jpg>)
 
   
 

@@ -49,7 +49,7 @@ Here is a screenshot of what the captured HAR file shows -
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLDlZnwRUZ7J-AmLJfWcvrpSYYGcKpqO967zlMc7cGt24xPPY-TTaBJBEGpvumkmBNJ0Vj17nAz1IVO31bRgp4mJSmjhxq_fkLiWhwq7l930DZw2EVCGPrQsQNr9f-VqyfpVFAUMrPj00C/s640/Screen+Shot+2016-07-06+at+9.01.04+AM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLDlZnwRUZ7J-AmLJfWcvrpSYYGcKpqO967zlMc7cGt24xPPY-TTaBJBEGpvumkmBNJ0Vj17nAz1IVO31bRgp4mJSmjhxq_fkLiWhwq7l930DZw2EVCGPrQsQNr9f-VqyfpVFAUMrPj00C/s1600/Screen+Shot+2016-07-06+at+9.01.04+AM.png>)
+[![](/assets/img/blog/screen-shot-2016-07-06-at-9.01.04-am.png)](</assets/img/blog/screen-shot-2016-07-06-at-9.01.04-am.png>)
 
   
 

@@ -24,7 +24,7 @@ Here are the contents of the ebook:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9TaeIcl8dLw9DJhzCNVA-hYWHCf1fQhV8tzQQIR0DGbKiPiHuXuxyQBpwgJOfeJ_3p4iW5Ve5lfVhp2unyvG1HZpkmDYQ5c5zyhyegEOc6i9aOVr49KmN-w7rbRbIIgCfpE3I5_OvHb8z/s320/eBook-Contents.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9TaeIcl8dLw9DJhzCNVA-hYWHCf1fQhV8tzQQIR0DGbKiPiHuXuxyQBpwgJOfeJ_3p4iW5Ve5lfVhp2unyvG1HZpkmDYQ5c5zyhyegEOc6i9aOVr49KmN-w7rbRbIIgCfpE3I5_OvHb8z/s1600/eBook-Contents.jpg>)
+[![](/assets/img/blog/ebook-contents.jpg)](</assets/img/blog/ebook-contents.jpg>)
 
   
   

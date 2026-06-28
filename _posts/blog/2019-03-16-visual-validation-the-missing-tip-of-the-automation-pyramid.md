@@ -50,7 +50,7 @@ In this session, we will explore why Visual Validation is an important cog in th
   
 
 
-[](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFH-sroiQ7LCGOHknMYFKpSUMoxzMHVRwNsl68f8iulYkI0meEWG-Ds9kd3ibwNrJgxtp9vabdQdXB5kfazxVO5LediRkMlCTsQKv-KSkwvP7m6to7js7ElZXMOXMYkoiDJ-7LI1oklvCr/s1600/D1wu4DeWoAYsC9A.jpg>)
+[](</assets/img/blog/d1wu4dewoaysc9a.jpg>)
 
   
   
@@ -78,7 +78,7 @@ Thanks to Priyank Shah for this pic!
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifx9fJT1k7bXq9TSZa2DSkJXWVbxSPH6LbIo-s4wpLIvfeWyK7S-OvFTQNPt9DqUfsRJxM3QPJ_dW5mcS1wWrVp_BbCfjh0X5ZPp0BL4o8g-xOsSs8ClWkVsAQovUlRmQ0i9-kW2pJrAu1/s320/D1wu4DeWoAYsC9A.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifx9fJT1k7bXq9TSZa2DSkJXWVbxSPH6LbIo-s4wpLIvfeWyK7S-OvFTQNPt9DqUfsRJxM3QPJ_dW5mcS1wWrVp_BbCfjh0X5ZPp0BL4o8g-xOsSs8ClWkVsAQovUlRmQ0i9-kW2pJrAu1/s1600/D1wu4DeWoAYsC9A.jpg>)
+[![](/assets/img/blog/d1wu4dewoaysc9a.jpg)](</assets/img/blog/d1wu4dewoaysc9a.jpg>)
 
   
   
@@ -90,7 +90,7 @@ I also received some awesome feedback for the same.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy0GInpXfnETP7wd9nOg7FoTnqcAiD_a62OvjTvBaEp3TMW8whD3l4drpvZC6Lsjut_obH-CQZE42ev-SI1b_6Bg17kNH2wfss-W2tlF7BFQ9JocqIlkzKSvhgVpEW4P113rH-Ak5zt5bg/s400/IMG_20190316_165817.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy0GInpXfnETP7wd9nOg7FoTnqcAiD_a62OvjTvBaEp3TMW8whD3l4drpvZC6Lsjut_obH-CQZE42ev-SI1b_6Bg17kNH2wfss-W2tlF7BFQ9JocqIlkzKSvhgVpEW4P113rH-Ak5zt5bg/s1600/IMG_20190316_165817.jpg>)
+[![](/assets/img/blog/img_20190316_165817.jpg)](</assets/img/blog/img_20190316_165817.jpg>)
 
   
   

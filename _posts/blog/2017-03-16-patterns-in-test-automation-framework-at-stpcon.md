@@ -71,14 +71,14 @@ Using these patterns you will be able to build a good framework, that will help 
 
 ###  Pictures
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdhgbxCRyW7guXm0oLpgq1xgGZQcpdsf2gvMMdJWF9T1ySWgb1L4alSvI5J2DfzMq3JKsujyUsIWIj3u8W_iGxoKLk5wTpq6jpK7Iai1E8I9QurfHulO34sZT_13AvOA5vaBv_InM-gSLN/s320/Patterns-3.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdhgbxCRyW7guXm0oLpgq1xgGZQcpdsf2gvMMdJWF9T1ySWgb1L4alSvI5J2DfzMq3JKsujyUsIWIj3u8W_iGxoKLk5wTpq6jpK7Iai1E8I9QurfHulO34sZT_13AvOA5vaBv_InM-gSLN/s1600/Patterns-3.png>)
+[![](/assets/img/blog/patterns-3.png)](</assets/img/blog/patterns-3.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiCCPuSglpGuOkl6cglBtYjGYF6xY8B8wNQcKN4CBu-0iROR9l8Tmdd-XOFrGdLpZQ42ayUr9dH8zfSgBvFfGHoSduMzuyhaMsSAfbON4Ufjv0jGKclckOqvn2TIOx9MG6LerZ1OPhUH5P/s320/Patterns-2.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiCCPuSglpGuOkl6cglBtYjGYF6xY8B8wNQcKN4CBu-0iROR9l8Tmdd-XOFrGdLpZQ42ayUr9dH8zfSgBvFfGHoSduMzuyhaMsSAfbON4Ufjv0jGKclckOqvn2TIOx9MG6LerZ1OPhUH5P/s1600/Patterns-2.png>)
+[![](/assets/img/blog/patterns-2.png)](</assets/img/blog/patterns-2.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMIvGX_Ma55Msnuys0e3C00O0Fu-O01S4gClTMmcE9AnOX2DJEB-apawS8fHWu9PRC77GcNsKjI0ksdTEzUlcfGUr9aLcMgpmC52Il3Z7y8AiaYQarAPbPw-lYvKs7XAAQTN4iXABiF7Xw/s320/Patterns-1.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMIvGX_Ma55Msnuys0e3C00O0Fu-O01S4gClTMmcE9AnOX2DJEB-apawS8fHWu9PRC77GcNsKjI0ksdTEzUlcfGUr9aLcMgpmC52Il3Z7y8AiaYQarAPbPw-lYvKs7XAAQTN4iXABiF7Xw/s1600/Patterns-1.png>)
+[![](/assets/img/blog/patterns-1.png)](</assets/img/blog/patterns-1.png>)

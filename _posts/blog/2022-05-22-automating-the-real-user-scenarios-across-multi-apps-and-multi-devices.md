@@ -34,13 +34,13 @@ _**[teswiz](<https://github.com/znsio/teswiz>),**_ an open-source framework can 
 
 Example: Multi-user, Multi-device test scenario
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDU43qpImWDcggom2BECxBEdZmyg54LpGWVBQMcT3ld7dlMQw2g3RLq52W31Ptm5sgvYdHzY_PQYoQVfhBRn5cON7z2ds_tz9ldEDeclFvdZ1y8HxDVqOXYSzMt4aI3JqIxJkX29ePl2hJC5vYmRAjCdxtH8Rg2ypdmM5GscmRpoGUAb2O8c3ar0b5sg/w400-h225/MultiUser-MultiDevice-Annotated.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDU43qpImWDcggom2BECxBEdZmyg54LpGWVBQMcT3ld7dlMQw2g3RLq52W31Ptm5sgvYdHzY_PQYoQVfhBRn5cON7z2ds_tz9ldEDeclFvdZ1y8HxDVqOXYSzMt4aI3JqIxJkX29ePl2hJC5vYmRAjCdxtH8Rg2ypdmM5GscmRpoGUAb2O8c3ar0b5sg/s1600/MultiUser-MultiDevice-Annotated.png>)
+[![](/assets/img/blog/multiuser-multidevice-annotated.png)](</assets/img/blog/multiuser-multidevice-annotated.png>)
 
    
 
 
 Example: Multi-user, Multi-app, Multi-device test scenario
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz1XzeXjHGdQC-y-NbgBa7pSPI9vpUA6hZrRaekvZLQzYP3r4QQMyJXCi-nd_l6aYOoy7TM4CEjZYH_Uo5u3FxuFi9mj7g_XOxbdTUIt6m-z8tHxKhGjZkRy12fEWTz58q9N2h2XXvjwXnuG56FGsM9ZnWIR1g4SDMdYVIR1VtkwW-Auq1BV4ShS635A/w400-h225/MultiUser-MultiDevice-MultiApp-Annotated.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz1XzeXjHGdQC-y-NbgBa7pSPI9vpUA6hZrRaekvZLQzYP3r4QQMyJXCi-nd_l6aYOoy7TM4CEjZYH_Uo5u3FxuFi9mj7g_XOxbdTUIt6m-z8tHxKhGjZkRy12fEWTz58q9N2h2XXvjwXnuG56FGsM9ZnWIR1g4SDMdYVIR1VtkwW-Auq1BV4ShS635A/s1600/MultiUser-MultiDevice-MultiApp-Annotated.png>)
+[![](/assets/img/blog/multiuser-multidevice-multiapp-annotated.png)](</assets/img/blog/multiuser-multidevice-multiapp-annotated.png>)
 
 See [teswiz](<https://github.com/znsio/teswiz>) and [getting-started-with-teswiz](<https://github.com/znsio/getting-started-with-teswiz>) projects for information, or contact me.

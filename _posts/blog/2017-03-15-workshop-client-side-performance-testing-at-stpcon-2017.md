@@ -65,19 +65,19 @@ PS: This workshop will be a combination of presentation and hands-on-activity wi
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKglA-ivWYBTpxSDx4f-pilYx2DPWrtcEGZ1YrsVATAR0iL7vD3E2VlxQ-kfaH5Qj3qgE_q3UXa96djGFJ1QD4RV3YJ6eyp2-DxXH_mnrVkmCxyjAf7vgOfAJPHsUQH4fMTg-pwhEOR18y/s320/Client-SidePerfTesting-Pic1.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKglA-ivWYBTpxSDx4f-pilYx2DPWrtcEGZ1YrsVATAR0iL7vD3E2VlxQ-kfaH5Qj3qgE_q3UXa96djGFJ1QD4RV3YJ6eyp2-DxXH_mnrVkmCxyjAf7vgOfAJPHsUQH4fMTg-pwhEOR18y/s1600/Client-SidePerfTesting-Pic1.png>)
+[![](/assets/img/blog/client-sideperftesting-pic1.png)](</assets/img/blog/client-sideperftesting-pic1.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZdxxhSy8W2R1_Vku8H5fEO419ut990wAWjHmvh4CcQsHjxf1PtscFbEtPYE1RzNkNB4lR7sCH-fgWdUWWumlJSJIIW8-50jJoXW5BmlBz5PSBoJwOenj5p3tq5Q6eQHLIQxv9-mlTk0D_/s320/Client-SidePerfTesting-Pic2.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZdxxhSy8W2R1_Vku8H5fEO419ut990wAWjHmvh4CcQsHjxf1PtscFbEtPYE1RzNkNB4lR7sCH-fgWdUWWumlJSJIIW8-50jJoXW5BmlBz5PSBoJwOenj5p3tq5Q6eQHLIQxv9-mlTk0D_/s1600/Client-SidePerfTesting-Pic2.png>)
+[![](/assets/img/blog/client-sideperftesting-pic2.png)](</assets/img/blog/client-sideperftesting-pic2.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3OGGdUOuiYeRpBFB1gWYoAgKi5y6cHR2qAe3Mxsgh0dtLupKNJ4fhZBYD1hjM2Rl-NenN5LWLwaTpZdmvru4WNlsEen_nkZClf2Vn_luVyJsqDjUNeQBaZ68lUOhfB4dLQU6_uDe6-CwE/s320/Client-SidePerfTesting-Pic3.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3OGGdUOuiYeRpBFB1gWYoAgKi5y6cHR2qAe3Mxsgh0dtLupKNJ4fhZBYD1hjM2Rl-NenN5LWLwaTpZdmvru4WNlsEen_nkZClf2Vn_luVyJsqDjUNeQBaZ68lUOhfB4dLQU6_uDe6-CwE/s1600/Client-SidePerfTesting-Pic3.png>)
+[![](/assets/img/blog/client-sideperftesting-pic3.png)](</assets/img/blog/client-sideperftesting-pic3.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho9aUunUHd9rPYPJ79fDAto2ngvMiub6xlRwJ65DUybvT0z8ItflNuajWcWRMTtsj_3dw6yh4GgC1Ue2let4hhfJKnb4vkkI7F6tsPc9CHqmUn7J-27gQnGq7efOGh5UEns5eQ2gmipZuk/s320/Client-SidePerfTesting-Pic4.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho9aUunUHd9rPYPJ79fDAto2ngvMiub6xlRwJ65DUybvT0z8ItflNuajWcWRMTtsj_3dw6yh4GgC1Ue2let4hhfJKnb4vkkI7F6tsPc9CHqmUn7J-27gQnGq7efOGh5UEns5eQ2gmipZuk/s1600/Client-SidePerfTesting-Pic4.png>)
+[![](/assets/img/blog/client-sideperftesting-pic4.png)](</assets/img/blog/client-sideperftesting-pic4.png>)

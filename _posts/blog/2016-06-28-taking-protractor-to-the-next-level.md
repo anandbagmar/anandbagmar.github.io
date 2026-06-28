@@ -99,14 +99,14 @@ P.S. We will be attempting to make a sample protractor-based automation framewor
 
 ###  Pictures
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuNzZDWxNwso3y5T9BK-WHPfL2e8sWYecaJK2h5Va0mma8PFN7TDHh99UdBPwiDUsF2_pu6flgCm2JmDUW29UDA0OL1SZk1Z2QI1t4UhkQJI9igsH0J8DeCvJ1fXik9kL9KyInkOzKdRob/s200/Anand-Nikitha-Protractor-1.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuNzZDWxNwso3y5T9BK-WHPfL2e8sWYecaJK2h5Va0mma8PFN7TDHh99UdBPwiDUsF2_pu6flgCm2JmDUW29UDA0OL1SZk1Z2QI1t4UhkQJI9igsH0J8DeCvJ1fXik9kL9KyInkOzKdRob/s1600/Anand-Nikitha-Protractor-1.JPG>)
+[![](/assets/img/blog/anand-nikitha-protractor-1.jpg)](</assets/img/blog/anand-nikitha-protractor-1.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO50S6-hDStndUQTzzW226i9NtP1KXLDHMEoa3uk0COBB9HptsylhL5Gk0QPPYV-8_2tPlzo6c4JBJTYJivJexdI8u7J9EsrnIjMgYhtNSNxRGeyWUGa5NzFsT3SQrm7UoGBf6qY5Amm0u/s200/Anand-Nikitha-Protractor-2.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO50S6-hDStndUQTzzW226i9NtP1KXLDHMEoa3uk0COBB9HptsylhL5Gk0QPPYV-8_2tPlzo6c4JBJTYJivJexdI8u7J9EsrnIjMgYhtNSNxRGeyWUGa5NzFsT3SQrm7UoGBf6qY5Amm0u/s1600/Anand-Nikitha-Protractor-2.JPG>)
+[![](/assets/img/blog/anand-nikitha-protractor-2.jpg)](</assets/img/blog/anand-nikitha-protractor-2.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-ffNXIN4xJv1kqwBc_1WsuXe1GyHpe2-Xquk3j8iZvS4IxFjozUUfiecwnSGPMU94kpF-mCkdiX3yYIOqM5AiSbTWHAilzfh_I0sD2SSKK6raNhwgYlCEgu1WFa_9dd5Dps_1vBut_CqM/s200/Anand-Nikitha-Protractor-3.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-ffNXIN4xJv1kqwBc_1WsuXe1GyHpe2-Xquk3j8iZvS4IxFjozUUfiecwnSGPMU94kpF-mCkdiX3yYIOqM5AiSbTWHAilzfh_I0sD2SSKK6raNhwgYlCEgu1WFa_9dd5Dps_1vBut_CqM/s1600/Anand-Nikitha-Protractor-3.JPG>)
+[![](/assets/img/blog/anand-nikitha-protractor-3.jpg)](</assets/img/blog/anand-nikitha-protractor-3.jpg>)

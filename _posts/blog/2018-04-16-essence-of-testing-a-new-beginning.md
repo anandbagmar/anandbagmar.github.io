@@ -70,12 +70,12 @@ As I usually do, I started off the workshop with my favorite tool for note takin
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7TSqI1ci3ZNMrfdxV5SW1oNFk4D_bLuAlLIVWtgo81EmcLLN0S7l0y104VuL5OuU-VOlBhPJ3zQ4qbKtC55SE1-udQjPGvLibD5AgwAzPnJw8jULm0YNEAxraPxVRiEbZQAv-h5BwUXK-/s400/BalancedMindMap.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7TSqI1ci3ZNMrfdxV5SW1oNFk4D_bLuAlLIVWtgo81EmcLLN0S7l0y104VuL5OuU-VOlBhPJ3zQ4qbKtC55SE1-udQjPGvLibD5AgwAzPnJw8jULm0YNEAxraPxVRiEbZQAv-h5BwUXK-/s1600/BalancedMindMap.png>)
+[![](/assets/img/blog/balancedmindmap.png)](</assets/img/blog/balancedmindmap.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1ooUjtgYNMeITVkhVVhFnSubUCBnt0IP-Nsh5V4hY-zTGHjZxKJGzuOWQaWlylRhcTirNwMrtFXijNVZ6zQ4cG-BW8oUwzo3olkkccbV7sFs1IoFQrDeE5vUIPyD7GWH3uYmpCdLbAvv2/s200/FishboneMindMap.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1ooUjtgYNMeITVkhVVhFnSubUCBnt0IP-Nsh5V4hY-zTGHjZxKJGzuOWQaWlylRhcTirNwMrtFXijNVZ6zQ4cG-BW8oUwzo3olkkccbV7sFs1IoFQrDeE5vUIPyD7GWH3uYmpCdLbAvv2/s1600/FishboneMindMap.png>)
+[![](/assets/img/blog/fishbonemindmap.png)](</assets/img/blog/fishbonemindmap.png>)
 
   
 
@@ -88,7 +88,7 @@ Eventually I consolidated my thoughts and created the Discovery Workshop Report 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYabS0PXQ8FFE3MdtitcMEz-zNcl-6YpIyl_F_euSXoIYWcNSpUleH5Lfo0Uqc54UpMeQm4S1lkV5QDeGqBEUPzDw2Mz4KvicqtbpNmIvv_S5Rf64T7GtAL6KBc6466C4YibtjqJmJzAW_/s320/LearnRecommendPlan.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYabS0PXQ8FFE3MdtitcMEz-zNcl-6YpIyl_F_euSXoIYWcNSpUleH5Lfo0Uqc54UpMeQm4S1lkV5QDeGqBEUPzDw2Mz4KvicqtbpNmIvv_S5Rf64T7GtAL6KBc6466C4YibtjqJmJzAW_/s1600/LearnRecommendPlan.jpg>)
+[![](/assets/img/blog/learnrecommendplan.jpg)](</assets/img/blog/learnrecommendplan.jpg>)
 
   
 

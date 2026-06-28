@@ -75,7 +75,7 @@ There are 2 types of analysis that one needs to think about.
 ### 
 
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrRkel8Qw1oyofNaTHAJJfaMXuZp4Bqf_Ffd6wuaoiUs0S_qAONlViezZVUyyL7qwNwZ6eYXgrHZ2Bh3xWlZYgmLn81gPQOOk9zAT-UknZvBYO1YNocO54A1Ii4RFECJn29N0myYeUxJgJ/s200/Pic1.jpeg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrRkel8Qw1oyofNaTHAJJfaMXuZp4Bqf_Ffd6wuaoiUs0S_qAONlViezZVUyyL7qwNwZ6eYXgrHZ2Bh3xWlZYgmLn81gPQOOk9zAT-UknZvBYO1YNocO54A1Ii4RFECJn29N0myYeUxJgJ/s1600/Pic1.jpeg>)  
+[![](/assets/img/blog/pic1.jpeg)](</assets/img/blog/pic1.jpeg>)  
   
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzMd2jwZmSXM5TPVQDcEaG0OkqOCMsy1bZ7By-lD8lBIUCKZbvtQkFCEYndJT8cPT1JGdpoMVnC3kL08hjHE-TB_io5_aiJdfPAGJc3a2N1QtoaJShYSB582MhawcTAxILlYtjvXsQwB_g/s200/Pic2.jpeg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzMd2jwZmSXM5TPVQDcEaG0OkqOCMsy1bZ7By-lD8lBIUCKZbvtQkFCEYndJT8cPT1JGdpoMVnC3kL08hjHE-TB_io5_aiJdfPAGJc3a2N1QtoaJShYSB582MhawcTAxILlYtjvXsQwB_g/s1600/Pic2.jpeg>)
+[![](/assets/img/blog/pic2.jpeg)](</assets/img/blog/pic2.jpeg>)

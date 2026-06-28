@@ -35,7 +35,7 @@ Well, here are 2 reasons why you should not use the PageFactory:
   
 
 
-[![PageFactory is really badly implemented](https://blogger.googleusercontent.com/img/a/AVvXsEjlSNpNODwWEJ8FacbMhllStsvRlUgPeeG2UlQFG0b21lE66Ye-AUGvCt6AopBk3OFgXOmNgW8KjGmSBMQaJ-RAilGM-TivlbqbDDpYklRiJXjLqpaBZGf37sOykyfFNYXkOeg9fxwCyBk5Nlks070nPBHZf4glQucoe5SbH4N-CQGSE7C2fkyDDsvQlQ=w400-h286)](<https://blogger.googleusercontent.com/img/a/AVvXsEjlSNpNODwWEJ8FacbMhllStsvRlUgPeeG2UlQFG0b21lE66Ye-AUGvCt6AopBk3OFgXOmNgW8KjGmSBMQaJ-RAilGM-TivlbqbDDpYklRiJXjLqpaBZGf37sOykyfFNYXkOeg9fxwCyBk5Nlks070nPBHZf4glQucoe5SbH4N-CQGSE7C2fkyDDsvQlQ=s1204>)
+[![PageFactory is really badly implemented](/assets/img/blog/img-05.png)](</assets/img/blog/img-05.png>)
 
  
 

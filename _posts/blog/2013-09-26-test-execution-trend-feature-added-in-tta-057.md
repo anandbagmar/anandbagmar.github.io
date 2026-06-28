@@ -33,7 +33,7 @@ These are the new features in it:
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigfYnddr4aVCEsTPj8w5RRPDOLvCURKGJakVXlRe6RwGmkHy9F6SUfJZIiRVd7oXF5TRfHSCPSH5lhbftc-Ufo5wXQ_jYwRyymtdq1zZfypj4HbnhdEwRw9zrPUcMcBXzRAy3ZMatYrzzL/s200/18.+TestExecutionTrend.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigfYnddr4aVCEsTPj8w5RRPDOLvCURKGJakVXlRe6RwGmkHy9F6SUfJZIiRVd7oXF5TRfHSCPSH5lhbftc-Ufo5wXQ_jYwRyymtdq1zZfypj4HbnhdEwRw9zrPUcMcBXzRAy3ZMatYrzzL/s1600/18.+TestExecutionTrend.png>)
+[![](/assets/img/blog/18.-testexecutiontrend.png)](</assets/img/blog/18.-testexecutiontrend.png>)
 
   * **Failure Analysis View**
 

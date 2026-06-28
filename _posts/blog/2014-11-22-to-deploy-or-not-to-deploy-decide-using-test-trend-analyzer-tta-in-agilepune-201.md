@@ -70,34 +70,34 @@ Some pictures from the talk ... (Thanks to Shirish)
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheCPjY3BPiRS-c9e17_kM5ur21SWLteCOGJBTS72abNtx0lgrCy2fwXaEs5-gx2l7aIExIsyqjFXZ6gG5gvBAE5A-tlio6CTAAlvy2nuvrXrwE3kI9nFlT2kzfeLJufC7BkeDAXlDwzXWP/s1600/IMG_20141121_131439.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheCPjY3BPiRS-c9e17_kM5ur21SWLteCOGJBTS72abNtx0lgrCy2fwXaEs5-gx2l7aIExIsyqjFXZ6gG5gvBAE5A-tlio6CTAAlvy2nuvrXrwE3kI9nFlT2kzfeLJufC7BkeDAXlDwzXWP/s1600/IMG_20141121_131439.jpg>)
+[![](/assets/img/blog/img_20141121_131439.jpg)](</assets/img/blog/img_20141121_131439.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0nxFre5pea14n6Xn4jtbtQBV50D8TJyt_b_wXPYmVaecGOXuUOeBMtIZnPrlRq_QgncrgJ0fti8GAwd68Dauf9CoOJr_iWtGU0NjOHywc4kIPAoaU85uFQw1WUyFazukliZEF2n25Cdpp/s1600/IMG_20141121_133221.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0nxFre5pea14n6Xn4jtbtQBV50D8TJyt_b_wXPYmVaecGOXuUOeBMtIZnPrlRq_QgncrgJ0fti8GAwd68Dauf9CoOJr_iWtGU0NjOHywc4kIPAoaU85uFQw1WUyFazukliZEF2n25Cdpp/s1600/IMG_20141121_133221.jpg>)
+[![](/assets/img/blog/img_20141121_133221.jpg)](</assets/img/blog/img_20141121_133221.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk6VMv5NKpZyPY4x1pZsZhwagnBxUeJk_43JW6rQyfpnwa3j-Ys9fDjrWOH36KgHf6qK64CVHTNPNDZ6c28pwmoe8YmnmFj1sEa0fMKB554ArRbblk_g36XaFXQqKEVXgVU2Ogxf1OnzFB/s1600/IMG_20141121_133225.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk6VMv5NKpZyPY4x1pZsZhwagnBxUeJk_43JW6rQyfpnwa3j-Ys9fDjrWOH36KgHf6qK64CVHTNPNDZ6c28pwmoe8YmnmFj1sEa0fMKB554ArRbblk_g36XaFXQqKEVXgVU2Ogxf1OnzFB/s1600/IMG_20141121_133225.jpg>)
+[![](/assets/img/blog/img_20141121_133225.jpg)](</assets/img/blog/img_20141121_133225.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDkcOkOPBv-13FRfS5qCcxqxePz79takmPuaycvKt7OVwQVRwossrl0jSSCRgpWl3Kq-66fMpTCaLtISkeNLAhqPHxLSfzj2MQGkUorDLAuXtLd5RtEznY5AbJspUgOCna-_2MK9DTi7N0/s1600/IMG_20141121_133818.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDkcOkOPBv-13FRfS5qCcxqxePz79takmPuaycvKt7OVwQVRwossrl0jSSCRgpWl3Kq-66fMpTCaLtISkeNLAhqPHxLSfzj2MQGkUorDLAuXtLd5RtEznY5AbJspUgOCna-_2MK9DTi7N0/s1600/IMG_20141121_133818.jpg>)
+[![](/assets/img/blog/img_20141121_133818.jpg)](</assets/img/blog/img_20141121_133818.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGsqdFdh7wvIALSw3SBwZXhu8zmV3j6FrZu_XeQ8AXMRUTj8WzRDAlCgnSnb_I4-POcSVEv6iCqNmap_clo0AE_8U9d4hunonhoEO3Sr7Qe8Jik1TZoNjyMoNCqVgjXRFpqGHYhoN9q_bm/s1600/IMG_20141121_135213.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGsqdFdh7wvIALSw3SBwZXhu8zmV3j6FrZu_XeQ8AXMRUTj8WzRDAlCgnSnb_I4-POcSVEv6iCqNmap_clo0AE_8U9d4hunonhoEO3Sr7Qe8Jik1TZoNjyMoNCqVgjXRFpqGHYhoN9q_bm/s1600/IMG_20141121_135213.jpg>)
+[![](/assets/img/blog/img_20141121_135213.jpg)](</assets/img/blog/img_20141121_135213.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX9wGcGB0mYEAZRJCPO_eRuuuVi2RaRoydkkqk-0fQPn8t6lCwx-ipL6bz2I1st5S1gQemUXKvBoVjUwCns7mWnE3A4uBTVu8Qo0YX0MulusU9OPEx80bZkg9NuQB6UnVf7bCuuzBah7cY/s1600/IMG_20141121_135540.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX9wGcGB0mYEAZRJCPO_eRuuuVi2RaRoydkkqk-0fQPn8t6lCwx-ipL6bz2I1st5S1gQemUXKvBoVjUwCns7mWnE3A4uBTVu8Qo0YX0MulusU9OPEx80bZkg9NuQB6UnVf7bCuuzBah7cY/s1600/IMG_20141121_135540.jpg>)
+[![](/assets/img/blog/img_20141121_135540.jpg)](</assets/img/blog/img_20141121_135540.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibb6sgpQzWjHqTh6TUzRNWJp6yrZKIFNvsPVL5Jqvz7uJvkRPYd0yYbtpiCO-WpfpVI2DakQtL4uloLiWecubtqc21ldXHFw8ZzVcwpbLGS9D9ECPVh-ODy46ULam6e0ejaNZMJXWdXSUi/s1600/IMG_20141121_135543.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibb6sgpQzWjHqTh6TUzRNWJp6yrZKIFNvsPVL5Jqvz7uJvkRPYd0yYbtpiCO-WpfpVI2DakQtL4uloLiWecubtqc21ldXHFw8ZzVcwpbLGS9D9ECPVh-ODy46ULam6e0ejaNZMJXWdXSUi/s1600/IMG_20141121_135543.jpg>)
+[![](/assets/img/blog/img_20141121_135543.jpg)](</assets/img/blog/img_20141121_135543.jpg>)

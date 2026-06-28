@@ -50,7 +50,7 @@ Before I proceed further, I want to share my perspective on what I think are the
 
   
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZHXQWbPfmOwG2BeIez6aLNJx5rK42i00jv_I12JxV5qAOzq_dLQNwTf2gw15aG3fVCwBWChRcguyMyiT_R0Yci2k4CjufblJ8MaeXSPKazaYZOSEB1g7ZWeNzNSypMiixu2N3djIjk0W5/s640/CareerPathForATester.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZHXQWbPfmOwG2BeIez6aLNJx5rK42i00jv_I12JxV5qAOzq_dLQNwTf2gw15aG3fVCwBWChRcguyMyiT_R0Yci2k4CjufblJ8MaeXSPKazaYZOSEB1g7ZWeNzNSypMiixu2N3djIjk0W5/s1600/CareerPathForATester.png>)  
+[![](/assets/img/blog/careerpathforatester.png)](</assets/img/blog/careerpathforatester.png>)  
 ---  
 Career Path for a Tester  
   
@@ -85,7 +85,7 @@ The Capability and Skills would differ "slightly" based on the nature / operatio
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh__UdhRVUog7V-c2TXSAx74tBIAmY2nQvSmJmS5SXo5diKIKiwJ4XMNZ_Ew19PEJchCp1U-QIwwL7rBWc63E7wNZoSecI9lv8auLgex-Xp_g0Dy9QiocqXwoL1hCMEDmCVtHX9OvP6ZGn7/s640/2.+OrganizationFocus.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh__UdhRVUog7V-c2TXSAx74tBIAmY2nQvSmJmS5SXo5diKIKiwJ4XMNZ_Ew19PEJchCp1U-QIwwL7rBWc63E7wNZoSecI9lv8auLgex-Xp_g0Dy9QiocqXwoL1hCMEDmCVtHX9OvP6ZGn7/s1600/2.+OrganizationFocus.png>)
+[![](/assets/img/blog/2.-organizationfocus.png)](</assets/img/blog/2.-organizationfocus.png>)
 
   
 
@@ -97,7 +97,7 @@ Coaching and Consulting focussed-roles would predominantly require strong soft-s
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwcUwsRH_AGjyv5MBb9xroAQlBODPnmwYVp-j5_WpcSlINCUfZ_kE-7R5iT75phaazkqYxat5SvaSJBCCsW9LcqRS2-E6w2tCy4bm_g-yW_LYCn9g3k-77D9a65o44KL3vMVNJK6kcjkmb/s640/3.+CoachingAndConsulting.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwcUwsRH_AGjyv5MBb9xroAQlBODPnmwYVp-j5_WpcSlINCUfZ_kE-7R5iT75phaazkqYxat5SvaSJBCCsW9LcqRS2-E6w2tCy4bm_g-yW_LYCn9g3k-77D9a65o44KL3vMVNJK6kcjkmb/s1600/3.+CoachingAndConsulting.png>)
+[![](/assets/img/blog/3.-coachingandconsulting.png)](</assets/img/blog/3.-coachingandconsulting.png>)
 
   
 
@@ -122,7 +122,7 @@ The path of the [shift-left](<https://en.wikipedia.org/wiki/Shift_left_testing>)
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXRSNPsAZY-ghMZrzvbsCnwBPx22nuVKKG3jP71vIYeyb1gl-YlXskR5-KljlUjJiNLgDdMw0-xP2T3gYU0seHdn7K5EM4JQlSF1dl-Ttr0GhK0IkEmJCOHdH5ByHdhimxsRWL3winaaCf/s640/5.+AnalysisFocus.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXRSNPsAZY-ghMZrzvbsCnwBPx22nuVKKG3jP71vIYeyb1gl-YlXskR5-KljlUjJiNLgDdMw0-xP2T3gYU0seHdn7K5EM4JQlSF1dl-Ttr0GhK0IkEmJCOHdH5ByHdhimxsRWL3winaaCf/s1600/5.+AnalysisFocus.png>)
+[![](/assets/img/blog/5.-analysisfocus.png)](</assets/img/blog/5.-analysisfocus.png>)
 
   
 
@@ -144,7 +144,7 @@ When the software is built right, and the end-user is able to do what is expecte
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrNIDopOAuvVanN1BRtZp3ExDXRPgjRSBluiOUmuk8sfLZBslabh_q_IRN_3fnomV2QYV8R7dQmW3D6TRMvM04D8sSE7rZQTt4LXB723qTAyLNqrPHopPIJcIoUbXaiJlm79Mhi7iGRif1/s640/6.+TestAnalystFocus.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrNIDopOAuvVanN1BRtZp3ExDXRPgjRSBluiOUmuk8sfLZBslabh_q_IRN_3fnomV2QYV8R7dQmW3D6TRMvM04D8sSE7rZQTt4LXB723qTAyLNqrPHopPIJcIoUbXaiJlm79Mhi7iGRif1/s1600/6.+TestAnalystFocus.png>)
+[![](/assets/img/blog/6.-testanalystfocus.png)](</assets/img/blog/6.-testanalystfocus.png>)
 
   
 
@@ -168,7 +168,7 @@ There are a few things that limit the impact of Testing -
 
 Software Development is a highly technical activity. There is no reason why Testing should be considered as a non-technical activity.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3xOrI3pA1HaH5nYLJeRuGXxSx6yyIuGM3HKgt8GYLYAZmOGQtPKg6D133Fu9mqe6JazVXg6nAIO13Vs97u-49mWoInCdv6HfqST-eLmjspYrzLjCZjky1YOZQfPvwvOwq3Dd5E8nl9XV/s640/6.+TechnicalFocus.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3xOrI3pA1HaH5nYLJeRuGXxSx6yyIuGM3HKgt8GYLYAZmOGQtPKg6D133Fu9mqe6JazVXg6nAIO13Vs97u-49mWoInCdv6HfqST-eLmjspYrzLjCZjky1YOZQfPvwvOwq3Dd5E8nl9XV/s1600/6.+TechnicalFocus.png>)
+[![](/assets/img/blog/6.-technicalfocus.png)](</assets/img/blog/6.-technicalfocus.png>)
 
   
   
@@ -181,7 +181,7 @@ There are other activities that a Testing can be part of - these are related to 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA1QM_1_p7KDOa_g42MPQiOBVatuqx3R8AlTuyqied57MYJyrt51GP5pH1VLr5OAzw6T-4vNz-tsb7wxcZI_8GiO9281iJp9CeUAxvmd7N3erxAjyay8-Nl4p8UZRvFqMJCA-NqpqXaJPk/s640/8.+IncubationAndInitiativesFocus.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA1QM_1_p7KDOa_g42MPQiOBVatuqx3R8AlTuyqied57MYJyrt51GP5pH1VLr5OAzw6T-4vNz-tsb7wxcZI_8GiO9281iJp9CeUAxvmd7N3erxAjyay8-Nl4p8UZRvFqMJCA-NqpqXaJPk/s1600/8.+IncubationAndInitiativesFocus.png>)
+[![](/assets/img/blog/8.-incubationandinitiativesfocus.png)](</assets/img/blog/8.-incubationandinitiativesfocus.png>)
 
   
   

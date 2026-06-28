@@ -58,4 +58,4 @@ Here I am on the stage, in Main Hall, in front of 150+ people, delivering the ta
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLMJu3KmvMR_Vw-fLbs5VHkSg-O1ZgjkLEfRRR0aRZCnHUkf7CyOfIVDlRpn6iimwzXvNpOx4jc9QGC4ZV2tIVUJ0JkjIzJI__p5kYDcbcH8PhF3vH_XH9q6tljmK3-nHvjqOGS6ORD80k/s320/Anand.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLMJu3KmvMR_Vw-fLbs5VHkSg-O1ZgjkLEfRRR0aRZCnHUkf7CyOfIVDlRpn6iimwzXvNpOx4jc9QGC4ZV2tIVUJ0JkjIzJI__p5kYDcbcH8PhF3vH_XH9q6tljmK3-nHvjqOGS6ORD80k/s1600/Anand.jpg>)
+[![](/assets/img/blog/anand.jpg)](</assets/img/blog/anand.jpg>)

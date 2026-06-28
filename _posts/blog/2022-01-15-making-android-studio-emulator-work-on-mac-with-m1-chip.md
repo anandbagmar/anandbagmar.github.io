@@ -20,22 +20,22 @@ While most of the issues got resolved, I ran into some very weird issues with on
 
 I saw various errors like:
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgzDdZp4UH4oTOKFd5Xq4y_VgXo8dt5ZMT35oE2Ak41ZIaawPu8yJonA1zd6HDHtWFkbo3iRzPV5tYG2-8wVuB4FrBEWY3GC0RxkCSIsgnNQSVtfa2VwFFfhxU-x26DQ-xYFRt64xjjHSiXYDWuToYXioTTxFV_Pso7oh40GodQPe1qu6JPFBkfTy1upQ=s320)](<https://blogger.googleusercontent.com/img/a/AVvXsEgzDdZp4UH4oTOKFd5Xq4y_VgXo8dt5ZMT35oE2Ak41ZIaawPu8yJonA1zd6HDHtWFkbo3iRzPV5tYG2-8wVuB4FrBEWY3GC0RxkCSIsgnNQSVtfa2VwFFfhxU-x26DQ-xYFRt64xjjHSiXYDWuToYXioTTxFV_Pso7oh40GodQPe1qu6JPFBkfTy1upQ=s912>)
+[![](/assets/img/blog/img-02.png)](</assets/img/blog/img-02.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEgLqTF_V2trFllYu_6iHSr-NoeNtWbUdPOTqiSNgXzSWMwcd1Bd-WbJDyez5iOzsCKY8IUS5jmp7iKmthAhMVgvg9c075HljebDx-itUuwGoqEbkrTViyVG9l_4ZDxAypK2MeH6ZpUiBidXjXWrgm02QOnu4e6P7nvZeROL10BO2zKNDgeGLA-G3cJLjg=s320)](<https://blogger.googleusercontent.com/img/a/AVvXsEgLqTF_V2trFllYu_6iHSr-NoeNtWbUdPOTqiSNgXzSWMwcd1Bd-WbJDyez5iOzsCKY8IUS5jmp7iKmthAhMVgvg9c075HljebDx-itUuwGoqEbkrTViyVG9l_4ZDxAypK2MeH6ZpUiBidXjXWrgm02QOnu4e6P7nvZeROL10BO2zKNDgeGLA-G3cJLjg=s1978>)
+[![](/assets/img/blog/img-01.png)](</assets/img/blog/img-01.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEhQAUvCt4EL4SsJ5uml1xDk_stFJoM4OCxR8mHQnC8aiE1g12jjf6QWbymUzP7-qgEJFjIcgTJR02EbmEhSvx_mx5odS3zCJFsDhXjLsNUZ287dkpAaPVj1nmD1CqidfY_y1O8McMzhWSSWw3x0-o-lmfKLb2HHgknGX-XSQ578jLxqBidG2d4XIku20w=s320)](<https://blogger.googleusercontent.com/img/a/AVvXsEhQAUvCt4EL4SsJ5uml1xDk_stFJoM4OCxR8mHQnC8aiE1g12jjf6QWbymUzP7-qgEJFjIcgTJR02EbmEhSvx_mx5odS3zCJFsDhXjLsNUZ287dkpAaPVj1nmD1CqidfY_y1O8McMzhWSSWw3x0-o-lmfKLb2HHgknGX-XSQ578jLxqBidG2d4XIku20w=s1200>)
+[![](/assets/img/blog/img-03.jpg)](</assets/img/blog/img-03.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiKxsFtsF81VXVigc737kUw7zpwPpWfVcgIrlMByDKBWW8sAaLFGBOmSAw7gMFvTN5UAESNbAdAv5km9POlwSUWpZ8CTdz63Is1_iirx-UddZGKVSeJnC0P-A44BwrCT3pubtOlAljUskkHqUCryiXWz5No5ez2f4M8WgzB6uB8EAJc3t2mDZJxsznRpA=s320)](<https://blogger.googleusercontent.com/img/a/AVvXsEiKxsFtsF81VXVigc737kUw7zpwPpWfVcgIrlMByDKBWW8sAaLFGBOmSAw7gMFvTN5UAESNbAdAv5km9POlwSUWpZ8CTdz63Is1_iirx-UddZGKVSeJnC0P-A44BwrCT3pubtOlAljUskkHqUCryiXWz5No5ez2f4M8WgzB6uB8EAJc3t2mDZJxsznRpA=s1200>)
+[![](/assets/img/blog/img-04.png)](</assets/img/blog/img-04.png>)
 
 Eventually, there was an upgrade from Android Studio specifically for Mac M1 chip - the latest one from the website (as of 15 Jan 2022) is version **Android Studio Arctic Fox** (2020.3.1) Patch 4 (android-studio-2020.3.1.26-mac_arm.dmg).
 

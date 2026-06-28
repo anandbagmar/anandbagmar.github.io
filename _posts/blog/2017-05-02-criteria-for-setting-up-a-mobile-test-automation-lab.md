@@ -69,7 +69,7 @@ Philosophy aside, our **_[MAD LAB](<https://essenceoftesting.blogspot.com/2017/0
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPLGMOyb_fIunzpog_W487_iT2Zt0dK7XD8ffr1dsH8sXmJHQSyGMFZIO25_4o9HKst4BJm3w0pFzc7LAVYKBZ-eV0TFs4j0ND_pqxjyxVrtFaBSJh8Y44Fx9PZmEppVpGi8h2mnBUSaW/s200/Screen+Shot+2017-05-01+at+4.44.37+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbPLGMOyb_fIunzpog_W487_iT2Zt0dK7XD8ffr1dsH8sXmJHQSyGMFZIO25_4o9HKst4BJm3w0pFzc7LAVYKBZ-eV0TFs4j0ND_pqxjyxVrtFaBSJh8Y44Fx9PZmEppVpGi8h2mnBUSaW/s1600/Screen+Shot+2017-05-01+at+4.44.37+PM.png>)
+[![](/assets/img/blog/screen-shot-2017-05-01-at-4.44.37-pm.png)](</assets/img/blog/screen-shot-2017-05-01-at-4.44.37-pm.png>)
 
   
 
@@ -78,7 +78,7 @@ Philosophy aside, our **_[MAD LAB](<https://essenceoftesting.blogspot.com/2017/0
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguUxezl4NtO3_tVHmIuC7XcFOynMC73hp7ShkS6g5c7BVJohQXzeDo7bfAbXX4ddP5UROMFpizAbeOTJ92Z0BBvjk3ZeVd37PfJKDsfB0dILX3P8CJZgWu0NPjBRSfa4fkBfoUuQ13Zvjz/s200/Screen+Shot+2017-05-01+at+4.44.46+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguUxezl4NtO3_tVHmIuC7XcFOynMC73hp7ShkS6g5c7BVJohQXzeDo7bfAbXX4ddP5UROMFpizAbeOTJ92Z0BBvjk3ZeVd37PfJKDsfB0dILX3P8CJZgWu0NPjBRSfa4fkBfoUuQ13Zvjz/s1600/Screen+Shot+2017-05-01+at+4.44.46+PM.png>)
+[![](/assets/img/blog/screen-shot-2017-05-01-at-4.44.46-pm.png)](</assets/img/blog/screen-shot-2017-05-01-at-4.44.46-pm.png>)
 
   * CI (Jenkins) setup correctly to keep running tests continuously, proper reporting  in place (else whats the use of running tests if you do not look at the results)
 
@@ -102,17 +102,17 @@ _**
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs-K1zfgibU3KQPJ8ZlX8gk_v1waGEWrUK4KZEEPT2CvXpR12ufM01R7Sokbct79LAYH55mC0WCKjEmTKhG0xnWd5smbqAeRUnaoy4VhDU9tm5ogJfEKocb-I6tBJpU0kaeA89tc205pba/s200/Screen+Shot+2017-05-01+at+4.37.05+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhs-K1zfgibU3KQPJ8ZlX8gk_v1waGEWrUK4KZEEPT2CvXpR12ufM01R7Sokbct79LAYH55mC0WCKjEmTKhG0xnWd5smbqAeRUnaoy4VhDU9tm5ogJfEKocb-I6tBJpU0kaeA89tc205pba/s1600/Screen+Shot+2017-05-01+at+4.37.05+PM.png>)
+[![](/assets/img/blog/screen-shot-2017-05-01-at-4.37.05-pm.png)](</assets/img/blog/screen-shot-2017-05-01-at-4.37.05-pm.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlLkGUJfHrr0_nenyyme2P4gouDI0kCwUKyolERHe23t_t2Wwa1dcZk3lFSjFffg3eGvQMM_I44lpMYlbJb2kf1pGViiAmeWgu3OG8tVJm1RM6v91hc7PMH9xSxUxy9L9PhZIEYW58E3b0/s200/Screen+Shot+2017-05-01+at+4.37.19+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlLkGUJfHrr0_nenyyme2P4gouDI0kCwUKyolERHe23t_t2Wwa1dcZk3lFSjFffg3eGvQMM_I44lpMYlbJb2kf1pGViiAmeWgu3OG8tVJm1RM6v91hc7PMH9xSxUxy9L9PhZIEYW58E3b0/s1600/Screen+Shot+2017-05-01+at+4.37.19+PM.png>)
+[![](/assets/img/blog/screen-shot-2017-05-01-at-4.37.19-pm.png)](</assets/img/blog/screen-shot-2017-05-01-at-4.37.19-pm.png>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwvuPQrLJvmCMaGiXjz7hxXDfF3SOzzIWN89gkgeMLj8ncc7xxIAEV58QNJZSVlLW-YJt0QPUu9Gwt1gSPxcZeMnCfB9o84dgs-VxOPgs5iTJZy8MFbJljDufRw4AqVdSjFMfIVPFHVHyK/s200/Screen+Shot+2017-05-01+at+4.37.53+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwvuPQrLJvmCMaGiXjz7hxXDfF3SOzzIWN89gkgeMLj8ncc7xxIAEV58QNJZSVlLW-YJt0QPUu9Gwt1gSPxcZeMnCfB9o84dgs-VxOPgs5iTJZy8MFbJljDufRw4AqVdSjFMfIVPFHVHyK/s1600/Screen+Shot+2017-05-01+at+4.37.53+PM.png>)
+[![](/assets/img/blog/screen-shot-2017-05-01-at-4.37.53-pm.png)](</assets/img/blog/screen-shot-2017-05-01-at-4.37.53-pm.png>)
 
   
 
@@ -121,7 +121,7 @@ _**
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimJFzc9qKYOwAqs7VU1BKlW3l-2LeeNqxnc1xsQ99AYRAmcraQ5qvxyUDOITXl93zLEG31YEcARtUbMw8LeKD32wMGJqaDsgG0t4wapwWO2mDG1c47zYwzZHUf8Ts11diFMenVYp8ZKvis/s200/Screen+Shot+2017-05-01+at+4.42.20+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimJFzc9qKYOwAqs7VU1BKlW3l-2LeeNqxnc1xsQ99AYRAmcraQ5qvxyUDOITXl93zLEG31YEcARtUbMw8LeKD32wMGJqaDsgG0t4wapwWO2mDG1c47zYwzZHUf8Ts11diFMenVYp8ZKvis/s1600/Screen+Shot+2017-05-01+at+4.42.20+PM.png>)
+[![](/assets/img/blog/screen-shot-2017-05-01-at-4.42.20-pm.png)](</assets/img/blog/screen-shot-2017-05-01-at-4.42.20-pm.png>)
 
   
 

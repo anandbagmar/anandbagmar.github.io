@@ -30,4 +30,4 @@ You can get the recording from [here](<https://hubs.ly/H0fBDN50>) (<https://hubs
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeekEpWRfBxQvtokN5IftpCbC5s6qRJTA2x6FTyW9zlkzThBOtUfZvkfjwQ8e4hRZg67oX1iARIfnlflVb80y1WlnM3SqN9_7vUvffNLANOmhgsOTJbYr0m-uX-Z-Ddn6vB5sdDSGm1h_6/s320/Missing+Feedback+Loop+Webinar+opening+page.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeekEpWRfBxQvtokN5IftpCbC5s6qRJTA2x6FTyW9zlkzThBOtUfZvkfjwQ8e4hRZg67oX1iARIfnlflVb80y1WlnM3SqN9_7vUvffNLANOmhgsOTJbYr0m-uX-Z-Ddn6vB5sdDSGm1h_6/s1600/Missing+Feedback+Loop+Webinar+opening+page.png>)
+[![](/assets/img/blog/missing-feedback-loop-webinar-opening-page.png)](</assets/img/blog/missing-feedback-loop-webinar-opening-page.png>)

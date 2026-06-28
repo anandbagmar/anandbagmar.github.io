@@ -90,7 +90,7 @@ As per a quick online search, this is what it means:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYH-BYcLzw408hWxYJCNrFdRxnHwQC80LGqokXF-xwXixkoR1wHxzC62ojBWVmDfTtXh_ILawOLwGcjfefsMlW2Us3zbvWWqAsWQ97yP5OVEypYyjnrF67w0NxJ48GG6oydMBNdscIbpsh/s320/Screen+Shot+2018-07-23+at+2.33.27+PM.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYH-BYcLzw408hWxYJCNrFdRxnHwQC80LGqokXF-xwXixkoR1wHxzC62ojBWVmDfTtXh_ILawOLwGcjfefsMlW2Us3zbvWWqAsWQ97yP5OVEypYyjnrF67w0NxJ48GG6oydMBNdscIbpsh/s1600/Screen+Shot+2018-07-23+at+2.33.27+PM.png>)
+[![](/assets/img/blog/screen-shot-2018-07-23-at-2.33.27-pm.png)](</assets/img/blog/screen-shot-2018-07-23-at-2.33.27-pm.png>)
 
   
 

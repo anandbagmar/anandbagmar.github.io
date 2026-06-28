@@ -8,7 +8,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR69tmbZLI8xUu754kkjtEBVxm40gUuDqUQDAs3xg_stsxv3edNoioXWWgUTlpSVHo075huZzUBqCQ-UrExD0SxZ48Xi5SWHw-r_GFRRSSxI6X9W1Nx8ji6m7pe2WiMlMowRw-fyyogGOb/s1600/Theoretical+Vs+Practical+knowledge.gif)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR69tmbZLI8xUu754kkjtEBVxm40gUuDqUQDAs3xg_stsxv3edNoioXWWgUTlpSVHo075huZzUBqCQ-UrExD0SxZ48Xi5SWHw-r_GFRRSSxI6X9W1Nx8ji6m7pe2WiMlMowRw-fyyogGOb/s1600/Theoretical+Vs+Practical+knowledge.gif>)  
+[![](/assets/img/blog/theoretical-vs-practical-knowledge.gif)](</assets/img/blog/theoretical-vs-practical-knowledge.gif>)  
 ---  
 <http://dilbert.com/strips/comic/2012-04-30/>  
   

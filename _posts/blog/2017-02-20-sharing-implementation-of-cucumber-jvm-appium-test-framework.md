@@ -32,7 +32,7 @@ In this blog post, I will be sharing the details (including code) of the impleme
 
 ##  Implementation Details
 
-####  [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOygDZWEyqsm4HCjFNgqMrV7RdBKoXayCRB3ws1wl1PHC1Y1XmRKdknciJxnyND2xNu_Y11nOqsiQWrJFuxI-lUJCFeeeFwneWaJ5WamQmgu_IqVGBkp4wogVn3iZOyfQ0hwfMG_5VlZ1a/s640/0.+Cucumber-JVM+-+Appium+Test+Automation+Framework.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOygDZWEyqsm4HCjFNgqMrV7RdBKoXayCRB3ws1wl1PHC1Y1XmRKdknciJxnyND2xNu_Y11nOqsiQWrJFuxI-lUJCFeeeFwneWaJ5WamQmgu_IqVGBkp4wogVn3iZOyfQ0hwfMG_5VlZ1a/s1600/0.+Cucumber-JVM+-+Appium+Test+Automation+Framework.png>)
+####  [![](/assets/img/blog/0.-cucumber-jvm-appium-test-automation-framework.png)](</assets/img/blog/0.-cucumber-jvm-appium-test-automation-framework.png>)
 
 ###  Tech Stack Summary
 
@@ -50,7 +50,7 @@ To recap - here is the tech stack that we currently have:
 
 ###  1\. Configure Jenkins Node (in Jenkins Server)
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWNdAsx-ZqodVkwFnORhMEf5cpOKuuDng8M4ENwsdEzrUqtcHcYkvtvSxLXqLTPJC8XJhbFr_CAYE-p0W6D-6lYfPETzzTSYevLPkq-X1qunBlIyj5AHRBdkzT-gT4PP4j5arSzj1TrrXd/s640/1.+Configure+Jenkins+Node.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWNdAsx-ZqodVkwFnORhMEf5cpOKuuDng8M4ENwsdEzrUqtcHcYkvtvSxLXqLTPJC8XJhbFr_CAYE-p0W6D-6lYfPETzzTSYevLPkq-X1qunBlIyj5AHRBdkzT-gT4PP4j5arSzj1TrrXd/s1600/1.+Configure+Jenkins+Node.png>)
+[![](/assets/img/blog/1.-configure-jenkins-node.png)](</assets/img/blog/1.-configure-jenkins-node.png>)
 
   
 
@@ -70,7 +70,7 @@ We currently have 5 Jenkins Nodes setup as shown below.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzHHmoJXYixkPlA5-eCrEK9DzAZrTb5x1HHKfYxg8r529U1apAxNvt_IG8Y7XyJNSCRkPniOo_t2r0hIDZX6xx6RwChWM1ztb0Cg-OrOXPg4CO77EG5errpa3JyeHdOaXkivEg8Vw4UaNA/s200/1.2+Jenkins-NodeNames.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzHHmoJXYixkPlA5-eCrEK9DzAZrTb5x1HHKfYxg8r529U1apAxNvt_IG8Y7XyJNSCRkPniOo_t2r0hIDZX6xx6RwChWM1ztb0Cg-OrOXPg4CO77EG5errpa3JyeHdOaXkivEg8Vw4UaNA/s1600/1.2+Jenkins-NodeNames.png>)
+[![](/assets/img/blog/1.2-jenkins-nodenames.png)](</assets/img/blog/1.2-jenkins-nodenames.png>)
 
   
 
@@ -113,7 +113,7 @@ Each node is configured like this:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3wq2w_8y23qw2t4hAwG9epv-Ef8NN8xfk6Dt0a0yG8ktKg9A0NeHzjaDk99lPnMZ1ys0VTW-KazjIxPF8LZKpsxWqH8w5JozXCluA_QBBS5b5lVu5l9J51PaiF6fQ-G7bwE6ERtJMQ6CF/s640/1.1+Jenkins-NodeConfiguration.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3wq2w_8y23qw2t4hAwG9epv-Ef8NN8xfk6Dt0a0yG8ktKg9A0NeHzjaDk99lPnMZ1ys0VTW-KazjIxPF8LZKpsxWqH8w5JozXCluA_QBBS5b5lVu5l9J51PaiF6fQ-G7bwE6ERtJMQ6CF/s1600/1.1+Jenkins-NodeConfiguration.png>)
+[![](/assets/img/blog/1.1-jenkins-nodeconfiguration.png)](</assets/img/blog/1.1-jenkins-nodeconfiguration.png>)
 
   
 
@@ -167,7 +167,7 @@ Once the Nodes are setup, we can now configure the Jenkins Jobs.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_iAm5CqjhRc19PSKwSVwOInAiMYTtJ9FqMEtqsJHZoxalDvuOBJ-5w2dKpMih4XpPY7m8fELUmuvQY4OeANa2sDYgrFWtHt-Z54FECYxRlunKC7dU4y9aAeW5ptFDruL8_fUpFZe544_o/s640/2.+Setup+Jenkins+Jobs.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_iAm5CqjhRc19PSKwSVwOInAiMYTtJ9FqMEtqsJHZoxalDvuOBJ-5w2dKpMih4XpPY7m8fELUmuvQY4OeANa2sDYgrFWtHt-Z54FECYxRlunKC7dU4y9aAeW5ptFDruL8_fUpFZe544_o/s1600/2.+Setup+Jenkins+Jobs.png>)
+[![](/assets/img/blog/2.-setup-jenkins-jobs.png)](</assets/img/blog/2.-setup-jenkins-jobs.png>)
 
   
 [  
@@ -184,7 +184,7 @@ Once the Nodes are setup, we can now configure the Jenkins Jobs.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUVy1FlxPqzQXSFJXgHy6j2D7s-s_Gz_3ghshPxGZNWEWVQDB67s1Yu-FDpfizx9LaFDSVvRew0ZWtoxUw-UnQ__dKSlJ2GCdIJYsyf5iTWf2zQeBRxgDqjXqNe5Xpp9-aqe12IhPYyfii/s200/2.1+Jenkins-JobNames.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUVy1FlxPqzQXSFJXgHy6j2D7s-s_Gz_3ghshPxGZNWEWVQDB67s1Yu-FDpfizx9LaFDSVvRew0ZWtoxUw-UnQ__dKSlJ2GCdIJYsyf5iTWf2zQeBRxgDqjXqNe5Xpp9-aqe12IhPYyfii/s1600/2.1+Jenkins-JobNames.png>)  
+[![](/assets/img/blog/2.1-jenkins-jobnames.png)](</assets/img/blog/2.1-jenkins-jobnames.png>)  
 
 
   
@@ -232,7 +232,7 @@ Once the Jenkins Nodes and Jenkins Jobs are configured, we now need to get the J
   
 
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSsrqELCxhodskgniEZ_IGOBNBzov2p1KmWyDqyP6zPxaACPJ2EmrjYR2zcIiCQQ45L5lRiH9ndWxDqyLuxjCtMOEhF3nQGPRnV9pvVMfr0-pFPdRsPvadn-nsMOcTOJB9B5yGFvfzhJq5/s640/3.+Setup+Jenkins+Agent.png)
+![](/assets/img/blog/3.-setup-jenkins-agent.png)
 
   
 
@@ -271,7 +271,7 @@ By this stage, our Jenkins Server, Jenkins Agent setup is done, including the so
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOeqokRZ1Sd8WBpVZwPVNyaeHlaL1Ecb4EjP5chm7J-tRTfLOGIWN8lN3kVc7NXDtr1pbFh71BV_lErnhEElFC7tYtRpoNu3bPPO31HAQTkUp5FDKBxAyE7RG-XcwwJR2l4A01t1CfBhVQ/s640/4.+Manage+Test+Infrastructure+%2526+Test+Execution.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOeqokRZ1Sd8WBpVZwPVNyaeHlaL1Ecb4EjP5chm7J-tRTfLOGIWN8lN3kVc7NXDtr1pbFh71BV_lErnhEElFC7tYtRpoNu3bPPO31HAQTkUp5FDKBxAyE7RG-XcwwJR2l4A01t1CfBhVQ/s1600/4.+Manage+Test+Infrastructure+%2526+Test+Execution.png>)
+[![](/assets/img/blog/4.-manage-test-infrastructure-26-test-execution.png)](</assets/img/blog/4.-manage-test-infrastructure-26-test-execution.png>)
 
   
 
@@ -308,7 +308,7 @@ Before we get into the details of the gradle file, it is important to understand
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibNTRTA4vXnILXdBkJWdTB2otVwIHuFD6YH3y5l1lv85JH6oUs9CD1WzYPGaGavknAwzZGzPGApcRda3PEBlIhZa1TQAGVy81UDmFE7ae0ryV5BGElWbRcd67Jx3DuXmMwSV1W3_g2AfCe/s400/4.1+CodeStructure.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibNTRTA4vXnILXdBkJWdTB2otVwIHuFD6YH3y5l1lv85JH6oUs9CD1WzYPGaGavknAwzZGzPGApcRda3PEBlIhZa1TQAGVy81UDmFE7ae0ryV5BGElWbRcd67Jx3DuXmMwSV1W3_g2AfCe/s1600/4.1+CodeStructure.png>)
+[![](/assets/img/blog/4.1-codestructure.png)](</assets/img/blog/4.1-codestructure.png>)
 
   
   
@@ -365,7 +365,7 @@ Last, step in this process - is to manage the Android Driver. We use the Cucumbe
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5wiy3HlwbAqglnNDwH5A9XQAxZafTo8WO2YSTDS4uwPZQn7JuZFpMe-422SRkZDYqaS-1xqChK65vKXYG0sZZy6oazZr7SVRzKO46Mfg_FBZGH-xDIsUHLA5nwpl8kXEduogj5aubJfJp/s320/5.+Run+Tests.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5wiy3HlwbAqglnNDwH5A9XQAxZafTo8WO2YSTDS4uwPZQn7JuZFpMe-422SRkZDYqaS-1xqChK65vKXYG0sZZy6oazZr7SVRzKO46Mfg_FBZGH-xDIsUHLA5nwpl8kXEduogj5aubJfJp/s1600/5.+Run+Tests.png>)
+[![](/assets/img/blog/5.-run-tests.png)](</assets/img/blog/5.-run-tests.png>)
 
   
   

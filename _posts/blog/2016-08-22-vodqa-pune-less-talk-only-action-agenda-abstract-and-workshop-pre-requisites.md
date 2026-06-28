@@ -53,7 +53,7 @@ _
 
 ###  __Agenda__
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSthB56IzLLFcz9pSrThxcb63VzOmmpdlbVgsXfSYyjvaxupTlov8ZjdgfAI8PPkYsXC27kpYDt7LDWl2C5nu3i4OFjVqg-dLxEdinz5riF7NH3vWn05wIPuoiTgRa3c7GGoXCS1SIUH36/s320/Agenda.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSthB56IzLLFcz9pSrThxcb63VzOmmpdlbVgsXfSYyjvaxupTlov8ZjdgfAI8PPkYsXC27kpYDt7LDWl2C5nu3i4OFjVqg-dLxEdinz5riF7NH3vWn05wIPuoiTgRa3c7GGoXCS1SIUH36/s1600/Agenda.jpg>)
+[![](/assets/img/blog/agenda.jpg)](</assets/img/blog/agenda.jpg>)
 
   
 

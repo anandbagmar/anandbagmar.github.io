@@ -32,7 +32,7 @@ I spoke about "_**Enabling Continuous Delivery (CD) in Enterprises with Testing*
   
 I started this talk by stating that I am going to prove that "_**A Triangle = A Pentagon**_ ".   
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEJBnNf-dB6FRSaIoGnVTx3fCDPcBoatdBdk23RU7N7RgHdH5mxkgkB2J8-AJ8iZwl13jRk4B-oKA7ViNvB3vpIiKj1LBP0VBArzH_xc2nVKlmZY-LHbrzHeBiU7XeUh2H8kuQCpM2jdQS/s1600/Triange=Pyramid.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEJBnNf-dB6FRSaIoGnVTx3fCDPcBoatdBdk23RU7N7RgHdH5mxkgkB2J8-AJ8iZwl13jRk4B-oKA7ViNvB3vpIiKj1LBP0VBArzH_xc2nVKlmZY-LHbrzHeBiU7XeUh2H8kuQCpM2jdQS/s1600/Triange=Pyramid.jpg>)  
+[![](/assets/img/blog/triange-pyramid.jpg)](</assets/img/blog/triange-pyramid.jpg>)  
 ---  
 A Triangle == A Pentagon??  
   
@@ -45,24 +45,24 @@ Below are some pictures from the conference.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfP4tDtUf7O4gQig9deyRam-9DSj5uoorITfBoXyUw8ajU7KYNLb5Ee8Z_hnf8buQDkBKo94LMp8gPgG2rYKSDQI0KBSXzIym_LxjfktoN4Vxd9SZLA1Q94pJAnXKvCuo5zNhBCJsVCJzn/s1600/DSC_7304.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfP4tDtUf7O4gQig9deyRam-9DSj5uoorITfBoXyUw8ajU7KYNLb5Ee8Z_hnf8buQDkBKo94LMp8gPgG2rYKSDQI0KBSXzIym_LxjfktoN4Vxd9SZLA1Q94pJAnXKvCuo5zNhBCJsVCJzn/s1600/DSC_7304.JPG>)
+[![](/assets/img/blog/dsc_7304.jpg)](</assets/img/blog/dsc_7304.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4fiRrVES0z4EpqQytbOGw2dXOqhWpOPZigotYt_4WEhFwZt3869Aw9ZTWfGXtZ33CLJseVDfDMF9xUgYlvyRE-uaXws8zv5mdZEXlYiQk1TJs8WogH_p1USye-97gFzZsOdJYlUXxkVen/s1600/DSC_7316.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4fiRrVES0z4EpqQytbOGw2dXOqhWpOPZigotYt_4WEhFwZt3869Aw9ZTWfGXtZ33CLJseVDfDMF9xUgYlvyRE-uaXws8zv5mdZEXlYiQk1TJs8WogH_p1USye-97gFzZsOdJYlUXxkVen/s1600/DSC_7316.JPG>)
+[![](/assets/img/blog/dsc_7316.jpg)](</assets/img/blog/dsc_7316.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzfBm9PrzbIezlIs_ZDVkmnD9X1q1OixoOAlVzsKfl2atVffp_Qzyk1vhs2F0gcihdo8P8EEExklKYrR9e6L_nnKT46dr1JyBfCC8b90Q8E6oJoOr5j6t7L6LBBHgq1kmY_UojPYkEpdhb/s1600/DSC_7317.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzfBm9PrzbIezlIs_ZDVkmnD9X1q1OixoOAlVzsKfl2atVffp_Qzyk1vhs2F0gcihdo8P8EEExklKYrR9e6L_nnKT46dr1JyBfCC8b90Q8E6oJoOr5j6t7L6LBBHgq1kmY_UojPYkEpdhb/s1600/DSC_7317.JPG>)
+[![](/assets/img/blog/dsc_7317.jpg)](</assets/img/blog/dsc_7317.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMTj_D-lbsuoOk1lUnLXF27VPkRzPnFAo4gZqQORbmmrwrcp4t3KUFlzqBKPmpV20AhHli6cVx0JdSSG8Gm_GfoVf5VES2l18Oph8dCaxQk6JQsdCCdCpqYL7SvWxQz88k5PvOVzGCZTs8/s1600/DSC_7322.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMTj_D-lbsuoOk1lUnLXF27VPkRzPnFAo4gZqQORbmmrwrcp4t3KUFlzqBKPmpV20AhHli6cVx0JdSSG8Gm_GfoVf5VES2l18Oph8dCaxQk6JQsdCCdCpqYL7SvWxQz88k5PvOVzGCZTs8/s1600/DSC_7322.JPG>)
+[![](/assets/img/blog/dsc_7322.jpg)](</assets/img/blog/dsc_7322.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0_Zu8alWPRsO8oPhjpZudBVxzQhkv9Bno5Mxj7Q3E6lzgRx1DL7p1GbP5Fs-YGpKiEuBc4fmbZXG2FAtioNw72tF5y54JY4-J9oqr1WINH1gzYYfh7pTPlaPN334trbaiK6L4GFetka42/s1600/DSC_7323.JPG)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0_Zu8alWPRsO8oPhjpZudBVxzQhkv9Bno5Mxj7Q3E6lzgRx1DL7p1GbP5Fs-YGpKiEuBc4fmbZXG2FAtioNw72tF5y54JY4-J9oqr1WINH1gzYYfh7pTPlaPN334trbaiK6L4GFetka42/s1600/DSC_7323.JPG>)
+[![](/assets/img/blog/dsc_7323.jpg)](</assets/img/blog/dsc_7323.jpg>)

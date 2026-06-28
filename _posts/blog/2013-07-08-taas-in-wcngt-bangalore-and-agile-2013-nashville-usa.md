@@ -25,14 +25,14 @@ My session details are as follows:
 In WCNGT - [Integrated Testing In Enterprises Using TaaS](<http://www.nextgentesting.org/agenda/popup/t8054>), on 11th July, from 12pm-1pm. Detail program is available [here](<http://www.nextgentesting.org/program>).  
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi6sj6dPNpdSDkPeYp07VPLjRWTm8KqqUVJq-HpuiCbxyb-A5xTXqi2w2NfeR-iTD-7lMEo5Z9xoCyykT_EGhHAv0CI3JfXQ56vyB9iaFX52tXN6uFMK3ALoh7SQKKgrKuGw0JMlXgKPjj/s1600/WCNGT-Main-Banner.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi6sj6dPNpdSDkPeYp07VPLjRWTm8KqqUVJq-HpuiCbxyb-A5xTXqi2w2NfeR-iTD-7lMEo5Z9xoCyykT_EGhHAv0CI3JfXQ56vyB9iaFX52tXN6uFMK3ALoh7SQKKgrKuGw0JMlXgKPjj/s1600/WCNGT-Main-Banner.png>)
+[![](/assets/img/blog/wcngt-main-banner.png)](</assets/img/blog/wcngt-main-banner.png>)
 
   
   
 In Agile 2013, [Integration testing in Enterprises using TaaS - via Case Study](<http://sched.co/14o51Hg>), on 5th August, from 2pm-3.15pm. Complete schedule is available [here](<http://agile2013.agilealliance.org/program/sessionschedule/>).  
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL4enNdl3QI79deq8qS8jXjTW4CnHseR4gJTaS62Z6TeIiqNc5X-0du9eqmCG1Dy_h9xIjUrL2sCe8onbmcLTApv6zbMQhs_myhqqrRvWZA9Xr5Ra0U5R-8veYsQaAxVN2q3fk7agMs9jd/s1600/Agile2013_Speaker_banner.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL4enNdl3QI79deq8qS8jXjTW4CnHseR4gJTaS62Z6TeIiqNc5X-0du9eqmCG1Dy_h9xIjUrL2sCe8onbmcLTApv6zbMQhs_myhqqrRvWZA9Xr5Ra0U5R-8veYsQaAxVN2q3fk7agMs9jd/s1600/Agile2013_Speaker_banner.png>)
+[![](/assets/img/blog/agile2013_speaker_banner.png)](</assets/img/blog/agile2013_speaker_banner.png>)
 
   
   

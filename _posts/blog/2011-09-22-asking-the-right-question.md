@@ -16,7 +16,7 @@ For those not able to see the link it correctly, here it is:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqgiabUS7rC7vBGaAWZ3UE7b6YnaUFmvXnpwDt2GUaGzHrW9nAMwb3BzuRYmF6rXDughPVydCtYCEyVRQDy2jQfjRMbeRslCx64JAoecrt3fjbVBVQ8j89EHqoSEKMts1lsPczWTkD-cAZ/s640/Dilbert-AskTheRightQuestion.gif)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqgiabUS7rC7vBGaAWZ3UE7b6YnaUFmvXnpwDt2GUaGzHrW9nAMwb3BzuRYmF6rXDughPVydCtYCEyVRQDy2jQfjRMbeRslCx64JAoecrt3fjbVBVQ8j89EHqoSEKMts1lsPczWTkD-cAZ/s1600/Dilbert-AskTheRightQuestion.gif>)
+[![](/assets/img/blog/dilbert-asktherightquestion.gif)](</assets/img/blog/dilbert-asktherightquestion.gif>)
 
   
   

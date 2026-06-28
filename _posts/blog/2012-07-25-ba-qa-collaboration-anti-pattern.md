@@ -16,7 +16,7 @@ A classic case of the BA-QA anti-pattern.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK0E7xRU9gsCy3228EYOgHq0sv10XRHdVgFcPvRexdb-eWox5HG0LRBQbi5nAGe0jfigNCOmEqhRxiYs6bVjYKDOHYZaOMBTb-0aLEZG_oprryxs_odTzZCv9giJP6ueQEhMnSBabyafqq/s1600/BA_QA_AntiPattern.gif)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK0E7xRU9gsCy3228EYOgHq0sv10XRHdVgFcPvRexdb-eWox5HG0LRBQbi5nAGe0jfigNCOmEqhRxiYs6bVjYKDOHYZaOMBTb-0aLEZG_oprryxs_odTzZCv9giJP6ueQEhMnSBabyafqq/s1600/BA_QA_AntiPattern.gif>)
+[![](/assets/img/blog/ba_qa_antipattern.gif)](</assets/img/blog/ba_qa_antipattern.gif>)
 
   
 

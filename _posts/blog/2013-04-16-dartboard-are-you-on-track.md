@@ -52,7 +52,7 @@ eality is that testing is going on in some fashion or the other right from the b
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-7htvitb5Sjq2QZBMZdbbKIQX1vnFLcb3EqkpEw9V0kGuFxie_wetj53Wv09lG7kMp7toRzOfInZpnmhbCrZU6yHSe-PCROqjmn_o2DWq5W53eZCxpTOis3HNeibwI9-o22SmqgkQJ_Sv/s1600/QA+Dashboard+2+-+with+examples.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-7htvitb5Sjq2QZBMZdbbKIQX1vnFLcb3EqkpEw9V0kGuFxie_wetj53Wv09lG7kMp7toRzOfInZpnmhbCrZU6yHSe-PCROqjmn_o2DWq5W53eZCxpTOis3HNeibwI9-o22SmqgkQJ_Sv/s1600/QA+Dashboard+2+-+with+examples.jpg>)  
+[![](/assets/img/blog/qa-dashboard-2-with-examples.jpg)](</assets/img/blog/qa-dashboard-2-with-examples.jpg>)  
 ---  
 Dartboard - Are you on track?  
   

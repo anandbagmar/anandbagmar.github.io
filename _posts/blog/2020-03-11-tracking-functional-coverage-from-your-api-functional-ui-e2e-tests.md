@@ -50,7 +50,7 @@ The above answer has some big gaps though:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_6nDScoWxmIOYhXDvDbr35eS7N6UKhXEOz9n2Eqtp2OrpDEUkzb05HyxXWuUKGMEoN_oQO2NB4yNw1MfNL1xW4-VxorP5sEjdHKCZJYTn3yYUyybpeL4Jpai6r9MLnhSkbuuqWqfAzRbx/s320/TestAutomationPyramid-TimeCostImpact.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_6nDScoWxmIOYhXDvDbr35eS7N6UKhXEOz9n2Eqtp2OrpDEUkzb05HyxXWuUKGMEoN_oQO2NB4yNw1MfNL1xW4-VxorP5sEjdHKCZJYTn3yYUyybpeL4Jpai6r9MLnhSkbuuqWqfAzRbx/s1600/TestAutomationPyramid-TimeCostImpact.png>)
+[![](/assets/img/blog/testautomationpyramid-timecostimpact.png)](</assets/img/blog/testautomationpyramid-timecostimpact.png>)
 
   
  
@@ -96,7 +96,7 @@ Unfortunately, there does not seem to be an out-of-the-box way to do this. But b
 
  
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgesTalE4pAC37CcQqjaQ0tlDjW17o3ntJXXP0zpplxpS_8umsCY14i-1ImFz2qSfq9Lonao5S7NfHO0ylwdZ8WbFuz3wwmFdas-yTFnf22S6E8cqKhWna1F2f6JNRb1CdibKWjuWbh8_SM/s320/FeatureCoverage.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgesTalE4pAC37CcQqjaQ0tlDjW17o3ntJXXP0zpplxpS_8umsCY14i-1ImFz2qSfq9Lonao5S7NfHO0ylwdZ8WbFuz3wwmFdas-yTFnf22S6E8cqKhWna1F2f6JNRb1CdibKWjuWbh8_SM/s1600/FeatureCoverage.png>)
+[![](/assets/img/blog/featurecoverage.png)](</assets/img/blog/featurecoverage.png>)
 
 
 
@@ -108,7 +108,7 @@ Unfortunately, there does not seem to be an out-of-the-box way to do this. But b
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMnRlF91ViD5x3Rln7CNs0xfo0kDGQJyoEF6GSKpp1yiuYQOkJfvSDz7rowxwZmqT6bR1zPufzdO8Au5NGbb8F7S_KL-4NRK3UH0DQoDhm7t0W0_lIcnK6Df7fpnraus8KF35tSIRVehaf/s320/TagReports.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMnRlF91ViD5x3Rln7CNs0xfo0kDGQJyoEF6GSKpp1yiuYQOkJfvSDz7rowxwZmqT6bR1zPufzdO8Au5NGbb8F7S_KL-4NRK3UH0DQoDhm7t0W0_lIcnK6Df7fpnraus8KF35tSIRVehaf/s1600/TagReports.png>)
+[![](/assets/img/blog/tagreports.png)](</assets/img/blog/tagreports.png>)
 
   
 

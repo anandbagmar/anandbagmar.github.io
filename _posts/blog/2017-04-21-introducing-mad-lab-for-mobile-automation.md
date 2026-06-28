@@ -109,32 +109,32 @@ Here are some pictures from the setup.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD7X-i9f9il9R_6u3ZnzFp-fG3TrEsM0pav51hln1SyOntFoDD7aC9m1YM5KQCtXwmX33P5FbiSRYHwyVX1gAzN96adrvPvhmbLDxvTQmeIGOURfZa4pY0EuoNHJIUdjD8Q37MIZ6WYFTj/s320/IMG_20170421_093503.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgD7X-i9f9il9R_6u3ZnzFp-fG3TrEsM0pav51hln1SyOntFoDD7aC9m1YM5KQCtXwmX33P5FbiSRYHwyVX1gAzN96adrvPvhmbLDxvTQmeIGOURfZa4pY0EuoNHJIUdjD8Q37MIZ6WYFTj/s1600/IMG_20170421_093503.jpg>)
+[![](/assets/img/blog/img_20170421_093503.jpg)](</assets/img/blog/img_20170421_093503.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho2wF0HCWyhRBuGIOAADjVH0_Qbjk7EzYN6MrWPzgkE8_SHKyXSEumwqg5q6raG4bIG0TuVabpe6igFIY9jHrJ6T2C3aRCsCxrJFifgRTstJCyzYi4Qj5IAxOfw2rV8Z1DcWor1GFhlUZh/s320/IMG_20170421_093501.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho2wF0HCWyhRBuGIOAADjVH0_Qbjk7EzYN6MrWPzgkE8_SHKyXSEumwqg5q6raG4bIG0TuVabpe6igFIY9jHrJ6T2C3aRCsCxrJFifgRTstJCyzYi4Qj5IAxOfw2rV8Z1DcWor1GFhlUZh/s1600/IMG_20170421_093501.jpg>)
+[![](/assets/img/blog/img_20170421_093501.jpg)](</assets/img/blog/img_20170421_093501.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGCel-PcEcCJPVChZN11qU5ONAmAI7-A29oXspAPY3_aiaFzcYiLHLTZfg9X8wnDpcdAilEXtr_e-mgpHS3h0wWHHoIEQWj_jk3DyVIvz-qOT2SWNRLwxCYn0FKmlN7ZhsVtxwAL0PEda1/s320/IMG_20170421_094019.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGCel-PcEcCJPVChZN11qU5ONAmAI7-A29oXspAPY3_aiaFzcYiLHLTZfg9X8wnDpcdAilEXtr_e-mgpHS3h0wWHHoIEQWj_jk3DyVIvz-qOT2SWNRLwxCYn0FKmlN7ZhsVtxwAL0PEda1/s1600/IMG_20170421_094019.jpg>)
+[![](/assets/img/blog/img_20170421_094019.jpg)](</assets/img/blog/img_20170421_094019.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3j_-UWa52F-Zhce07l3wIql4YkXBJfevlQyu9yjXAj0DHoJFBanFgAfKH7vRBAZ1Vncw1_466KtpErU15HnVn8DG0cs8FIc3INOd6eUT4VrWbvz6Yx9SNlk8WQxBk3kwxTZBREssQU7e/s320/IMG_20170421_094012.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3j_-UWa52F-Zhce07l3wIql4YkXBJfevlQyu9yjXAj0DHoJFBanFgAfKH7vRBAZ1Vncw1_466KtpErU15HnVn8DG0cs8FIc3INOd6eUT4VrWbvz6Yx9SNlk8WQxBk3kwxTZBREssQU7e/s1600/IMG_20170421_094012.jpg>)
+[![](/assets/img/blog/img_20170421_094012.jpg)](</assets/img/blog/img_20170421_094012.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdZ2FiGtW4EFTPn7uio47aV8h0b5Kb1ZXJ8ENNVHJw5LF5tqjD8bp4qJzhEAbR5BcVkP1URWy9Q5HVzl4rUaybay3KSijUv3rb9gd6t-KCI4iykwcr0L-7FR9qWQ79XDt2rcYapuKPtK0F/s320/IMG_20170421_093841.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdZ2FiGtW4EFTPn7uio47aV8h0b5Kb1ZXJ8ENNVHJw5LF5tqjD8bp4qJzhEAbR5BcVkP1URWy9Q5HVzl4rUaybay3KSijUv3rb9gd6t-KCI4iykwcr0L-7FR9qWQ79XDt2rcYapuKPtK0F/s1600/IMG_20170421_093841.jpg>)
+[![](/assets/img/blog/img_20170421_093841.jpg)](</assets/img/blog/img_20170421_093841.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOSZXnZ3DMM8S_phdsraz2EbF0se5VFx8nnTa6Brb6_tYa38EQ8kh7Xam3MX8gGoFqeLwy_CXjp86Y9cz0h-AsbBhGET1-_E81Nq7A1yWdWnzhm8IkflSCM5xTpiMHAMSIyHA_iLbbtyZ-/s320/IMG_20170421_093908.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOSZXnZ3DMM8S_phdsraz2EbF0se5VFx8nnTa6Brb6_tYa38EQ8kh7Xam3MX8gGoFqeLwy_CXjp86Y9cz0h-AsbBhGET1-_E81Nq7A1yWdWnzhm8IkflSCM5xTpiMHAMSIyHA_iLbbtyZ-/s1600/IMG_20170421_093908.jpg>)
+[![](/assets/img/blog/img_20170421_093908.jpg)](</assets/img/blog/img_20170421_093908.jpg>)
 
   
 

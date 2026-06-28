@@ -30,7 +30,7 @@ show_meta: true
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKvocoFbyMd3VdhI6AwKDYm3gRymCNM85v01NmSfUeFkwk5OJIIt26xY42ggJnhKCmmqLoxxYLXMT93i0NT6aIsZ7U4qV0N6ZRRu-0KGTHsXx8CV-s4ARHzOC5Vyma6RWKIGRevgjsIddz/s200/Overview.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKvocoFbyMd3VdhI6AwKDYm3gRymCNM85v01NmSfUeFkwk5OJIIt26xY42ggJnhKCmmqLoxxYLXMT93i0NT6aIsZ7U4qV0N6ZRRu-0KGTHsXx8CV-s4ARHzOC5Vyma6RWKIGRevgjsIddz/s1600/Overview.png>)I am not a doctor, nor did I enjoy biology too much in my curriculum as a student.  However, I do know that the body has many organs and each organ plays a vital role in the well being of the individual.  
+[![](/assets/img/blog/overview.png)](</assets/img/blog/overview.png>)I am not a doctor, nor did I enjoy biology too much in my curriculum as a student.  However, I do know that the body has many organs and each organ plays a vital role in the well being of the individual.  
   
 
 

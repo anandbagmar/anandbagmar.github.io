@@ -26,7 +26,7 @@ I was very excited to attend this for couple of reasons:
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFKJlDjE7ku6oxTp0xnNcj9R9RfGaTOzxstHNI7fGf_cO9bLqCQjwGOfkA9CIFW86f_lkPs-0lU0PsMCRjRcr8ACJCsltFeYucJ3o1uDDGcAWrVahhr0FRnqNEMRT49EpvepAQxunaVUjH/s200/ODSC.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFKJlDjE7ku6oxTp0xnNcj9R9RfGaTOzxstHNI7fGf_cO9bLqCQjwGOfkA9CIFW86f_lkPs-0lU0PsMCRjRcr8ACJCsltFeYucJ3o1uDDGcAWrVahhr0FRnqNEMRT49EpvepAQxunaVUjH/s1600/ODSC.jpg>)
+[![](/assets/img/blog/odsc.jpg)](</assets/img/blog/odsc.jpg>)
 
   
 

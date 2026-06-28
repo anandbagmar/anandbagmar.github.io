@@ -46,7 +46,7 @@ We welcome all roles interested in the (Software) Quality to participate in this
   
 
 
-![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4FLWla9Y_X0SWQTHj-XSplySLJecQm1u-vox0cs6udt8l1gcETX-B-ZPeDTbfx42ywCrKT3-BInxt0bn8Q4U6BUK_iOcDk4zZQ5Whct0U_ilRXPkRf3ZjxW7ajV62CeNgddfTIsPO8dpV/s400/vodQA-TheSagaContinues+-+Agenda.png)
+![](/assets/img/blog/vodqa-thesagacontinues-agenda.png)
 
   
 

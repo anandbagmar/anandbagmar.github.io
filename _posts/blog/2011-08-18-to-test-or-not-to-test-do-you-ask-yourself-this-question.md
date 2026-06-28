@@ -32,7 +32,7 @@ One technique that is simple and quick to evaluate what tests should be automate
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnjNJ2OaDmQZj-9IHG3Ar0lw0HFFNUHgOJ_jf2u7R3ZiYwJWVWeLQJemaEZ2-vmKmUF2CItu4M3qeCeFZd68S6mIiSg8lUFsHMXMWAFDuWay1-JfuIhtUaYYVQ_c9fIpJ-sKSrOqM6nGyK/s400/Cost+Vs+Value.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnjNJ2OaDmQZj-9IHG3Ar0lw0HFFNUHgOJ_jf2u7R3ZiYwJWVWeLQJemaEZ2-vmKmUF2CItu4M3qeCeFZd68S6mIiSg8lUFsHMXMWAFDuWay1-JfuIhtUaYYVQ_c9fIpJ-sKSrOqM6nGyK/s1600/Cost+Vs+Value.png>)
+[![](/assets/img/blog/cost-vs-value.png)](</assets/img/blog/cost-vs-value.png>)
 
   
 

@@ -18,7 +18,7 @@ Here is a sample layout of what I am talking about:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBNGQJg_871T4TjYfc9XTw6z-1KBS1qVB8R-UlmwPkAvhiBtohzFbclPBURjjRbO2MONPZvWD9lrOJ0PyeAh193aC8T7-7j-vnlngznc4sky9I-5ziRpWdgTemOOLuwsthoL3s-wd1Qphz/s320/CreditCardFormLayout.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBNGQJg_871T4TjYfc9XTw6z-1KBS1qVB8R-UlmwPkAvhiBtohzFbclPBURjjRbO2MONPZvWD9lrOJ0PyeAh193aC8T7-7j-vnlngznc4sky9I-5ziRpWdgTemOOLuwsthoL3s-wd1Qphz/s1600/CreditCardFormLayout.png>)
+[![](/assets/img/blog/creditcardformlayout.png)](</assets/img/blog/creditcardformlayout.png>)
 
   
 

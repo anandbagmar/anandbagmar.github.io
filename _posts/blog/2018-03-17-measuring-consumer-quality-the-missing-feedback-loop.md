@@ -62,4 +62,4 @@ In this interactive session, we will use a case study of a B2C entertainment-dom
 
 ###  Pictures:
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWRodw0PwAx2nAaPVf2e8weBs77MP1IGOwYzVmGh7BwB5_o1njif4ugvPVxA_8Hzl7XF_qvPV0OCbsPf5TwyebTWsHDiNEosXmKiaWlnXSjcNb4AIMTygx_zyabGVNbQtCSBVaNbqmuI0B/s320/Measuring+Consumer+Quality-1.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWRodw0PwAx2nAaPVf2e8weBs77MP1IGOwYzVmGh7BwB5_o1njif4ugvPVxA_8Hzl7XF_qvPV0OCbsPf5TwyebTWsHDiNEosXmKiaWlnXSjcNb4AIMTygx_zyabGVNbQtCSBVaNbqmuI0B/s1600/Measuring+Consumer+Quality-1.jpg>)
+[![](/assets/img/blog/measuring-consumer-quality-1.jpg)](</assets/img/blog/measuring-consumer-quality-1.jpg>)

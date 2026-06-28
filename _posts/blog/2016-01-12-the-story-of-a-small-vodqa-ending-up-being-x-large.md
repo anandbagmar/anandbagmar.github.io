@@ -118,7 +118,7 @@ Patterns in Test Automation (Framework + Data)| Anand Bagmar| [http://www.slides
 
   
 The always rocking vodQA Pune team!!  
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDrgoX5ZP6oZ-wacTjUJPp7DdgNkTZ_XjBFM94JZW87m9_klbikpQO107EHCNmFelSsu949S5LYHvApFvWAlLP0BGyMtOdPDjtGsk0DCn3TNgqY0QcDhltmp88t87TbF9t5vFLFBRCMOQB/s320/vodQAPuneTeam.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDrgoX5ZP6oZ-wacTjUJPp7DdgNkTZ_XjBFM94JZW87m9_klbikpQO107EHCNmFelSsu949S5LYHvApFvWAlLP0BGyMtOdPDjtGsk0DCn3TNgqY0QcDhltmp88t87TbF9t5vFLFBRCMOQB/s1600/vodQAPuneTeam.jpg>)  
+[![](/assets/img/blog/vodqapuneteam.jpg)](</assets/img/blog/vodqapuneteam.jpg>)  
 ---  
 vodQA Pune team  
 ---

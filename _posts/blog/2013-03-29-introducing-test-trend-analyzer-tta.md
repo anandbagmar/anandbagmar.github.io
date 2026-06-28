@@ -27,7 +27,7 @@ Almost 2 years ago, I had a dream ... a [vision about a product](<http://essence
   
 Given that Automation is a key factor in ensuring the success, quality and time-to-market for products, I took that as a baseline requirement and came up with a basic high-level diagram for TTA:  
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdK_JDYlfgi56_Z8MFUfZ8lqCeo79ZXa0ImKzK24QEa9s217Iu65PHkcU9KVneI-EVxdRPo27rB4on-ZnfXEudZRhMMkuYxL7d5fBWa-AOp-55zql5R9SeEiLe3wiBlkChufuDWyhyphenhyphenZ0UH/s640/TTA+Architecture.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdK_JDYlfgi56_Z8MFUfZ8lqCeo79ZXa0ImKzK24QEa9s217Iu65PHkcU9KVneI-EVxdRPo27rB4on-ZnfXEudZRhMMkuYxL7d5fBWa-AOp-55zql5R9SeEiLe3wiBlkChufuDWyhyphenhyphenZ0UH/s1600/TTA+Architecture.jpg>)  
+[![](/assets/img/blog/tta-architecture.jpg)](</assets/img/blog/tta-architecture.jpg>)  
 ---  
 TTA - first diagram  
 Finally, a couple of months ago, I found a bunch of passionate people, who also had some time, to try and implement this tool.  
@@ -35,7 +35,7 @@ Finally, a couple of months ago, I found a bunch of passionate people, who also 
 We came up with this _**vision for TTA**_ :  
   
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRY0L15ydxDQeICWg0JDTP-fmnQJ9vSY-TxFTwGZxwevmqcTNm-udHOIYCEx47Azh7EsoIQyXF09kB0DZZniLO3gn96YahEEPzrieVGk6TmxOWRcOxxnbdLWAjG4kZOqnmiXYEJCs-iKWl/s640/TTA-Vision.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRY0L15ydxDQeICWg0JDTP-fmnQJ9vSY-TxFTwGZxwevmqcTNm-udHOIYCEx47Azh7EsoIQyXF09kB0DZZniLO3gn96YahEEPzrieVGk6TmxOWRcOxxnbdLWAjG4kZOqnmiXYEJCs-iKWl/s1600/TTA-Vision.png>)  
+[![](/assets/img/blog/tta-vision.png)](</assets/img/blog/tta-vision.png>)  
 ---  
 TTA Vision  
   

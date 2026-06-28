@@ -24,7 +24,7 @@ show_meta: true
 ---
 
 The agenda for the upcoming [vodQA Pune - Less Talk, Only Action!](<https://essenceoftesting.blogspot.in/2016/08/vodqa-pune-less-talk-only-action.html>) is now published.  
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh45tFGlzON-KqbA0ouBZLwGwlvedc2pQqVJbiH16YHFO0FRdZqZKOOJXTDvtY-9V6acR9A3apQpCPZHdDO-6v7iLcQF6ihAxGfOPT3mFCvf7gAwnGvNU4xkD9ZwpauLQJvBQzJu037Ccyu/s400/Agenda.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh45tFGlzON-KqbA0ouBZLwGwlvedc2pQqVJbiH16YHFO0FRdZqZKOOJXTDvtY-9V6acR9A3apQpCPZHdDO-6v7iLcQF6ihAxGfOPT3mFCvf7gAwnGvNU4xkD9ZwpauLQJvBQzJu037Ccyu/s1600/Agenda.jpg>)  
+[![](/assets/img/blog/agenda.jpg)](</assets/img/blog/agenda.jpg>)  
   
 **NOTE: For this event, we will require the participants to get their laptops (and chargers).**  
 **  

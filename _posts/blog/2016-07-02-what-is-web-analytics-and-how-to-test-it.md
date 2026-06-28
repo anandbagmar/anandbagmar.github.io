@@ -64,27 +64,27 @@ PS: Apologies for the video quality - I am not seen very clearly - but the slide
 
 ###  Pictures
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJVoLknZm0am1U-Q7N_eQtBeI6CoMES1m1p0L93BxSAmNBupBgEResufifOe0JwlkKwecLzbf-pfOd6bQYGd4zkcVMeCRdUG5hsxSmbxZpqfWFEK81e1rg6PEHjejD1MF9Ju-7H4LUfkpz/s200/IMG-20160702-WA0000.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJVoLknZm0am1U-Q7N_eQtBeI6CoMES1m1p0L93BxSAmNBupBgEResufifOe0JwlkKwecLzbf-pfOd6bQYGd4zkcVMeCRdUG5hsxSmbxZpqfWFEK81e1rg6PEHjejD1MF9Ju-7H4LUfkpz/s1600/IMG-20160702-WA0000.jpg>)
+[![](/assets/img/blog/img-20160702-wa0000.jpg)](</assets/img/blog/img-20160702-wa0000.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTx3dKIlKrZc2WBRkLlE60I-gdkdVJDJNT4-fwH3jIDrH3R1UmhaCd0wI0BrJo1RPCq7egtOoR44yuwc_cyDH7TmkFi9aKaDKoLY2kOI7oe3zeyYLn6xL1sfb5X8ZNRuYThrBC_LJznPXV/s200/IMG-20160702-WA0002.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTx3dKIlKrZc2WBRkLlE60I-gdkdVJDJNT4-fwH3jIDrH3R1UmhaCd0wI0BrJo1RPCq7egtOoR44yuwc_cyDH7TmkFi9aKaDKoLY2kOI7oe3zeyYLn6xL1sfb5X8ZNRuYThrBC_LJznPXV/s1600/IMG-20160702-WA0002.jpg>)
+[![](/assets/img/blog/img-20160702-wa0002.jpg)](</assets/img/blog/img-20160702-wa0002.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPGuDVlT0GMtbusd92HAtGBNd4kmTKUvUEBKxkhTFbLVJfeki6i3H2hONTtUFNWr5oBJ8-X4iO085E6Y-I6qjPf31EccdZmaiCZ4tWhgzGvYqYR5FGOwYxmJu01Bc0A4E24pxIUu6qHmgK/s200/IMG_20160702_114250.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPGuDVlT0GMtbusd92HAtGBNd4kmTKUvUEBKxkhTFbLVJfeki6i3H2hONTtUFNWr5oBJ8-X4iO085E6Y-I6qjPf31EccdZmaiCZ4tWhgzGvYqYR5FGOwYxmJu01Bc0A4E24pxIUu6qHmgK/s1600/IMG_20160702_114250.jpg>)
+[![](/assets/img/blog/img_20160702_114250.jpg)](</assets/img/blog/img_20160702_114250.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxrkk0NcFYvuHxMPAp9L79lOqYA-rKkGTvaex-mG72KeNw3xbiNEOb6GGDDnYndOWCa_OS8K7QmmcH3YcDk3tnrbAfQMotaVhO9AMafyQxr6iV6yIweIAXgbAkcw4nvnD4Qih8a3nXyw87/s200/IMG_20160702_114253.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxrkk0NcFYvuHxMPAp9L79lOqYA-rKkGTvaex-mG72KeNw3xbiNEOb6GGDDnYndOWCa_OS8K7QmmcH3YcDk3tnrbAfQMotaVhO9AMafyQxr6iV6yIweIAXgbAkcw4nvnD4Qih8a3nXyw87/s1600/IMG_20160702_114253.jpg>)
+[![](/assets/img/blog/img_20160702_114253.jpg)](</assets/img/blog/img_20160702_114253.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0nIws4Xh_Q_2VUALfzvF2vdwNPgQhsyrJXcAtoPIk2Fca0Omi8Kmy_yRKsmJeSnkpBxLPI2YIpU6D39uV3O4JvFkWMVhua_D5-LKsmRLZvCfhwt1YeXfcrosVdRJaKNu8leKLth4DAkUO/s200/IMG_20160702_114256.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0nIws4Xh_Q_2VUALfzvF2vdwNPgQhsyrJXcAtoPIk2Fca0Omi8Kmy_yRKsmJeSnkpBxLPI2YIpU6D39uV3O4JvFkWMVhua_D5-LKsmRLZvCfhwt1YeXfcrosVdRJaKNu8leKLth4DAkUO/s1600/IMG_20160702_114256.jpg>)
+[![](/assets/img/blog/img_20160702_114256.jpg)](</assets/img/blog/img_20160702_114256.jpg>)
 
   
   
@@ -94,7 +94,7 @@ PS: Apologies for the video quality - I am not seen very clearly - but the slide
 
 ###  Feedback
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuVf65Ru1-m0Yp8A_N3LzVrWRPNL1Zub89vinMgeqZjGudveQVYquZnB8W5pM4fNa6CLF_MHzwzPiQ1swZ-FBEiteSsUQgSWgr6I7FhYZIUyamssSwGOLMuNz64wBoZkaWbN9cdzJodjkb/s320/IMG_20160702_114456.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuVf65Ru1-m0Yp8A_N3LzVrWRPNL1Zub89vinMgeqZjGudveQVYquZnB8W5pM4fNa6CLF_MHzwzPiQ1swZ-FBEiteSsUQgSWgr6I7FhYZIUyamssSwGOLMuNz64wBoZkaWbN9cdzJodjkb/s1600/IMG_20160702_114456.jpg>)
+[![](/assets/img/blog/img_20160702_114456.jpg)](</assets/img/blog/img_20160702_114456.jpg>)
 
   
 

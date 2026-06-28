@@ -77,32 +77,32 @@ On behalf of the vodQA team + all the volunteers!
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8U84JhtI_hXWzt3ux4pO-21QlvIi2nghcEuwCCFFzwxYO1M9gkJOCKK8oQVZ2ARiHaD2qd0A6SHInm9hXnvLR2AbvlW0PCl_B4ntQJpkI9YR_kiI2IiYcr3kPm_dj3J7OGh-drKlDf8Ol/s320/IMG_7201_small.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8U84JhtI_hXWzt3ux4pO-21QlvIi2nghcEuwCCFFzwxYO1M9gkJOCKK8oQVZ2ARiHaD2qd0A6SHInm9hXnvLR2AbvlW0PCl_B4ntQJpkI9YR_kiI2IiYcr3kPm_dj3J7OGh-drKlDf8Ol/s1600/IMG_7201_small.jpg>)
+[![](/assets/img/blog/img_7201_small.jpg)](</assets/img/blog/img_7201_small.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc4EIdAMkgn6PxjKIRQhat44NEaZQLHDbTIQEX_fSwsN_SdsR4vtWLvwwhqpNUp7HeSGIfCBWSHmvk89TTg6fw4ugybyBJ87dZPuHv6IJA4Th6ZP2-Nan93gNz4-aZusV5pGwZgCQJaR0z/s320/IMG_7202_small.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc4EIdAMkgn6PxjKIRQhat44NEaZQLHDbTIQEX_fSwsN_SdsR4vtWLvwwhqpNUp7HeSGIfCBWSHmvk89TTg6fw4ugybyBJ87dZPuHv6IJA4Th6ZP2-Nan93gNz4-aZusV5pGwZgCQJaR0z/s1600/IMG_7202_small.jpg>)
+[![](/assets/img/blog/img_7202_small.jpg)](</assets/img/blog/img_7202_small.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC0c-7oCBbKbgvw2FOGHxyELWj5s34sHtM58241gQJwaR1m7qY4KALLk_De3DWTfbw8d8i0_Jbqe3a9O2Cg8Iqo6NTU4pDb70oeHCD__VvPpTTGcXJ3091WU0SXUDop3eriz8uP9Q9ZFJP/s320/IMG_7203_small.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC0c-7oCBbKbgvw2FOGHxyELWj5s34sHtM58241gQJwaR1m7qY4KALLk_De3DWTfbw8d8i0_Jbqe3a9O2Cg8Iqo6NTU4pDb70oeHCD__VvPpTTGcXJ3091WU0SXUDop3eriz8uP9Q9ZFJP/s1600/IMG_7203_small.jpg>)
+[![](/assets/img/blog/img_7203_small.jpg)](</assets/img/blog/img_7203_small.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmb4LtOrayVf5N33euY1Cr8kt92PdJHYxQqhnlVaX4KkEuto_4Mihm_Bk5D4c75SPSRSxkmTej2BMIjZOKHrTNtdEWC2IJy9jaVO4kWIkpo-tD5cI9FVDcVdqv1FeG5Dy3YZ2zAzELap5u/s320/IMG_7204_small.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmb4LtOrayVf5N33euY1Cr8kt92PdJHYxQqhnlVaX4KkEuto_4Mihm_Bk5D4c75SPSRSxkmTej2BMIjZOKHrTNtdEWC2IJy9jaVO4kWIkpo-tD5cI9FVDcVdqv1FeG5Dy3YZ2zAzELap5u/s1600/IMG_7204_small.jpg>)
+[![](/assets/img/blog/img_7204_small.jpg)](</assets/img/blog/img_7204_small.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL1DU0o7dBzVDm0IO90TSiDVjwXGc-2_PyxVe618Qec4YcyMMHaILhvTBncWbS99d3oE5rxoxbOV1-hUop-IS8XieGr2_s9pglTp6SgJiyjK9xy5XUYC0wFRD2B-4ZYMdfX0_oGpfqsHIn/s320/IMG_7386_small.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL1DU0o7dBzVDm0IO90TSiDVjwXGc-2_PyxVe618Qec4YcyMMHaILhvTBncWbS99d3oE5rxoxbOV1-hUop-IS8XieGr2_s9pglTp6SgJiyjK9xy5XUYC0wFRD2B-4ZYMdfX0_oGpfqsHIn/s1600/IMG_7386_small.jpg>)
+[![](/assets/img/blog/img_7386_small.jpg)](</assets/img/blog/img_7386_small.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqtz_EuyCuRdfgf0evEwyGtOxpdxnVQ22JNJBvnSrTeNp9VLvg1lF4AlgtJ6MxauAW4ZTwsSI88CAMh7eqQdWKMqRwWisSDuDlJaN1_JfkRnX0f2FbYeEKtHtjhNOGAZNHJOpTVun1XpeV/s320/vodqa_group_pic.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqtz_EuyCuRdfgf0evEwyGtOxpdxnVQ22JNJBvnSrTeNp9VLvg1lF4AlgtJ6MxauAW4ZTwsSI88CAMh7eqQdWKMqRwWisSDuDlJaN1_JfkRnX0f2FbYeEKtHtjhNOGAZNHJOpTVun1XpeV/s1600/vodqa_group_pic.jpg>)
+[![](/assets/img/blog/vodqa_group_pic.jpg)](</assets/img/blog/vodqa_group_pic.jpg>)
 
   
 

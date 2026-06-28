@@ -44,7 +44,7 @@ Below are the abstracts of the workshops and the talk.
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr36Dx22JFxK6Uop-8In8UtW2Mt7bKhwgsJaKwaG0dUn6o_B1wm-57YQGR6Ud7fU9zUxyzP-KJVr249jqsDy73JN1hrY6dr4FKWVQ3XXg-8VCiMUwaRXEeY9_NgekiKdSoJR0d7lDofRN-/s320/line.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgr36Dx22JFxK6Uop-8In8UtW2Mt7bKhwgsJaKwaG0dUn6o_B1wm-57YQGR6Ud7fU9zUxyzP-KJVr249jqsDy73JN1hrY6dr4FKWVQ3XXg-8VCiMUwaRXEeY9_NgekiKdSoJR0d7lDofRN-/s1600/line.png>)
+[![](/assets/img/blog/line.png)](</assets/img/blog/line.png>)
 
   
 
@@ -85,7 +85,7 @@ Key learning for participants in this workshop:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIc9hPzTwq84_AJOzwiVH1ehyphenhyphenLyKVapTFG_s7ttP03F5HwGjoGhjzEH2luf0r8e4p5x6i2bhtV6yKwt_6CGMQAfsL72n3C18d8dfMszoJaT9Ttx17Zj63WgCYRn48HtfehDqUFl5GSWqRr/s320/line.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIc9hPzTwq84_AJOzwiVH1ehyphenhyphenLyKVapTFG_s7ttP03F5HwGjoGhjzEH2luf0r8e4p5x6i2bhtV6yKwt_6CGMQAfsL72n3C18d8dfMszoJaT9Ttx17Zj63WgCYRn48HtfehDqUFl5GSWqRr/s1600/line.png>)
+[![](/assets/img/blog/line.png)](</assets/img/blog/line.png>)
 
   
 
@@ -121,7 +121,7 @@ In this workshop, we will not assume anything. We will discuss and learn by exam
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIc9hPzTwq84_AJOzwiVH1ehyphenhyphenLyKVapTFG_s7ttP03F5HwGjoGhjzEH2luf0r8e4p5x6i2bhtV6yKwt_6CGMQAfsL72n3C18d8dfMszoJaT9Ttx17Zj63WgCYRn48HtfehDqUFl5GSWqRr/s320/line.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIc9hPzTwq84_AJOzwiVH1ehyphenhyphenLyKVapTFG_s7ttP03F5HwGjoGhjzEH2luf0r8e4p5x6i2bhtV6yKwt_6CGMQAfsL72n3C18d8dfMszoJaT9Ttx17Zj63WgCYRn48HtfehDqUFl5GSWqRr/s1600/line.png>)
+[![](/assets/img/blog/line.png)](</assets/img/blog/line.png>)
 
   
 
@@ -157,4 +157,4 @@ Attendees will have deeper understanding and appreciation of the following:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIc9hPzTwq84_AJOzwiVH1ehyphenhyphenLyKVapTFG_s7ttP03F5HwGjoGhjzEH2luf0r8e4p5x6i2bhtV6yKwt_6CGMQAfsL72n3C18d8dfMszoJaT9Ttx17Zj63WgCYRn48HtfehDqUFl5GSWqRr/s320/line.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIc9hPzTwq84_AJOzwiVH1ehyphenhyphenLyKVapTFG_s7ttP03F5HwGjoGhjzEH2luf0r8e4p5x6i2bhtV6yKwt_6CGMQAfsL72n3C18d8dfMszoJaT9Ttx17Zj63WgCYRn48HtfehDqUFl5GSWqRr/s1600/line.png>)
+[![](/assets/img/blog/line.png)](</assets/img/blog/line.png>)

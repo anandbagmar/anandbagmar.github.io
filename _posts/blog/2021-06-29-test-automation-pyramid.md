@@ -16,4 +16,4 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQEV6OzUemZ1reRFywv8K6V2wzobivc9AAmVk1DVrHBx5QKa90vMRn3PG5sEggHUfHztPJF62Z1Jjui5HcGPOCJTNIef6FhDhveHI9LSiTAS4nLKCi1vaR6wbFtgTRAmQJmrC7iQr5Kt8c/w400-h225/TestPyramid-IncludesUX%2526NFRs.jpeg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQEV6OzUemZ1reRFywv8K6V2wzobivc9AAmVk1DVrHBx5QKa90vMRn3PG5sEggHUfHztPJF62Z1Jjui5HcGPOCJTNIef6FhDhveHI9LSiTAS4nLKCi1vaR6wbFtgTRAmQJmrC7iQr5Kt8c/s1600/TestPyramid-IncludesUX%2526NFRs.jpeg>)
+[![](/assets/img/blog/testpyramid-includesux-nfrs.jpeg)](</assets/img/blog/testpyramid-includesux-nfrs.jpeg>)

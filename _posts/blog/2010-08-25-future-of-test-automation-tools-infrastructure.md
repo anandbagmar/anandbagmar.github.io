@@ -20,7 +20,7 @@ Let us go back in time a little to see how the test automation tools and framewo
 
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Ka5R5OYiSe6itJoXC1z3lfYty4hKbyoo4wakm_Dx2NXqgWaHbXpj0kmDp3LibvzS4g88u1Ngh19QN_ZNEKFci0vITErpWLuI2DaIRWNoLD8aX_NRb8ciKvaWcePvu1VFaC-j-kBK82R6/s400/Evolution-1.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Ka5R5OYiSe6itJoXC1z3lfYty4hKbyoo4wakm_Dx2NXqgWaHbXpj0kmDp3LibvzS4g88u1Ngh19QN_ZNEKFci0vITErpWLuI2DaIRWNoLD8aX_NRb8ciKvaWcePvu1VFaC-j-kBK82R6/s1600/Evolution-1.png>)
+[![](/assets/img/blog/evolution-1.png)](</assets/img/blog/evolution-1.png>)
 
   
 
@@ -34,7 +34,7 @@ What are these **_Custom Frameworks_**? These are nothing different than writing
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwIYekby_8d4xDEkw5tQYRnNrr5SLLw7SDRfLW0y2tHMv5AQWz8gtRrrLyCIGmzVaDhjkSWGY6RAurhMvwCO-6hK85Z-74YxQQQtKXSAnRt88bZyLMhl60pPdlaUmwWCH2WvUnvjdokPbW/s400/CustomFrameworks.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwIYekby_8d4xDEkw5tQYRnNrr5SLLw7SDRfLW0y2tHMv5AQWz8gtRrrLyCIGmzVaDhjkSWGY6RAurhMvwCO-6hK85Z-74YxQQQtKXSAnRt88bZyLMhl60pPdlaUmwWCH2WvUnvjdokPbW/s1600/CustomFrameworks.png>)
+[![](/assets/img/blog/customframeworks.png)](</assets/img/blog/customframeworks.png>)
 
   
   
@@ -59,7 +59,7 @@ The BDD frameworks have also been around for some time now. When thinking about 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsqIH-h4qPceGNdMWR3qLOQxXKpT1wkC7HkXHrPMFGq_H5eWBnCa8hMc0liSVNDBhVMxUx-Ny4GvC_SLO9XGrLBgjWFkWiKmB1ipJFjrc4LwcAQ7ZsFZL249tCwsoADE6jPf0RNbybpNYD/s400/Evolution-2.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsqIH-h4qPceGNdMWR3qLOQxXKpT1wkC7HkXHrPMFGq_H5eWBnCa8hMc0liSVNDBhVMxUx-Ny4GvC_SLO9XGrLBgjWFkWiKmB1ipJFjrc4LwcAQ7ZsFZL249tCwsoADE6jPf0RNbybpNYD/s1600/Evolution-2.png>)
+[![](/assets/img/blog/evolution-2.png)](</assets/img/blog/evolution-2.png>)
 
   
 
@@ -84,7 +84,7 @@ For example, in the images shown below, the woman is browsing a wrist watch cata
     
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUh-B11f-_OXo7L1oW5erK4bCV5MnapzqiZKUiVg0lGIW69K-OS6Wc8MUGyH9KhI8vXlqftMJsR9FY1y4BEZMC2qE2z_86D8w-eVsOKU0F-rkE_8ZGrrq0FaEXBZaowgoMTXhVrCqxm9Cc/s320/UIAdvancements-1.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUh-B11f-_OXo7L1oW5erK4bCV5MnapzqiZKUiVg0lGIW69K-OS6Wc8MUGyH9KhI8vXlqftMJsR9FY1y4BEZMC2qE2z_86D8w-eVsOKU0F-rkE_8ZGrrq0FaEXBZaowgoMTXhVrCqxm9Cc/s1600/UIAdvancements-1.png>)  
+[![](/assets/img/blog/uiadvancements-1.png)](</assets/img/blog/uiadvancements-1.png>)  
 ---  
 [Source](<http://jimbob666.files.wordpress.com/2008/11/mrtech.jpg>)  
   
@@ -97,7 +97,7 @@ Another example, the person in the right image shown below is editing the images
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFSSgeXp7Au-PJEPTrB6fnTSTXZlqyMPo5QVhm0riykfqztulxFMRbL8buBXs-zYv5ToEpc7-PevGJx7LPjvbfsNSQbRexVNfbr43_pODVLZv1Tqobu_UW8hNt-DI69zfrPcwAo8caYfVO/s400/UIAdvancements-2.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFSSgeXp7Au-PJEPTrB6fnTSTXZlqyMPo5QVhm0riykfqztulxFMRbL8buBXs-zYv5ToEpc7-PevGJx7LPjvbfsNSQbRexVNfbr43_pODVLZv1Tqobu_UW8hNt-DI69zfrPcwAo8caYfVO/s1600/UIAdvancements-2.png>)  
+[![](/assets/img/blog/uiadvancements-2.png)](</assets/img/blog/uiadvancements-2.png>)  
 ---  
 [Source](<http://www.techfresh.net/wp-content/uploads/2007/01/minority-report-user-interface.jpg>)  
   
@@ -106,13 +106,13 @@ Another example, the person in the right image shown below is editing the images
 Another example, the child shown below is drawing an image with the help of a completely different interactive interface – which is controlled (browse, zoom, select, etc.) using her hand gestures. 
 
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1DBIZDRl1a0Rtx4HcbMHfFlr5AfuH6gNSiUrSTSVtDwUsnzk9m_LHoD4barC4dY-i9VTK2lgN1I9IDJ8GtvKnu_o7-d6-gP7ONc1aFupyAqTEHbIlIyaJMtdisZiymb3I-8EnClwoJMbm/s400/800px-Charles_Darwin_200_year_exhibition_Brazil4.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1DBIZDRl1a0Rtx4HcbMHfFlr5AfuH6gNSiUrSTSVtDwUsnzk9m_LHoD4barC4dY-i9VTK2lgN1I9IDJ8GtvKnu_o7-d6-gP7ONc1aFupyAqTEHbIlIyaJMtdisZiymb3I-8EnClwoJMbm/s1600/800px-Charles_Darwin_200_year_exhibition_Brazil4.jpg>)  
+[![](/assets/img/blog/800px-charles_darwin_200_year_exhibition_brazil4.jpg)](</assets/img/blog/800px-charles_darwin_200_year_exhibition_brazil4.jpg>)  
 ---  
 [Source](<http://commons.wikimedia.org/wiki/File:Charles_Darwin_200_year_exhibition_Brazil4.jpg>)  
   
 Last example, the person in the image shown below is editing the images directly using his hand, instead of any special device in his hand.  
   
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBne2XvLFOSSzSFd-NVdfmqU8TBctWFshlmT5u6oIi0690uYpc13P78FuXhyphenhyphenRUxr4HLAcJBX2YC9mG4LdmPnJaADcerz7xl0ecYkjPvVSwV7WUIYVwILxNEFPuAheIwxj3oBHm7UGRIfPU/s400/Windows_7_Touch_Photos_Application.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBne2XvLFOSSzSFd-NVdfmqU8TBctWFshlmT5u6oIi0690uYpc13P78FuXhyphenhyphenRUxr4HLAcJBX2YC9mG4LdmPnJaADcerz7xl0ecYkjPvVSwV7WUIYVwILxNEFPuAheIwxj3oBHm7UGRIfPU/s1600/Windows_7_Touch_Photos_Application.jpg>)  
+[![](/assets/img/blog/windows_7_touch_photos_application.jpg)](</assets/img/blog/windows_7_touch_photos_application.jpg>)  
 ---  
 [Source](<http://commons.wikimedia.org/wiki/File:Windows_7_Touch_Photos_Application.jpg>)  
   
@@ -127,7 +127,7 @@ Look at the smart phones (iPhones, Androids, etc.). There are so many more thing
 See how the Internet has evolved. On all the major portals, you are now able to create your own customized page, based on your preference. And all this is done not by major configuration changes, or talking to a sys-admin. They are done simply by doing some mouse gestures and actions. Example: In the below image, the Yahoo page has widgets which you can configure and arrange in the order of your preference, so that you are able to see what you want to see.  
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVS_rnkulD46U-a1uM02iJHyFXKSAnDbQjFUNvriXWs7EyOnOF713rP6X2jO6KX6AXWz_QfMeeY8GtBY-6BFMw-uuh4oaaxaqcJyl4ZYZS6Db4l7Sl4q0u-kbCjmxq_CF_zb3DYhyphenhyphene5_C_/s640/UIAdvancements-3.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVS_rnkulD46U-a1uM02iJHyFXKSAnDbQjFUNvriXWs7EyOnOF713rP6X2jO6KX6AXWz_QfMeeY8GtBY-6BFMw-uuh4oaaxaqcJyl4ZYZS6Db4l7Sl4q0u-kbCjmxq_CF_zb3DYhyphenhyphene5_C_/s1600/UIAdvancements-3.png>)
+[![](/assets/img/blog/uiadvancements-3.png)](</assets/img/blog/uiadvancements-3.png>)
 
   
 
@@ -168,7 +168,7 @@ If a user of a system can interact with it using gestures, why can’t we tester
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvV0vqlRtaxJGgSxmYZxCjgaKE4IdDMMu6aJZb4tBPWYVvCZkVuO13aN9ZkjOsmkH16UXfse0qX4Ftd2EUyhFNrwvnuQODeQOsRCpWKgP58LBgR47R8vSF3T_v_o4mY6VQlVAHetybIdBr/s400/Evolution-3-UDD.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvV0vqlRtaxJGgSxmYZxCjgaKE4IdDMMu6aJZb4tBPWYVvCZkVuO13aN9ZkjOsmkH16UXfse0qX4Ftd2EUyhFNrwvnuQODeQOsRCpWKgP58LBgR47R8vSF3T_v_o4mY6VQlVAHetybIdBr/s1600/Evolution-3-UDD.png>)
+[![](/assets/img/blog/evolution-3-udd.png)](</assets/img/blog/evolution-3-udd.png>)
 
   
   
@@ -178,7 +178,7 @@ I envision the UDD framework to have the following components:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DrONBdelzH8gaTwiryXqfa-AYtjFO_Zk9lFVq5gGB3usfyo1nyvw3XSrj-3M0gUdmS6OZdoRISdfQTkBgFHxqvJp1zTU2VXOspCDimbyFNfLsuO4tmMpLwdiXqWkM-ytrxR01_03SR93/s400/UDD-IDE.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DrONBdelzH8gaTwiryXqfa-AYtjFO_Zk9lFVq5gGB3usfyo1nyvw3XSrj-3M0gUdmS6OZdoRISdfQTkBgFHxqvJp1zTU2VXOspCDimbyFNfLsuO4tmMpLwdiXqWkM-ytrxR01_03SR93/s1600/UDD-IDE.png>)
+[![](/assets/img/blog/udd-ide.png)](</assets/img/blog/udd-ide.png>)
 
   
   
@@ -195,7 +195,7 @@ Another important aspect of this environment is that if a new plugin needs to be
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpZp44jMA4sNkJ39hB2nLmBoTDzgM5rI7ZyVeSNf-SNR2-QaWIRrF8zAhWNyg1IrxbrfNP4M0TGrp9FlVjV3_RCEk-ge6rqqpMlUPsv4n34ZGhFuyE_y9ptVe2AgBacFfL99ZXvm0_2JB/s400/UDD-Plugins.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpZp44jMA4sNkJ39hB2nLmBoTDzgM5rI7ZyVeSNf-SNR2-QaWIRrF8zAhWNyg1IrxbrfNP4M0TGrp9FlVjV3_RCEk-ge6rqqpMlUPsv4n34ZGhFuyE_y9ptVe2AgBacFfL99ZXvm0_2JB/s1600/UDD-Plugins.png>)
+[![](/assets/img/blog/udd-plugins.png)](</assets/img/blog/udd-plugins.png>)
 
   
   
@@ -225,7 +225,7 @@ Example: After running the discovery tool against the existing source repository
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9U6tKke8BFcoiCm3vyDKhs8UjnTsRlzZmnaOBF1v7mcq8AklM4nkY0vQzCD7FjT-D5WU_EJ4U8F9CXbpDqBWxM9sevFsrvIQqmyTJPgEGjaiG8ROSO75HBLGunqG2KbN35-oDGvEm5kfl/s400/UDD_Discovery.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9U6tKke8BFcoiCm3vyDKhs8UjnTsRlzZmnaOBF1v7mcq8AklM4nkY0vQzCD7FjT-D5WU_EJ4U8F9CXbpDqBWxM9sevFsrvIQqmyTJPgEGjaiG8ROSO75HBLGunqG2KbN35-oDGvEm5kfl/s1600/UDD_Discovery.png>)
+[![](/assets/img/blog/udd_discovery.png)](</assets/img/blog/udd_discovery.png>)
 
   
 
@@ -243,7 +243,7 @@ In the context of UDD, these are at present dummy objects. We need to make this 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQTF14BmsyQWmjIOsOPQP1pznah96Qxd_jL5I9hbQETfuaWyPsxacbBmGfR9XYTlodDbDxmlAy4D1PuAdkv-XHRaHP60FWxGe_HXOw0m3iS8eHfgnneqzCbcTg9EF6zucrZHkFRg-cl4S1/s400/UDD_Authored_Test.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQTF14BmsyQWmjIOsOPQP1pznah96Qxd_jL5I9hbQETfuaWyPsxacbBmGfR9XYTlodDbDxmlAy4D1PuAdkv-XHRaHP60FWxGe_HXOw0m3iS8eHfgnneqzCbcTg9EF6zucrZHkFRg-cl4S1/s1600/UDD_Authored_Test.png>)
+[![](/assets/img/blog/udd_authored_test.png)](</assets/img/blog/udd_authored_test.png>)
 
   
   

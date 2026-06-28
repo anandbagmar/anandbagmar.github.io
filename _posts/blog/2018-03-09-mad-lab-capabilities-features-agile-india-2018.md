@@ -66,4 +66,4 @@ Below are the [slides](<https://www.slideshare.net/abagmar/madlab-capabilities-a
 
 ####  Some pictures
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyRsQMoaFgcmeuzsHaDqnUEG_F6o72Q-Ven7Fzzj77JpMZ1eucZen3a3KYdHigAWjYwYgsEcc3GPqtRhrDUQb_aahlGnzODf-jyeeKDIRQK8bYL0SdF4RSqzmTdIHCxMU4xEwlTZCvyHBH/s320/IMG-20180308-WA0003.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyRsQMoaFgcmeuzsHaDqnUEG_F6o72Q-Ven7Fzzj77JpMZ1eucZen3a3KYdHigAWjYwYgsEcc3GPqtRhrDUQb_aahlGnzODf-jyeeKDIRQK8bYL0SdF4RSqzmTdIHCxMU4xEwlTZCvyHBH/s1600/IMG-20180308-WA0003.jpg>)
+[![](/assets/img/blog/img-20180308-wa0003.jpg)](</assets/img/blog/img-20180308-wa0003.jpg>)

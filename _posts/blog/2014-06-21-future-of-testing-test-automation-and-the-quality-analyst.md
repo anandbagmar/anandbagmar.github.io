@@ -33,14 +33,14 @@ Join the [vodQA group on facebook](<https://www.facebook.com/groups/vodqa/>) to 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi17PltXQaeX8sDBwbTEIQqFKrep1rm1laOgfw-4myozZKWRWgDqa0WDH49PH-wD7z1CzQNw-SeNqNQnP6hI0HzqNUpiDJp43YQ0sUoc3z8R_BuL__THHurwdj1JMeAhMfbCRn_sLmaH1s3/s1600/Anand_vodQA_1.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi17PltXQaeX8sDBwbTEIQqFKrep1rm1laOgfw-4myozZKWRWgDqa0WDH49PH-wD7z1CzQNw-SeNqNQnP6hI0HzqNUpiDJp43YQ0sUoc3z8R_BuL__THHurwdj1JMeAhMfbCRn_sLmaH1s3/s1600/Anand_vodQA_1.jpg>)
+[![](/assets/img/blog/anand_vodqa_1.jpg)](</assets/img/blog/anand_vodqa_1.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjALudL4XjCY7YVeUtjN_lZRt5crTW3SKo76Pl6KFnGYghJMB5DE6bpvpbRe6nslSyMRFM4SnQmWy004DOWsZUEY5KxXSgASgna1QMEI6pEsT6V1RXJVHqq9uzCBp0ZPNdu3wqgohtgv8S0/s1600/Anand_vodQA_2.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjALudL4XjCY7YVeUtjN_lZRt5crTW3SKo76Pl6KFnGYghJMB5DE6bpvpbRe6nslSyMRFM4SnQmWy004DOWsZUEY5KxXSgASgna1QMEI6pEsT6V1RXJVHqq9uzCBp0ZPNdu3wqgohtgv8S0/s1600/Anand_vodQA_2.jpg>)
+[![](/assets/img/blog/anand_vodqa_2.jpg)](</assets/img/blog/anand_vodqa_2.jpg>)
 
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsNXbZmuTbnUvpGlrzULaR_65i22eoeqKMcyIyvw6uQotzELAKuQSJf65ZjERT1tjHAlZzJf9hq0w6FiIEgALQBxbMJoNdW_Aghvu0OD41kR9zRbzyRizmR2kHdIEhyXTNkGQidto754uF/s1600/Anand_vodQA_3.jpg)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsNXbZmuTbnUvpGlrzULaR_65i22eoeqKMcyIyvw6uQotzELAKuQSJf65ZjERT1tjHAlZzJf9hq0w6FiIEgALQBxbMJoNdW_Aghvu0OD41kR9zRbzyRizmR2kHdIEhyXTNkGQidto754uF/s1600/Anand_vodQA_3.jpg>)
+[![](/assets/img/blog/anand_vodqa_3.jpg)](</assets/img/blog/anand_vodqa_3.jpg>)

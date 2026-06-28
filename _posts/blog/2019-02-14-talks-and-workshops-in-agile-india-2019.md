@@ -23,7 +23,7 @@ In the upcoming Agile India 2019 in Bangalore, I will be speaking about:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRE9ibVanbsuIZFKEY9CWkk7r6NVB4Itx86dKwMpv29LlRuD3sIZ8By9jJhdBF2rKb3om7QoQ61v0itNfOOnq3eeW8TGFr1FWRBeSTMWBSlp769s9dlFGCglEelbxAvfyiGoDAfmDDFT4/s320/Agile_SpeakerCards_AnandBagmar2.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXRE9ibVanbsuIZFKEY9CWkk7r6NVB4Itx86dKwMpv29LlRuD3sIZ8By9jJhdBF2rKb3om7QoQ61v0itNfOOnq3eeW8TGFr1FWRBeSTMWBSlp769s9dlFGCglEelbxAvfyiGoDAfmDDFT4/s1600/Agile_SpeakerCards_AnandBagmar2.png>)
+[![](/assets/img/blog/agile_speakercards_anandbagmar2.png)](</assets/img/blog/agile_speakercards_anandbagmar2.png>)
 
   
 
@@ -31,7 +31,7 @@ In the upcoming Agile India 2019 in Bangalore, I will be speaking about:
   
 
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqB-qvi1MNxxLGzTM4htNUrmv763LzhbmswhsUX6ASDrzZdUTHkwHhNS3omLhK_FDPrwALTbvvX2RKmnX8AExPQ_zQhKm7uHLqx3GcNF2rxCw_O3p7d-Q8l2ZctD5rVkJbHo58AIfRERT_/s320/Agile_SpeakerCards_AnandBagmar.png)](<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqB-qvi1MNxxLGzTM4htNUrmv763LzhbmswhsUX6ASDrzZdUTHkwHhNS3omLhK_FDPrwALTbvvX2RKmnX8AExPQ_zQhKm7uHLqx3GcNF2rxCw_O3p7d-Q8l2ZctD5rVkJbHo58AIfRERT_/s1600/Agile_SpeakerCards_AnandBagmar.png>)
+[![](/assets/img/blog/agile_speakercards_anandbagmar.png)](</assets/img/blog/agile_speakercards_anandbagmar.png>)
 
   
   
