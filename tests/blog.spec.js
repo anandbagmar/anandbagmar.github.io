@@ -141,7 +141,9 @@ test.describe('Blogger slug redirects', () => {
 
 test.describe('Search', () => {
   test('search index loads and returns results', async ({ page }) => {
+    /** @type {string[]} */
     const jsErrors = [];
+    /** @type {string[]} */
     const consoleMsgs = [];
     page.on('pageerror', (e) => jsErrors.push(e.message));
     page.on('console', (m) => { if (m.type() === 'error') consoleMsgs.push(m.text()); });
@@ -160,7 +162,7 @@ test.describe('Search', () => {
     if (!appeared) {
       // Capture diagnostic state before failing
       const pageText = await page.locator('#eot-search-results').textContent();
-      const searchReady = await page.evaluate(() => window.__searchReady);
+      const searchReady = await page.evaluate(() => /** @type {any} */ (window).__searchReady);
       throw new Error(
         `Search results never appeared.\n` +
         `#eot-search-results: "${pageText}"\n` +
