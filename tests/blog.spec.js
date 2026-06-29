@@ -143,18 +143,16 @@ test.describe('Blogger slug redirects', () => {
 // events manually. waitForSelector uses DOM mutation observation (reliable).
 
 test.describe('Search', () => {
-  test.setTimeout(60000);
-
   test('search index loads and returns results', async ({ page }) => {
     await page.goto('/search/?q=selenium');
-    await page.waitForSelector('.eot-result-item', { timeout: 50000 });
+    await page.waitForSelector('.eot-result-item', { timeout: 5000 });
     const count = await page.locator('.eot-result-item').count();
     expect(count).toBeGreaterThan(0);
   });
 
   test('Google fallback link appears after search', async ({ page }) => {
     await page.goto('/search/?q=automation');
-    await page.waitForSelector('#eot-search-external', { state: 'visible', timeout: 50000 });
+    await page.waitForSelector('#eot-search-external', { state: 'visible', timeout: 5000 });
     const href = await page.locator('#eot-google-link').getAttribute('href');
     expect(href).toContain('google.com/search');
     expect(href).toContain('essenceoftesting.com');
