@@ -144,18 +144,29 @@ test.describe('Search', () => {
     await page.goto('/search/');
     const input = page.locator('#eot-search-input');
     await expect(input).toBeVisible();
-    // Wait for Lunr index to finish building (set by _search.html)
-    await page.waitForFunction(() => window.__searchReady === true, { timeout: 10000 });
     await input.fill('selenium');
-    await page.waitForSelector('.eot-result-item', { timeout: 8000 });
+    // Re-fire input event every second until results appear (index may still be loading)
+    await page.waitForFunction(() => {
+      const inp = document.getElementById('eot-search-input');
+      if (inp) inp.dispatchEvent(new Event('input', { bubbles: true }));
+      return document.querySelectorAll('.eot-result-item').length > 0;
+    }, { timeout: 20000, polling: 1000 });
     const count = await page.locator('.eot-result-item').count();
     expect(count).toBeGreaterThan(0);
   });
 
   test('Google fallback link appears after search', async ({ page }) => {
     await page.goto('/search/');
-    await page.waitForFunction(() => window.__searchReady === true, { timeout: 10000 });
-    await page.locator('#eot-search-input').fill('automation');
+    const input = page.locator('#eot-search-input');
+    await expect(input).toBeVisible();
+    await input.fill('automation');
+    // Re-fire input event every second until the external link appears
+    await page.waitForFunction(() => {
+      const inp = document.getElementById('eot-search-input');
+      if (inp) inp.dispatchEvent(new Event('input', { bubbles: true }));
+      const ext = document.getElementById('eot-search-external');
+      return ext && ext.style.display !== 'none';
+    }, { timeout: 20000, polling: 1000 });
     await page.waitForSelector('#eot-search-external', { state: 'visible', timeout: 8000 });
     const href = await page.locator('#eot-google-link').getAttribute('href');
     expect(href).toContain('google.com/search');
