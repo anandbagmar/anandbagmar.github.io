@@ -128,6 +128,7 @@ html.dark-mode .eot-search-external { border-top-color: #243d58 !important; }
         this.field('excerpt', { boost: 1 });
         data.forEach(function (doc) { this.add(doc); }, this);
       });
+      window.__searchReady = true;
       // Restore query from URL ?q=
       var params = new URLSearchParams(window.location.search);
       var q = params.get('q');

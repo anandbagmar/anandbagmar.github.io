@@ -9,3 +9,5 @@ playwright-report/
 test-results/
 blog/*
 !blog/index.html
+!blog/opaque_map.json
+temp/*

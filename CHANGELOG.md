@@ -9,6 +9,8 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 ## Sun, 29-Jun-2026
 
 - Removed standalone "Blog" nav item; consolidated everything under Resources dropdown: Blog Posts, Browse by Tag, Talks & Videos, Case Studies, then external links (Applitools Articles ↗, Slides ↗, YouTube ↗) — all distinguished by ↗ suffix.
+- Added Playwright test suite (`tests/blog.spec.js`) covering: blog index (post count, archive years, tag links), tags page (tag sections, anchor links), individual post (content, tag links), Blogger slug redirect chain, and Lunr search (results appear, Google fallback link present). Added `window.__searchReady` signal to `_search.html` so tests can wait for the index to finish building rather than using a fixed sleep.
+- Committed `blog/opaque_map.json` (maps the 5 opaque Blogger CDN images to `img-01`–`img-05`) so re-runs of `migrate_media.py` stay idempotent.
 - Fixed `site.url` from `anandbagmar.github.io` to `essenceoftesting.com` so sitemap, canonical tags, and absolute URLs all use the correct live domain.
 - Improved sitemap: blog posts now get `priority=0.8` / `changefreq=yearly` (vs `0.3` / `monthly` before); pages get `0.5`; redirect pages excluded; `lastmod` uses actual post date rather than build time.
 - Cleaned up Resources nav dropdown: replaced redundant "Blogs & Articles → /blog/" (same as top-level Blog link) with "Blog Posts → /blog/" and "Browse by Tag → /blog/tags/".
