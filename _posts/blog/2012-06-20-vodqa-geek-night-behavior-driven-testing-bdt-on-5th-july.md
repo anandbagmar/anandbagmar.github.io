@@ -13,7 +13,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I had presented a topic on [Behavior Driven Testing (BDT) in vodQA - Testing and Beyond](<http://essenceoftesting.blogspot.in/2012/04/vodqa-pune-17th-mar-12-videos-pictures.html>).   
+I had presented a topic on [Behavior Driven Testing (BDT) in vodQA - Testing and Beyond](</blog/vodqa-pune-17th-mar-12-videos-pictures-slides-feedback/>).   
   
   
 We are now running a workshop as a followup to the session to provide a first-hand experience into understanding BDT, and how it can potentially help you in your testing efforts.  

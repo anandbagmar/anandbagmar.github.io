@@ -23,7 +23,7 @@ The statement "_**I have a dream**_ " is a very famous quote by American activis
   
 I resonate very closely with that. Here is why and how ...  
   
-Almost 2 years ago, I had a dream ... a [vision about a product](<http://essenceoftesting.blogspot.com/2011/06/test-trend-analyzer-tta.html>) that can help those working in large organizations understand the health of their products / projects at a quick glance, instead of having a team of people manually scrambling frantically to collate and collect the information needed to get a sense of quality about the products they support. I chose to call this product __**Test Trend Analyzer - TTA**__  
+Almost 2 years ago, I had a dream ... a [vision about a product](</blog/test-trend-analyzer-tta/>) that can help those working in large organizations understand the health of their products / projects at a quick glance, instead of having a team of people manually scrambling frantically to collate and collect the information needed to get a sense of quality about the products they support. I chose to call this product __**Test Trend Analyzer - TTA**__  
   
 Given that Automation is a key factor in ensuring the success, quality and time-to-market for products, I took that as a baseline requirement and came up with a basic high-level diagram for TTA:  
   
@@ -49,7 +49,7 @@ TTA falls in the _**Big Data + Visualization space - specific to Testing**_.
   
   
   
-Watch [this space](<http://essenceoftesting.blogspot.in/search/label/tta>) for more information about TTA and the currently supported features. [Email](<mailto:abagmar@gmail.com>) out to me if you need more specific information, or have questions on how can you use TTA, etc.  
+Watch [this space](</blog/tags/#tta>) for more information about TTA and the currently supported features. [Email](<mailto:abagmar@gmail.com>) out to me if you need more specific information, or have questions on how can you use TTA, etc.  
 
 
 ##  How can you contribute?

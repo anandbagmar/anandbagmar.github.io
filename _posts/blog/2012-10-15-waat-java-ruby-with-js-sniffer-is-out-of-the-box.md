@@ -16,7 +16,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I have pushed in the latest changes to WAAT to get over the limitation of not working in a pure https environment (http://essenceoftesting.blogspot.in/2011/06/waat-and-https.html).  
+I have pushed in the latest changes to WAAT to get over the limitation of not working in a pure https environment (/blog/waat-and-https/).  
   
 The solution is creating a new type of plugin - called **_JS_SNIFFER_**.  
   

@@ -164,7 +164,7 @@ Below is a table listing all the different areas and specifics of the customizat
 
 ##  Dartboard
 
-Created a custom board “** _Dartboard_** ” to quickly **_visualize the testing status in the Iteration_**. See this post for more details: “[Dartboard – Are you on track?](<http://essenceoftesting.blogspot.com/2013/04/dartboard-are-you-on-track.html>)”
+Created a custom board “** _Dartboard_** ” to quickly **_visualize the testing status in the Iteration_**. See this post for more details: “[Dartboard – Are you on track?](</blog/dartboard-are-you-on-track/>)”
 
   
 
@@ -203,16 +203,16 @@ Most of such organizations like to have a common Test Automation solution across
   
 
 
-See [my blog](<http://essenceoftesting.blogspot.com/>) for all information related to [TaaS](<http://essenceoftesting.blogspot.in/search/label/taas>).
+See [my blog](<http://essenceoftesting.blogspot.com/>) for all information related to [TaaS](</blog/tags/#taas>).
 
   
 
 
 ##  WAAT - Web Analytics Automation Testing Framework
 
-I had created the [WAAT](<http://essenceoftesting.blogspot.in/search/label/waat>) framework for [Java](<https://github.com/anandbagmar/WAAT>) and [Ruby](<https://github.com/anandbagmar/WAAT-ruby>) in 2010/2011. However this framework had a limitation - it did not work products what are configured to work only in https mode.
+I had created the [WAAT](</blog/tags/#waat>) framework for [Java](<https://github.com/anandbagmar/WAAT>) and [Ruby](<https://github.com/anandbagmar/WAAT-ruby>) in 2010/2011. However this framework had a limitation - it did not work products what are configured to work only in https mode.
 
   
 
 
-For one of the applications, we need to do testing for WebTrends reporting. Since this application worked only in https mode, I created a new plugin for WAAT  \- JS Sniffer that can work with https-only applications. See [my blog](<http://essenceoftesting.blogspot.in/search/label/waat>) for more details about WAAT.
+For one of the applications, we need to do testing for WebTrends reporting. Since this application worked only in https mode, I created a new plugin for WAAT  \- JS Sniffer that can work with https-only applications. See [my blog](</blog/tags/#waat>) for more details about WAAT.

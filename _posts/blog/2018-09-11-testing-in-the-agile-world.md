@@ -28,7 +28,7 @@ Thanks to ThoughtWorks, I was introduced to many things -
 
   * Agile
   * [Blogging](<https://essenceoftesting.blogspot.com/>)
-  * [Speaking at conferences](<https://essenceoftesting.blogspot.com/search/label/conference>)
+  * [Speaking at conferences](</blog/tags/#conference>)
   * [Contributing to Open-source](<https://github.com/anandbagmar>)
   * ...
   * ...
@@ -59,7 +59,7 @@ On 9th April 2011, I had written a detailed blog post / article regarding how ca
   
 
 
-This post was titled - "[**_Agile QA Process_**](<https://essenceoftesting.blogspot.com/2011/04/agile-qa-process.html>) ", and the document was uploaded to [slideshare](<https://www.slideshare.net/abagmar>) with the name - "[**_Agile QA Process_**](<http://bit.ly/2oXXo8Q>) ". I am very pleasantly surprised that till date, that document has had over 74K views and almost 2.7K downloads, and is still my topmost viewed post on slideshare.
+This post was titled - "[**_Agile QA Process_**](</blog/agile-qa-process/>) ", and the document was uploaded to [slideshare](<https://www.slideshare.net/abagmar>) with the name - "[**_Agile QA Process_**](<http://bit.ly/2oXXo8Q>) ". I am very pleasantly surprised that till date, that document has had over 74K views and almost 2.7K downloads, and is still my topmost viewed post on slideshare.
 
   
 

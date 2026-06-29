@@ -23,12 +23,12 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I spoke about "**_[Build your own MAD-LAB - for Mobile Test Automation](<https://essenceoftesting.blogspot.com/search/label/madlab>)_** " at [vodQA - The Saga Continues!](<https://www.facebook.com/events/1943888055858342>) at Vuclip in collaboration with ThoughtWorks on Sat, 29th July 2017.
+I spoke about "**_[Build your own MAD-LAB - for Mobile Test Automation](</blog/tags/#madlab>)_** " at [vodQA - The Saga Continues!](<https://www.facebook.com/events/1943888055858342>) at Vuclip in collaboration with ThoughtWorks on Sat, 29th July 2017.
 
   
 
 
-Join the vodQA group on [facebook](<https://www.facebook.com/groups/vodqa/>) / [LinkedIn](<https://www.linkedin.com/groups/4281359>) to be part of the [vodQA](<https://essenceoftesting.blogspot.com/search/label/vodQA>) community.
+Join the vodQA group on [facebook](<https://www.facebook.com/groups/vodqa/>) / [LinkedIn](<https://www.linkedin.com/groups/4281359>) to be part of the [vodQA](</blog/tags/#vodqa>) community.
 
   
 

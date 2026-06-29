@@ -23,7 +23,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-As mentioned in [my earlier post](<https://essenceoftesting.blogspot.com/2017/02/features-of-my-android-test-automation.html>) \- I designed and implemented a [cucumber-jvm](<https://github.com/cucumber/cucumber-jvm>)-[Appium](<http://appium.io/>)-based test framework to run automated tests against Android Mobile Devices.  
+As mentioned in [my earlier post](</blog/features-of-my-android-test-automation-framework/>) \- I designed and implemented a [cucumber-jvm](<https://github.com/cucumber/cucumber-jvm>)-[Appium](<http://appium.io/>)-based test framework to run automated tests against Android Mobile Devices.  
   
 We were using:
 

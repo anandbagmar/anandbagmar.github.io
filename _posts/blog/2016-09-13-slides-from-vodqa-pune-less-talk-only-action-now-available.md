@@ -30,7 +30,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[vodQA-Pune - Less Talk, Only Action!](<https://essenceoftesting.blogspot.com/2016/08/vodqa-pune-less-talk-only-action-agenda.html>) was held on on Saturday, 27th Aug 2016, 8.30am - 5.30pm at ThoughtWorks, Pune.   
+[vodQA-Pune - Less Talk, Only Action!](</blog/vodqa-pune-less-talk-only-action-agenda-abstract-and-workshop-pre-requisites/>) was held on on Saturday, 27th Aug 2016, 8.30am - 5.30pm at ThoughtWorks, Pune.   
 
 
 ##  Agenda
@@ -62,7 +62,7 @@ Attend this workshop to learn ‘What is Web Analytics?’ and why it is an extr
   
 We will share some techniques for testing Web Analytics - in a non-automated way - and why that is very challenging and error-prone.  
   
-We will learn, via hands-on activity, about WAAT - Web Analytics Automation Testing Framework (<https://essenceoftesting.blogspot.com/search/label/waat>) - an open-source solution, to automate validation of correct information / tags being sent to the Web Analytic server for different user actions as part of your regular Selenium-WebDriver Test Automation Framework.  
+We will learn, via hands-on activity, about WAAT - Web Analytics Automation Testing Framework (</blog/tags/#waat>) - an open-source solution, to automate validation of correct information / tags being sent to the Web Analytic server for different user actions as part of your regular Selenium-WebDriver Test Automation Framework.  
   
 Lastly, we will see how the impact of Analytics has changed dramatically with more adoption and spread of IoT (Internet of Things) and Big Data, and what we need to do to be part of the change, if not influencers of change!  
   

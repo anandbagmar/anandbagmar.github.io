@@ -20,7 +20,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-After a long break, [vodQA](<https://essenceoftesting.blogspot.com/search/label/vodQA>) returns to Pune. This time, ThoughtWorks & Vuclip are jointly hosting vodQA.
+After a long break, [vodQA](</blog/tags/#vodqa>) returns to Pune. This time, ThoughtWorks & Vuclip are jointly hosting vodQA.
 
   
 

@@ -23,7 +23,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-As mentioned [here](<http://essenceoftesting.blogspot.in/2015/07/client-side-performance-testing.html>), I conducted a Client-side Performance Testing workshop in [TechJam](<http://techjam.org/>).  
+As mentioned [here](</blog/client-side-performance-testing-workshop-in-techjam-13th-august-2015/>), I conducted a Client-side Performance Testing workshop in [TechJam](<http://techjam.org/>).  
   
 It was a full house, and almost turned into a flop show because there was no wifi available - an essential requirement for the workshop. There were 2 things that saved me:  
 1\. The attendees, thankfully (in this case) did not read the prerequisites well - most of them came without a laptop  

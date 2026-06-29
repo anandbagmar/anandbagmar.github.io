@@ -21,7 +21,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-As you may be aware from my previous posts about [MAD-LAB](<https://essenceoftesting.blogspot.in/search/label/madlab>), we are using Appium, with Java-Client 5.0.0-BETA9 to automate user journeys of the VIU app on Android & iOS devices.
+As you may be aware from my previous posts about [MAD-LAB](</blog/tags/#madlab>), we are using Appium, with Java-Client 5.0.0-BETA9 to automate user journeys of the VIU app on Android & iOS devices.
 
   
 

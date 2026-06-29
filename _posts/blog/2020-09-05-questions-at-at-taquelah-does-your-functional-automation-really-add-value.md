@@ -37,7 +37,7 @@ You can find the slides [here](<https://www.slideshare.net/abagmar/does-your-fun
 
 Some references:
 
-<https://essenceoftesting.blogspot.com/2020/07/does-your-functional-automation-really.html>   
+</blog/does-your-functional-automation-really-add-value/>   
 
 
-<https://essenceoftesting.blogspot.com/2020/03/tracking-functional-coverage.html>
+</blog/tracking-functional-coverage-from-your-api-functional-ui-e2e-tests/>

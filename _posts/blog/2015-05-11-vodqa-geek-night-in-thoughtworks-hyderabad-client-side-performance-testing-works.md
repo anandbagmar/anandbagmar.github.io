@@ -30,7 +30,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I am conducting a workshop on "**Client-side Performance Testing** " in [vodQA Geek Night](<http://essenceoftesting.blogspot.com/search/label/vodQA>), [ThoughtWorks, Hyderabad](<http://www.thoughtworks.com/contact-us>) from **6.30pm-8pm IST  **on **Thursday, 14th May, 2015****.**  
+I am conducting a workshop on "**Client-side Performance Testing** " in [vodQA Geek Night](</blog/tags/#vodqa>), [ThoughtWorks, Hyderabad](<http://www.thoughtworks.com/contact-us>) from **6.30pm-8pm IST  **on **Thursday, 14th May, 2015****.**  
   
 Visit [this page](<https://hyderabadtw.typeform.com/to/SHUdxn>) to register!  
   

@@ -10,7 +10,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-The [WAAT](<http://essenceoftesting.blogspot.com/search/label/waat>) ruby gem is almost ready. My colleagues are helping testing it out in different environments and am updating the documentation accordingly.
+The [WAAT](</blog/tags/#waat>) ruby gem is almost ready. My colleagues are helping testing it out in different environments and am updating the documentation accordingly.
 
   
 

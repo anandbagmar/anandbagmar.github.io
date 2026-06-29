@@ -60,7 +60,7 @@ show_meta: true
 
 
 
-![](https://lh3.googleusercontent.com/gfDfiiL0Ib2q5l1dAggmDoLKMjVxPyihY-YUlGb8fJ9kmc7-jafcNxRjydQLMPRt9sUbgDmn6093OVQA3PKaFNDIaeBfhdZFEB54RQ2kvk0B8diJTTzBflxJTT7p5P9tUfo-3itA)
+![](/assets/img/blog/analytics-the-brain-of-the-software-1.jpg)
 
   
 
@@ -84,7 +84,7 @@ Software is similar in some ways. For any software product to work, the followin
 
 
   
-![](https://lh4.googleusercontent.com/fJv2qTteIEq0_zpZ81Upa6VweVZAy6wj32u_T48NOqcFRQZym4S-gV-UIULgHv6obwOyYUcKfSHtXecflswjg9AeHkuoFYFWPKfZkaDePgcpV-4IwFvcvQBmJ3Npu28XT8djEUde)  
+![](/assets/img/blog/analytics-the-brain-of-the-software-2.jpg)  
   
 There is a plethora of open-source and commercial tools in this space to help in this regard - the most popular open-source tools being [Selenium](<https://www.seleniumhq.org/>) and [Appium](<http://appium.io/>).  
   
@@ -117,7 +117,7 @@ There is a plethora of open-source and commercial tools in this space to help in
 
 
   
-![](https://lh4.googleusercontent.com/bqjE_PL__6vZybwwTFBqwk2uYktDUJTAxFdNBK57YkWWCJlSNGQY3l69EP8TuWK_LRSO-_K2YZZ314clxrsglrzvpskaKRGAaX2R659jVkXC7FTQ1K6GZ8I--nw74WB-WFHg_8PA)  
+![](/assets/img/blog/analytics-the-brain-of-the-software-3.jpg)  
   
   
 
@@ -137,7 +137,7 @@ There is a plethora of open-source and commercial tools in this space to help in
 
 **_Visual Validation is the new tip of the Test Automation Pyramid!_**  
   
-![](https://lh4.googleusercontent.com/KSB9G6robC6JH5su5ED3dZKcfQMTNiusvqxSZGL7KFOes07M5s9tqBj20NABsYsm0QnkQ1U8PpsBvvvcOqfDNOYTv6QjrpsIECnMWBKdmMXdkC9z4lFxu-j9er8I97YnHFJdIzBZ)  
+![](/assets/img/blog/analytics-the-brain-of-the-software-4.jpg)  
   
   
 

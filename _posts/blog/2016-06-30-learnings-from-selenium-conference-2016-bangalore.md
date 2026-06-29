@@ -52,9 +52,9 @@ Here are my key takeaways, which I am going to work on learning more about, or i
     * Highlight element when running tests before taking screenshots - will help in debugging
     * Experiment with different loggers & reporters - [Allure](<http://allure.qatools.ru/>), [Winston logger](<https://github.com/winstonjs/winston>)
     * Better "promise" handling in framework to keep abstraction layers sane
-  * **_Revive  [WAAT \- Web Analytics Automation Testing Framework](<http://essenceoftesting.blogspot.in/search/label/waat>)_** \- create [new plugin](<https://github.com/anandbagmar/WAAT/blob/master/docs/architecture/WAATArchitectureDiagram_v1.50.png>) using Proxy Server approach. Also remove Omniture Debugger and HttpSniffer plugin.
-  * Refocus energy on [**_TTA - Test Trend Analyzer_**](<http://essenceoftesting.blogspot.in/search/label/tta>).
-  * **_Keep[vodQA](<http://essenceoftesting.blogspot.in/search/label/vodQA>) going strong_** \- its a good community initiative
+  * **_Revive  [WAAT \- Web Analytics Automation Testing Framework](</blog/tags/#waat>)_** \- create [new plugin](<https://github.com/anandbagmar/WAAT/blob/master/docs/architecture/WAATArchitectureDiagram_v1.50.png>) using Proxy Server approach. Also remove Omniture Debugger and HttpSniffer plugin.
+  * Refocus energy on [**_TTA - Test Trend Analyzer_**](</blog/tags/#tta>).
+  * **_Keep[vodQA](</blog/tags/#vodqa>) going strong_** \- its a good community initiative
 
   
 _See you all in[Selenium Conference UK](<http://seleniumconf.co.uk/>) in November 2016!_

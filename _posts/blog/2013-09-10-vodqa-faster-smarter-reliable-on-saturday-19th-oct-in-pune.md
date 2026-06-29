@@ -63,4 +63,4 @@ For registration details, click [here](<http://bit.ly/18LSnjc>) (<http://bit.ly/
   
 
 
-For all past [vodQA](<http://essenceoftesting.blogspot.in/search/label/vodQA>) information, see [here](<http://essenceoftesting.blogspot.in/search/label/vodQA>).
+For all past [vodQA](</blog/tags/#vodqa>) information, see [here](</blog/tags/#vodqa>).

@@ -13,7 +13,7 @@ show_meta: true
 
 It has been quite some time that I updated WAAT. The released version has been working well - but it does have its limitations as listed in the [FAQs](<https://github.com/anandbagmar/WAAT/wiki/FAQs>) on github.  
   
-The biggest limitation I feel about the current release version of WAAT is that it does not work in a pure https kind of an environment. ([http://essenceoftesting.blogspot.in/2011/06/waat-and-https.html](<http://essenceoftesting.blogspot.in/2011/06/waat-and-https.html>))  
+The biggest limitation I feel about the current release version of WAAT is that it does not work in a pure https kind of an environment. ([/blog/waat-and-https/](</blog/waat-and-https/>))  
   
 Of late I have been spiking out different ways to overcome this limitation. I have experimented to create a HttpsSniffer, and hit various different road-blocks in that. That has forced me to look at another strategy.   
   

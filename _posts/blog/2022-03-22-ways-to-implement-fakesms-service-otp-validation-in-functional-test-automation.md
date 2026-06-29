@@ -17,7 +17,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I had asked a question in my [earlier blog post](<https://essenceoftesting.blogspot.com/2022/01/using-fakesms-service-in-functional.html>) about 
+I had asked a question in my [earlier blog post](</blog/using-fakesms-service-in-functional-test-automation/>) about 
 
 How do you automate OTP related test scenarios? Do you use a fake SMS service? Does it have restapi to query the SMS messages? geography support? 
 

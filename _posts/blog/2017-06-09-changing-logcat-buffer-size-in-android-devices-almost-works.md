@@ -38,7 +38,7 @@ _**
   
 
 
-This adb command works in the Motorola devices in my [MAD LAB](<https://essenceoftesting.blogspot.com/2017/04/introducing-mad-lab-for-mobile.html>), but does not work in Samsung devices. The error I see on running the above command is "**_failed to set the log size_** "
+This adb command works in the Motorola devices in my [MAD LAB](</blog/introducing-mad-lab-for-mobile-automation/>), but does not work in Samsung devices. The error I see on running the above command is "**_failed to set the log size_** "
 
   
 

@@ -29,9 +29,9 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I spoke in [vodQA](<https://essenceoftesting.blogspot.in/search/label/vodQA>) at ThoughtWorks, Pune on "[Measuring Consumer Quality - the Missing Feedback Loop](<https://confengine.com/selenium-conf-2018/proposal/6005/measuring-consumer-quality-the-missing-feedback-loop>)".   
+I spoke in [vodQA](</blog/tags/#vodqa>) at ThoughtWorks, Pune on "[Measuring Consumer Quality - the Missing Feedback Loop](<https://confengine.com/selenium-conf-2018/proposal/6005/measuring-consumer-quality-the-missing-feedback-loop>)".   
   
-This talk address the why and how from my earlier blog post on "[Understanding, Measuring and Building Consumer Quality](<https://essenceoftesting.blogspot.com/2017/12/understanding-measuring-and-building.html>)". I recommend you read that first, before going through the slides and video for this talk.  
+This talk address the why and how from my earlier blog post on "[Understanding, Measuring and Building Consumer Quality](</blog/understanding-measuring-and-building-consumer-quality/>)". I recommend you read that first, before going through the slides and video for this talk.  
   
   
 

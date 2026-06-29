@@ -26,7 +26,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[**_vodQA_**](<https://essenceoftesting.blogspot.com/search/label/vodQA>) returned - this time with the theme - [Testing Heuristics in ThoughtWorks, Hyderabad](<http://twhyderabad.github.io/vodqa/>) on 2nd July 2016.  
+[**_vodQA_**](</blog/tags/#vodqa>) returned - this time with the theme - [Testing Heuristics in ThoughtWorks, Hyderabad](<http://twhyderabad.github.io/vodqa/>) on 2nd July 2016.  
   
 Here I spoke about - "_**The What, Why and How of Web Analytics Testing**_ ".   
 
@@ -107,4 +107,4 @@ PS: Apologies for the video quality - I am not seen very clearly - but the slide
 
 \- I should spend more time in challenges and potential solutions related to Big Data & IoT
 
-\- A lot of people are interested in [WAAT](<https://essenceoftesting.blogspot.com/search/label/waat>) \- that could be a separate, more detailed discussion
+\- A lot of people are interested in [WAAT](</blog/tags/#waat>) \- that could be a separate, more detailed discussion

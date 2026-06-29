@@ -21,7 +21,7 @@ show_meta: true
 
 PS: This is a long post. You can can also get / read a pdf version of this from [here](<https://www.slideshare.net/abagmar/career-path-of-a-tester>) via [slideshare](<https://www.slideshare.net/abagmar>).  
   
-I asked in various forums - “[Does a Tester need a career path? Yes / No - Why?](<https://essenceoftesting.blogspot.com/2016/12/does-tester-need-career-path.html>)”
+I asked in various forums - “[Does a Tester need a career path? Yes / No - Why?](</blog/does-a-tester-need-a-career-path/>)”
 
   
 

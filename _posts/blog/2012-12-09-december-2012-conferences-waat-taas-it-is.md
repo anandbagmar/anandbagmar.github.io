@@ -33,12 +33,12 @@ I was a little let-down by James talk. It seemed like more of a marketing pitch 
   
 
 
-I also got to talk with him 1-1 about BDD and what situations it works well, and more importantly, when it does not work well. Also spoke with him on how [**BDT (Behavior Driven Testing)**](<http://essenceoftesting.blogspot.com/search/label/bdt>)  helps in building the "right automated regression suite" and the challenges facing the Testers in India in order to become the "free-spirited, creative and innovative testers" he spoke about.
+I also got to talk with him 1-1 about BDD and what situations it works well, and more importantly, when it does not work well. Also spoke with him on how [**BDT (Behavior Driven Testing)**](</blog/tags/#bdt>)  helps in building the "right automated regression suite" and the challenges facing the Testers in India in order to become the "free-spirited, creative and innovative testers" he spoke about.
 
   
 
 
-Next, on 13th December, I am speaking in [UNICOM's Next Generation Testing Conference in Bangalore](<http://www.unicomlearning.com/event/seminar/next-generation-testing-conference-bangalore>) about "**T****he What, Why, and How of Web Analytics Testing** ". I will be talking about my open-source framework - "**[WAAT - the Web Analytics Automation Testing](<http://essenceoftesting.blogspot.in/search/label/waat>) ",** and how that can ease the manual drudge of web analytics testing.
+Next, on 13th December, I am speaking in [UNICOM's Next Generation Testing Conference in Bangalore](<http://www.unicomlearning.com/event/seminar/next-generation-testing-conference-bangalore>) about "**T****he What, Why, and How of Web Analytics Testing** ". I will be talking about my open-source framework - "**[WAAT - the Web Analytics Automation Testing](</blog/tags/#waat>) ",** and how that can ease the manual drudge of web analytics testing.
 
   
 

@@ -53,7 +53,7 @@ In this session, I am sharing my vision of the Test Strategy required to make su
   
 
 
-###  [Build the 'right' regression suite using Behavior Driven Testing (BDT)](<http://essenceoftesting.blogspot.com/search/label/bdt>) \- a Workshop
+###  [Build the 'right' regression suite using Behavior Driven Testing (BDT)](</blog/tags/#bdt>) \- a Workshop
 
 \- at [vodQA Gurgaon](<http://info.thoughtworks.com/vodqa-gurgaon-registration.html>), on Saturday, 28th March 2015 at [ThoughtWorks, Gurgaon](<http://www.thoughtworks.com/>).  
   

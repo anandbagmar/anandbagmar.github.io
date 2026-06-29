@@ -25,7 +25,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-The agenda for the upcoming [vodQA Pune - Less Talk, Only Action!](<https://essenceoftesting.blogspot.in/2016/08/vodqa-pune-less-talk-only-action.html>) is now published.  
+The agenda for the upcoming [vodQA Pune - Less Talk, Only Action!](</blog/vodqa-pune-less-talk-only-action/>) is now published.  
 [![](/assets/img/blog/agenda.jpg)](</assets/img/blog/agenda.jpg>)  
   
 **NOTE: For this event, we will require the participants to get their laptops (and chargers).**  

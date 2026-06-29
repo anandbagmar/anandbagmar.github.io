@@ -12,7 +12,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-**[WAAT  \- Web Analytics Automation Testing Framework](<http://essenceoftesting.blogspot.com/search/label/waat>) **is currently available for java based Test Automation Frameworks. (<http://essenceoftesting.blogspot.com/search/label/waat>) 
+**[WAAT  \- Web Analytics Automation Testing Framework](</blog/tags/#waat>) **is currently available for java based Test Automation Frameworks. (</blog/tags/#waat>) 
 
   
 

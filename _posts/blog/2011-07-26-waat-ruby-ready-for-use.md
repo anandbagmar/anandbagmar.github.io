@@ -50,4 +50,4 @@ If you are using WAAT (Java or Ruby) on any Linux-based environment, please note
 WAAT uses Jpcap for _cap_ turing network packets. Jpcap needs administrative privileges to do this work. See the [Jpcap FAQs](<http://netresearch.ics.uci.edu/kfujii/Jpcap/doc/faq.html>) for more information about the same.  
   
   
-For all WAAT related blog posts, click [here](<http://essenceoftesting.blogspot.com/search/label/waat>).
+For all WAAT related blog posts, click [here](</blog/tags/#waat>).

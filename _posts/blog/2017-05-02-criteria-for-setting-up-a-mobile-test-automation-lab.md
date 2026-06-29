@@ -24,7 +24,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I recently got asked this question related to the [**_MAD LAB_**](<https://essenceoftesting.blogspot.com/2017/04/introducing-mad-lab-for-mobile.html>) (**_[Mobile Automation Devices LAB](<https://essenceoftesting.blogspot.com/2017/04/introducing-mad-lab-for-mobile.html>)_**) - "_Would like to understand how can we setup something similar in our organisation?_ "
+I recently got asked this question related to the [**_MAD LAB_**](</blog/introducing-mad-lab-for-mobile-automation/>) (**_[Mobile Automation Devices LAB](</blog/introducing-mad-lab-for-mobile-automation/>)_**) - "_Would like to understand how can we setup something similar in our organisation?_ "
 
   
 
@@ -64,7 +64,7 @@ _To setup your own LAB for Mobile Test Automation, multiple things need to align
   
 
 
-Philosophy aside, our **_[MAD LAB](<https://essenceoftesting.blogspot.com/2017/04/introducing-mad-lab-for-mobile.html>)_** has the following: 
+Philosophy aside, our **_[MAD LAB](</blog/introducing-mad-lab-for-mobile-automation/>)_** has the following: 
 
   * Mac Minis (8-12 devices per Mac Mini), 
   * Powered USB Hubs (I use the ones shown below - and they are working pretty well)

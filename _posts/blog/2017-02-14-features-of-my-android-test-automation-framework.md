@@ -27,7 +27,7 @@ show_meta: true
 
 _**[UPDATED - Added[link](<https://goo.gl/yOGdGN>) to implementation details at the end of the post]**_  
   
-As I have shared in my previous few blog posts ([A new beginning - entertainment on mobile](<https://essenceoftesting.blogspot.in/2016/12/a-new-beginning-entertainment-on-mobile.html>), [How to enable seamless running of appium tests on developer machines?](<https://essenceoftesting.blogspot.in/2016/12/how-to-enable-seamless-running-of.html>)), a few months ago, I embarked on a new journey as "Director - Quality" for the [Viu](<https://play.google.com/store/apps/details?id=com.vuclip.viu>) product at [Vuclip](<http://www.vuclip.com/>).  
+As I have shared in my previous few blog posts ([A new beginning - entertainment on mobile](</blog/a-new-beginning-entertainment-on-mobile/>), [How to enable seamless running of appium tests on developer machines?](</blog/how-to-enable-seamless-running-of-appium-tests-on-developer-machines/>)), a few months ago, I embarked on a new journey as "Director - Quality" for the [Viu](<https://play.google.com/store/apps/details?id=com.vuclip.viu>) product at [Vuclip](<http://www.vuclip.com/>).  
   
 
 
@@ -73,9 +73,9 @@ _Hence, finally decided to setup my own private Test Lab for this. Oh fun!_
 
 ##  Framework Architecture
 
-Below is the architecture of the framework that I came up with. This is based on the architecture I posted in my earlier blog post on “[Assertion & Validations in Page Object](<https://essenceoftesting.blogspot.in/2012/01/assertions-and-validations-in-page.html>)” ([https://essenceoftesting.blogspot.com/2012/01/assertions-and-validations-in-page.html](<https://essenceoftesting.blogspot.com/2012/01/assertions-and-validations-in-page.html>))
+Below is the architecture of the framework that I came up with. This is based on the architecture I posted in my earlier blog post on “[Assertion & Validations in Page Object](</blog/assertions-and-validations-in-page-objects/>)” ([/blog/assertions-and-validations-in-page-objects/](</blog/assertions-and-validations-in-page-objects/>))
 
-![ViuTestFrameworkArchitecture.png](https://lh6.googleusercontent.com/rPzlyGMS-pDU8lf-IB_fb6zGNjYoWz9BebTMd4frULBIrZqGmNeO06EImFCpb2Hx-n2TolGd6blbdk8pTwXQXADqw-ed4KeG4JxbkdphY-vfAIM_-0i2SORXbZ3nJ9f_b9ECcdJu)
+*(image no longer available — framework architecture diagram)*
 
 ##  Approach, Features & Capabilities of the Test Lab
 

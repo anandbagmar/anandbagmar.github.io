@@ -30,7 +30,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-We are extremely happy to start the new year with **_YASV (Yet Another Successful[vodQA)](<http://essenceoftesting.blogspot.com/search/label/vodQA>)_** event, this time with the theme -**  Agile Testing Workshop**, conducted on 9th January 2016 in [ThoughtWorks, Pune](<https://www.thoughtworks.com/>) office.
+We are extremely happy to start the new year with **_YASV (Yet Another Successful[vodQA)](</blog/tags/#vodqa>)_** event, this time with the theme -**  Agile Testing Workshop**, conducted on 9th January 2016 in [ThoughtWorks, Pune](<https://www.thoughtworks.com/>) office.
 
 ###  **Why the theme - "Agile Testing Workshop"?**
 

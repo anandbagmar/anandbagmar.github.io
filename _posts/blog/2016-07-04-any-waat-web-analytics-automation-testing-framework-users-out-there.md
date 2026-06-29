@@ -27,7 +27,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-It has been over 2 years since any update to [**_WAAT - Java or Ruby_**](<https://essenceoftesting.blogspot.com/search/label/waat>). Over the years, I have realised, and also received a lot of thoughts / feedback from users of WAAT around where it helps, and what challenges exist.   
+It has been over 2 years since any update to [**_WAAT - Java or Ruby_**](</blog/tags/#waat>). Over the years, I have realised, and also received a lot of thoughts / feedback from users of WAAT around where it helps, and what challenges exist.   
   
 Also, given the widespread IoT & Big Data based work going on around the world, (Web) Analytics now plays a much bigger role in guiding business take better decisions.   
   

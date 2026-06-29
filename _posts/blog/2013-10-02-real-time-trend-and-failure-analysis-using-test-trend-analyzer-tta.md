@@ -44,7 +44,7 @@ The statement "**_I have a dream_** " is a very famous quote by American activis
   
 I resonate very closely with that. Here is why and how ...  
   
-Sometime in 2011, I had a dream ... a [vision about a product](<http://essenceoftesting.blogspot.com/2011/06/test-trend-analyzer-tta.html>) that can help those working in large organizations understand the health of their products / projects at a quick glance, instead of having a team of people manually scrambling frantically to collate and collect the information needed to get a sense of quality about the products they support…. 
+Sometime in 2011, I had a dream ... a [vision about a product](</blog/test-trend-analyzer-tta/>) that can help those working in large organizations understand the health of their products / projects at a quick glance, instead of having a team of people manually scrambling frantically to collate and collect the information needed to get a sense of quality about the products they support…. 
 
   
 
@@ -170,7 +170,7 @@ o   what failed on date 2, but passed on date 1
 
 ·       **TTA Statistics Page (/stats)** \- to know **usage of TTA** by different projects / teams in your organization
 
-Refer to [my blog](<http://essenceoftesting.blogspot.in/search/label/tta>) or the [TTA-github-wiki](<https://github.com/anandbagmar/tta/wiki>) for other information, including screenshots about [TTA](<http://essenceoftesting.blogspot.in/search/label/tta>).
+Refer to [my blog](</blog/tags/#tta>) or the [TTA-github-wiki](<https://github.com/anandbagmar/tta/wiki>) for other information, including screenshots about [TTA](</blog/tags/#tta>).
 
 ##  Current state
 

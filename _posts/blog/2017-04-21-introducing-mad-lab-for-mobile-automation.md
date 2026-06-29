@@ -35,22 +35,22 @@ The past few months I have been heads-down in stabilising my Real-Device Mobile 
 
 For those who may not recollect, see my past posts for reference -
 
-  * [A new beginning - entertainment on mobile](<https://essenceoftesting.blogspot.in/2016/12/a-new-beginning-entertainment-on-mobile.html>)
+  * [A new beginning - entertainment on mobile](</blog/a-new-beginning-entertainment-on-mobile/>)
 
 
-  * [How to enable seamless running of appium tests on developer machines?](<https://essenceoftesting.blogspot.in/2016/12/how-to-enable-seamless-running-of.html>)
+  * [How to enable seamless running of appium tests on developer machines?](</blog/how-to-enable-seamless-running-of-appium-tests-on-developer-machines/>)
 
 
-  * [Features of my Android Test Automation Framework](<https://essenceoftesting.blogspot.in/2017/02/features-of-my-android-test-automation.html>)
+  * [Features of my Android Test Automation Framework](</blog/features-of-my-android-test-automation-framework/>)
 
 
-  * [How to upgrade the appium-uiautomator2-driver version for appium 1.6.3?](<https://essenceoftesting.blogspot.in/2017/02/how-to-upgrade-appium-uiautomator2.html>)
+  * [How to upgrade the appium-uiautomator2-driver version for appium 1.6.3?](</blog/how-to-upgrade-the-appium-uiautomator2-driver-version-for-appium-163/>)
 
 
-  * [Finding my way out of bottomless pit with Appium & Android 7.0 for parallel test runs](<https://essenceoftesting.blogspot.in/2017/02/finding-my-way-out-of-bottomless-pit.html>)
+  * [Finding my way out of bottomless pit with Appium & Android 7.0 for parallel test runs](</blog/finding-my-way-out-of-bottomless-pit-with-appium-android-70-for-parallel-test-ru/>)
 
 
-  * [Sharing implementation of cucumber-jvm - Appium test framework](<https://essenceoftesting.blogspot.in/2017/02/sharing-implementation-of-cucumber-jvm.html>)
+  * [Sharing implementation of cucumber-jvm - Appium test framework](</blog/sharing-implementation-of-cucumber-jvm-appium-test-framework/>)
 
   
 

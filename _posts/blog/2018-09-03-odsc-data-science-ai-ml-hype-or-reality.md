@@ -34,7 +34,7 @@ I was very excited to attend this for couple of reasons:
   
 
 
-Since I was going to travel to Bangalore for ODSC anyway, I also decided to participate in the pre-conference workshop - Advanced Data Analysis, Dashboards And Visualization. I thought it would be interesting to learn about the What, Why and How of the techniques of Data Analysis, Dashboards and visualization - which would help me as I rebuild / extend [TTA (Test Trend Analyzer)](<https://essenceoftesting.blogspot.com/search/label/tta>). Though the workshop was good, it focused completely on Tableau as a tool and unfortunately did not meet my objectives / expectations. That said, there is another tool I came across in the conference - [KNIME](<https://www.knime.com/>) \- seems interesting and am going to try it out.  
+Since I was going to travel to Bangalore for ODSC anyway, I also decided to participate in the pre-conference workshop - Advanced Data Analysis, Dashboards And Visualization. I thought it would be interesting to learn about the What, Why and How of the techniques of Data Analysis, Dashboards and visualization - which would help me as I rebuild / extend [TTA (Test Trend Analyzer)](</blog/tags/#tta>). Though the workshop was good, it focused completely on Tableau as a tool and unfortunately did not meet my objectives / expectations. That said, there is another tool I came across in the conference - [KNIME](<https://www.knime.com/>) \- seems interesting and am going to try it out.  
 
 
   

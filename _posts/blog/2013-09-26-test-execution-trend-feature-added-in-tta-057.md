@@ -21,7 +21,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-A new version of [**_Test Trend Analyzer (TTA)_**](<http://essenceoftesting.blogspot.in/search/label/tta>)  is now available on [github](<https://github.com/anandbagmar/tta>). 
+A new version of [**_Test Trend Analyzer (TTA)_**](</blog/tags/#tta>)  is now available on [github](<https://github.com/anandbagmar/tta>). 
 
   
 
@@ -51,7 +51,7 @@ These are the new features in it:
 
   * Query optimisations + minor defect fixes.
 
-For those that missed the earlier announcement - summary of features of TTA is available [here](<http://essenceoftesting.blogspot.in/search/label/tta>), and source code is available on [github](<https://github.com/anandbagmar/tta>).
+For those that missed the earlier announcement - summary of features of TTA is available [here](</blog/tags/#tta>), and source code is available on [github](<https://github.com/anandbagmar/tta>).
 
   
 

@@ -13,7 +13,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I have got a lot of interesting and valuable feedback for [TaaS \- Test-as-a-Service](<http://essenceoftesting.blogspot.in/search/label/taas>). One thing that stands out which people want is a different name for TaaS - since it does cause a lot of confusion with the business vertical of "Testing as a Service".  
+I have got a lot of interesting and valuable feedback for [TaaS \- Test-as-a-Service](</blog/tags/#taas>). One thing that stands out which people want is a different name for TaaS - since it does cause a lot of confusion with the business vertical of "Testing as a Service".  
   
 So, I am taking all this feedback seriously and considering changing the name of TaaS - before I publish the gem.  
   

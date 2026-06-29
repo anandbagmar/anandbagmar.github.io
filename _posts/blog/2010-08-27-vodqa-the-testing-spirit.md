@@ -44,7 +44,7 @@ Our first vodQA event held in Pune on June 10, 2010 was a huge success.
   3. Sagar Surana - Amdocs Dev. Ltd - Intelligent test design
   4. Chirag Doshi - ThoughtWorks - Write tests in the end-user's lingo
   5. Srinivas Chillara - etakey - Trials & Tribulations
-  6. Anand Bagmar - ThoughtWorks - [Future of Test Automation Tools & Infrastructure](<http://essenceoftesting.blogspot.com/2010/08/future-of-test-automation-tools.html>). Video available [here](<http://www.youtube.com/watch?v=H5WeeYMGNLo>). Presentation available [here](<http://www.slideshare.net/abagmar/future-of-test-automation-tools-infrastructure>).
+  6. Anand Bagmar - ThoughtWorks - [Future of Test Automation Tools & Infrastructure](</blog/future-of-test-automation-tools-infrastructure/>). Video available [here](<http://www.youtube.com/watch?v=H5WeeYMGNLo>). Presentation available [here](<http://www.slideshare.net/abagmar/future-of-test-automation-tools-infrastructure>).
   7. Sudeep Somani & Krishna Kumar Sure - ThoughtWorks - Decoupled Automation Frameworks
   8. Sumit Agrawal - Automation Execution results Dashboard
 

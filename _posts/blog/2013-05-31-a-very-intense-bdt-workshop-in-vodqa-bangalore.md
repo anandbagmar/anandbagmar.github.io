@@ -20,12 +20,12 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I, with the help of my colleagues, ran a BDT workshop in [vodQA - Get, Set,Test! at Bangalore](<http://essenceoftesting.blogspot.com/2013/03/announcing-vodqa-bangalore-on-may-18.html>) on 18th May 2013.  
+I, with the help of my colleagues, ran a BDT workshop in [vodQA - Get, Set,Test! at Bangalore](</blog/announcing-vodqa-bangalore-on-may-18-2013/>) on 18th May 2013.  
   
 It was a very intense workshop, and challenging for us to execute as well for various reasons:  
 
 
-  1. When we had run this workshop as part of [vodQA Geek Night](<http://essenceoftesting.blogspot.in/2012/07/vodqa-geek-night-behavior-driven.html>) in July 2012, we had the opportunity to have a couple of dry runs - which allowed us to fine tune the content + pace ourselves better
+  1. When we had run this workshop as part of [vodQA Geek Night](</blog/vodqa-geek-night-behavior-driven-testing-bdt-update/>) in July 2012, we had the opportunity to have a couple of dry runs - which allowed us to fine tune the content + pace ourselves better
   2. The vodQA Geek Night session was 2.5-3 hours in duration
   3. This time around, for vodQA Bangalore, all volunteers driving the workshop were in different locations. After the workshop was selected for this vodQA, we all met face-2-face directly on  the day of the event. So there was no question of a dry run before the event
   4. The duration of the workshop this time around was 1.5 hours.

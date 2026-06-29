@@ -130,7 +130,7 @@ _\- See each talk / workshop details (below) for pre-requisites, if any._
 ****  
 **\----------------**  
 **  
-**[vodQA](<http://essenceoftesting.blogspot.com/search/label/vodQA>) is back in [ThoughtWorks, Pune](<http://www.thoughtworks.com/contact-us>) on Saturday, 6th June 2015. This time the theme is - "**_[Innovations in Testing](<http://vodqa-pune.weebly.com/>)"_**.  
+**[vodQA](</blog/tags/#vodqa>) is back in [ThoughtWorks, Pune](<http://www.thoughtworks.com/contact-us>) on Saturday, 6th June 2015. This time the theme is - "**_[Innovations in Testing](<http://vodqa-pune.weebly.com/>)"_**.  
   
 We got a record number of submissions from wannabe speakers and HUGE number of attendee registrations. Selecting 12-14 talks from this list was no small task - but we had to take a lot of tough decisions.  
   

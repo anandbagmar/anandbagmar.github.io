@@ -25,7 +25,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-As mentioned in [this](<http://essenceoftesting.blogspot.in/2015/06/agile-testing-workshop-in-july.html>) post, I conducted an "**_Agile Testing_** " workshop on 24th July 2015.  
+As mentioned in [this](</blog/agile-testing-workshop-in-july/>) post, I conducted an "**_Agile Testing_** " workshop on 24th July 2015.  
   
 Here are the slides from the workshop:  
   

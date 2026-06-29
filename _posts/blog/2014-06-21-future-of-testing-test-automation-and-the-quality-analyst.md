@@ -23,7 +23,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-In this edition of [vodQA](<http://essenceoftesting.blogspot.in/search/label/vodQA>) \- "[Let your testing do the talking](<http://essenceoftesting.blogspot.com/2014/06/let-your-testing-do-talking.html>)" at [ThoughtWorks](<http://thoughtworks.com/>), Bangalore, I spoke on what I think is the "_**Future of Testing, Test Automation and the Quality Analyst**_ ".   
+In this edition of [vodQA](</blog/tags/#vodqa>) \- "[Let your testing do the talking](</blog/let-your-testing-do-the-talking/>)" at [ThoughtWorks](<http://thoughtworks.com/>), Bangalore, I spoke on what I think is the "_**Future of Testing, Test Automation and the Quality Analyst**_ ".   
   
 The slides from the talk are available [here](<http://www.slideshare.net/abagmar/future-of-testing-test-automation-and-the-quality-analyst>) and the video is available [here](<https://www.youtube.com/watch?v=O8Di8wNCnAE>).  
   

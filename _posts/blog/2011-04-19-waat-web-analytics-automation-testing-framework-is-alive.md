@@ -12,7 +12,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-**[UPDATE]   Check related post [here](<http://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html>) (http://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html****)**  
+**[UPDATE]   Check related post [here](</blog/waat-web-analytics-automation-testing-framework-is-alive/>) (/blog/waat-web-analytics-automation-testing-framework-is-alive/****)**  
   
 I am very happy to announce that the first release of **WAAT** is available for general use.
 

@@ -30,8 +30,8 @@ Here are some of these experiences:
   * Played a variety of roles - Quality Analyst, SDET (Software Development Engineer in Test), Product Quality Engineer (PQE), Automation Engineer, Consultant, Coach, Project Manager, Director - Quality, Support Engineer, etc.
   * Worked with teams having products in different domains - Health care, eCommerce, Banking / Finance, Retail, Entertainment (OTT), Research, etc. 
   * With in organisations (B2B and B2C space): WebMD, Borland Software, Microsoft (Redmond, USA), AmberPoint (USA / India), ThoughtWorks, Vuclip 
-  * Shared experiences with other via [Meetups and Conferences](<https://essenceoftesting.blogspot.com/search/label/conference>) world-wide
-  * Created opensource tools like [WAAT](<https://essenceoftesting.blogspot.com/search/label/waat>), [TTA](<https://essenceoftesting.blogspot.com/search/label/tta>), [TaaS](<https://essenceoftesting.blogspot.com/search/label/taas>)
+  * Shared experiences with other via [Meetups and Conferences](</blog/tags/#conference>) world-wide
+  * Created opensource tools like [WAAT](</blog/tags/#waat>), [TTA](</blog/tags/#tta>), [TaaS](</blog/tags/#taas>)
 
 
 

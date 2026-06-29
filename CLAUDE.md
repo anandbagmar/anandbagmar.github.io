@@ -21,7 +21,10 @@ and confirm it passes. Do not declare a change ready on the basis of the edit
 alone.
 
 - The tests run against a live site at `http://localhost:4000`, so start the
-  Jekyll server first: `bundle exec jekyll serve` (or set `BASE_URL`).
+  Jekyll server first: `bundle exec jekyll serve` (or set `BASE_URL`). The
+  `_plugins/search_index.rb` hook rebuilds the Lunr search index on every
+  Jekyll build, so plain `jekyll serve` is enough — the search tests no longer
+  need a separate `npm run build:search` locally.
 - Run the suite: `npm test` (`playwright test`). View the last report with
   `npm run test:report`.
 - If tests fail, report the failure with output — do not call the change ready.

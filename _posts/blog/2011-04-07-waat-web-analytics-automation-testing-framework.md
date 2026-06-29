@@ -12,7 +12,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-**[UPDATE]   See my post about how you can get WAAT ****[here](<http://essenceoftesting.blogspot.com/2011/04/waat-is-alive.html>) ********(http://essenceoftesting.blogspot.com/2011/04/waat-is-alive.html).**  
+**[UPDATE]   See my post about how you can get WAAT ****[here](</blog/waat-web-analytics-automation-testing-framework-is-alive/>) ********(/blog/waat-web-analytics-automation-testing-framework-is-alive/).**  
   
 **Problem statement:**
 

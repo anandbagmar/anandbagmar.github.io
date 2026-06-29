@@ -19,7 +19,7 @@ With the risk of this ending up becoming a recursion, I want to share interestin
   
 
 
-  * **First blog:  [Future of Test Automation Tools & Infrastructure](<https://essenceoftesting.blogspot.com/2010/08/future-of-test-automation-tools.html>), published on 25th Aug 2010**
+  * **First blog:  [Future of Test Automation Tools & Infrastructure](</blog/future-of-test-automation-tools-infrastructure/>), published on 25th Aug 2010**
   * **Number of blogs published: 218, not counting this one**
   * **Number of viewers: 400K+**
 
@@ -72,12 +72,12 @@ Here are some charts from Analytics of my SlideShare and blog:
   
 
 
-  * [Career Path of a Tester!](<https://essenceoftesting.blogspot.com/2016/12/career-path-of-tester.html>)
-  * [Introducing MAD LAB - for Mobile Automation](<https://essenceoftesting.blogspot.com/2017/04/introducing-mad-lab-for-mobile.html>)
-  * [WAAT - Web Analytics Automation Testing Framework](<https://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html>)
-  * [Any WAAT (Web Analytics Automation Testing Framework) users out there?](<https://essenceoftesting.blogspot.com/2016/07/any-waat-users-out-there.html>)
+  * [Career Path of a Tester!](</blog/career-path-of-a-tester/>)
+  * [Introducing MAD LAB - for Mobile Automation](</blog/introducing-mad-lab-for-mobile-automation/>)
+  * [WAAT - Web Analytics Automation Testing Framework](</blog/waat-web-analytics-automation-testing-framework-is-alive/>)
+  * [Any WAAT (Web Analytics Automation Testing Framework) users out there?](</blog/any-waat-web-analytics-automation-testing-framework-users-out-there/>)
   * [Taking Protractor to the next level](<https://essenceoftesting.blogspot.com/2016/06/sharing-pain-using-protractor.html>)
-  * [Features of my Android Test Automation Framework](<https://essenceoftesting.blogspot.com/2017/02/features-of-my-android-test-automation.html>)
+  * [Features of my Android Test Automation Framework](</blog/features-of-my-android-test-automation-framework/>)
 
   
 

@@ -23,7 +23,7 @@ show_meta: true
 
 On 28th November 2015, I spoke in [Agile Noida](<http://www.agilenoida.com/conference-seminar-agenda/>) on "_**Patterns in Test Automation - Framework, Data, Locators**_ ".  
   
-I had spoken on the same topic (_**Patterns in Test Automation**_) in [vodQA Hyderabad](<http://essenceoftesting.blogspot.in/2015/08/patterns-in-test-automation.html>) \- but that was a Testing conference and I knew the attendees were Testing and Test Automation focused. Here, I was skeptic about how this topic would be received by the attendees - given that the conference was focused on Agile, and this topic was core Testing related, and to add to the fact - very technical where I was showing various Java / Ruby code samples.  
+I had spoken on the same topic (_**Patterns in Test Automation**_) in [vodQA Hyderabad](</blog/patterns-in-test-automation/>) \- but that was a Testing conference and I knew the attendees were Testing and Test Automation focused. Here, I was skeptic about how this topic would be received by the attendees - given that the conference was focused on Agile, and this topic was core Testing related, and to add to the fact - very technical where I was showing various Java / Ruby code samples.  
   
 My skepticism was, thankfully, unfounded. There was a good number of attendees that came to the talk and based on conversations after the talk, I realized that I was able to get the message across to the attendees.  
   

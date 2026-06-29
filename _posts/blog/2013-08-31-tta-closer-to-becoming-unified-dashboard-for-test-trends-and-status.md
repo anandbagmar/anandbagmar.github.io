@@ -19,7 +19,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[Test Trend Analyzer (TTA)](<http://essenceoftesting.blogspot.com/2013/03/introducing-test-trend-analyzer-tta.html>), went live again today !!! We are now at version 0.5.4.
+[Test Trend Analyzer (TTA)](</blog/introducing-test-trend-analyzer-tta/>), went live again today !!! We are now at version 0.5.4.
 
   
 
@@ -54,4 +54,4 @@ Features available from some time:
 
  
 
-More information about features, how to use TTA, etc. can be found on [this blog](<http://essenceoftesting.blogspot.in/search/label/tta>), [TTA-github](<https://github.com/anandbagmar/tta>), [TTA-github-wiki](<https://github.com/anandbagmar/tta/wiki>), or by [contacting me](<mailto:abagmar@gmail.com>).
+More information about features, how to use TTA, etc. can be found on [this blog](</blog/tags/#tta>), [TTA-github](<https://github.com/anandbagmar/tta>), [TTA-github-wiki](<https://github.com/anandbagmar/tta/wiki>), or by [contacting me](<mailto:abagmar@gmail.com>).

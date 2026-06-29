@@ -24,8 +24,8 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-Very excited to share that I, along with a few collaborators of [WAAT](<https://essenceoftesting.blogspot.com/search/label/waat>) did a workshop in [vodQA, Pune](<https://essenceoftesting.blogspot.com/2016/08/vodqa-pune-less-talk-only-action-agenda.html>) on Sat, 27th Aug about _**Automating Web Analytics - Why? How?**_.   
-We implemented the automation using [WAAT](<https://essenceoftesting.blogspot.com/search/label/waat>).  
+Very excited to share that I, along with a few collaborators of [WAAT](</blog/tags/#waat>) did a workshop in [vodQA, Pune](</blog/vodqa-pune-less-talk-only-action-agenda-abstract-and-workshop-pre-requisites/>) on Sat, 27th Aug about _**Automating Web Analytics - Why? How?**_.   
+We implemented the automation using [WAAT](</blog/tags/#waat>).  
   
 Also, am very excited to announce that _**WAAT v2.0 BETA**_ for Java is now available from the [WAAT project](<https://github.com/anandbagmar/waat>).  
   
@@ -60,7 +60,7 @@ Attend this workshop to learn ‘What is Web Analytics?’ and why it is an extr
 We will share some techniques for testing Web Analytics - in a non-automated way - and why that is very challenging and error-prone.
 
    
-We will learn, via hands-on activity, about [WAAT - Web Analytics Automation Testing Framework](<https://essenceoftesting.blogspot.com/search/label/waat>) (<https://essenceoftesting.blogspot.com/search/label/waat)> \- an open-source solution, to automate validation of correct information / tags being sent to the Web Analytic server for different user actions as part of your regular Selenium-WebDriver Test Automation Framework.
+We will learn, via hands-on activity, about [WAAT - Web Analytics Automation Testing Framework](</blog/tags/#waat>) (</blog/tags/#waat)> \- an open-source solution, to automate validation of correct information / tags being sent to the Web Analytic server for different user actions as part of your regular Selenium-WebDriver Test Automation Framework.
 
    
 Lastly, we will see how the impact of Analytics has changed dramatically with more adoption and spread of IoT (Internet of Things) and Big Data, and what we need to do to be part of the change, if not influencers of change!

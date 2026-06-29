@@ -21,7 +21,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-On 15th Nov 2016, I spoke in [Selenium Conference London 2016](<http://2016.seleniumconf.co.uk/>) on the topic - "[Sharing the 'pain' of using Protractor & WebDriver](<http://2016.seleniumconf.co.uk/sessions/#anand-bagmar>)". This time, the pain was less - as I had already shared this in [Selenium Conference India 2016](<https://essenceoftesting.blogspot.in/2016/08/sharing-pain-in-automating-with.html>). From that experience, and lot of interactions, I worked on some of the challenges I was facing and implemented good solutions for the same.  
+On 15th Nov 2016, I spoke in [Selenium Conference London 2016](<http://2016.seleniumconf.co.uk/>) on the topic - "[Sharing the 'pain' of using Protractor & WebDriver](<http://2016.seleniumconf.co.uk/sessions/#anand-bagmar>)". This time, the pain was less - as I had already shared this in [Selenium Conference India 2016](</blog/sharing-the-pain-in-automating-with-protractor-webdriver/>). From that experience, and lot of interactions, I worked on some of the challenges I was facing and implemented good solutions for the same.  
   
 So this time it was easier.  
   

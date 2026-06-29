@@ -21,7 +21,7 @@ show_meta: true
 
 Here are some screenshots from the current functionality supported by TTA v0.5.4.  
   
-See the [TTA Wiki page](<https://github.com/anandbagmar/tta/wiki>) or [Contact me](<mailto:abagmar@gmail.com>) for more information on [TTA](<http://essenceoftesting.blogspot.in/search/label/tta>).  
+See the [TTA Wiki page](<https://github.com/anandbagmar/tta/wiki>) or [Contact me](<mailto:abagmar@gmail.com>) for more information on [TTA](</blog/tags/#tta>).  
   
   
 [![](/assets/img/blog/3.-after-project-upload-uploaded-page.png)](</assets/img/blog/3.-after-project-upload-uploaded-page.png>)  

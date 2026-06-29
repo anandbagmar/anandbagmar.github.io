@@ -29,7 +29,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-[It's all about Testing!](<http://twhyderabad.github.io/vodqa/>) at [vodQA](<http://essenceoftesting.blogspot.com/search/label/vodQA>) Hyderabad is being scheduled for Sat, 22nd Aug 2015 at [ThoughtWorks, Hyderabad](<https://goo.gl/maps/udbri>).  
+[It's all about Testing!](<http://twhyderabad.github.io/vodqa/>) at [vodQA](</blog/tags/#vodqa>) Hyderabad is being scheduled for Sat, 22nd Aug 2015 at [ThoughtWorks, Hyderabad](<https://goo.gl/maps/udbri>).  
   
 [Speaker registrations](<http://twhyderabad.github.io/vodqa/>) are now open and Attendee registrations will open soon.  
   

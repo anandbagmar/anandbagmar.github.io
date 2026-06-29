@@ -30,7 +30,7 @@ show_meta: true
 
 I spoke about "[Build your own MAD-LAB - for Mobile Test Automation for CD](<https://confengine.com/agile-india-2018/proposal/5279/build-your-own-mad-lab-for-mobile-test-automation-for-cd>)" at [Agile India 2018](<https://2018.agileindia.org/>).  
   
-Though I have spoken on this similar topic answering the question - "[Why I needed to build my own MAD-LAB?](<https://essenceoftesting.blogspot.com/2017/07/why-i-needed-to-build-my-own-mad-lab.html>)" before at [vodQA](<https://essenceoftesting.blogspot.com/search/label/vodQA>) in July 2017 at Vuclip, quite a few things have changed since then.  
+Though I have spoken on this similar topic answering the question - "[Why I needed to build my own MAD-LAB?](</blog/why-i-needed-to-build-my-own-mad-lab/>)" before at [vodQA](</blog/tags/#vodqa>) in July 2017 at Vuclip, quite a few things have changed since then.  
   
 Knowing the value of "**_being agile_** ", a day before my scheduled talk in Agile India 2018, I decided to revamp the content substantially. To add to my challenges, (and thanks to "testing" my slides before the talk in the conference room), I also realised the slide size format I was using is incorrect, and also the projector was not "setup / configured" correctly, making all my slide colours go haywire.  
   

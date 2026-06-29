@@ -27,7 +27,7 @@ As I got onto a project early this year - my paths crossed again with Protractor
   
 In this case, the context was quite different. That said, the challenges, though reduced compared to my first attempt at using Protractor effectively, were still around.   
   
-I had posted a set of questions on [my blog](<http://essenceoftesting.blogspot.com/2016/03/protractor-for-angular-apps.html>), various LinkedIn and facebook groups - and got a lot of suggestions and advice how to proceed. Thanks to all of them, it did make my life easier.  
+I had posted a set of questions on [my blog](</blog/protractor-for-angular-apps/>), various LinkedIn and facebook groups - and got a lot of suggestions and advice how to proceed. Thanks to all of them, it did make my life easier.  
   
 Then, as part of Selenium Conference 2016 held in Bangalore on 24-25th June 2016, my friend and colleague - [+Nikita Iyer](<https://plus.google.com/101496505901823293274>) and I spoke about "[Sharing the Pain of Automating with Protractor & WebDriver](<https://confengine.com/selenium-conf-2016/proposal/2478/sharing-the-pain-in-automating-with-protractor-webdriver>)". The intention was multi-fold:  
 

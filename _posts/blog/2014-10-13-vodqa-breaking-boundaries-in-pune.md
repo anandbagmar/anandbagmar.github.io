@@ -24,6 +24,6 @@ show_meta: true
 ~~[UPDATE]~~ \- Latest count - >350 interested attendees for listening to speakers delivering 6 talks, 3 lightning talks and attending 3 workshops. Not to forget the fun and networking with a highly charged audience at the [ThoughtWorks, Pune](<http://goo.gl/maps/KfuJG>) office. Be there, or be left out! :)  
   
   
-I am very happy to write that the next [vodQA](<http://essenceoftesting.blogspot.in/search/label/vodQA>) is scheduled in [ThoughtWorks](<http://www.thoughtworks.com/>), [Pune](<http://www.thoughtworks.com/contact-us>) on 15th November 2014. The theme this time around is "[Breaking Boundaries](<http://www.thoughtworks.com/events>)".  
+I am very happy to write that the next [vodQA](</blog/tags/#vodqa>) is scheduled in [ThoughtWorks](<http://www.thoughtworks.com/>), [Pune](<http://www.thoughtworks.com/contact-us>) on 15th November 2014. The theme this time around is "[Breaking Boundaries](<http://www.thoughtworks.com/events>)".  
   
 You can register as an attendee [here](<http://info.thoughtworks.com/vodqa-pune-november-15-attendee-registration.html>), and register as a [speaker](<http://info.thoughtworks.com/vodqa-pune-november-15-speaker-registration.html>) here. You can submit more than one topic for speaker registration - just email [vodqa-pune@thoughtworks.com](<mailto:vodqa-pune@thoughtworks.com>) with details on the topics.

@@ -26,4 +26,4 @@ For those not aware, here is what WAAT is:
 
 
   
-Look at my [earlier post](<http://essenceoftesting.blogspot.com/2011/04/waat-web-analytics-automation-testing.html>) for more details on WAAT.
+Look at my [earlier post](</blog/waat-web-analytics-automation-testing-framework-is-alive/>) for more details on WAAT.

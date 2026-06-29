@@ -18,7 +18,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-As a follow-up to our **[vodQA Geek Night - Behavior Driven Testing (BDT)](<http://essenceoftesting.blogspot.in/2012/07/vodqa-geek-night-behavior-driven.html>)** workshop last year, we are conducting another workshop in ThoughtWorks, Pune focused on building a Test Automation Framework - the "right-way".  
+As a follow-up to our **[vodQA Geek Night - Behavior Driven Testing (BDT)](</blog/vodqa-geek-night-behavior-driven-testing-bdt-update/>)** workshop last year, we are conducting another workshop in ThoughtWorks, Pune focused on building a Test Automation Framework - the "right-way".  
   
 Here you will use your prior test automation experience to build a test automation framework from "scratch".  
   

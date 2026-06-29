@@ -25,7 +25,7 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-At yet-another-[vodQA](<https://essenceoftesting.blogspot.com/search/label/vodQA>) at [ThoughtWorks](<https://www.thoughtworks.com/>), this time in the Pune edition on 16th March 2019, I spoke about **Visual validation - The Missing Tip of the Automation Pyramid**  
+At yet-another-[vodQA](</blog/tags/#vodqa>) at [ThoughtWorks](<https://www.thoughtworks.com/>), this time in the Pune edition on 16th March 2019, I spoke about **Visual validation - The Missing Tip of the Automation Pyramid**  
   
   
 

@@ -27,7 +27,7 @@ show_meta: true
 
 **[UPDATED - Slides added]**  
   
-Yet another [vodQA](<http://essenceoftesting.blogspot.com/search/label/vodQA>) begins today, Saturday, 25th April 2015 - this time at ThoughtWorks, Bangalore. The theme for this vodQA is - "[Push the Envelope](<http://info.thoughtworks.com/registration-vodqa-bangalore-2015.html>)". The detail agenda can be found [here](<http://info.thoughtworks.com/registration-vodqa-bangalore-2015.html#agenda>).  
+Yet another [vodQA](</blog/tags/#vodqa>) begins today, Saturday, 25th April 2015 - this time at ThoughtWorks, Bangalore. The theme for this vodQA is - "[Push the Envelope](<http://info.thoughtworks.com/registration-vodqa-bangalore-2015.html>)". The detail agenda can be found [here](<http://info.thoughtworks.com/registration-vodqa-bangalore-2015.html#agenda>).  
   
 I conducted a workshop on "**Client-side Performance Testing** " in vodQA Bangalore.   
   

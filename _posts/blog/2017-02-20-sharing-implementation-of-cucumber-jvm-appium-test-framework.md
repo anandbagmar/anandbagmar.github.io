@@ -25,9 +25,9 @@ author: Anand Bagmar
 show_meta: true
 ---
 
-I recently shared the [Features of my Android Test Automation Framework](<https://essenceoftesting.blogspot.com/2017/02/features-of-my-android-test-automation.html>) and also [the challenges, and, how we overcame those, to make the parallel test execution work well with Android 7.0](<https://essenceoftesting.blogspot.com/2017/02/features-of-my-android-test-automation.html>) devices as well.  
+I recently shared the [Features of my Android Test Automation Framework](</blog/features-of-my-android-test-automation-framework/>) and also [the challenges, and, how we overcame those, to make the parallel test execution work well with Android 7.0](</blog/features-of-my-android-test-automation-framework/>) devices as well.  
   
-In this blog post, I will be sharing the details (including code) of the implementation. If you have not read my post on - [Features of my Android Test Automation Framework](<https://essenceoftesting.blogspot.com/2017/02/features-of-my-android-test-automation.html>) \- I highly recommend you read that first.  
+In this blog post, I will be sharing the details (including code) of the implementation. If you have not read my post on - [Features of my Android Test Automation Framework](</blog/features-of-my-android-test-automation-framework/>) \- I highly recommend you read that first.  
   
   
 

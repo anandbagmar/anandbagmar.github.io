@@ -93,7 +93,7 @@ We will share some techniques for testing Web Analytics - in a non-automated way
 **  
 
 
-We will learn, via hands-on activity, about WAAT - Web Analytics Automation Testing Framework (https://essenceoftesting.blogspot.com/search/label/waat) - an open-source solution, to automate validation of correct information / tags being sent to the Web Analytic server for different user actions as part of your regular Selenium-WebDriver Test Automation Framework.
+We will learn, via hands-on activity, about WAAT - Web Analytics Automation Testing Framework (/blog/tags/#waat) - an open-source solution, to automate validation of correct information / tags being sent to the Web Analytic server for different user actions as part of your regular Selenium-WebDriver Test Automation Framework.
 
 **  
 **  

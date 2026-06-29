@@ -19,7 +19,7 @@ I spoke in SiliconIndia's [**SoftTec 2012**](<http://www.siliconindia.com/events
   
 It was a pretty big conference - with the Test Technologies / Methodologies track having an attendance of about 250 people, and the People / Process / Business track having an attendance of about 150 people. There were good interactions with the attendees and fellow speakers during the break times.  
   
-The topic of my talk was **Behavior Driven Testing (BDT) in Agile**. Off late, I have been speaking on this topic at various different places in some form or the other. Click [here](<http://essenceoftesting.blogspot.in/search/label/bdt>) for all information related to BDT.  
+The topic of my talk was **Behavior Driven Testing (BDT) in Agile**. Off late, I have been speaking on this topic at various different places in some form or the other. Click [here](</blog/tags/#bdt>) for all information related to BDT.  
   
 Here is the abstract of this talk:   
 

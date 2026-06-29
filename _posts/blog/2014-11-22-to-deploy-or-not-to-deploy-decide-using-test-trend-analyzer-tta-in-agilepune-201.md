@@ -57,7 +57,7 @@ The next set of questions are:
 
 The current set of tools are limited and fail to give the holistic picture of quality and health, across the life-cycle of the products.  
    
-The solution - [**_TTA - Test Trend Analyzer_**](<http://essenceoftesting.blogspot.in/search/label/tta>)  
+The solution - [**_TTA - Test Trend Analyzer_**](</blog/tags/#tta>)  
    
 TTA is an _open source product_ that becomes the source of information to give you real-time and visual insights into the health of the product portfolio using the Test Automation results, in form of Trends, Comparative Analysis, Failure Analysis and Functional Performance Benchmarking. This allows teams to take decisions on the product deployment to the next level using actual data points, instead of 'gut-feel' based decisions.  
    
