@@ -8,6 +8,10 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Fixed nav links hardcoding the production host: internal nav links (and dropdown items) prepended `site.url` (`https://essenceoftesting.com`), so running locally any nav click jumped to prod. Internal links now render as root-relative paths (e.g. `/oss/`) which resolve against whatever host is serving the page; external `http` links are unchanged.
+- Fixed vertical alignment of search icon and dark/light mode toggle in desktop nav: changed `li` display from `list-item` to `block` and float from `right` to `left`, matching Foundation's top-bar desktop layout — both items now sit at the same level as CONTACT/MY PROFILE.
+- Added search icon (🔍 magnifying glass SVG) to the nav bar, linking to `/search/` — sits to the left of the dark mode toggle on all viewports.
+- Removed fetch interceptor from Playwright search tests; tests now exercise the real HTTP stack (search.json and search-index.json are fetched by the browser exactly as a real user would). Added diagnostic logging (console, JS errors, network, DOM state) and screenshots to both search tests to surface root causes on failure.
 - Removed standalone "Blog" nav item; consolidated everything under Resources dropdown: Blog Posts, Browse by Tag, Talks & Videos, Case Studies, then external links (Applitools Articles ↗, Slides ↗, YouTube ↗) — all distinguished by ↗ suffix.
 - Fixed search Playwright tests timing out in CI: moved Lunr index construction from the browser to a Node.js build step (`scripts/build-search-index.js`, run via `npm run build:search`). Jekyll build → index build → serve is now the CI pipeline order; the browser loads the pre-serialised index with `lunr.Index.load()` in milliseconds instead of blocking the main thread for 30 s+ building it from scratch. Search tests now complete in &lt;1 s.
 - Reduced `search-index.json` from 814 KB to 298 KB by excluding the `excerpt` field from the Lunr index (excerpts are still fetched from `search.json` for display — they just aren't full-text-searchable; title + tags gives strong enough signal for 252 blog posts).

@@ -189,27 +189,8 @@ test.describe('Search', () => {
     };
   }
 
-  /** Pre-fetch JSON files and intercept browser requests to return them instantly. */
-  async function interceptSearchData(page) {
-    const [docsRes, idxRes] = await Promise.all([
-      page.request.get('/search.json'),
-      page.request.get('/search-index.json'),
-    ]);
-    expect(docsRes.ok(), `GET /search.json failed: ${docsRes.status()}`).toBeTruthy();
-    expect(idxRes.ok(),  `GET /search-index.json failed: ${idxRes.status()}`).toBeTruthy();
-
-    const docs = await docsRes.json();
-    const idx  = await idxRes.json();
-    console.log(`search.json: ${docs.length} docs`);
-    console.log(`search-index.json: ${JSON.stringify(idx).length} bytes`);
-
-    await page.route('/search.json',       route => route.fulfill({ json: docs }));
-    await page.route('/search-index.json', route => route.fulfill({ json: idx }));
-  }
-
   test('search index loads and returns results', async ({ page }) => {
     const diag = attachDiagnostics(page);
-    await interceptSearchData(page);
     await page.goto('/search/?q=selenium');
     await page.screenshot({ path: 'test-results/search-after-goto.png' });
 
@@ -224,7 +205,6 @@ test.describe('Search', () => {
 
   test('Google fallback link appears after search', async ({ page }) => {
     const diag = attachDiagnostics(page);
-    await interceptSearchData(page);
     await page.goto('/search/?q=automation');
     await page.screenshot({ path: 'test-results/search-fallback-after-goto.png' });
 

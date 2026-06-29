@@ -330,27 +330,50 @@ input[type="submit"] {
   }
 }
 
+// ─── Nav search icon ─────────────────────────────────────────
+
+li.eot-nav-search-li {
+  display: block !important;
+  float: left !important;
+  padding: 0 !important;
+  background: transparent !important;
+
+  &:hover { background: transparent !important; }
+}
+
+a.eot-nav-search {
+  display: block;
+  padding: 0 14px;
+  line-height: $topbar-height;
+  color: $ci-1;
+  transition: color 0.15s;
+
+  svg { vertical-align: middle; }
+  &:hover { color: $amber; }
+}
+
 // ─── Dark/light mode toggle ──────────────────────────────────
 
 li.theme-toggle-li {
-  display: list-item !important;
-  float: right !important;
+  display: block !important;
+  float: left !important;
   padding: 0 !important;
   background: transparent !important;
-  height: $topbar-height !important;
-  line-height: $topbar-height !important;
 
-  &:hover {
-    background: transparent !important;
+  &:hover { background: transparent !important; }
+
+  @media #{$small-only} {
+    width: 100% !important;
+    float: none !important;
+    text-align: right;
   }
 }
 
 #theme-toggle {
-  display: inline-block;
+  display: block;
   padding: 0 15px;
   height: $topbar-height;
   line-height: $topbar-height;
-  vertical-align: top;
   background: transparent;
   border: none;
   color: $navy;
@@ -1639,6 +1662,11 @@ html.dark-mode {
   }
 
   #theme-toggle {
+    color: $dk-text;
+    &:hover { color: $dk-green; }
+  }
+
+  a.eot-nav-search {
     color: $dk-text;
     &:hover { color: $dk-green; }
   }
