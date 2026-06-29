@@ -1,8 +1,12 @@
 <!-- {{ include.name }}: {{ include.links | size }} links with priority={{ include.priority }}, changefreq={{ include.changefreq }} -->
 {% for link in include.links %}
-	{% unless link.sitemap.exclude or link.sitemap == false or link.published == false or link.redirect %}
+	{% assign clean_url = link.url | remove: 'index.html' %}
+	{% comment %} Only list real HTML pages: a directory URL (ends in '/') or an explicit '.html'. This skips resource files like feed.xml, robots.txt, search.json, sitemap.xml. {% endcomment %}
+	{% assign url_tail = clean_url | slice: -5, 5 %}
+	{% assign last_char = clean_url | slice: -1 %}
+	{% unless link.sitemap.exclude or link.sitemap == false or link.published == false or link.redirect or last_char != '/' and url_tail != '.html' %}
 	<url>
-	<loc>{{ site.url }}{{ site.baseurl }}{{ link.url | remove: 'index.html' }}</loc>
+	<loc>{{ site.url }}{{ site.baseurl }}{{ clean_url }}</loc>
 	{% if link.sitemap.lastmod %}
 		<lastmod>{{ link.sitemap.lastmod | date: '%Y-%m-%d' }}</lastmod>
 	{% elsif link.date %}
