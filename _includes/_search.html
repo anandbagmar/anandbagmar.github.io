@@ -116,25 +116,36 @@ html.dark-mode .eot-search-external { border-top-color: #243d58 !important; }
   var external = document.getElementById('eot-search-external');
   var glink    = document.getElementById('eot-google-link');
 
-  // Load index
+  // Load index — build asynchronously in chunks so the main thread isn't
+  // blocked for the full duration (270 docs × stem/tf-idf = several seconds on
+  // slow CI runners, which prevents Playwright from evaluating poll functions).
   fetch(SEARCH_JSON)
     .then(function (r) { return r.json(); })
     .then(function (data) {
       docs = data;
-      index = lunr(function () {
-        this.ref('url');
-        this.field('title',   { boost: 10 });
-        this.field('tags',    { boost: 6 });
-        this.field('excerpt', { boost: 1 });
-        data.forEach(function (doc) { this.add(doc); }, this);
-      });
-      window.__searchReady = true;
-      // Restore query from URL ?q=
-      var params = new URLSearchParams(window.location.search);
-      var q = params.get('q');
-      if (q) { input.value = q; runSearch(q); }
+      var builder = new lunr.Builder();
+      builder.ref('url');
+      builder.field('title',   { boost: 10 });
+      builder.field('tags',    { boost: 6 });
+      builder.field('excerpt', { boost: 1 });
+      var i = 0;
+      var CHUNK = 30;
+      function nextChunk() {
+        var end = Math.min(i + CHUNK, data.length);
+        for (; i < end; i++) { builder.add(data[i]); }
+        if (i < data.length) {
+          setTimeout(nextChunk, 0); // yield to browser between chunks
+        } else {
+          index = builder.build();
+          window.__searchReady = true;
+          var params = new URLSearchParams(window.location.search);
+          var q = params.get('q');
+          if (q) { input.value = q; runSearch(q); }
+        }
+      }
+      nextChunk();
     })
-    .catch(function (e) {
+    .catch(function () {
       results.innerHTML = '<p class="eot-search-hint">Search index could not be loaded.</p>';
     });
 
