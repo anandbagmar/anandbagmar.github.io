@@ -138,21 +138,101 @@ test.describe('Blogger slug redirects', () => {
 });
 
 // ── Search page ───────────────────────────────────────────────────────────
-// Use ?q= URL param: the search script reads it on load and calls runSearch()
-// automatically once the index is ready — no need to fill inputs or dispatch
-// events manually. waitForSelector uses DOM mutation observation (reliable).
 
 test.describe('Search', () => {
+  /**
+   * Attach a console/error/network listener and return a cleanup object.
+   * Call dump() to print everything collected so far.
+   * @param {import('@playwright/test').Page} page
+   */
+  function attachDiagnostics(page) {
+    /** @type {string[]} */ const consoleLogs = [];
+    /** @type {string[]} */ const jsErrors    = [];
+    /** @type {{url:string, status:number, ok:boolean}[]} */ const network = [];
+
+    page.on('console', msg => {
+      consoleLogs.push(`[${msg.type()}] ${msg.text()}`);
+    });
+    page.on('pageerror', err => {
+      jsErrors.push(err.message);
+    });
+    page.on('response', resp => {
+      network.push({ url: resp.url(), status: resp.status(), ok: resp.ok() });
+    });
+
+    return {
+      async dump() {
+        // Capture current DOM state
+        const searchReady   = await page.evaluate(() => /** @type {any} */ (window).__searchReady).catch(() => 'N/A (page closed)');
+        const inputValue    = await page.locator('#eot-search-input').inputValue().catch(() => 'N/A');
+        const resultsText   = await page.locator('#eot-search-results').textContent().catch(() => 'N/A (page closed)');
+        const resultCount   = await page.locator('.eot-result-item').count().catch(() => -1);
+        const externalShown = await page.locator('#eot-search-external').isVisible().catch(() => false);
+
+        console.log('=== Search diagnostics ===');
+        console.log(`  window.__searchReady : ${searchReady}`);
+        console.log(`  #eot-search-input    : "${inputValue}"`);
+        console.log(`  .eot-result-item cnt : ${resultCount}`);
+        console.log(`  #eot-search-external : ${externalShown ? 'visible' : 'hidden'}`);
+        console.log(`  #eot-search-results  : "${(resultsText || '').slice(0, 200)}"`);
+        console.log('  --- Network responses ---');
+        network
+          .filter(r => r.url.includes('search'))
+          .forEach(r => console.log(`  ${r.status} ${r.ok ? 'OK' : 'FAIL'} ${r.url}`));
+        console.log('  --- JS errors ---');
+        jsErrors.length ? jsErrors.forEach(e => console.log(`  ${e}`)) : console.log('  (none)');
+        console.log('  --- Console (errors/warnings) ---');
+        const relevant = consoleLogs.filter(l => /\[error\]|\[warning\]/i.test(l));
+        relevant.length ? relevant.forEach(l => console.log(`  ${l}`)) : console.log('  (none)');
+        console.log('=== end diagnostics ===');
+      },
+    };
+  }
+
+  /** Pre-fetch JSON files and intercept browser requests to return them instantly. */
+  async function interceptSearchData(page) {
+    const [docsRes, idxRes] = await Promise.all([
+      page.request.get('/search.json'),
+      page.request.get('/search-index.json'),
+    ]);
+    expect(docsRes.ok(), `GET /search.json failed: ${docsRes.status()}`).toBeTruthy();
+    expect(idxRes.ok(),  `GET /search-index.json failed: ${idxRes.status()}`).toBeTruthy();
+
+    const docs = await docsRes.json();
+    const idx  = await idxRes.json();
+    console.log(`search.json: ${docs.length} docs`);
+    console.log(`search-index.json: ${JSON.stringify(idx).length} bytes`);
+
+    await page.route('/search.json',       route => route.fulfill({ json: docs }));
+    await page.route('/search-index.json', route => route.fulfill({ json: idx }));
+  }
+
   test('search index loads and returns results', async ({ page }) => {
+    const diag = attachDiagnostics(page);
+    await interceptSearchData(page);
     await page.goto('/search/?q=selenium');
-    await page.waitForSelector('.eot-result-item', { timeout: 5000 });
+    await page.screenshot({ path: 'test-results/search-after-goto.png' });
+
+    const appeared = await page.waitForSelector('.eot-result-item', { timeout: 5000 }).catch(() => null);
+    await page.screenshot({ path: 'test-results/search-after-wait.png' });
+    await diag.dump();
+
+    expect(appeared, 'No .eot-result-item appeared within 5 s').not.toBeNull();
     const count = await page.locator('.eot-result-item').count();
     expect(count).toBeGreaterThan(0);
   });
 
   test('Google fallback link appears after search', async ({ page }) => {
+    const diag = attachDiagnostics(page);
+    await interceptSearchData(page);
     await page.goto('/search/?q=automation');
-    await page.waitForSelector('#eot-search-external', { state: 'visible', timeout: 5000 });
+    await page.screenshot({ path: 'test-results/search-fallback-after-goto.png' });
+
+    const appeared = await page.waitForSelector('#eot-search-external', { state: 'visible', timeout: 5000 }).catch(() => null);
+    await page.screenshot({ path: 'test-results/search-fallback-after-wait.png' });
+    await diag.dump();
+
+    expect(appeared, '#eot-search-external not visible within 5 s').not.toBeNull();
     const href = await page.locator('#eot-google-link').getAttribute('href');
     expect(href).toContain('google.com/search');
     expect(href).toContain('essenceoftesting.com');
