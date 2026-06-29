@@ -116,34 +116,20 @@ html.dark-mode .eot-search-external { border-top-color: #243d58 !important; }
   var external = document.getElementById('eot-search-external');
   var glink    = document.getElementById('eot-google-link');
 
-  // Load index — build asynchronously in chunks so the main thread isn't
-  // blocked for the full duration (270 docs × stem/tf-idf = several seconds on
-  // slow CI runners, which prevents Playwright from evaluating poll functions).
-  fetch(SEARCH_JSON)
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      docs = data;
-      var builder = new lunr.Builder();
-      builder.ref('url');
-      builder.field('title',   { boost: 10 });
-      builder.field('tags',    { boost: 6 });
-      builder.field('excerpt', { boost: 1 });
-      var i = 0;
-      var CHUNK = 30;
-      function nextChunk() {
-        var end = Math.min(i + CHUNK, data.length);
-        for (; i < end; i++) { builder.add(data[i]); }
-        if (i < data.length) {
-          setTimeout(nextChunk, 0); // yield to browser between chunks
-        } else {
-          index = builder.build();
-          window.__searchReady = true;
-          var params = new URLSearchParams(window.location.search);
-          var q = params.get('q');
-          if (q) { input.value = q; runSearch(q); }
-        }
-      }
-      nextChunk();
+  // Load the pre-built Lunr index (generated at Jekyll-build time by
+  // scripts/build-search-index.js — avoids blocking the main thread with
+  // synchronous index construction which can take 30 s+ on slow CI runners).
+  Promise.all([
+    fetch(SEARCH_JSON).then(function (r) { return r.json(); }),
+    fetch('/search-index.json').then(function (r) { return r.json(); })
+  ])
+    .then(function (results_arr) {
+      docs  = results_arr[0];
+      index = lunr.Index.load(results_arr[1]);
+      window.__searchReady = true;
+      var params = new URLSearchParams(window.location.search);
+      var q = params.get('q');
+      if (q) { input.value = q; runSearch(q); }
     })
     .catch(function () {
       results.innerHTML = '<p class="eot-search-hint">Search index could not be loaded.</p>';

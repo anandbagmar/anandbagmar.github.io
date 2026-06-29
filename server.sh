@@ -10,8 +10,12 @@ start() {
     echo "Server already running (PID $(cat "$PIDFILE")) at http://localhost:$PORT"
     return
   fi
-  echo "Starting Jekyll server on http://localhost:$PORT …"
-  bundle exec jekyll serve --port "$PORT" --livereload &
+  echo "Building Jekyll site…"
+  bundle exec jekyll build
+  echo "Building search index…"
+  npm run build:search
+  echo "Starting server on http://localhost:$PORT …"
+  bundle exec jekyll serve --port "$PORT" --livereload --skip-initial-build &
   echo $! > "$PIDFILE"
   echo "Started (PID $!). Press Ctrl-C or run './server.sh stop' to stop."
 }

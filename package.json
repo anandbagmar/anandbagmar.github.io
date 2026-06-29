@@ -2,11 +2,13 @@
   "name": "anandbagmar-github-io",
   "private": true,
   "scripts": {
+    "build:search": "node scripts/build-search-index.js",
     "test": "playwright test",
     "test:report": "playwright show-report"
   },
   "devDependencies": {
     "@playwright/test": "^1.45.0",
+    "lunr": "^2.3.9",
     "serve": "^14.2.3",
     "wait-on": "^8.0.1"
   }

@@ -45,6 +45,9 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: Build search index
+        run: npm run build:search
+
       - name: Serve built site
         run: npx serve _site --listen 4000 &
       - name: Wait for server
