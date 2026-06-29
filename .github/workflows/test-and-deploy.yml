@@ -5,6 +5,12 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: 'Deploy to GitHub Pages even if Playwright tests fail'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -55,6 +61,7 @@ jobs:
 
       - name: Run Playwright tests
         run: npm test
+        continue-on-error: ${{ github.event_name == 'workflow_dispatch' && inputs.force_deploy }}
         env:
           BASE_URL: http://127.0.0.1:4000
 
@@ -69,7 +76,7 @@ jobs:
           retention-days: 14
 
       - name: Upload site artifact for deploy
-        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'workflow_dispatch'
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
@@ -77,7 +84,7 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     needs: test
-    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
