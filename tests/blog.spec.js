@@ -141,16 +141,35 @@ test.describe('Blogger slug redirects', () => {
 
 test.describe('Search', () => {
   test('search index loads and returns results', async ({ page }) => {
+    const jsErrors = [];
+    const consoleMsgs = [];
+    page.on('pageerror', (e) => jsErrors.push(e.message));
+    page.on('console', (m) => { if (m.type() === 'error') consoleMsgs.push(m.text()); });
+
     await page.goto('/search/');
     const input = page.locator('#eot-search-input');
     await expect(input).toBeVisible();
     await input.fill('selenium');
     // Re-fire input event every second until results appear (index may still be loading)
-    await page.waitForFunction(() => {
+    const appeared = await page.waitForFunction(() => {
       const inp = document.getElementById('eot-search-input');
       if (inp) inp.dispatchEvent(new Event('input', { bubbles: true }));
       return document.querySelectorAll('.eot-result-item').length > 0;
-    }, { timeout: 20000, polling: 1000 });
+    }, { timeout: 20000, polling: 1000 }).catch(() => null);
+
+    if (!appeared) {
+      // Capture diagnostic state before failing
+      const pageText = await page.locator('#eot-search-results').textContent();
+      const searchReady = await page.evaluate(() => window.__searchReady);
+      throw new Error(
+        `Search results never appeared.\n` +
+        `#eot-search-results: "${pageText}"\n` +
+        `window.__searchReady: ${searchReady}\n` +
+        `JS errors: ${jsErrors.join('; ') || 'none'}\n` +
+        `Console errors: ${consoleMsgs.join('; ') || 'none'}`
+      );
+    }
+
     const count = await page.locator('.eot-result-item').count();
     expect(count).toBeGreaterThan(0);
   });
