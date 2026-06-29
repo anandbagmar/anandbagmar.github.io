@@ -8,6 +8,7 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Fixed CI server step failing to start: `npx serve --listen 127.0.0.1:4000` was rejected ("Unknown --listen endpoint scheme") because `serve`'s `--listen` flag expects a URI scheme, not a bare host:port. Changed to `--listen tcp://127.0.0.1:4000`, which binds correctly so `wait-on` no longer times out.
 - Added a manual `workflow_dispatch` trigger to the Test and Deploy workflow with a `force_deploy` boolean input. When run manually with `force_deploy` checked, the Playwright test step is allowed to fail (`continue-on-error`) and the site still deploys to GitHub Pages — an escape hatch for shipping when tests are red but the build is known-good. Normal pushes to `master` are unaffected (tests must pass).
 - Fixed search tests failing in CI: bound `npx serve` and `wait-on` to `127.0.0.1:4000` (was `localhost`). In GitHub Actions' Linux runners, Chromium resolves `localhost` to `::1` (IPv6) while `npx serve` defaults to IPv4 only — so the page loaded but in-page `fetch()` calls hung indefinitely. Pinning everything to `127.0.0.1` removes the ambiguity.
 - Fixed nav links hardcoding the production host: internal nav links (and dropdown items) prepended `site.url` (`https://essenceoftesting.com`), so running locally any nav click jumped to prod. Internal links now render as root-relative paths (e.g. `/oss/`) which resolve against whatever host is serving the page; external `http` links are unchanged.
