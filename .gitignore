@@ -10,4 +10,5 @@ test-results/
 blog/*
 !blog/index.html
 !blog/opaque_map.json
+.jekyll-server.pid
 temp/*
