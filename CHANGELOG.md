@@ -8,6 +8,7 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Sun, 29-Jun-2026
 
+- Fixed search tests failing in CI: bound `npx serve` and `wait-on` to `127.0.0.1:4000` (was `localhost`). In GitHub Actions' Linux runners, Chromium resolves `localhost` to `::1` (IPv6) while `npx serve` defaults to IPv4 only — so the page loaded but in-page `fetch()` calls hung indefinitely. Pinning everything to `127.0.0.1` removes the ambiguity.
 - Fixed nav links hardcoding the production host: internal nav links (and dropdown items) prepended `site.url` (`https://essenceoftesting.com`), so running locally any nav click jumped to prod. Internal links now render as root-relative paths (e.g. `/oss/`) which resolve against whatever host is serving the page; external `http` links are unchanged.
 - Fixed vertical alignment of search icon and dark/light mode toggle in desktop nav: changed `li` display from `list-item` to `block` and float from `right` to `left`, matching Foundation's top-bar desktop layout — both items now sit at the same level as CONTACT/MY PROFILE.
 - Added search icon (🔍 magnifying glass SVG) to the nav bar, linking to `/search/` — sits to the left of the dark mode toggle on all viewports.
