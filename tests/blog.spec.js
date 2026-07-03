@@ -52,7 +52,7 @@ test.describe('Structural ids', () => {
   test('homepage has unique page id and all section ids', async ({ page }) => {
     await page.goto('/');
     const mainId = await page.locator('main').first().getAttribute('id');
-    expect(mainId).toMatch(/^page-/);
+    expect(mainId).toBe('home');
 
     for (const id of ['hero', 'stats', 'essence-summary', 'founder-about', 'expertise', 'offerings', 'clients', 'case-studies-preview', 'thought-leadership', 'cta']) {
       await expect(page.locator(`#${id}`)).toBeVisible();
@@ -62,7 +62,31 @@ test.describe('Structural ids', () => {
   test('blog index has unique page id', async ({ page }) => {
     await page.goto('/blog/');
     const mainId = await page.locator('main').first().getAttribute('id');
-    expect(mainId).toMatch(/^page-/);
+    expect(mainId).toBe('blog');
+  });
+
+  test('areas-of-specialization page has matching page id', async ({ page }) => {
+    await page.goto('/areas-of-specialization/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toBe('areas-of-specialization');
+  });
+
+  test('oss page has matching page id', async ({ page }) => {
+    await page.goto('/oss/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toBe('oss');
+  });
+
+  test('content page has matching page id', async ({ page }) => {
+    await page.goto('/content/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toBe('content');
+  });
+
+  test('blog tags page has matching page id', async ({ page }) => {
+    await page.goto('/blog/tags/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toBe('blog-tags');
   });
 
   test('no duplicate element ids on the homepage', async ({ page }) => {
@@ -146,10 +170,11 @@ test.describe('Individual blog post', () => {
     expect(articleId).toMatch(/^post-/);
   });
 
-  test('main content wrapper has a unique page-{slug} id', async ({ page }) => {
+  test('main content wrapper id matches the post URL', async ({ page }) => {
     await page.goto(POST);
     const mainId = await page.locator('main').first().getAttribute('id');
-    expect(mainId).toMatch(/^page-/);
+    const expectedId = POST.replace(/^\/|\/$/g, '').replace(/\//g, '-');
+    expect(mainId).toBe(expectedId);
   });
 
   test('no duplicate element ids on the page', async ({ page }) => {

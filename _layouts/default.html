@@ -23,7 +23,7 @@ layout: compress
 	{% include _masthead.html %}
 	{% capture _page_slug %}{{ page.url | slugify }}{% endcapture %}
 	{% if _page_slug == "" or _page_slug == "index-html" %}{% assign _page_slug = "home" %}{% endif %}
-	<main id="page-{{ _page_slug }}">
+	<main id="{{ _page_slug }}">
 	{{ content }}
 	</main>
 
