@@ -11,7 +11,7 @@ header:
 
 <div class="eot-oss-grid">
 
-  <div class="eot-oss-card eot-oss-card--teswiz">
+  <div id="teswiz" class="eot-oss-card eot-oss-card--teswiz">
     <div class="eot-oss-header">
       <div class="eot-oss-badge" style="background:#283890;">T</div>
       <div>
@@ -32,7 +32,7 @@ header:
     </div>
   </div>
 
-  <div class="eot-oss-card eot-oss-card--waat">
+  <div id="waat" class="eot-oss-card eot-oss-card--waat">
     <div class="eot-oss-header">
       <div class="eot-oss-badge" style="background:#0b9444;">W</div>
       <div>
@@ -52,7 +52,7 @@ header:
     </div>
   </div>
 
-  <div class="eot-oss-card eot-oss-card--tta">
+  <div id="tta" class="eot-oss-card eot-oss-card--tta">
     <div class="eot-oss-header">
       <div class="eot-oss-badge" style="background:#3949ab;">TTA</div>
       <div>
@@ -74,7 +74,7 @@ header:
 
 </div>
 
-<div class="eot-oss-contrib">
+<div id="oss-contributions" class="eot-oss-contrib">
   <h2>Other Contributions</h2>
   <div class="eot-oss-contrib-grid">
     <div class="eot-oss-contrib-item">

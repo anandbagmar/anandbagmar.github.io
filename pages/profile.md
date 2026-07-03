@@ -45,15 +45,15 @@ html.dark-mode .eot-profile-quote { background: rgba(255,255,255,0.06); color: #
 
 ## Download My Profile
 
-<div class="eot-profile-cards">
+<div id="download-profile" class="eot-profile-cards">
 
-  <div class="eot-profile-card">
+  <div id="profile-snapshot" class="eot-profile-card">
     <h3>Profile Snapshot</h3>
     <p>Concise summary - ideal for quick sharing with recruiters and hiring managers.</p>
     <a href="/assets/pdfs/Anand_Bagmar_Profile_LinkedIn.pdf" target="_blank" class="eot-btn eot-btn--secondary">Download PDF</a>
   </div>
 
-  <div class="eot-profile-card">
+  <div id="profile-full" class="eot-profile-card">
     <h3>Full Profile</h3>
     <p>Detailed profile - core expertise, offerings, training programmes, case studies, and global impact.</p>
     <a href="/assets/pdfs/AnandBagmar-EoT-Profile.pdf" target="_blank" class="eot-btn eot-btn--secondary">Download PDF</a>

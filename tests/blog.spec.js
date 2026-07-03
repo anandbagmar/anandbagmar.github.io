@@ -46,6 +46,35 @@ test.describe('Blog index', () => {
   });
 });
 
+// ── Structural ids (page + section) ─────────────────────────────────────────
+
+test.describe('Structural ids', () => {
+  test('homepage has unique page id and all section ids', async ({ page }) => {
+    await page.goto('/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toMatch(/^page-/);
+
+    for (const id of ['hero', 'stats', 'essence-summary', 'founder-about', 'expertise', 'offerings', 'clients', 'case-studies-preview', 'thought-leadership', 'cta']) {
+      await expect(page.locator(`#${id}`)).toBeVisible();
+    }
+  });
+
+  test('blog index has unique page id', async ({ page }) => {
+    await page.goto('/blog/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toMatch(/^page-/);
+  });
+
+  test('no duplicate element ids on the homepage', async ({ page }) => {
+    await page.goto('/');
+    const duplicates = await page.evaluate(() => {
+      const ids = Array.from(document.querySelectorAll('[id]')).map((el) => el.id);
+      return ids.filter((id, i) => ids.indexOf(id) !== i);
+    });
+    expect(duplicates).toEqual([]);
+  });
+});
+
 // ── /blog/tags/ page ───────────────────────────────────────────────────────
 
 test.describe('Blog tags page', () => {
@@ -89,9 +118,10 @@ test.describe('Individual blog post', () => {
     expect(errors).toEqual([]);
   });
 
-  test('shows post title in heading', async ({ page }) => {
+  test('shows post title in #page-title heading', async ({ page }) => {
     await page.goto(POST);
-    const h1 = page.locator('h1, .eot-blog-title, #page-title, header h1').first();
+    const h1 = page.locator('#page-title');
+    await expect(h1).toBeVisible();
     const text = await h1.textContent();
     expect(text).toBeTruthy();
   });
@@ -102,12 +132,33 @@ test.describe('Individual blog post', () => {
     await expect(tagLink).toBeVisible();
   });
 
-  test('post content is present', async ({ page }) => {
+  test('post content is present in #page-content', async ({ page }) => {
     await page.goto(POST);
     // Article body should have substantial text
-    const body = page.locator('#page-content, article, .entry-content, main').first();
+    const body = page.locator('#page-content');
     const text = await body.textContent();
     expect((text || '').length).toBeGreaterThan(200);
+  });
+
+  test('article has a unique post-{slug} id', async ({ page }) => {
+    await page.goto(POST);
+    const articleId = await page.locator('article').first().getAttribute('id');
+    expect(articleId).toMatch(/^post-/);
+  });
+
+  test('main content wrapper has a unique page-{slug} id', async ({ page }) => {
+    await page.goto(POST);
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toMatch(/^page-/);
+  });
+
+  test('no duplicate element ids on the page', async ({ page }) => {
+    await page.goto(POST);
+    const duplicates = await page.evaluate(() => {
+      const ids = Array.from(document.querySelectorAll('[id]')).map((el) => el.id);
+      return ids.filter((id, i) => ids.indexOf(id) !== i);
+    });
+    expect(duplicates).toEqual([]);
   });
 });
 

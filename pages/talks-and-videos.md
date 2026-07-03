@@ -11,7 +11,7 @@ header:
 
 <div class="eot-tv-section">
 
-  <div class="eot-tv-block">
+  <div id="recent-videos" class="eot-tv-block">
     <span class="eot-eyebrow-sm">RECENT VIDEOS</span>
     <h2 class="eot-tv-h2">Recent Videos</h2>
     <div class="eot-featured-grid">
@@ -41,7 +41,7 @@ header:
     </div>
   </div>
 
-  <div class="eot-tv-block">
+  <div id="featured-talks" class="eot-tv-block">
     <span class="eot-eyebrow-sm">FEATURED TALKS</span>
     <h2 class="eot-tv-h2">Keynotes &amp; Highlighted Sessions</h2>
     <div class="eot-featured-grid">
@@ -109,7 +109,7 @@ header:
     </div>
   </div>
 
-  <div class="eot-tv-block">
+  <div id="all-talks" class="eot-tv-block">
     <span class="eot-eyebrow-sm">ALL TALKS</span>
     <h2 class="eot-tv-h2">Conference Talks &amp; Webinars</h2>
     <div class="eot-talks-grid">
@@ -187,7 +187,7 @@ header:
     </div>
   </div>
 
-  <div class="eot-tv-block">
+  <div id="speaking-history" class="eot-tv-block">
     <span class="eot-eyebrow-sm">SPEAKING HISTORY</span>
     <h2 class="eot-tv-h2">Conference Sessions</h2>
     <p class="eot-tv-lead">Conference talks and workshops at global testing events.</p>

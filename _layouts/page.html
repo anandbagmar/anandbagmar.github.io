@@ -4,7 +4,7 @@ format: post
 ---
 <div class="row t30">
 	<div class="medium-8 columns{% if page.sidebar == NULL %} medium-offset-2 end{% endif %}{% if page.sidebar == "left" %} medium-push-4{% endif %}">
-		<article itemscope itemtype="http://schema.org/Article">
+		<article id="{% if page.collection == 'posts' %}post-{{ page.slug }}{% else %}page-article{% endif %}" itemscope itemtype="http://schema.org/Article">
 			<header>
 				{% if page.image.title %}
 				<figure>
@@ -24,7 +24,7 @@ format: post
 
 				<div itemprop="name">
 					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-					<h1>{{ page.title }}</h1>
+					<h1 id="page-title">{{ page.title }}</h1>
 				</div>
 			</header>
 
@@ -35,7 +35,7 @@ format: post
 			</p>
 			{% endif %}
 
-			<div itemprop="articleSection">
+			<div id="page-content" itemprop="articleSection">
 			{{ content }}
 			</div>
 

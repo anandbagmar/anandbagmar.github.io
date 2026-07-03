@@ -11,7 +11,7 @@ header:
 
 <div class="eot-content-section">
 
-  <div class="eot-content-block">
+  <div id="writing" class="eot-content-block">
     <span class="eot-eyebrow-sm">WRITING</span>
     <h2 class="eot-content-h2">Published Articles &amp; Blogs</h2>
     <div class="eot-content-grid">
@@ -37,7 +37,7 @@ header:
     </div>
   </div>
 
-  <div class="eot-content-block">
+  <div id="presentations" class="eot-content-block">
     <span class="eot-eyebrow-sm">PRESENTATIONS</span>
     <h2 class="eot-content-h2">Slides</h2>
     <div class="eot-content-grid">

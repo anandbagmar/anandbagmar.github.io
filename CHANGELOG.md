@@ -6,6 +6,11 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Fri, 03-Jul-2026
+
+- Added unique DOM ids to every page and its important sections: a `<main id="page-{slug}">` landmark (derived from the page URL) wraps every page's content in `_layouts/default.html`, giving each page a distinct, addressable root element and fixing the site's missing `<main>` accessibility landmark. Blog posts additionally get `id="post-{slug}"` on their `<article>` (only for real posts, not other pages sharing `page.html`). `#page-title`/`#page-content` were added to the primary heading/content of `page.html`, `page-fullwidth.html`, `video.html`, `blog.html`, and `homepage.html` — these match ids the Playwright tests already referenced as fallback selectors but that never actually existed. Also added named ids to the homepage's 10 top-level sections (hero, stats, expertise, offerings, clients, case studies, etc.) and to the standalone content blocks on `/oss/`, `/content/`, `/profile/`, and `/talks-and-videos/` for stable deep-linking and test targeting.
+- Tightened `tests/blog.spec.js` to assert on the new `#page-title`/`#page-content` ids directly instead of falling back through a list of guesses, and added checks for the `post-{slug}`/`page-{slug}` ids and for absence of duplicate ids per page.
+
 ## Sun, 29-Jun-2026
 
 - Localized blog images that were still hot-linking Google's CDN. Of the 12 `lh*.googleusercontent.com` images across 3 posts, the 4 in "Analytics — the brain of the software" were still live and were downloaded into `/assets/img/blog/` and repointed locally. The other 8 (7 in "Does a Tester need a career path?", 1 in "Features of my Android Test Automation Framework") now return 404 from Google and have no recoverable source in the Blogger Takeout export, so each was replaced with an italic *(image no longer available)* note rather than leaving a broken-image icon.

@@ -10,7 +10,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      HERO
 ════════════════════════════════════════════════════ -->
-<section class="eot-hero">
+<section id="hero" class="eot-hero">
   <div class="eot-hero-inner">
     <div class="eot-hero-text">
       <span class="eot-eyebrow">ESSENCE OF TESTING</span>
@@ -36,7 +36,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      STATS
 ════════════════════════════════════════════════════ -->
-<section class="eot-stats">
+<section id="stats" class="eot-stats">
   <div class="eot-stats-inner">
     <div class="eot-stat">
       <span class="eot-stat-number">25+</span>
@@ -60,7 +60,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      ESSENCE OF TESTING SUMMARY
 ════════════════════════════════════════════════════ -->
-<section class="eot-section eot-section--tint">
+<section id="essence-summary" class="eot-section eot-section--tint">
   <div class="eot-section-inner">
     <div class="eot-about">
       <div class="eot-about-text">
@@ -79,7 +79,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      ABOUT / SUMMARY
 ════════════════════════════════════════════════════ -->
-<section class="eot-section">
+<section id="founder-about" class="eot-section">
   <div class="eot-section-inner">
     <div class="eot-about">
       <div class="eot-about-text">
@@ -98,7 +98,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      CORE EXPERTISE
 ════════════════════════════════════════════════════ -->
-<section class="eot-section eot-section--tint">
+<section id="expertise" class="eot-section eot-section--tint">
   <div class="eot-section-inner">
     <div class="eot-section-header">
       <span class="eot-eyebrow">CORE EXPERTISE</span>
@@ -155,7 +155,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      OFFERINGS
 ════════════════════════════════════════════════════ -->
-<section class="eot-section">
+<section id="offerings" class="eot-section">
   <div class="eot-section-inner">
     <div class="eot-section-header">
       <span class="eot-eyebrow">OFFERINGS</span>
@@ -189,7 +189,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      CLIENTS
 ════════════════════════════════════════════════════ -->
-<section class="eot-section eot-section--tint">
+<section id="clients" class="eot-section eot-section--tint">
   <div class="eot-section-inner">
     <div class="eot-section-header">
       <span class="eot-eyebrow">CLIENTS &amp; ORGANISATIONS</span>
@@ -205,7 +205,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      CASE STUDIES PREVIEW
 ════════════════════════════════════════════════════ -->
-<section class="eot-section">
+<section id="case-studies-preview" class="eot-section">
   <div class="eot-section-inner">
     <div class="eot-section-header">
       <span class="eot-eyebrow">CASE STUDIES</span>
@@ -243,7 +243,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      THOUGHT LEADERSHIP
 ════════════════════════════════════════════════════ -->
-<section class="eot-section eot-section--tint">
+<section id="thought-leadership" class="eot-section eot-section--tint">
   <div class="eot-section-inner">
     <div class="eot-section-header">
       <span class="eot-eyebrow">GLOBAL IMPACT &amp; THOUGHT LEADERSHIP</span>
@@ -282,7 +282,7 @@ permalink: /index.html
 <!-- ═══════════════════════════════════════════════════
      CTA
 ════════════════════════════════════════════════════ -->
-<section class="eot-cta">
+<section id="cta" class="eot-cta">
   <div class="eot-cta-inner">
     <h2>Ready to build quality into your engineering culture?</h2>
     <p>Whether you need a strategic advisor, a hands-on leader, or a training partner - let's talk.</p>
