@@ -6,6 +6,10 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Mon, 06-Jul-2026
+
+- Stopped the CI Playwright report from filling GitHub Actions storage. The `Upload test report and screenshots` step in `.github/workflows/test-and-deploy.yml` previously ran on `if: always()` with `retention-days: 14`, so every passing run uploaded a report (some 40–100 MB with traces/videos) and kept it for two weeks — accumulating hundreds of MB of live artifacts and eating into the account's Actions usage. Now it uploads only on failure (`if: failure() || steps.playwright.outcome == 'failure'`, with an `id: playwright` on the test step so a masked failure during a `force_deploy` run is still captured) and keeps artifacts for `retention-days: 5`. Also deleted the 51 existing `playwright-report` artifacts (~778 MB live) from the repo to reclaim the quota immediately.
+
 ## Fri, 03-Jul-2026
 
 - Added unique DOM ids to every page and its important sections: a `<main id="{slug}">` landmark (derived from the page URL, e.g. `/areas-of-specialization/` → `id="areas-of-specialization"`, `/blog/tags/` → `id="blog-tags"`) wraps every page's content in `_layouts/default.html`, giving each page a distinct, addressable root element and fixing the site's missing `<main>` accessibility landmark. Blog posts additionally get `id="post-{slug}"` on their `<article>` (only for real posts, not other pages sharing `page.html`). `#page-title`/`#page-content` were added to the primary heading/content of `page.html`, `page-fullwidth.html`, `video.html`, `blog.html`, and `homepage.html` — these match ids the Playwright tests already referenced as fallback selectors but that never actually existed. Also added named ids to the homepage's 10 top-level sections (hero, stats, expertise, offerings, clients, case studies, etc.) and to the standalone content blocks on `/oss/`, `/content/`, `/profile/`, and `/talks-and-videos/` for stable deep-linking and test targeting.
