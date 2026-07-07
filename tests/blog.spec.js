@@ -19,6 +19,16 @@ test.describe('Blog index', () => {
     expect(errors).toEqual([]);
   });
 
+  test('is indexable and does not set robots noindex', async ({ page }) => {
+    await page.goto('/blog/');
+    const robots = page.locator('meta[name="robots"]');
+    const count = await robots.count();
+    if (count === 0) return;
+
+    const content = await robots.first().getAttribute('content');
+    expect(content).not.toContain('noindex');
+  });
+
   test('shows Recent Posts section with at least 10 posts', async ({ page }) => {
     await page.goto('/blog/');
     const count = await page.locator('.eot-blog-item').count();

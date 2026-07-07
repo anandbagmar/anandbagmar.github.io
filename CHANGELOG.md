@@ -6,6 +6,10 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Tue, 07-Jul-2026
+
+- Removed the blanket `noindex` from the blog landing page so `/blog/` can be indexed again on the new `essenceoftesting.com` site. The blog archive was still inheriting the old Blogger-era SEO treatment even though the content now lives natively on the site, which could keep the main blog hub out of search results. Added a regression test to ensure the page does not emit `meta name="robots" content="noindex"` anymore.
+
 ## Mon, 06-Jul-2026
 
 - Stopped the CI Playwright report from filling GitHub Actions storage. The `Upload test report and screenshots` step in `.github/workflows/test-and-deploy.yml` previously ran on `if: always()` with `retention-days: 14`, so every passing run uploaded a report (some 40–100 MB with traces/videos) and kept it for two weeks — accumulating hundreds of MB of live artifacts and eating into the account's Actions usage. Now it uploads only on failure (`if: failure() || steps.playwright.outcome == 'failure'`, with an `id: playwright` on the test step so a masked failure during a `force_deploy` run is still captured) and keeps artifacts for `retention-days: 5`. Also deleted the 51 existing `playwright-report` artifacts (~778 MB live) from the repo to reclaim the quota immediately.
