@@ -6,6 +6,12 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Fri, 10-Jul-2026
+
+- Added a custom Content Creation Workspace Skill (`.agents/skills/create-content/SKILL.md`) and updated `CLAUDE.md` and `AGENTS.md` to define an interactive, step-by-step content generation protocol for blog posts and case studies. This enables any AI coding assistant to interactively prompt for inputs, suggest SEO titles, handle images and videos, and scaffold the Jekyll content files.
+- Updated root README.md with comprehensive project instructions covering installation, local server commands, Playwright testing, and step-by-step documentation for the new AI-assisted content creation protocol.
+- Added a rule to project-scoped `AGENTS.md` rules requiring agents to always output a suggested Git commit message at the end of each task completion.
+
 ## Tue, 07-Jul-2026
 
 - Removed the blanket `noindex` from the blog landing page so `/blog/` can be indexed again on the new `essenceoftesting.com` site. The blog archive was still inheriting the old Blogger-era SEO treatment even though the content now lives natively on the site, which could keep the main blog hub out of search results. Added a regression test to ensure the page does not emit `meta name="robots" content="noindex"` anymore.

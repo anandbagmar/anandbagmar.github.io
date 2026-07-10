@@ -31,3 +31,8 @@ alone.
 - If a change has no test coverage and could plausibly break behavior, add or
   update a test under `tests/` as part of the change.
 
+## Content creation (interactive guide)
+
+When the user asks to add, draft, or create a new **blog post** or **case study**:
+1. Read the custom interactive protocol defined in [.agents/skills/create-content/SKILL.md](file://.agents/skills/create-content/SKILL.md) first.
+2. Execute the protocol step-by-step to prompt the user, suggest titles, gather metadata, handle images/videos, and scaffold the Jekyll content file.
