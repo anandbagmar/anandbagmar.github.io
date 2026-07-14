@@ -6,6 +6,10 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Sat, 11-Jul-2026
+
+- Established a professional video production, local AI transcription, and multi-platform publishing workflow by adding `video_production_guide.md`, `publishing_checklist.md`, `case_study_template.md`, and the `new_video_project.sh` directory scaffolding script to `/Users/anand.bagmar/projects/my/essence-of-testing-content`.
+
 ## Fri, 10-Jul-2026
 
 - Added a custom Content Creation Workspace Skill (`.agents/skills/create-content/SKILL.md`) and updated `CLAUDE.md` and `AGENTS.md` to define an interactive, step-by-step content generation protocol for blog posts and case studies. This enables any AI coding assistant to interactively prompt for inputs, suggest SEO titles, handle images and videos, and scaffold the Jekyll content files.
