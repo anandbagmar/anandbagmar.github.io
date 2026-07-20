@@ -35,10 +35,10 @@ test.describe('Blog index', () => {
     expect(count).toBeGreaterThan(9);
   });
 
-  test('shows Archive section with year groups', async ({ page }) => {
+  test('archive button points to the archive page', async ({ page }) => {
     await page.goto('/blog/');
-    const count = await page.locator('.eot-year-group').count();
-    expect(count).toBeGreaterThan(3);
+    const href = await page.locator('a[href="/blog/archive/"]').first().getAttribute('href');
+    expect(href).toBe('/blog/archive/');
   });
 
   test('post titles are links pointing to /blog/...', async ({ page }) => {
@@ -73,6 +73,12 @@ test.describe('Structural ids', () => {
     await page.goto('/blog/');
     const mainId = await page.locator('main').first().getAttribute('id');
     expect(mainId).toBe('blog');
+  });
+
+  test('blog archive page has matching page id', async ({ page }) => {
+    await page.goto('/blog/archive/');
+    const mainId = await page.locator('main').first().getAttribute('id');
+    expect(mainId).toBe('blog-archive');
   });
 
   test('areas-of-specialization page has matching page id', async ({ page }) => {
@@ -130,6 +136,19 @@ test.describe('Blog tags page', () => {
     const firstSection = page.locator('.eot-tag-section').first();
     const count = await firstSection.locator('.eot-tag-posts li').count();
     expect(count).toBeGreaterThan(0);
+  });
+});
+
+// ── /blog/archive/ page ──────────────────────────────────────────────────
+
+test.describe('Blog archive page', () => {
+  test('loads without redirect and lists year groups', async ({ page }) => {
+    const response = await page.goto('/blog/archive/');
+    expect(response?.status()).toBe(200);
+    expect(page.url()).toContain('/blog/archive/');
+
+    const count = await page.locator('.eot-year-group').count();
+    expect(count).toBeGreaterThan(3);
   });
 });
 

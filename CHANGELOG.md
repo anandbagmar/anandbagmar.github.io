@@ -6,6 +6,10 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Mon, 20-Jul-2026
+
+- Replaced the `/blog/archive/` redirect with a real archive page so Search Console can index it instead of classifying it as a redirect. The blog homepage now stays focused on recent posts, the archive links were switched to root-relative internal URLs, and the Playwright suite now checks that `/blog/archive/` stays on its own URL and renders the year-grouped archive.
+
 ## Sat, 11-Jul-2026
 
 - Established a professional video production, local AI transcription, and multi-platform publishing workflow by adding `video_production_guide.md`, `publishing_checklist.md`, `case_study_template.md`, and the `new_video_project.sh` directory scaffolding script to `/Users/anand.bagmar/projects/my/essence-of-testing-content`.
