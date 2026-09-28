@@ -6,6 +6,12 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Mon, 28-Sep-2026
+
+- Repositioned homepage hero, about/founder sections, expertise pillar copy, closing CTA (`pages/pages-root-folder/index.md`), and profile page metadata/intro (`pages/profile.md`) from a Quality/Testing-led identity to "Engineering Leader | AI-Enabled Engineering | Architecture, Delivery & Quality," with quality engineering retained as a depth credential rather than the lead category. First step of a broader repositioning also covering LinkedIn.
+- Added Entain under Gaming & OTT in `_data/clients.yml`, shown on both the homepage client grid and `/references/`.
+- Published the "1,080 Combinations, 15 Real Ones" case study: a condensed summary (`_posts/case-studies/2026-09-28-gaming-supplier-integration-automation.md`) linking to a full technical deep-dive (`pages/case-study-gaming-supplier-integration-deep-dive.md`). Reframed the deep-dive's opening and added a new §9 explicitly connecting the architecture (business/transport boundary, runtime-injected combinations, false-green guard rails) to the reliability problem in AI-enabled/agentic engineering, so the piece supports the Engineering + AI positioning rather than reading as a pure testing case study. Title changed from the more literal "1,080 Combinations, 88 Tests" to lead with the insight.
+
 ## Mon, 20-Jul-2026
 
 - Replaced the `/blog/archive/` redirect with a real archive page so Search Console can index it instead of classifying it as a redirect. The blog homepage now stays focused on recent posts, the archive links were switched to root-relative internal URLs, and the Playwright suite now checks that `/blog/archive/` stays on its own URL and renders the year-grouped archive.

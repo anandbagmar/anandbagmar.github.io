@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: "Anand Bagmar – Senior Quality Engineering Leadership"
+title: "Anand Bagmar – Engineering Leader | AI-Enabled Engineering"
 header: false
 permalink: /index.html
 ---
@@ -15,8 +15,8 @@ permalink: /index.html
     <div class="eot-hero-text">
       <span class="eot-eyebrow">ESSENCE OF TESTING</span>
       <h1 class="eot-hero-name">Anand Bagmar</h1>
-      <p class="eot-hero-role">Senior Quality Engineering Leadership</p>
-      <p class="eot-hero-descriptors">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Software Quality Evangelist &nbsp;·&nbsp; 25+ Years</p>
+      <p class="eot-hero-role">Engineering Leader &nbsp;·&nbsp; AI-Enabled Engineering</p>
+      <p class="eot-hero-descriptors">Architecture, Delivery &amp; Quality &nbsp;·&nbsp; Engineering Strategist &nbsp;·&nbsp; 25+ Years</p>
       <div class="eot-open-badge">Open to FTE &nbsp;·&nbsp; Fractional &nbsp;·&nbsp; Consulting &amp; Advisory</div>
       <div class="eot-hero-ctas">
         <a href="/contact/" class="eot-btn eot-btn--primary">Get in Touch</a>
@@ -29,7 +29,7 @@ permalink: /index.html
     </div>
   </div>
   <div class="eot-hero-quote">
-    <p>"Strategic where it matters, practical where it counts - helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both."</p>
+    <p>"Strategic where it matters, practical where it counts - helping organisations build engineering capability for the AI era, where architecture, delivery and quality work as one system, whether as a leader, a consultant, or both."</p>
   </div>
 </section>
 
@@ -65,11 +65,11 @@ permalink: /index.html
     <div class="eot-about">
       <div class="eot-about-text">
         <span class="eot-eyebrow">ABOUT ESSENCE OF TESTING</span>
-        <h2 class="eot-section-title">Where Quality Meets Strategy</h2>
-        <p>Essence of Testing is a specialist quality engineering consultancy focused on helping organisations build lasting quality practices - not just fix immediate testing gaps. From early-stage startups to large enterprise programmes, we bring strategic thinking and hands-on execution together.</p>
-        <p>We work at the intersection of quality strategy, automation, AI-driven tooling, and engineering culture - delivering outcomes that stick. Whether through targeted advisory, embedded leadership, or structured upskilling programmes, Essence of Testing creates measurable, durable change.</p>
+        <h2 class="eot-section-title">Where Engineering Meets AI and Quality</h2>
+        <p>Essence of Testing is an engineering effectiveness consultancy focused on helping organisations build lasting engineering capability - not just fix immediate delivery or testing gaps. From early-stage startups to large enterprise programmes, we bring strategic thinking and hands-on execution together.</p>
+        <p>We work at the intersection of engineering strategy, architecture, AI-enabled delivery, and quality - delivering outcomes that stick. Whether through targeted advisory, embedded leadership, or structured upskilling programmes, Essence of Testing creates measurable, durable change.</p>
         <div class="eot-domains">
-          <strong>Engagement Models:</strong> Strategic Consulting &nbsp;·&nbsp; Fractional QA Leadership &nbsp;·&nbsp; Training &amp; Upskilling &nbsp;·&nbsp; Advisory
+          <strong>Engagement Models:</strong> Strategic Consulting &nbsp;·&nbsp; Fractional Engineering Leadership &nbsp;·&nbsp; Training &amp; Upskilling &nbsp;·&nbsp; Advisory
         </div>
       </div>
     </div>
@@ -84,9 +84,9 @@ permalink: /index.html
     <div class="eot-about">
       <div class="eot-about-text">
         <span class="eot-eyebrow">ANAND BAGMAR – FOUNDER</span>
-        <h2 class="eot-section-title">Quality Executive &nbsp;·&nbsp; Strategist &nbsp;·&nbsp; Automation Expert</h2>
-        <p>Anand Bagmar is a software quality executive, keynote speaker, and test automation expert with over 25 years of experience leading quality strategy and transformation across complex technology environments. He is open to senior quality engineering leadership roles - FTE or fractional/interim - as well as consulting and advisory engagements.</p>
-        <p>His work spans quality assessments, roadmap definition, automation strategy, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services. A Selenium and Appium contributor and creator of open-source tools used globally - and a regular conference speaker on software quality and AI-driven test automation.</p>
+        <h2 class="eot-section-title">Engineering Leader &nbsp;·&nbsp; AI-Enabled Engineering &nbsp;·&nbsp; Architecture, Delivery &amp; Quality</h2>
+        <p>Anand Bagmar is a software engineering executive, keynote speaker, and AI-enabled engineering practitioner with over 25 years of experience leading engineering strategy, architecture and transformation across complex technology environments. He is open to senior engineering leadership roles - FTE or fractional/interim - as well as consulting and advisory engagements.</p>
+        <p>His work spans engineering assessments, architecture and roadmap definition, AI-enabled delivery, and hands-on implementation across telecom, e-commerce, gaming, SaaS, enterprise platforms, and banking/financial services - with deep expertise in quality engineering and test automation as part of that story. A Selenium and Appium contributor and creator of open-source tools used globally - and a regular conference speaker on engineering effectiveness, AI-driven engineering, and software quality.</p>
         <div class="eot-domains">
           <strong>Domains:</strong> Telecom &nbsp;·&nbsp; E-Commerce &nbsp;·&nbsp; Gaming &nbsp;·&nbsp; SaaS &nbsp;·&nbsp; Banking &amp; Financial Services &nbsp;·&nbsp; Enterprise Platforms
         </div>
@@ -108,15 +108,15 @@ permalink: /index.html
 
       <div class="eot-expertise-card">
         <div class="eot-expertise-num">01</div>
-        <h3>Quality Leadership &amp; Strategy</h3>
-        <p>Quality operating models, governance frameworks, and risk-based practices that align quality with business outcomes and delivery confidence.</p>
+        <h3>Engineering Leadership &amp; Strategy</h3>
+        <p>Engineering operating models, governance frameworks, and risk-based practices that align architecture, delivery and quality with business outcomes.</p>
         <a href="/areas-of-specialization/quality-strategy/">Learn more →</a>
       </div>
 
       <div class="eot-expertise-card">
         <div class="eot-expertise-num">02</div>
-        <h3>Test Automation &amp; AI Quality</h3>
-        <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
+        <h3>AI-Enabled Engineering &amp; Quality</h3>
+        <p>AI-driven engineering and scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
         <a href="/areas-of-specialization/test-automation/">Learn more →</a>
       </div>
 
@@ -284,8 +284,8 @@ permalink: /index.html
 ════════════════════════════════════════════════════ -->
 <section id="cta" class="eot-cta">
   <div class="eot-cta-inner">
-    <h2>Ready to build quality into your engineering culture?</h2>
-    <p>Whether you need a strategic advisor, a hands-on leader, or a training partner - let's talk.</p>
+    <h2>Ready to build engineering capability for the AI era?</h2>
+    <p>Whether you need a strategic advisor, a hands-on engineering leader, or a training partner - let's talk.</p>
     <div class="eot-cta-actions">
       <a href="/contact/" class="eot-btn eot-btn--primary">Get in Touch</a>
       <a href="/profile/" class="eot-btn eot-btn--outline">Download Profile</a>

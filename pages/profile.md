@@ -1,20 +1,20 @@
 ---
 layout: page-fullwidth
 title: "Anand Bagmar - Profile"
-subheadline: "Senior Quality Engineering Leadership"
-teaser: "Quality Executive · Strategist · Software Quality Evangelist · 25+ Years<br>Open to FTE, Fractional & Consulting"
-meta_description: "Quality Executive · Strategist · Software Quality Evangelist · 25+ Years · Open to FTE, Fractional & Consulting"
+subheadline: "Engineering Leader | AI-Enabled Engineering"
+teaser: "Architecture, Delivery & Quality · Engineering Strategist · 25+ Years<br>Open to FTE, Fractional & Consulting"
+meta_description: "Engineering Leader · AI-Enabled Engineering · Architecture, Delivery & Quality · 25+ Years · Open to FTE, Fractional & Consulting"
 permalink: "/profile/"
 header:
     title: My Profile
     image_fullwidth: "header-bg.jpeg"
 ---
 
-Software quality executive, keynote speaker, and test automation expert with 25+ years of experience leading quality strategy and transformation across complex technology environments.
+Software engineering executive, keynote speaker, and AI-enabled engineering practitioner with 25+ years of experience leading engineering strategy, architecture and transformation across complex technology environments - with deep expertise in quality engineering and test automation as part of that story.
 
 <blockquote class="eot-profile-quote">
   <span class="eot-profile-quote-mark">"</span>
-  Strategic where it matters, practical where it counts - helping organisations turn quality into a durable business advantage, whether as a leader, a consultant, or both.
+  Strategic where it matters, practical where it counts - helping organisations build engineering capability for the AI era, where architecture, delivery and quality work as one system, whether as a leader, a consultant, or both.
 </blockquote>
 
 <style>
