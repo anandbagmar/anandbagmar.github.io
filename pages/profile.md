@@ -12,12 +12,22 @@ header:
 
 Software engineering executive, keynote speaker, and AI-enabled engineering practitioner with 25+ years of experience leading engineering strategy, architecture and transformation across complex technology environments - with deep expertise in quality engineering and test automation as part of that story.
 
+<p class="eot-profile-oneliner"><strong>In one line:</strong> 25 years in software engineering - now focused on Engineering Leadership, AI-Enabled Engineering, and the Architecture &amp; Quality practices that support both.</p>
+
 <blockquote class="eot-profile-quote">
   <span class="eot-profile-quote-mark">"</span>
   Strategic where it matters, practical where it counts - helping organisations build engineering capability for the AI era, where architecture, delivery and quality work as one system, whether as a leader, a consultant, or both.
 </blockquote>
 
 <style>
+.eot-profile-oneliner {
+  font-size: 1rem;
+  color: #283890;
+  margin: 1.1rem 0 0;
+}
+.eot-profile-oneliner strong { color: #0b9444; }
+html.dark-mode .eot-profile-oneliner { color: #b9d4ea; }
+html.dark-mode .eot-profile-oneliner strong { color: #2ec46f; }
 .eot-profile-quote {
   border-left: 3px solid #0b9444;
   background: rgba(11,148,68,0.06);
