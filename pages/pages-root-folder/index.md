@@ -215,6 +215,16 @@ permalink: /index.html
 
       <div class="eot-case-card">
         <div class="eot-case-tags">
+          <span class="eot-tag eot-tag--navy">Gaming · Architecture</span>
+          <span class="eot-tag eot-tag--amber">6 Integrations · 88 Scenarios</span>
+        </div>
+        <h3>1,080 Combinations, 15 Real Ones</h3>
+        <p>An engineering architecture story: modelling a supplier matrix as a tree - not a product - turned a recurring, multi-day integration cost into a one-off, one-hour one.</p>
+        <a href="/case-studies/gaming-supplier-integration-automation/" class="eot-btn eot-btn--sm">Read case study →</a>
+      </div>
+
+      <div class="eot-case-card">
+        <div class="eot-case-tags">
           <span class="eot-tag eot-tag--navy">Telecom · eComm · Media</span>
           <span class="eot-tag eot-tag--amber">4.5 Years · 75+ SDETs</span>
         </div>
