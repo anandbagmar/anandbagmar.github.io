@@ -8,6 +8,8 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Mon, 28-Sep-2026
 
+- Light-touch repositioning of `areas-of-specialization.md` and its 4 subpages (`quality-strategy`, `test-automation`, `transformation-and-advisory`, `trainings-and-workshops`) toward Engineering + AI leadership: updated front matter (title/teaser/header) and opening framing paragraphs on each page so they no longer read as pure Quality/Testing content when reached from the now-repositioned homepage. Practice-area cards and training programme content left untouched, per decision to keep this light-touch rather than rewording every card.
+
 - Repositioned homepage hero, about/founder sections, expertise pillar copy, closing CTA (`pages/pages-root-folder/index.md`), and profile page metadata/intro (`pages/profile.md`) from a Quality/Testing-led identity to "Engineering Leader | AI-Enabled Engineering | Architecture, Delivery & Quality," with quality engineering retained as a depth credential rather than the lead category. First step of a broader repositioning also covering LinkedIn.
 - Added Entain under Gaming & OTT in `_data/clients.yml`, shown on both the homepage client grid and `/references/`.
 - Added the "1,080 Combinations, 15 Real Ones" case study to the homepage's "Case Studies Preview" section (leading card) and made `.eot-cases-preview` a flexible `auto-fit` grid instead of a hardcoded 2-column one, so it was missing from the homepage even though it was already live under `/case-studies/`.

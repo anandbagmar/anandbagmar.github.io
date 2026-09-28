@@ -13,7 +13,7 @@ categories:
 
 <div class="eot-tw-section">
 
-  <p class="eot-tw-lead">Practical, hands-on programmes designed to upskill individuals and teams - from manual testers to automation-ready contributors. All programmes can be tailored to your team's specific requirements, existing challenges, or technology stack.</p>
+  <p class="eot-tw-lead">Practical, hands-on programmes designed to upskill individuals and teams - from manual testers to automation-ready contributors, and from automation-ready contributors to AI-enabled engineers. All programmes can be tailored to your team's specific requirements, existing challenges, or technology stack.</p>
 
   <span class="eot-eyebrow">PROGRAMMES</span>
   <h2 class="eot-tw-h2">Training Programmes</h2>

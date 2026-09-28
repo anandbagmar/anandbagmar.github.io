@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Areas of Specialization"
 subheadline: "Six pillars of measurable impact"
-teaser: "With 25+ years in quality engineering, I embed quality across the entire SDLC - from planning through to customer feedback."
+teaser: "With 25+ years in software engineering, I work across engineering strategy, architecture, AI-enabled delivery, and quality - embedded across the entire SDLC, from planning through to customer feedback."
 permalink: "/areas-of-specialization/"
 header:
     title: Areas of Specialization
@@ -10,15 +10,15 @@ header:
 ---
 
 <div class="eot-spec-intro">
-  <p>Quality is not a testing problem - it is an organisational capability. I work with organisations to define quality strategy, build automation capability, and enable teams to own quality as a shared responsibility.</p>
+  <p>Engineering effectiveness is not a testing problem - it is an organisational capability. I work with organisations to define engineering and quality strategy, build architecture and AI-enabled automation capability, and enable teams to own quality as a shared responsibility.</p>
 </div>
 
 <div class="eot-spec-grid">
 
   <div class="eot-spec-card">
     <div class="eot-spec-num">01</div>
-    <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/quality-strategy/">Quality Leadership &amp; Strategy</a></h3>
-    <p>Quality operating models, governance frameworks, and risk-based practices that align quality with business outcomes and delivery confidence.</p>
+    <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/quality-strategy/">Engineering Leadership &amp; Strategy</a></h3>
+    <p>Engineering and quality operating models, governance frameworks, and risk-based practices that align architecture, delivery and quality with business outcomes.</p>
     <ul>
       <li>Quality assessments &amp; roadmaps</li>
       <li>Risk-based test strategy</li>
@@ -30,8 +30,8 @@ header:
 
   <div class="eot-spec-card">
     <div class="eot-spec-num">02</div>
-    <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/test-automation/">Test Automation &amp; AI Quality</a></h3>
-    <p>AI-driven scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
+    <h3><a href="{{ site.url }}{{ site.baseurl }}/areas-of-specialization/test-automation/">AI-Enabled Engineering &amp; Quality</a></h3>
+    <p>AI-driven engineering and scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines.</p>
     <ul>
       <li>Future-ready automation frameworks</li>
       <li>AI-assisted test generation</li>

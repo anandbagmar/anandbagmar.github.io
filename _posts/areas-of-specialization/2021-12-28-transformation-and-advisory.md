@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
 title: "Transformation & Advisory"
-teaser: "Quality assessments, roadmaps, and contextual implementation"
+teaser: "Engineering and quality assessments, roadmaps, and contextual implementation"
 breadcrumb: true
 show_meta: false
 header:
@@ -13,7 +13,7 @@ categories:
 
 <div class="eot-ta-section">
 
-  <p class="eot-ta-lead">Quality transformation is not a one-size-fits-all exercise. Organisations differ in maturity, culture, team structure, and delivery context. I work with leadership and engineering teams to assess where they are, define where they need to be, and build a practical path to get there - whether that means a focused advisory engagement, a full transformation programme, or targeted training and upskilling for the team doing the work.</p>
+  <p class="eot-ta-lead">Engineering transformation - architecture, delivery, AI-enabled practices, and the quality that underpins all three - is not a one-size-fits-all exercise. Organisations differ in maturity, culture, team structure, and delivery context. I work with leadership and engineering teams to assess where they are, define where they need to be, and build a practical path to get there - whether that means a focused advisory engagement, a full transformation programme, or targeted training and upskilling for the team doing the work.</p>
 
   <span class="eot-eyebrow">WHAT THIS LOOKS LIKE</span>
   <h2 class="eot-ta-h2">In Practice</h2>

@@ -1,17 +1,17 @@
 ---
 layout: page-fullwidth
-title:  "Test Automation"
-teaser: "Implementing Test Automation is easy! However, implementing Maintainable, Scalable and Efficient Test Automation needs a lot of effort!"
+title:  "AI-Enabled Engineering & Test Automation"
+teaser: "Implementing Test Automation is easy! However, implementing Maintainable, Scalable and Efficient Test Automation - as part of a broader AI-enabled engineering practice - needs a lot of effort!"
 breadcrumb: true
 show_meta: false
 header:
-    title: Test Automation
+    title: AI-Enabled Engineering & Test Automation
     image_fullwidth: "header-bg.jpeg"
 categories:
     - areas-of-specialization
 ---
 
-Starting a test automation framework is straightforward. Keeping it scalable, maintainable, and reliable as your product and team grow - that is where most organisations struggle.
+Test automation is one of the clearest places where engineering architecture decisions show up fast. Starting a framework is straightforward. Keeping it scalable, maintainable, and reliable as your product, team, and AI tooling grow - that is where most organisations struggle, and where the underlying architecture matters more than the tool choice.
 
 I leverage AI and industry best practices to design automation solutions that are fast, deterministic, and built to last - across web, mobile (Android & iOS), APIs, desktop, and visual testing.
 

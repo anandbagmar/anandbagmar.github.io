@@ -1,11 +1,11 @@
 ---
 layout: page-fullwidth
-title:  "Quality Strategy for AI-Accelerated Teams"
-teaser: "Quality is a team responsibility"
+title:  "Engineering & Quality Strategy for AI-Accelerated Teams"
+teaser: "Quality is a team responsibility - and an engineering leadership one"
 breadcrumb: true
 show_meta: false
 header:
-    title: Quality Strategy for AI-Accelerated Teams
+    title: Engineering & Quality Strategy for AI-Accelerated Teams
     image_fullwidth: "header-bg.jpeg"
 categories:
     - areas-of-specialization
@@ -13,9 +13,9 @@ categories:
 
 <div class="eot-qs-section">
 
-  <p class="eot-qs-lead">Quality is not a testing problem - it is an organisational capability. AI is helping software and product teams move faster. But faster work does not automatically lead to better product outcomes. When delivery accelerates, organisations need better ways to understand quality risks, product gaps, regression impact, release confidence, and production feedback.</p>
+  <p class="eot-qs-lead">Quality is not a testing problem - it is an engineering and organisational capability. AI is helping software and product teams move faster. But faster work does not automatically lead to better product outcomes. When delivery accelerates, organisations need better ways to understand quality risks, product gaps, regression impact, release confidence, and production feedback.</p>
 
-  <p class="eot-qs-lead">I work with leadership and engineering teams to define a shared vision of quality and build a strategy that embeds it across the entire SDLC - from planning through to customer feedback - in a world where AI is part of how work gets done.</p>
+  <p class="eot-qs-lead">I work with leadership and engineering teams to define a shared vision of engineering and quality strategy, and build an approach that embeds it across the entire SDLC - from planning through to customer feedback - in a world where AI is part of how work gets done.</p>
 
   <span class="eot-eyebrow">WHAT THIS LOOKS LIKE</span>
   <h2 class="eot-qs-h2">In Practice</h2>
