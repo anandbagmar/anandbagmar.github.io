@@ -16,6 +16,18 @@ header:
     <h2 class="eot-tv-h2">Recent Videos</h2>
     <div class="eot-featured-grid">
 
+      <div class="eot-featured-card" data-video-id="Hu75H1Lm3OU">
+        <div class="eot-featured-badge eot-badge--featured">RECENT</div>
+        <div class="eot-featured-thumb">
+          <img src="https://img.youtube.com/vi/Hu75H1Lm3OU/mqdefault.jpg" alt="Break the API Test Data Bottleneck: Real Scenarios on Real Systems" loading="lazy" />
+          <div class="eot-featured-play">▶</div>
+        </div>
+        <div class="eot-featured-meta">
+          <h3>Break the API Test Data Bottleneck: Real Scenarios on Real Systems</h3>
+          <span class="eot-featured-event">apidays India 2026</span>
+        </div>
+      </div>
+
       <div class="eot-featured-card" data-video-id="-SAYd2XiuK8">
         <div class="eot-featured-badge eot-badge--featured">RECENT</div>
         <div class="eot-featured-thumb">
