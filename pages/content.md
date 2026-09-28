@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: "Blogs & Articles"
 subheadline: "Thought leadership through writing and open knowledge-sharing"
-teaser: "Articles and blogs exploring quality engineering, test automation, and AI-driven testing."
+teaser: "Articles and blogs exploring engineering leadership, AI-enabled engineering, architecture, and quality engineering."
 permalink: "/content/"
 header:
     title: Blogs & Articles

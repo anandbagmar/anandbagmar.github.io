@@ -7,7 +7,7 @@
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 phlow: # replace this with your info
   name: "Anand Bagmar"
-  siterole: "Software Quality Evangelist"
+  siterole: "Engineering Leader | AI-Enabled Engineering"
   uri: http://www.essenceoftesting.com/
   email: anand.bagmar@essenceoftesting.com
   twitter: "@BagmarAnand"

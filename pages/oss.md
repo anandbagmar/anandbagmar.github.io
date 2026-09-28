@@ -1,8 +1,8 @@
 ---
 layout: page-fullwidth
 title: "Open-Source Tools"
-subheadline: "Building tools the global QA community relies on"
-teaser: "Creator of three open-source tools used by quality engineers worldwide - plus active contributor to Selenium and Appium."
+subheadline: "Building engineering tools the global testing and AI-engineering community relies on"
+teaser: "Creator of three open-source engineering tools - including an MCP-enabled test automation framework - used by engineers worldwide, plus active contributor to Selenium and Appium."
 permalink: "/oss/"
 header:
     title: Open Source Contributions

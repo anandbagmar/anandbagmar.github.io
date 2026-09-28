@@ -8,6 +8,7 @@ Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
 ## Mon, 28-Sep-2026
 
+- Meta/OG tag pass: updated `oss.md` and `content.md` subheadline/teaser (these feed `<meta name="description">` and `og:description` directly via `_includes/_head.html`) from Quality/QA-led copy to Engineering + AI-enabled engineering framing. Also updated the unused-in-templates-today `siterole` field in `_data/authors.yml` from "Software Quality Evangelist" for consistency, in case it's wired up later.
 - Added "Break the API Test Data Bottleneck: Real Scenarios on Real Systems" (apidays India 2026, YouTube `Hu75H1Lm3OU`) to Recent Videos on `pages/talks-and-videos.md`.
 - Light-touch repositioning of `areas-of-specialization.md` and its 4 subpages (`quality-strategy`, `test-automation`, `transformation-and-advisory`, `trainings-and-workshops`) toward Engineering + AI leadership: updated front matter (title/teaser/header) and opening framing paragraphs on each page so they no longer read as pure Quality/Testing content when reached from the now-repositioned homepage. Practice-area cards and training programme content left untouched, per decision to keep this light-touch rather than rewording every card.
 
