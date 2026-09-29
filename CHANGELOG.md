@@ -6,6 +6,10 @@ reference only.
 
 Newest entries first. Format: `## DDD, DD-MMM-YYYY` then a bullet per change.
 
+## Tue, 29-Sep-2026
+
+- Replaced `assets/pdfs/AnandBagmar-EoT-Profile.pdf` (the "Full Profile" download on `/profile/`) with the repositioned 14-page export from `EoT_Light-LinkedIn-Sept2026.pptx` (no phone number, matching the same public-download reasoning used for the Profile Snapshot PDF).
+
 ## Mon, 28-Sep-2026
 
 - Revised 4 of the new training programmes on `trainings-and-workshops.md` per feedback: "Architecture for Scale" and "CI/CD" descriptions were too case-study-specific (cited the exact 1,080/15 numbers or "generate CI from the domain model") - rewritten to capture the general principle (build for scale/cross-platform/fast feedback; generic CI/CD enablement) instead of restating the case study. "Engineering Effectiveness" now explicitly covers measuring AI's real impact, not just adoption. "Multi-Platform..." title changed "Any Surface" to "Any Platform" (more common term).
