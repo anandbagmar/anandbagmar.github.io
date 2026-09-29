@@ -77,6 +77,62 @@ categories:
       </div>
     </div>
 
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">08</div>
+      <div class="eot-tw-body">
+        <h3>Architecture for Scale: Designing Test Automation That Grows 10x</h3>
+        <p>Design test architecture that scales as your product, team, and integrations grow - across platforms (API, web, Android, iOS) - without losing fast feedback.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">09</div>
+      <div class="eot-tw-body">
+        <h3>AI-Era Engineering Effectiveness: Measuring What Actually Matters</h3>
+        <p>Move beyond vanity metrics to the few signals that actually predict delivery confidence and engineering health - including how to measure what AI is really doing to engineering productivity, not just adoption.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">10</div>
+      <div class="eot-tw-body">
+        <h3>AI Agents &amp; MCP for Engineering Teams</h3>
+        <p>Practical grounding in agentic workflows and MCP servers for engineering and quality teams - what to trust, what to verify, and how to keep it reliable in production.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">11</div>
+      <div class="eot-tw-body">
+        <h3>Contract Testing with Specmatic</h3>
+        <p>Catch API drift before it reaches a shared environment - contract testing fundamentals and adoption patterns.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">12</div>
+      <div class="eot-tw-body">
+        <h3>CI/CD Enablement for Test Automation</h3>
+        <p>Set up CI/CD pipelines that give fast, reliable feedback as your test suite grows - parallel execution, environment-fault detection, and quality gates that scale with the team.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">13</div>
+      <div class="eot-tw-body">
+        <h3>Multi-Platform Test Architecture: One Test, Any Platform</h3>
+        <p>Write a test once against business intent and run it unchanged over API, web, and mobile (Android/iOS) - the architecture pattern, not just the tool.</p>
+      </div>
+    </div>
+
+    <div class="eot-tw-card">
+      <div class="eot-tw-num">14</div>
+      <div class="eot-tw-body">
+        <h3>From Automation Engineer to Engineering Architect</h3>
+        <p>A career-track workshop for senior ICs ready to move from writing automation to designing the systems that make automation scale.</p>
+      </div>
+    </div>
+
     <div class="eot-tw-card eot-tw-card--cta">
       <div class="eot-tw-num">+</div>
       <div class="eot-tw-body">

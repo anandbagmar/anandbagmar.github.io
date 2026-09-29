@@ -100,8 +100,8 @@ html.dark-mode .eot-profile-card p { color: #7aabcc !important; }
 
 | | |
 |---|---|
-| **Quality Leadership & Strategy** | Quality operating models, governance frameworks, and risk-based practices aligned with business outcomes and delivery confidence. |
-| **Test Automation & AI Quality** | AI-driven scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines. |
+| **Engineering Leadership & Strategy** | Engineering and quality operating models, governance frameworks, and risk-based practices aligned with business outcomes and delivery confidence. |
+| **AI-Enabled Engineering & Quality** | AI-driven engineering and scalable automation for web, mobile, API, desktop, and visual testing - improving reliability across CI/CD pipelines. |
 | **Transformation & Advisory** | Quality assessments, roadmaps, and contextual implementation - equally effective in short engagements and full programmes. |
 | **Training & Enablement** | Workshops, bootcamps, and enterprise programmes - training hundreds of professionals on modern automation and AI adoption. |
 | **Framework & Tool Innovation** | Creator of Teswiz, WAAT, and TTA - open-source tools adopted and trusted by the global testing community. |
@@ -111,7 +111,7 @@ html.dark-mode .eot-profile-card p { color: #7aabcc !important; }
 
 ## Clients & Organisations Include
 
-AmberPoint · AmDocs · Applitools · Borland · ChargedUp.green · Microsoft · Myntra · SnapDeal · Specmatic · Srijan · ThoughtWorks · Tieto · Vuclip · WebMD · Xnsio (Games24x7, Jio)
+AmberPoint · AmDocs · Applitools · Borland · ChargedUp.green · Entain · Microsoft · Myntra · SnapDeal · Specmatic · Srijan · ThoughtWorks · Tieto · Vuclip · WebMD · Xnsio (Games24x7, Jio)
 
 **Domains:** Telecom · E-Commerce · Gaming · SaaS · Banking & Financial Services · Enterprise Platforms
 

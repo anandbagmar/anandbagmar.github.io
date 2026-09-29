@@ -25,6 +25,12 @@ Test one business operation - place a bet - across 6 integrations, 5 brands, 3 m
 
 Two test frameworks had already been built and both stalled. Neither could add an integration without multiplying the codebase, and neither could run in parallel. Onboarding a new integration took **days**, mostly manual, and that cost recurred on every regression cycle. Adopting the organisation's central shared test framework was evaluated seriously and declined for one specific structural reason: it has no business-abstraction layer, so its assertions are welded to each integration's wire format.
 
+**This is phase one, not the ceiling.** Today's 1,080 combinations describe the current scope. The grand goal spans 2 regions, 15+ markets, 15+ brands, 20+ suppliers, 3+ games per supplier, and 4 environments (dev, QA, stage, UAT) - run consistently across API, web, and Android/iOS automation. Multiplied out as an illustrative cross-product, that's over **108,000 nominal combinations** - more than 100x today's 1,080 - and over **432,000 execution contexts** once API, web, Android and iOS are counted as separate automation surfaces per combination. Brands won't expose every supplier in every market any more at that scale than they do today, so the real count will again be a small fraction of that - the same tree-not-product principle, just proven at 100x the size. Adding the next market, brand, supplier, or game only means adding its data - the tests scale automatically, with no new code required - and because the same automated tests are written once against business intent, they already run unchanged across API, web, and mobile (Android/iOS), in whichever environment a run targets.
+
+<div style="margin:1.75rem 0;">
+  <img src="/assets/img/gaming-scale-infographic.png" alt="Diagram comparing the original case study (6 integrations, 5 brands, 3 markets, 3 environments, 4 games = 1,080 combinations) against the grand-goal scale (2 regions, 15+ markets, 15+ brands, 20+ suppliers, 3+ games per supplier, 4 environments = 108,000+ nominal combinations, 432,000+ execution contexts across API, web, Android and iOS)" style="width:100%; height:auto; border-radius:8px; border:1px solid #dde1f0; box-shadow:0 2px 8px rgba(40,56,144,0.08);" />
+</div>
+
 ---
 
 ## Approach
@@ -53,6 +59,7 @@ Two test frameworks had already been built and both stalled. Neither could add a
 | Who can author a test | Test engineers only | **Anyone who can read a sentence** |
 | CI pipeline maintenance | Hand-edited | **93% generated** from the domain model |
 | Fastest feedback | - | **515 unit tests in ~9 seconds** |
+| Scale the architecture is built for | - | **2 regions · 15+ markets · 15+ brands · 20+ suppliers · 3+ games/supplier · 4 environments, over API, web, and Android/iOS** |
 
 The sixth integration was onboarded in a single, measured commit: 18 files, 831 lines - and every existing step definition, feature file, sibling integration and shared contract stayed untouched.
 

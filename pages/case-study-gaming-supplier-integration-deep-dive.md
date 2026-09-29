@@ -130,6 +130,39 @@ no shared base, the integration axis alone compounds:
 6 integrations  →   ~90 files, maintained in parallel, drifting apart
 ```
 
+#### 1.3 This is phase one, not the ceiling
+
+Today's 1,080 combinations describe the current scope, not the end state. The grand goal spans
+**2 regions, 15+ markets, 15+ brands, 20+ suppliers, 3+ games per supplier, and 4 environments**
+(dev, QA, stage, UAT) — run consistently across **API, web, and Android/iOS automation**.
+
+Multiplied out the same way as above, as an illustrative cross-product:
+
+```
+2 regions × 15 markets × 15 brands × 20 suppliers × 3 games × 4 environments
+    =  108,000 nominal combinations
+```
+
+That is over **100x** today's 1,080 — and it is still just the nominal, full-cross-product figure
+for *one* automation surface. Counting API, web, Android and iOS as separate automation surfaces per
+combination puts the number of execution contexts at over **432,000**.
+
+<div style="margin:1.75rem 0;">
+  <img src="/assets/img/gaming-scale-infographic.png" alt="Diagram comparing the original case study (6 integrations, 5 brands, 3 markets, 3 environments, 4 games = 1,080 combinations) against the grand-goal scale (2 regions, 15+ markets, 15+ brands, 20+ suppliers, 3+ games per supplier, 4 environments = 108,000+ nominal combinations, 432,000+ execution contexts across API, web, Android and iOS)" style="width:100%; height:auto; border-radius:8px; border:1px solid #dde1f0; box-shadow:0 2px 8px rgba(40,56,144,0.08);" />
+</div>
+
+Brands will not expose every supplier in every market any more at that scale than they do today
+(§5.2), so the real combination count will again be a small fraction of the nominal one. The same
+tree-not-product principle in §5.2 does not assume a ceiling at today's scope; it is exactly what
+keeps the real count small as the nominal one grows 100x.
+
+Every axis that grows here is data, not code (§4.2): a new market, brand, supplier, or game is an
+entry in `topology.json`, `brands.json`, `integrations.json`, or `games.json` — the tests scale
+automatically, with no new code required. And because the business layer never touches HTTP or JSON
+(§4.1), the same automated tests already run unchanged across API, web, and mobile (Android/iOS),
+in whichever environment a run targets, driven by teswiz's platform resolver (§5.1). This was never
+built to solve today's problem; it was built to keep working at 100x the size.
+
 ---
 
 ### 2. Why two previous frameworks could not scale
